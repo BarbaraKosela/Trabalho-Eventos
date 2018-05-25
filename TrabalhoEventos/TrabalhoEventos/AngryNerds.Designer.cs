@@ -44,10 +44,10 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnJogadores = new System.Windows.Forms.Button();
+            this.btnFuncionarios = new System.Windows.Forms.Button();
+            this.btnConvidados = new System.Windows.Forms.Button();
+            this.btnMapa = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -210,53 +210,57 @@
             this.label14.TabIndex = 21;
             this.label14.Text = "SOBRE:";
             // 
-            // button1
+            // btnJogadores
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkRed;
-            this.button1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(524, 295);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(281, 43);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "JOGADORES";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnJogadores.BackColor = System.Drawing.Color.DarkRed;
+            this.btnJogadores.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnJogadores.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnJogadores.Location = new System.Drawing.Point(524, 295);
+            this.btnJogadores.Name = "btnJogadores";
+            this.btnJogadores.Size = new System.Drawing.Size(281, 43);
+            this.btnJogadores.TabIndex = 22;
+            this.btnJogadores.Text = "JOGADORES";
+            this.btnJogadores.UseVisualStyleBackColor = false;
+            this.btnJogadores.Click += new System.EventHandler(this.btnJogadores_Click);
             // 
-            // button2
+            // btnFuncionarios
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkRed;
-            this.button2.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(524, 344);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(281, 43);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "FUNCIONÁRIOS";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnFuncionarios.BackColor = System.Drawing.Color.DarkRed;
+            this.btnFuncionarios.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFuncionarios.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnFuncionarios.Location = new System.Drawing.Point(524, 344);
+            this.btnFuncionarios.Name = "btnFuncionarios";
+            this.btnFuncionarios.Size = new System.Drawing.Size(281, 43);
+            this.btnFuncionarios.TabIndex = 23;
+            this.btnFuncionarios.Text = "FUNCIONÁRIOS";
+            this.btnFuncionarios.UseVisualStyleBackColor = false;
+            this.btnFuncionarios.Click += new System.EventHandler(this.btnFuncionarios_Click);
             // 
-            // button3
+            // btnConvidados
             // 
-            this.button3.BackColor = System.Drawing.Color.DarkRed;
-            this.button3.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(524, 393);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(281, 43);
-            this.button3.TabIndex = 24;
-            this.button3.Text = "CONVIDADOS";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnConvidados.BackColor = System.Drawing.Color.DarkRed;
+            this.btnConvidados.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvidados.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnConvidados.Location = new System.Drawing.Point(524, 393);
+            this.btnConvidados.Name = "btnConvidados";
+            this.btnConvidados.Size = new System.Drawing.Size(281, 43);
+            this.btnConvidados.TabIndex = 24;
+            this.btnConvidados.Text = "CONVIDADOS";
+            this.btnConvidados.UseVisualStyleBackColor = false;
+            this.btnConvidados.Click += new System.EventHandler(this.btnConvidados_Click);
             // 
-            // button4
+            // btnMapa
             // 
-            this.button4.BackColor = System.Drawing.Color.DarkRed;
-            this.button4.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(524, 466);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(281, 25);
-            this.button4.TabIndex = 25;
-            this.button4.Text = "VER MAPA DO EVENTO";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnMapa.BackColor = System.Drawing.Color.DarkRed;
+            this.btnMapa.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMapa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnMapa.Location = new System.Drawing.Point(524, 466);
+            this.btnMapa.Name = "btnMapa";
+            this.btnMapa.Size = new System.Drawing.Size(281, 25);
+            this.btnMapa.TabIndex = 25;
+            this.btnMapa.Text = "VER MAPA DO EVENTO";
+            this.btnMapa.UseVisualStyleBackColor = false;
+            this.btnMapa.Click += new System.EventHandler(this.btnMapa_Click);
             // 
             // AngryNerds
             // 
@@ -264,10 +268,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(909, 511);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnMapa);
+            this.Controls.Add(this.btnConvidados);
+            this.Controls.Add(this.btnFuncionarios);
+            this.Controls.Add(this.btnJogadores);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label10);
@@ -308,10 +312,10 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnJogadores;
+        private System.Windows.Forms.Button btnFuncionarios;
+        private System.Windows.Forms.Button btnConvidados;
+        private System.Windows.Forms.Button btnMapa;
     }
 }
 

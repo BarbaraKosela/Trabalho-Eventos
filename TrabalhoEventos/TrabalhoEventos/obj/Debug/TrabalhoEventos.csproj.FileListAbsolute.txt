@@ -1,0 +1,12 @@
+C:\Users\104962\Documents\TrabalhoEventos\TrabalhoEventos\bin\Debug\TrabalhoEventos.exe.config
+C:\Users\104962\Documents\TrabalhoEventos\TrabalhoEventos\bin\Debug\TrabalhoEventos.exe
+C:\Users\104962\Documents\TrabalhoEventos\TrabalhoEventos\bin\Debug\TrabalhoEventos.pdb
+C:\Users\104962\Documents\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.csprojResolveAssemblyReference.cache
+C:\Users\104962\Documents\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.AngryNerds.resources
+C:\Users\104962\Documents\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.Properties.Resources.resources
+C:\Users\104962\Documents\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.csproj.GenerateResource.Cache
+C:\Users\104962\Documents\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.exe
+C:\Users\104962\Documents\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.pdb
+C:\Users\104962\Documents\GitHub\TrabalhoEventos\TrabalhoEventos\bin\Debug\TrabalhoEventos.exe.config
+C:\Users\104962\Documents\GitHub\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.exe
+C:\Users\104962\Documents\GitHub\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.pdb

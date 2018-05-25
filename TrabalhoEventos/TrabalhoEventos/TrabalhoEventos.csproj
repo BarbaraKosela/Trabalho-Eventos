@@ -76,8 +76,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SistemaCadastrarConvidados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaCadastrarConvidados.Designer.cs">
+      <DependentUpon>SistemaCadastrarConvidados.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AngryNerds.resx">
       <DependentUpon>AngryNerds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarConvidados.resx">
+      <DependentUpon>CadastrarConvidados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +97,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SistemaCadastrarConvidados.resx">
+      <DependentUpon>SistemaCadastrarConvidados.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

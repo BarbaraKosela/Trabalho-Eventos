@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace TrabalhoEventos
 {
-    public partial class CadastrarConvidados : Form
+    public partial class SistemaCadastrarConvidados : Form
     {
-        public CadastrarConvidados()
+        public SistemaCadastrarConvidados()
         {
             InitializeComponent();
         }
 
-        private void btnCadastrarConvidado_Click(object sender, EventArgs e)
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            SistemaCadastrarConvidados sistemaCadastrarConvidados = new SistemaCadastrarConvidados();
-            sistemaCadastrarConvidados.Show();
+
         }
     }
 }

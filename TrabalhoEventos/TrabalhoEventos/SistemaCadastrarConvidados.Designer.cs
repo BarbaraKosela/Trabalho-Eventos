@@ -44,7 +44,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.txtNomeConvidado = new System.Windows.Forms.TextBox();
             this.txtIdadeConvidado = new System.Windows.Forms.TextBox();
-            this.txtRgConvidado = new System.Windows.Forms.TextBox();
+            this.txtNumeroCrachaConvidado = new System.Windows.Forms.TextBox();
             this.txtCPFConvidado = new System.Windows.Forms.TextBox();
             this.cbSalaAtuarConvidado = new System.Windows.Forms.ComboBox();
             this.txtEquipeConvidado = new System.Windows.Forms.TextBox();
@@ -59,7 +59,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbDificuldadeConvidado = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -204,9 +204,9 @@
             this.label12.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label12.Location = new System.Drawing.Point(46, 170);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(32, 16);
+            this.label12.Size = new System.Drawing.Size(162, 16);
             this.label12.TabIndex = 11;
-            this.label12.Text = "RG:";
+            this.label12.Text = "NÚMERO DO CRACHÁ:";
             // 
             // label13
             // 
@@ -236,13 +236,13 @@
             this.txtIdadeConvidado.Size = new System.Drawing.Size(70, 20);
             this.txtIdadeConvidado.TabIndex = 14;
             // 
-            // txtRgConvidado
+            // txtNumeroCrachaConvidado
             // 
-            this.txtRgConvidado.BackColor = System.Drawing.Color.Gainsboro;
-            this.txtRgConvidado.Location = new System.Drawing.Point(84, 170);
-            this.txtRgConvidado.Name = "txtRgConvidado";
-            this.txtRgConvidado.Size = new System.Drawing.Size(210, 20);
-            this.txtRgConvidado.TabIndex = 15;
+            this.txtNumeroCrachaConvidado.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtNumeroCrachaConvidado.Location = new System.Drawing.Point(214, 170);
+            this.txtNumeroCrachaConvidado.Name = "txtNumeroCrachaConvidado";
+            this.txtNumeroCrachaConvidado.Size = new System.Drawing.Size(80, 20);
+            this.txtNumeroCrachaConvidado.TabIndex = 15;
             // 
             // txtCPFConvidado
             // 
@@ -379,6 +379,7 @@
             this.btnSalvarConvidado.Text = "SALVAR";
             this.btnSalvarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnSalvarConvidado.UseVisualStyleBackColor = false;
+            this.btnSalvarConvidado.Click += new System.EventHandler(this.btnSalvarConvidado_Click);
             // 
             // label14
             // 
@@ -412,19 +413,19 @@
             this.pictureBox2.TabIndex = 33;
             this.pictureBox2.TabStop = false;
             // 
-            // comboBox1
+            // cbDificuldadeConvidado
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbDificuldadeConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbDificuldadeConvidado.FormattingEnabled = true;
+            this.cbDificuldadeConvidado.Items.AddRange(new object[] {
             "Easy;",
             "Medium;",
             "Hard;",
             "God;"});
-            this.comboBox1.Location = new System.Drawing.Point(618, 254);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(189, 21);
-            this.comboBox1.TabIndex = 34;
+            this.cbDificuldadeConvidado.Location = new System.Drawing.Point(618, 254);
+            this.cbDificuldadeConvidado.Name = "cbDificuldadeConvidado";
+            this.cbDificuldadeConvidado.Size = new System.Drawing.Size(189, 21);
+            this.cbDificuldadeConvidado.TabIndex = 34;
             // 
             // SistemaCadastrarConvidados
             // 
@@ -432,7 +433,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(909, 511);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbDificuldadeConvidado);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label14);
@@ -447,7 +448,7 @@
             this.Controls.Add(this.txtEquipeConvidado);
             this.Controls.Add(this.cbSalaAtuarConvidado);
             this.Controls.Add(this.txtCPFConvidado);
-            this.Controls.Add(this.txtRgConvidado);
+            this.Controls.Add(this.txtNumeroCrachaConvidado);
             this.Controls.Add(this.txtIdadeConvidado);
             this.Controls.Add(this.txtNomeConvidado);
             this.Controls.Add(this.label13);
@@ -491,7 +492,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox txtNomeConvidado;
         private System.Windows.Forms.TextBox txtIdadeConvidado;
-        private System.Windows.Forms.TextBox txtRgConvidado;
+        private System.Windows.Forms.TextBox txtNumeroCrachaConvidado;
         private System.Windows.Forms.TextBox txtCPFConvidado;
         private System.Windows.Forms.ComboBox cbSalaAtuarConvidado;
         private System.Windows.Forms.TextBox txtEquipeConvidado;
@@ -506,6 +507,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbDificuldadeConvidado;
     }
 }

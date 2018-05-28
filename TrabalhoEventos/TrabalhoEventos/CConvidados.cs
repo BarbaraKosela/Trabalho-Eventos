@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace TrabalhoEventos
 {
-    class CConvidados
-    {
         public class Convidados
         {
             public string NomeConvidado;
-            public string IdadeConvidado;
+            public int IdadeConvidado;
             public string SalaAtualConvidado;
-            public double RGConvidado;
+            public int NumeroCrachaConvidado;
             public double CPFConvidado;
             public string NomeEquipeConvidado;
             public string EmailConvidado;
@@ -22,6 +20,7 @@ namespace TrabalhoEventos
             public string GeneroConvidado;
             public string MeioDeTransmissãoConvidado;
             public string DificuldadeConvidado;
+            public string JogabilidadeConvidado;
         }
     }
-}
+

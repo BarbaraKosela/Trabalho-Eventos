@@ -27,3 +27,4 @@ C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEvento
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.CadastrarFuncionarios.resources
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.CadastrarJogadores.resources
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.MapaDoEvento.resources
+C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.ListarConvidado.resources

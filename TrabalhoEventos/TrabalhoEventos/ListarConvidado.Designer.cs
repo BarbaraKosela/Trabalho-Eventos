@@ -31,8 +31,17 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListarConvidado));
             this.label14 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnSalvarConvidado = new System.Windows.Forms.Button();
-            this.btnCancelarConvidado = new System.Windows.Forms.Button();
+            this.btnCadastrarConvidado = new System.Windows.Forms.Button();
+            this.btnApagarConvidado = new System.Windows.Forms.Button();
+            this.btnEditarConvidado = new System.Windows.Forms.Button();
+            this.btnAtualizarConvidado = new System.Windows.Forms.Button();
+            this.txtBuscaConvidado = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ColumnNome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnIdade = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnEquipe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnNumeroCracha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label14
@@ -59,47 +68,128 @@
             this.label1.TabIndex = 33;
             this.label1.Text = "BUSCA:";
             // 
-            // btnSalvarConvidado
+            // btnCadastrarConvidado
             // 
-            this.btnSalvarConvidado.BackColor = System.Drawing.Color.DarkRed;
-            this.btnSalvarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnSalvarConvidado.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvarConvidado.Image")));
-            this.btnSalvarConvidado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvarConvidado.Location = new System.Drawing.Point(472, 227);
-            this.btnSalvarConvidado.Name = "btnSalvarConvidado";
-            this.btnSalvarConvidado.Size = new System.Drawing.Size(137, 56);
-            this.btnSalvarConvidado.TabIndex = 35;
-            this.btnSalvarConvidado.Text = "SALVAR";
-            this.btnSalvarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnSalvarConvidado.UseVisualStyleBackColor = false;
+            this.btnCadastrarConvidado.BackColor = System.Drawing.Color.DarkRed;
+            this.btnCadastrarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCadastrarConvidado.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrarConvidado.Image")));
+            this.btnCadastrarConvidado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCadastrarConvidado.Location = new System.Drawing.Point(490, 71);
+            this.btnCadastrarConvidado.Name = "btnCadastrarConvidado";
+            this.btnCadastrarConvidado.Size = new System.Drawing.Size(160, 56);
+            this.btnCadastrarConvidado.TabIndex = 35;
+            this.btnCadastrarConvidado.Text = "CADASTRAR";
+            this.btnCadastrarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnCadastrarConvidado.UseVisualStyleBackColor = false;
             // 
-            // btnCancelarConvidado
+            // btnApagarConvidado
             // 
-            this.btnCancelarConvidado.BackColor = System.Drawing.Color.DarkRed;
-            this.btnCancelarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCancelarConvidado.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarConvidado.Image")));
-            this.btnCancelarConvidado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelarConvidado.Location = new System.Drawing.Point(300, 227);
-            this.btnCancelarConvidado.Name = "btnCancelarConvidado";
-            this.btnCancelarConvidado.Size = new System.Drawing.Size(145, 56);
-            this.btnCancelarConvidado.TabIndex = 34;
-            this.btnCancelarConvidado.Text = "CANCELAR";
-            this.btnCancelarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnCancelarConvidado.UseVisualStyleBackColor = false;
+            this.btnApagarConvidado.BackColor = System.Drawing.Color.DarkRed;
+            this.btnApagarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApagarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnApagarConvidado.Image = ((System.Drawing.Image)(resources.GetObject("btnApagarConvidado.Image")));
+            this.btnApagarConvidado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnApagarConvidado.Location = new System.Drawing.Point(490, 9);
+            this.btnApagarConvidado.Name = "btnApagarConvidado";
+            this.btnApagarConvidado.Size = new System.Drawing.Size(160, 56);
+            this.btnApagarConvidado.TabIndex = 34;
+            this.btnApagarConvidado.Text = "APAGAR";
+            this.btnApagarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnApagarConvidado.UseVisualStyleBackColor = false;
+            // 
+            // btnEditarConvidado
+            // 
+            this.btnEditarConvidado.BackColor = System.Drawing.Color.DarkRed;
+            this.btnEditarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnEditarConvidado.Image = ((System.Drawing.Image)(resources.GetObject("btnEditarConvidado.Image")));
+            this.btnEditarConvidado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditarConvidado.Location = new System.Drawing.Point(683, 71);
+            this.btnEditarConvidado.Name = "btnEditarConvidado";
+            this.btnEditarConvidado.Size = new System.Drawing.Size(160, 56);
+            this.btnEditarConvidado.TabIndex = 37;
+            this.btnEditarConvidado.Text = "EDITAR";
+            this.btnEditarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnEditarConvidado.UseVisualStyleBackColor = false;
+            // 
+            // btnAtualizarConvidado
+            // 
+            this.btnAtualizarConvidado.BackColor = System.Drawing.Color.DarkRed;
+            this.btnAtualizarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtualizarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAtualizarConvidado.Image = ((System.Drawing.Image)(resources.GetObject("btnAtualizarConvidado.Image")));
+            this.btnAtualizarConvidado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAtualizarConvidado.Location = new System.Drawing.Point(683, 9);
+            this.btnAtualizarConvidado.Name = "btnAtualizarConvidado";
+            this.btnAtualizarConvidado.Size = new System.Drawing.Size(160, 56);
+            this.btnAtualizarConvidado.TabIndex = 36;
+            this.btnAtualizarConvidado.Text = "ATUALIZAR";
+            this.btnAtualizarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnAtualizarConvidado.UseVisualStyleBackColor = false;
+            // 
+            // txtBuscaConvidado
+            // 
+            this.txtBuscaConvidado.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.txtBuscaConvidado.Location = new System.Drawing.Point(12, 78);
+            this.txtBuscaConvidado.Name = "txtBuscaConvidado";
+            this.txtBuscaConvidado.Size = new System.Drawing.Size(360, 20);
+            this.txtBuscaConvidado.TabIndex = 38;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColumnNome,
+            this.ColumnIdade,
+            this.ColumnEquipe,
+            this.ColumnNumeroCracha});
+            this.dataGridView1.Location = new System.Drawing.Point(12, 152);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(863, 347);
+            this.dataGridView1.TabIndex = 39;
+            // 
+            // ColumnNome
+            // 
+            this.ColumnNome.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnNome.HeaderText = "Nome do campeão";
+            this.ColumnNome.Name = "ColumnNome";
+            // 
+            // ColumnIdade
+            // 
+            this.ColumnIdade.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnIdade.HeaderText = "Idade";
+            this.ColumnIdade.Name = "ColumnIdade";
+            // 
+            // ColumnEquipe
+            // 
+            this.ColumnEquipe.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnEquipe.HeaderText = "Equipe que o patrocina";
+            this.ColumnEquipe.Name = "ColumnEquipe";
+            // 
+            // ColumnNumeroCracha
+            // 
+            this.ColumnNumeroCracha.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnNumeroCracha.HeaderText = "Número do crachá";
+            this.ColumnNumeroCracha.Name = "ColumnNumeroCracha";
             // 
             // ListarConvidado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(909, 511);
-            this.Controls.Add(this.btnSalvarConvidado);
-            this.Controls.Add(this.btnCancelarConvidado);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.txtBuscaConvidado);
+            this.Controls.Add(this.btnEditarConvidado);
+            this.Controls.Add(this.btnAtualizarConvidado);
+            this.Controls.Add(this.btnCadastrarConvidado);
+            this.Controls.Add(this.btnApagarConvidado);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label14);
             this.Name = "ListarConvidado";
             this.Text = "ListarConvidado";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,7 +199,15 @@
 
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnSalvarConvidado;
-        private System.Windows.Forms.Button btnCancelarConvidado;
+        private System.Windows.Forms.Button btnCadastrarConvidado;
+        private System.Windows.Forms.Button btnApagarConvidado;
+        private System.Windows.Forms.Button btnEditarConvidado;
+        private System.Windows.Forms.Button btnAtualizarConvidado;
+        private System.Windows.Forms.TextBox txtBuscaConvidado;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNome;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnIdade;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEquipe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNumeroCracha;
     }
 }

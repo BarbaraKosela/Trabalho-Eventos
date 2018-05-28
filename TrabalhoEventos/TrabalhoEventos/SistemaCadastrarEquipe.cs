@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TrabalhoEventos
+namespace SistemaJogadores
 {
     public partial class SistemaCadastrarEquipe : Form
     {

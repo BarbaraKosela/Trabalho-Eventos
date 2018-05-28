@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TrabalhoEventos.Properties
+namespace SistemaJogadores.Properties
 {
 
 

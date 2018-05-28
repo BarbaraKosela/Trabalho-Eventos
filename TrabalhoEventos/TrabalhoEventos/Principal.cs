@@ -10,16 +10,17 @@ using System.Windows.Forms;
 
 namespace SistemaJogadores
 {
-    public partial class CadastrarJogadores : Form
+    public partial class Principal : Form
     {
-        public CadastrarJogadores()
+        public Principal()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            CadastroCampeonato cadastrocampeonato = new CadastroCampeonato();
+            cadastrocampeonato.Show();
         }
     }
 }

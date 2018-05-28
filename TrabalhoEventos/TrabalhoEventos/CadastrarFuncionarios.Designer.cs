@@ -1,4 +1,4 @@
-﻿namespace TrabalhoEventos
+﻿namespace SistemaJogadores
 {
     partial class CadastrarFuncionarios
     {

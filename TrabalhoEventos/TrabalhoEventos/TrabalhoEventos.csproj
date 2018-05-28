@@ -74,7 +74,20 @@
     <Compile Include="CadastrarJogadores.Designer.cs">
       <DependentUpon>CadastrarJogadores.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadastroCampeonato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroCampeonato.designer.cs">
+      <DependentUpon>CadastroCampeonato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CCampeonato.cs" />
     <Compile Include="CConvidados.cs" />
+    <Compile Include="ListaCadastroCampeonato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaCadastroCampeonato.designer.cs">
+      <DependentUpon>ListaCadastroCampeonato.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListarConvidado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +120,12 @@
     <Compile Include="SistemaCadastrarEquipe.Designer.cs">
       <DependentUpon>SistemaCadastrarEquipe.cs</DependentUpon>
     </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AngryNerds.resx">
       <DependentUpon>AngryNerds.cs</DependentUpon>
     </EmbeddedResource>
@@ -121,6 +140,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CadastrarJogadores.resx">
       <DependentUpon>CadastrarJogadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroCampeonato.resx">
+      <DependentUpon>CadastroCampeonato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaCadastroCampeonato.resx">
+      <DependentUpon>ListaCadastroCampeonato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListarConvidado.resx">
       <DependentUpon>ListarConvidado.cs</DependentUpon>
@@ -145,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SistemaCadastrarEquipe.resx">
       <DependentUpon>SistemaCadastrarEquipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

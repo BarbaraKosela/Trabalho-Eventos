@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SistemaJogadores;
 
-namespace TrabalhoEventos
+namespace SistemaJogadores
 {
     static class Program
     {
         public static List<Convidados> cadastroDeConvidados = new List<Convidados>();
+        public static List<CCampeonato> ccampeonatos = new List<CCampeonato>();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

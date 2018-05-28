@@ -19,8 +19,8 @@ namespace TrabalhoEventos
 
         private void btnCadastrarConvidado_Click(object sender, EventArgs e)
         {
-            SistemaCadastrarConvidados sistemaCadastrarConvidados = new SistemaCadastrarConvidados();
-            sistemaCadastrarConvidados.Show();
+            ListarConvidado listarConvidado = new ListarConvidado();
+            listarConvidado.Show();
         }
 
         private void btnCadastrarEquipamento_Click(object sender, EventArgs e)

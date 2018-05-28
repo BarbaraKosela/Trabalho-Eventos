@@ -36,12 +36,12 @@
             this.btnEditarConvidado = new System.Windows.Forms.Button();
             this.btnAtualizarConvidado = new System.Windows.Forms.Button();
             this.txtBuscaConvidado = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvListarConvidados = new System.Windows.Forms.DataGridView();
             this.ColumnNome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnIdade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnEquipe = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnNumeroCracha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListarConvidados)).BeginInit();
             this.SuspendLayout();
             // 
             // label14
@@ -82,6 +82,7 @@
             this.btnCadastrarConvidado.Text = "CADASTRAR";
             this.btnCadastrarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnCadastrarConvidado.UseVisualStyleBackColor = false;
+            this.btnCadastrarConvidado.Click += new System.EventHandler(this.btnCadastrarConvidado_Click);
             // 
             // btnApagarConvidado
             // 
@@ -97,6 +98,7 @@
             this.btnApagarConvidado.Text = "APAGAR";
             this.btnApagarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnApagarConvidado.UseVisualStyleBackColor = false;
+            this.btnApagarConvidado.Click += new System.EventHandler(this.btnApagarConvidado_Click);
             // 
             // btnEditarConvidado
             // 
@@ -112,6 +114,7 @@
             this.btnEditarConvidado.Text = "EDITAR";
             this.btnEditarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnEditarConvidado.UseVisualStyleBackColor = false;
+            this.btnEditarConvidado.Click += new System.EventHandler(this.btnEditarConvidado_Click);
             // 
             // btnAtualizarConvidado
             // 
@@ -127,6 +130,7 @@
             this.btnAtualizarConvidado.Text = "ATUALIZAR";
             this.btnAtualizarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnAtualizarConvidado.UseVisualStyleBackColor = false;
+            this.btnAtualizarConvidado.Click += new System.EventHandler(this.btnAtualizarConvidado_Click);
             // 
             // txtBuscaConvidado
             // 
@@ -135,19 +139,21 @@
             this.txtBuscaConvidado.Name = "txtBuscaConvidado";
             this.txtBuscaConvidado.Size = new System.Drawing.Size(360, 20);
             this.txtBuscaConvidado.TabIndex = 38;
+            this.txtBuscaConvidado.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBuscaConvidado_KeyDown);
+            this.txtBuscaConvidado.Leave += new System.EventHandler(this.txtBuscaConvidado_Leave);
             // 
-            // dataGridView1
+            // dgvListarConvidados
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvListarConvidados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvListarConvidados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnNome,
             this.ColumnIdade,
             this.ColumnEquipe,
             this.ColumnNumeroCracha});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 152);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(863, 347);
-            this.dataGridView1.TabIndex = 39;
+            this.dgvListarConvidados.Location = new System.Drawing.Point(12, 152);
+            this.dgvListarConvidados.Name = "dgvListarConvidados";
+            this.dgvListarConvidados.Size = new System.Drawing.Size(863, 347);
+            this.dgvListarConvidados.TabIndex = 39;
             // 
             // ColumnNome
             // 
@@ -179,7 +185,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(909, 511);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvListarConvidados);
             this.Controls.Add(this.txtBuscaConvidado);
             this.Controls.Add(this.btnEditarConvidado);
             this.Controls.Add(this.btnAtualizarConvidado);
@@ -189,7 +195,7 @@
             this.Controls.Add(this.label14);
             this.Name = "ListarConvidado";
             this.Text = "ListarConvidado";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListarConvidados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,7 +210,7 @@
         private System.Windows.Forms.Button btnEditarConvidado;
         private System.Windows.Forms.Button btnAtualizarConvidado;
         private System.Windows.Forms.TextBox txtBuscaConvidado;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvListarConvidados;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNome;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnIdade;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEquipe;

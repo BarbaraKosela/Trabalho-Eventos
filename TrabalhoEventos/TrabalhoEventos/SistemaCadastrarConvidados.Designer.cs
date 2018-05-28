@@ -364,6 +364,7 @@
             this.btnCancelarConvidado.Text = "CANCELAR";
             this.btnCancelarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnCancelarConvidado.UseVisualStyleBackColor = false;
+            this.btnCancelarConvidado.Click += new System.EventHandler(this.btnCancelarConvidado_Click);
             // 
             // btnSalvarConvidado
             // 

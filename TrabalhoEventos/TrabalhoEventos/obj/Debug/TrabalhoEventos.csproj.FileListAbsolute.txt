@@ -21,3 +21,9 @@ C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEvento
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.csproj.GenerateResource.Cache
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.CadastrarConvidados.resources
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.SistemaCadastrarConvidados.resources
+C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.CadastrarEquipamento.resources
+C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.SistemaCadastrarAtendimentoAoJogador.resources
+C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.SistemaCadastrarEquipe.resources
+C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.CadastrarFuncionarios.resources
+C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.CadastrarJogadores.resources
+C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.MapaDoEvento.resources

@@ -22,5 +22,23 @@ namespace TrabalhoEventos
             SistemaCadastrarConvidados sistemaCadastrarConvidados = new SistemaCadastrarConvidados();
             sistemaCadastrarConvidados.Show();
         }
+
+        private void btnCadastrarEquipamento_Click(object sender, EventArgs e)
+        {
+            CadastrarEquipamento cadastrarEquipamento = new CadastrarEquipamento();
+            cadastrarEquipamento.Show();
+        }
+
+        private void btnCadastrarAtendimentoJogador_Click(object sender, EventArgs e)
+        {
+            SistemaCadastrarAtendimentoAoJogador sistemaCadastrarAtendimentoAoJogador = new SistemaCadastrarAtendimentoAoJogador();
+            sistemaCadastrarAtendimentoAoJogador.Show();
+        }
+
+        private void btnCadastrarEquipe_Click(object sender, EventArgs e)
+        {
+            SistemaCadastrarEquipe sistemaCadastrarEquipe = new SistemaCadastrarEquipe();
+            sistemaCadastrarEquipe.Show();
+        }
     }
 }

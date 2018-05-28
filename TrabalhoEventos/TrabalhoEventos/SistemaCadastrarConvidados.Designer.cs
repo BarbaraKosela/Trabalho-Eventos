@@ -42,27 +42,24 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.btnCadastrarConvidado = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtNomeConvidado = new System.Windows.Forms.TextBox();
+            this.txtIdadeConvidado = new System.Windows.Forms.TextBox();
+            this.txtRgConvidado = new System.Windows.Forms.TextBox();
+            this.txtCPFConvidado = new System.Windows.Forms.TextBox();
+            this.cbSalaAtuarConvidado = new System.Windows.Forms.ComboBox();
+            this.txtEquipeConvidado = new System.Windows.Forms.TextBox();
+            this.txtEmailConvidado = new System.Windows.Forms.TextBox();
+            this.txtNicknameConvidado = new System.Windows.Forms.TextBox();
+            this.cbJogabilidadeConvidado = new System.Windows.Forms.ComboBox();
+            this.txtNomeDoJogoConvidado = new System.Windows.Forms.TextBox();
+            this.cbGeneroConvidado = new System.Windows.Forms.ComboBox();
+            this.cbMeioDeTransmissaoConvidado = new System.Windows.Forms.ComboBox();
+            this.btnCancelarConvidado = new System.Windows.Forms.Button();
+            this.btnSalvarConvidado = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -223,80 +220,80 @@
             this.label13.TabIndex = 12;
             this.label13.Text = "NICKNAME:";
             // 
-            // textBox1
+            // txtNomeConvidado
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox1.Location = new System.Drawing.Point(223, 86);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(185, 20);
-            this.textBox1.TabIndex = 13;
+            this.txtNomeConvidado.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtNomeConvidado.Location = new System.Drawing.Point(223, 86);
+            this.txtNomeConvidado.Name = "txtNomeConvidado";
+            this.txtNomeConvidado.Size = new System.Drawing.Size(185, 20);
+            this.txtNomeConvidado.TabIndex = 13;
             // 
-            // textBox2
+            // txtIdadeConvidado
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox2.Location = new System.Drawing.Point(224, 128);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(70, 20);
-            this.textBox2.TabIndex = 14;
+            this.txtIdadeConvidado.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtIdadeConvidado.Location = new System.Drawing.Point(224, 128);
+            this.txtIdadeConvidado.Name = "txtIdadeConvidado";
+            this.txtIdadeConvidado.Size = new System.Drawing.Size(70, 20);
+            this.txtIdadeConvidado.TabIndex = 14;
             // 
-            // textBox3
+            // txtRgConvidado
             // 
-            this.textBox3.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox3.Location = new System.Drawing.Point(84, 170);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(210, 20);
-            this.textBox3.TabIndex = 15;
+            this.txtRgConvidado.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtRgConvidado.Location = new System.Drawing.Point(84, 170);
+            this.txtRgConvidado.Name = "txtRgConvidado";
+            this.txtRgConvidado.Size = new System.Drawing.Size(210, 20);
+            this.txtRgConvidado.TabIndex = 15;
             // 
-            // textBox4
+            // txtCPFConvidado
             // 
-            this.textBox4.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox4.Location = new System.Drawing.Point(91, 209);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(203, 20);
-            this.textBox4.TabIndex = 16;
+            this.txtCPFConvidado.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtCPFConvidado.Location = new System.Drawing.Point(91, 209);
+            this.txtCPFConvidado.Name = "txtCPFConvidado";
+            this.txtCPFConvidado.Size = new System.Drawing.Size(203, 20);
+            this.txtCPFConvidado.TabIndex = 16;
             // 
-            // comboBox1
+            // cbSalaAtuarConvidado
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbSalaAtuarConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbSalaAtuarConvidado.FormattingEnabled = true;
+            this.cbSalaAtuarConvidado.Items.AddRange(new object[] {
             "Sala 1: PC;",
             "Sala 2: PS1, PS2, PS3, PS4;",
             "Sala 3: Nintendo, Xbox One, Xbox 306;"});
-            this.comboBox1.Location = new System.Drawing.Point(217, 254);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(191, 21);
-            this.comboBox1.TabIndex = 17;
+            this.cbSalaAtuarConvidado.Location = new System.Drawing.Point(217, 254);
+            this.cbSalaAtuarConvidado.Name = "cbSalaAtuarConvidado";
+            this.cbSalaAtuarConvidado.Size = new System.Drawing.Size(191, 21);
+            this.cbSalaAtuarConvidado.TabIndex = 17;
             // 
-            // textBox5
+            // txtEquipeConvidado
             // 
-            this.textBox5.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox5.Location = new System.Drawing.Point(237, 299);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(171, 20);
-            this.textBox5.TabIndex = 18;
+            this.txtEquipeConvidado.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtEquipeConvidado.Location = new System.Drawing.Point(237, 299);
+            this.txtEquipeConvidado.Name = "txtEquipeConvidado";
+            this.txtEquipeConvidado.Size = new System.Drawing.Size(171, 20);
+            this.txtEquipeConvidado.TabIndex = 18;
             // 
-            // textBox6
+            // txtEmailConvidado
             // 
-            this.textBox6.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox6.Location = new System.Drawing.Point(237, 341);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(281, 20);
-            this.textBox6.TabIndex = 19;
+            this.txtEmailConvidado.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtEmailConvidado.Location = new System.Drawing.Point(237, 341);
+            this.txtEmailConvidado.Name = "txtEmailConvidado";
+            this.txtEmailConvidado.Size = new System.Drawing.Size(281, 20);
+            this.txtEmailConvidado.TabIndex = 19;
             // 
-            // textBox7
+            // txtNicknameConvidado
             // 
-            this.textBox7.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox7.Location = new System.Drawing.Point(524, 85);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(185, 20);
-            this.textBox7.TabIndex = 20;
+            this.txtNicknameConvidado.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtNicknameConvidado.Location = new System.Drawing.Point(524, 85);
+            this.txtNicknameConvidado.Name = "txtNicknameConvidado";
+            this.txtNicknameConvidado.Size = new System.Drawing.Size(185, 20);
+            this.txtNicknameConvidado.TabIndex = 20;
             // 
-            // comboBox2
+            // cbJogabilidadeConvidado
             // 
-            this.comboBox2.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbJogabilidadeConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbJogabilidadeConvidado.FormattingEnabled = true;
+            this.cbJogabilidadeConvidado.Items.AddRange(new object[] {
             "Shooter;",
             "MOBA;",
             "Turn Based;",
@@ -308,24 +305,24 @@
             "Motion Capture;",
             "Hack and Slash;",
             "Beat em Up;"});
-            this.comboBox2.Location = new System.Drawing.Point(551, 127);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(191, 21);
-            this.comboBox2.TabIndex = 21;
+            this.cbJogabilidadeConvidado.Location = new System.Drawing.Point(551, 127);
+            this.cbJogabilidadeConvidado.Name = "cbJogabilidadeConvidado";
+            this.cbJogabilidadeConvidado.Size = new System.Drawing.Size(191, 21);
+            this.cbJogabilidadeConvidado.TabIndex = 21;
             // 
-            // textBox8
+            // txtNomeDoJogoConvidado
             // 
-            this.textBox8.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox8.Location = new System.Drawing.Point(708, 169);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(164, 20);
-            this.textBox8.TabIndex = 22;
+            this.txtNomeDoJogoConvidado.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtNomeDoJogoConvidado.Location = new System.Drawing.Point(708, 169);
+            this.txtNomeDoJogoConvidado.Name = "txtNomeDoJogoConvidado";
+            this.txtNomeDoJogoConvidado.Size = new System.Drawing.Size(164, 20);
+            this.txtNomeDoJogoConvidado.TabIndex = 22;
             // 
-            // comboBox3
+            // cbGeneroConvidado
             // 
-            this.comboBox3.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cbGeneroConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbGeneroConvidado.FormattingEnabled = true;
+            this.cbGeneroConvidado.Items.AddRange(new object[] {
             "Ação;",
             "Aventura;",
             "Suspense;",
@@ -334,107 +331,54 @@
             "Fantasia;",
             "Guerra;",
             "Ficção científica;"});
-            this.comboBox3.Location = new System.Drawing.Point(505, 208);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(191, 21);
-            this.comboBox3.TabIndex = 23;
+            this.cbGeneroConvidado.Location = new System.Drawing.Point(505, 208);
+            this.cbGeneroConvidado.Name = "cbGeneroConvidado";
+            this.cbGeneroConvidado.Size = new System.Drawing.Size(191, 21);
+            this.cbGeneroConvidado.TabIndex = 23;
             // 
-            // radioButton1
+            // cbMeioDeTransmissaoConvidado
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.Color.Black;
-            this.radioButton1.Location = new System.Drawing.Point(624, 254);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(57, 18);
-            this.radioButton1.TabIndex = 24;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "EASY";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.Color.Black;
-            this.radioButton2.Location = new System.Drawing.Point(683, 254);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(77, 18);
-            this.radioButton2.TabIndex = 25;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "MEDIUM";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.ForeColor = System.Drawing.Color.Black;
-            this.radioButton3.Location = new System.Drawing.Point(758, 254);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(59, 18);
-            this.radioButton3.TabIndex = 26;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "HARD";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.ForeColor = System.Drawing.Color.Black;
-            this.radioButton4.Location = new System.Drawing.Point(820, 254);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(50, 18);
-            this.radioButton4.TabIndex = 27;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "GOD";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cbMeioDeTransmissaoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbMeioDeTransmissaoConvidado.FormattingEnabled = true;
+            this.cbMeioDeTransmissaoConvidado.Items.AddRange(new object[] {
             "Youtube;",
             "Twitch;",
             "HitBox;",
             "Azubu;"});
-            this.comboBox4.Location = new System.Drawing.Point(683, 298);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(189, 21);
-            this.comboBox4.TabIndex = 28;
+            this.cbMeioDeTransmissaoConvidado.Location = new System.Drawing.Point(683, 298);
+            this.cbMeioDeTransmissaoConvidado.Name = "cbMeioDeTransmissaoConvidado";
+            this.cbMeioDeTransmissaoConvidado.Size = new System.Drawing.Size(189, 21);
+            this.cbMeioDeTransmissaoConvidado.TabIndex = 28;
             // 
-            // btnCadastrarConvidado
+            // btnCancelarConvidado
             // 
-            this.btnCadastrarConvidado.BackColor = System.Drawing.Color.DarkRed;
-            this.btnCadastrarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCadastrarConvidado.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrarConvidado.Image")));
-            this.btnCadastrarConvidado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCadastrarConvidado.Location = new System.Drawing.Point(548, 416);
-            this.btnCadastrarConvidado.Name = "btnCadastrarConvidado";
-            this.btnCadastrarConvidado.Size = new System.Drawing.Size(145, 56);
-            this.btnCadastrarConvidado.TabIndex = 29;
-            this.btnCadastrarConvidado.Text = "CANCELAR";
-            this.btnCadastrarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnCadastrarConvidado.UseVisualStyleBackColor = false;
+            this.btnCancelarConvidado.BackColor = System.Drawing.Color.DarkRed;
+            this.btnCancelarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCancelarConvidado.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarConvidado.Image")));
+            this.btnCancelarConvidado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelarConvidado.Location = new System.Drawing.Point(548, 416);
+            this.btnCancelarConvidado.Name = "btnCancelarConvidado";
+            this.btnCancelarConvidado.Size = new System.Drawing.Size(145, 56);
+            this.btnCancelarConvidado.TabIndex = 29;
+            this.btnCancelarConvidado.Text = "CANCELAR";
+            this.btnCancelarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnCancelarConvidado.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnSalvarConvidado
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkRed;
-            this.button1.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(720, 416);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 56);
-            this.button1.TabIndex = 30;
-            this.button1.Text = "SALVAR";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnSalvarConvidado.BackColor = System.Drawing.Color.DarkRed;
+            this.btnSalvarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnSalvarConvidado.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvarConvidado.Image")));
+            this.btnSalvarConvidado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvarConvidado.Location = new System.Drawing.Point(720, 416);
+            this.btnSalvarConvidado.Name = "btnSalvarConvidado";
+            this.btnSalvarConvidado.Size = new System.Drawing.Size(137, 56);
+            this.btnSalvarConvidado.TabIndex = 30;
+            this.btnSalvarConvidado.Text = "SALVAR";
+            this.btnSalvarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnSalvarConvidado.UseVisualStyleBackColor = false;
             // 
             // label14
             // 
@@ -468,33 +412,44 @@
             this.pictureBox2.TabIndex = 33;
             this.pictureBox2.TabStop = false;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Easy;",
+            "Medium;",
+            "Hard;",
+            "God;"});
+            this.comboBox1.Location = new System.Drawing.Point(618, 254);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(189, 21);
+            this.comboBox1.TabIndex = 34;
+            // 
             // SistemaCadastrarConvidados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(909, 511);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnCadastrarConvidado);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnSalvarConvidado);
+            this.Controls.Add(this.btnCancelarConvidado);
+            this.Controls.Add(this.cbMeioDeTransmissaoConvidado);
+            this.Controls.Add(this.cbGeneroConvidado);
+            this.Controls.Add(this.txtNomeDoJogoConvidado);
+            this.Controls.Add(this.cbJogabilidadeConvidado);
+            this.Controls.Add(this.txtNicknameConvidado);
+            this.Controls.Add(this.txtEmailConvidado);
+            this.Controls.Add(this.txtEquipeConvidado);
+            this.Controls.Add(this.cbSalaAtuarConvidado);
+            this.Controls.Add(this.txtCPFConvidado);
+            this.Controls.Add(this.txtRgConvidado);
+            this.Controls.Add(this.txtIdadeConvidado);
+            this.Controls.Add(this.txtNomeConvidado);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -510,6 +465,7 @@
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.Name = "SistemaCadastrarConvidados";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SistemaCadastrarConvidados";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -533,26 +489,23 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.Button btnCadastrarConvidado;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtNomeConvidado;
+        private System.Windows.Forms.TextBox txtIdadeConvidado;
+        private System.Windows.Forms.TextBox txtRgConvidado;
+        private System.Windows.Forms.TextBox txtCPFConvidado;
+        private System.Windows.Forms.ComboBox cbSalaAtuarConvidado;
+        private System.Windows.Forms.TextBox txtEquipeConvidado;
+        private System.Windows.Forms.TextBox txtEmailConvidado;
+        private System.Windows.Forms.TextBox txtNicknameConvidado;
+        private System.Windows.Forms.ComboBox cbJogabilidadeConvidado;
+        private System.Windows.Forms.TextBox txtNomeDoJogoConvidado;
+        private System.Windows.Forms.ComboBox cbGeneroConvidado;
+        private System.Windows.Forms.ComboBox cbMeioDeTransmissaoConvidado;
+        private System.Windows.Forms.Button btnCancelarConvidado;
+        private System.Windows.Forms.Button btnSalvarConvidado;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

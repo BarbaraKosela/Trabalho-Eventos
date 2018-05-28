@@ -78,6 +78,7 @@
             this.btnCadastrarEquipe.TabIndex = 13;
             this.btnCadastrarEquipe.Text = "CADASTRAR EQUIPE";
             this.btnCadastrarEquipe.UseVisualStyleBackColor = false;
+            this.btnCadastrarEquipe.Click += new System.EventHandler(this.btnCadastrarEquipe_Click);
             // 
             // btnCadastrarAtendimentoJogador
             // 
@@ -90,6 +91,7 @@
             this.btnCadastrarAtendimentoJogador.TabIndex = 11;
             this.btnCadastrarAtendimentoJogador.Text = "CADASTRAR ATENDIMENTO AO JOGADOR";
             this.btnCadastrarAtendimentoJogador.UseVisualStyleBackColor = false;
+            this.btnCadastrarAtendimentoJogador.Click += new System.EventHandler(this.btnCadastrarAtendimentoJogador_Click);
             // 
             // btnCadastrarEquipamento
             // 
@@ -102,6 +104,7 @@
             this.btnCadastrarEquipamento.TabIndex = 10;
             this.btnCadastrarEquipamento.Text = "CADASTRAR EQUIPAMENTO";
             this.btnCadastrarEquipamento.UseVisualStyleBackColor = false;
+            this.btnCadastrarEquipamento.Click += new System.EventHandler(this.btnCadastrarEquipamento_Click);
             // 
             // label4
             // 
@@ -184,6 +187,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Name = "CadastrarConvidados";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastrarConvidados";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

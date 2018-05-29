@@ -109,7 +109,7 @@ namespace SistemaJogadores
 
                 if (txtEmailConvidado.Text.Length < 10)
                 {
-                    MessageBox.Show("o E-mail deve conter pelo menos 10 dígitos, contando com o @gmail.com, digite novamente");
+                    MessageBox.Show("O E-mail deve conter pelo menos 10 dígitos, contando com o @gmail.com, digite novamente");
                     txtEmailConvidado.Focus();
                     return;
                 }

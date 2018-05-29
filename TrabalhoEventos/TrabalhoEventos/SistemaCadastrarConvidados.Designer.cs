@@ -345,7 +345,6 @@
             this.cbMeioDeTransmissaoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbMeioDeTransmissaoConvidado.Enabled = false;
             this.cbMeioDeTransmissaoConvidado.FormattingEnabled = true;
-            this.cbMeioDeTransmissaoConvidado.IntegralHeight = false;
             this.cbMeioDeTransmissaoConvidado.Items.AddRange(new object[] {
             "Youtube;",
             "Twitch;",

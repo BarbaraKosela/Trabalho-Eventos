@@ -40,5 +40,11 @@ namespace SistemaJogadores
             SistemaCadastrarEquipe sistemaCadastrarEquipe = new SistemaCadastrarEquipe();
             sistemaCadastrarEquipe.Show();
         }
+
+        private void btnVoltarPaginaPrincipalConvidado_Click(object sender, EventArgs e)
+        {
+            AngryNerds angryNerdsConvidado = new AngryNerds();
+            angryNerdsConvidado.Show();
+        }
     }
 }

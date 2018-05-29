@@ -77,8 +77,53 @@ namespace SistemaJogadores
                 return;
             }
 
-            
-            
+            Equipamento cadastroEquipamentos = new Equipamento()
+
+            {
+                EquipamentoConvidado = cbEquipamentoSolicitadoConvidado.SelectedItem.ToString(),
+                AreaNecessitadaConvidado = cbAreaConvidado.SelectedItem.ToString(),
+                AcompanhamentoConvidado = cbAcompanhamentoConvidado.SelectedItem.ToString(),
+                AlimentacaoBasicaConvidado = cbAlimentacaoConvidado.SelectedItem.ToString(),
+                NumeroCrachaConvidado2 = Convert.ToInt32(txtNumeroCrachaConvidado2.Text),
+                EmailNecessarioChamadaConvidado = txtEmailChamadaConvidado.Text,
+                SimConvidado = rbSimConvidado.Checked,
+                SimConvidado2 = rbSimConvidado2.Checked
+
+            };
+
+            if (posicao2 >= 0)
+            {
+                Program.cadastroDeEquipamento[posicao2] = cadastroEquipamentos;
+                MessageBox.Show("Cadastro de equipamento realizado com sucesso!");
+            }
+
+            else
+            {
+                Program.cadastroDeEquipamento.Add(cadastroEquipamentos);
+                MessageBox.Show("Cadastro de convidado realizado com sucesso!");
+            }
         }
+        private void Limpar()
+        {
+            cbEquipamentoSolicitadoConvidado.SelectedIndex = -1;
+            cbAreaConvidado.SelectedIndex = -1;
+            cbAcompanhamentoConvidado.SelectedIndex = -1;
+            cbAlimentacaoConvidado.SelectedIndex = -1;
+            txtNumeroCrachaConvidado2.Text = "";
+            txtEmailChamadaConvidado.Text = "";
+
+        }
+
+        private void btnCancelarConvidado2_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }   
     }
 }
+
+

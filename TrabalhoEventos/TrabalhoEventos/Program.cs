@@ -9,6 +9,7 @@ namespace SistemaJogadores
 {
     static class Program
     {
+        public static List<Equipamento> cadastroDeEquipamento = new List<Equipamento>();
         public static List<Convidados> cadastroDeConvidados = new List<Convidados>();
         public static List<CCampeonato> ccampeonatos = new List<CCampeonato>();
         /// <summary>

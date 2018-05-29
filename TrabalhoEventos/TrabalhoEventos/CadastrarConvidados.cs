@@ -43,8 +43,7 @@ namespace SistemaJogadores
 
         private void btnVoltarPaginaPrincipalConvidado_Click(object sender, EventArgs e)
         {
-            AngryNerds angryNerdsConvidado = new AngryNerds();
-            angryNerdsConvidado.Show();
+            Dispose();
         }
     }
 }

@@ -53,6 +53,7 @@
             this.txtEmailChamadaConvidado = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -99,6 +100,7 @@
             this.btnCancelarConvidado2.Text = "CANCELAR";
             this.btnCancelarConvidado2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnCancelarConvidado2.UseVisualStyleBackColor = false;
+            this.btnCancelarConvidado2.Click += new System.EventHandler(this.btnCancelarConvidado2_Click);
             // 
             // rbSimConvidado
             // 
@@ -350,12 +352,26 @@
             this.pictureBox2.TabIndex = 55;
             this.pictureBox2.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkRed;
+            this.button1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(379, 414);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 55);
+            this.button1.TabIndex = 56;
+            this.button1.Text = "LISTAR CADASTROS";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // CadastrarEquipamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(909, 511);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtEmailChamadaConvidado);
@@ -416,5 +432,6 @@
         private System.Windows.Forms.TextBox txtEmailChamadaConvidado;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button1;
     }
 }

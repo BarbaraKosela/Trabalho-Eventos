@@ -15,6 +15,7 @@ namespace SistemaJogadores
         public int NumeroCrachaConvidado2;
         public string EmailNecessarioChamadaConvidado;
         public bool SimConvidado;
+        public bool SimConvidado2;
         
 
     }

@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SistemaCadastrarAtendimentoAoJogador));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNomeJogoAtual = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.btnSalvarConvidado = new System.Windows.Forms.Button();
-            this.btnCancelarConvidado = new System.Windows.Forms.Button();
+            this.btnSalvarAtendimento = new System.Windows.Forms.Button();
+            this.btnCancelarAtendimento = new System.Windows.Forms.Button();
             this.rbEasyConvidado = new System.Windows.Forms.RadioButton();
-            this.cbSalaAtuarConvidado = new System.Windows.Forms.ComboBox();
+            this.cbAtendimentoNumero = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,32 +45,34 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.cbResponsavelPor = new System.Windows.Forms.ComboBox();
+            this.txtNumeroCracha3 = new System.Windows.Forms.TextBox();
+            this.txtEquipeColaboradoraConvidado = new System.Windows.Forms.TextBox();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.rbSimFotografo = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.rbGodConvidado = new System.Windows.Forms.RadioButton();
-            this.rbHardConvidado = new System.Windows.Forms.RadioButton();
-            this.rbMediumConvidado = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.rbSimSeguranca = new System.Windows.Forms.RadioButton();
+            this.txtEmailCasoChamada = new System.Windows.Forms.TextBox();
+            this.cbAlimentacaoExtra = new System.Windows.Forms.ComboBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cbDificuldadeAtendimento = new System.Windows.Forms.ComboBox();
+            this.gbFotografo = new System.Windows.Forms.GroupBox();
+            this.gbSeguranca = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.gbFotografo.SuspendLayout();
+            this.gbSeguranca.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtNomeJogoAtual
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox1.Location = new System.Drawing.Point(271, 192);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(212, 20);
-            this.textBox1.TabIndex = 60;
+            this.txtNomeJogoAtual.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtNomeJogoAtual.Location = new System.Drawing.Point(271, 192);
+            this.txtNomeJogoAtual.Name = "txtNomeJogoAtual";
+            this.txtNomeJogoAtual.Size = new System.Drawing.Size(212, 20);
+            this.txtNomeJogoAtual.TabIndex = 60;
             // 
             // label14
             // 
@@ -84,35 +86,37 @@
             this.label14.TabIndex = 59;
             this.label14.Text = "CADASTRE SEU ATENDIMENTO AO JOGADOR!";
             // 
-            // btnSalvarConvidado
+            // btnSalvarAtendimento
             // 
-            this.btnSalvarConvidado.BackColor = System.Drawing.Color.DarkRed;
-            this.btnSalvarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnSalvarConvidado.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvarConvidado.Image")));
-            this.btnSalvarConvidado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvarConvidado.Location = new System.Drawing.Point(733, 425);
-            this.btnSalvarConvidado.Name = "btnSalvarConvidado";
-            this.btnSalvarConvidado.Size = new System.Drawing.Size(137, 56);
-            this.btnSalvarConvidado.TabIndex = 58;
-            this.btnSalvarConvidado.Text = "SALVAR";
-            this.btnSalvarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnSalvarConvidado.UseVisualStyleBackColor = false;
+            this.btnSalvarAtendimento.BackColor = System.Drawing.Color.DarkRed;
+            this.btnSalvarAtendimento.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvarAtendimento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnSalvarAtendimento.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvarAtendimento.Image")));
+            this.btnSalvarAtendimento.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvarAtendimento.Location = new System.Drawing.Point(733, 425);
+            this.btnSalvarAtendimento.Name = "btnSalvarAtendimento";
+            this.btnSalvarAtendimento.Size = new System.Drawing.Size(137, 56);
+            this.btnSalvarAtendimento.TabIndex = 58;
+            this.btnSalvarAtendimento.Text = "SALVAR";
+            this.btnSalvarAtendimento.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnSalvarAtendimento.UseVisualStyleBackColor = false;
+            this.btnSalvarAtendimento.Click += new System.EventHandler(this.btnSalvarAtendimento_Click);
             // 
-            // btnCancelarConvidado
+            // btnCancelarAtendimento
             // 
-            this.btnCancelarConvidado.BackColor = System.Drawing.Color.DarkRed;
-            this.btnCancelarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCancelarConvidado.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarConvidado.Image")));
-            this.btnCancelarConvidado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelarConvidado.Location = new System.Drawing.Point(561, 425);
-            this.btnCancelarConvidado.Name = "btnCancelarConvidado";
-            this.btnCancelarConvidado.Size = new System.Drawing.Size(145, 56);
-            this.btnCancelarConvidado.TabIndex = 57;
-            this.btnCancelarConvidado.Text = "CANCELAR";
-            this.btnCancelarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnCancelarConvidado.UseVisualStyleBackColor = false;
+            this.btnCancelarAtendimento.BackColor = System.Drawing.Color.DarkRed;
+            this.btnCancelarAtendimento.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelarAtendimento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCancelarAtendimento.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarAtendimento.Image")));
+            this.btnCancelarAtendimento.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelarAtendimento.Location = new System.Drawing.Point(561, 425);
+            this.btnCancelarAtendimento.Name = "btnCancelarAtendimento";
+            this.btnCancelarAtendimento.Size = new System.Drawing.Size(145, 56);
+            this.btnCancelarAtendimento.TabIndex = 57;
+            this.btnCancelarAtendimento.Text = "CANCELAR";
+            this.btnCancelarAtendimento.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnCancelarAtendimento.UseVisualStyleBackColor = false;
+            this.btnCancelarAtendimento.Click += new System.EventHandler(this.btnCancelarAtendimento_Click);
             // 
             // rbEasyConvidado
             // 
@@ -127,20 +131,20 @@
             this.rbEasyConvidado.Text = "SIM";
             this.rbEasyConvidado.UseVisualStyleBackColor = true;
             // 
-            // cbSalaAtuarConvidado
+            // cbAtendimentoNumero
             // 
-            this.cbSalaAtuarConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.cbSalaAtuarConvidado.FormattingEnabled = true;
-            this.cbSalaAtuarConvidado.Items.AddRange(new object[] {
+            this.cbAtendimentoNumero.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbAtendimentoNumero.FormattingEnabled = true;
+            this.cbAtendimentoNumero.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
             "5"});
-            this.cbSalaAtuarConvidado.Location = new System.Drawing.Point(404, 84);
-            this.cbSalaAtuarConvidado.Name = "cbSalaAtuarConvidado";
-            this.cbSalaAtuarConvidado.Size = new System.Drawing.Size(79, 21);
-            this.cbSalaAtuarConvidado.TabIndex = 55;
+            this.cbAtendimentoNumero.Location = new System.Drawing.Point(404, 84);
+            this.cbAtendimentoNumero.Name = "cbAtendimentoNumero";
+            this.cbAtendimentoNumero.Size = new System.Drawing.Size(79, 21);
+            this.cbAtendimentoNumero.TabIndex = 55;
             // 
             // label1
             // 
@@ -262,43 +266,43 @@
             this.label10.TabIndex = 69;
             this.label10.Text = "ALIMENTAÇÃO EXTRA:";
             // 
-            // comboBox1
+            // cbResponsavelPor
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbResponsavelPor.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbResponsavelPor.FormattingEnabled = true;
+            this.cbResponsavelPor.Items.AddRange(new object[] {
             "Melhoramento de Elo de jogadores;",
             "Auxílio em mapa;",
             "Explicar características de jogo;",
             "Competição; ",
             "Conversação sobre a área;"});
-            this.comboBox1.Location = new System.Drawing.Point(241, 138);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(242, 21);
-            this.comboBox1.TabIndex = 70;
+            this.cbResponsavelPor.Location = new System.Drawing.Point(241, 138);
+            this.cbResponsavelPor.Name = "cbResponsavelPor";
+            this.cbResponsavelPor.Size = new System.Drawing.Size(242, 21);
+            this.cbResponsavelPor.TabIndex = 70;
             // 
-            // textBox2
+            // txtNumeroCracha3
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox2.Location = new System.Drawing.Point(194, 255);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(212, 20);
-            this.textBox2.TabIndex = 71;
+            this.txtNumeroCracha3.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtNumeroCracha3.Location = new System.Drawing.Point(194, 255);
+            this.txtNumeroCracha3.Name = "txtNumeroCracha3";
+            this.txtNumeroCracha3.Size = new System.Drawing.Size(212, 20);
+            this.txtNumeroCracha3.TabIndex = 71;
             // 
-            // textBox3
+            // txtEquipeColaboradoraConvidado
             // 
-            this.textBox3.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox3.Location = new System.Drawing.Point(216, 316);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(190, 20);
-            this.textBox3.TabIndex = 72;
+            this.txtEquipeColaboradoraConvidado.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtEquipeColaboradoraConvidado.Location = new System.Drawing.Point(216, 316);
+            this.txtEquipeColaboradoraConvidado.Name = "txtEquipeColaboradoraConvidado";
+            this.txtEquipeColaboradoraConvidado.Size = new System.Drawing.Size(190, 20);
+            this.txtEquipeColaboradoraConvidado.TabIndex = 72;
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.ForeColor = System.Drawing.Color.Black;
-            this.radioButton3.Location = new System.Drawing.Point(718, 157);
+            this.radioButton3.Location = new System.Drawing.Point(136, 4);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(50, 18);
             this.radioButton3.TabIndex = 76;
@@ -306,25 +310,25 @@
             this.radioButton3.Text = "NÃO";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rbSimFotografo
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.ForeColor = System.Drawing.Color.Black;
-            this.radioButton4.Location = new System.Drawing.Point(586, 157);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(48, 18);
-            this.radioButton4.TabIndex = 75;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "SIM";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rbSimFotografo.AutoSize = true;
+            this.rbSimFotografo.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbSimFotografo.ForeColor = System.Drawing.Color.Black;
+            this.rbSimFotografo.Location = new System.Drawing.Point(4, 4);
+            this.rbSimFotografo.Name = "rbSimFotografo";
+            this.rbSimFotografo.Size = new System.Drawing.Size(48, 18);
+            this.rbSimFotografo.TabIndex = 75;
+            this.rbSimFotografo.TabStop = true;
+            this.rbSimFotografo.Text = "SIM";
+            this.rbSimFotografo.UseVisualStyleBackColor = true;
             // 
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton5.ForeColor = System.Drawing.Color.Black;
-            this.radioButton5.Location = new System.Drawing.Point(718, 212);
+            this.radioButton5.Location = new System.Drawing.Point(140, 5);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(50, 18);
             this.radioButton5.TabIndex = 78;
@@ -332,92 +336,40 @@
             this.radioButton5.Text = "NÃO";
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
-            // radioButton6
+            // rbSimSeguranca
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.ForeColor = System.Drawing.Color.Black;
-            this.radioButton6.Location = new System.Drawing.Point(586, 212);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(48, 18);
-            this.radioButton6.TabIndex = 77;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "SIM";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.rbSimSeguranca.AutoSize = true;
+            this.rbSimSeguranca.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbSimSeguranca.ForeColor = System.Drawing.Color.Black;
+            this.rbSimSeguranca.Location = new System.Drawing.Point(8, 5);
+            this.rbSimSeguranca.Name = "rbSimSeguranca";
+            this.rbSimSeguranca.Size = new System.Drawing.Size(48, 18);
+            this.rbSimSeguranca.TabIndex = 77;
+            this.rbSimSeguranca.TabStop = true;
+            this.rbSimSeguranca.Text = "SIM";
+            this.rbSimSeguranca.UseVisualStyleBackColor = true;
             // 
-            // rbGodConvidado
+            // txtEmailCasoChamada
             // 
-            this.rbGodConvidado.AutoSize = true;
-            this.rbGodConvidado.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbGodConvidado.ForeColor = System.Drawing.Color.Black;
-            this.rbGodConvidado.Location = new System.Drawing.Point(750, 100);
-            this.rbGodConvidado.Name = "rbGodConvidado";
-            this.rbGodConvidado.Size = new System.Drawing.Size(50, 18);
-            this.rbGodConvidado.TabIndex = 82;
-            this.rbGodConvidado.TabStop = true;
-            this.rbGodConvidado.Text = "GOD";
-            this.rbGodConvidado.UseVisualStyleBackColor = true;
+            this.txtEmailCasoChamada.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtEmailCasoChamada.Location = new System.Drawing.Point(526, 285);
+            this.txtEmailCasoChamada.Name = "txtEmailCasoChamada";
+            this.txtEmailCasoChamada.Size = new System.Drawing.Size(330, 20);
+            this.txtEmailCasoChamada.TabIndex = 83;
             // 
-            // rbHardConvidado
+            // cbAlimentacaoExtra
             // 
-            this.rbHardConvidado.AutoSize = true;
-            this.rbHardConvidado.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbHardConvidado.ForeColor = System.Drawing.Color.Black;
-            this.rbHardConvidado.Location = new System.Drawing.Point(688, 100);
-            this.rbHardConvidado.Name = "rbHardConvidado";
-            this.rbHardConvidado.Size = new System.Drawing.Size(59, 18);
-            this.rbHardConvidado.TabIndex = 81;
-            this.rbHardConvidado.TabStop = true;
-            this.rbHardConvidado.Text = "HARD";
-            this.rbHardConvidado.UseVisualStyleBackColor = true;
-            // 
-            // rbMediumConvidado
-            // 
-            this.rbMediumConvidado.AutoSize = true;
-            this.rbMediumConvidado.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbMediumConvidado.ForeColor = System.Drawing.Color.Black;
-            this.rbMediumConvidado.Location = new System.Drawing.Point(613, 100);
-            this.rbMediumConvidado.Name = "rbMediumConvidado";
-            this.rbMediumConvidado.Size = new System.Drawing.Size(77, 18);
-            this.rbMediumConvidado.TabIndex = 80;
-            this.rbMediumConvidado.TabStop = true;
-            this.rbMediumConvidado.Text = "MEDIUM";
-            this.rbMediumConvidado.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.Color.Black;
-            this.radioButton1.Location = new System.Drawing.Point(554, 100);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(57, 18);
-            this.radioButton1.TabIndex = 79;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "EASY";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox4.Location = new System.Drawing.Point(526, 285);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(330, 20);
-            this.textBox4.TabIndex = 83;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cbAlimentacaoExtra.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbAlimentacaoExtra.FormattingEnabled = true;
+            this.cbAlimentacaoExtra.Items.AddRange(new object[] {
             "Água;",
             "Snack;",
             "Almoço completo;",
             "Bomboniere;"});
-            this.comboBox3.Location = new System.Drawing.Point(566, 349);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(234, 21);
-            this.comboBox3.TabIndex = 84;
+            this.cbAlimentacaoExtra.Location = new System.Drawing.Point(566, 349);
+            this.cbAlimentacaoExtra.Name = "cbAlimentacaoExtra";
+            this.cbAlimentacaoExtra.Size = new System.Drawing.Size(234, 21);
+            this.cbAlimentacaoExtra.TabIndex = 84;
             // 
             // pictureBox2
             // 
@@ -439,27 +391,72 @@
             this.pictureBox1.TabIndex = 85;
             this.pictureBox1.TabStop = false;
             // 
+            // cbDificuldadeAtendimento
+            // 
+            this.cbDificuldadeAtendimento.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbDificuldadeAtendimento.FormattingEnabled = true;
+            this.cbDificuldadeAtendimento.IntegralHeight = false;
+            this.cbDificuldadeAtendimento.Items.AddRange(new object[] {
+            "Easy;",
+            "Medium;",
+            "Hard;",
+            "God;"});
+            this.cbDificuldadeAtendimento.Location = new System.Drawing.Point(581, 100);
+            this.cbDificuldadeAtendimento.Name = "cbDificuldadeAtendimento";
+            this.cbDificuldadeAtendimento.Size = new System.Drawing.Size(189, 21);
+            this.cbDificuldadeAtendimento.TabIndex = 87;
+            // 
+            // gbFotografo
+            // 
+            this.gbFotografo.Controls.Add(this.radioButton5);
+            this.gbFotografo.Controls.Add(this.rbSimSeguranca);
+            this.gbFotografo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.gbFotografo.Location = new System.Drawing.Point(578, 207);
+            this.gbFotografo.Name = "gbFotografo";
+            this.gbFotografo.Size = new System.Drawing.Size(209, 48);
+            this.gbFotografo.TabIndex = 88;
+            this.gbFotografo.TabStop = false;
+            // 
+            // gbSeguranca
+            // 
+            this.gbSeguranca.Controls.Add(this.radioButton3);
+            this.gbSeguranca.Controls.Add(this.rbSimFotografo);
+            this.gbSeguranca.Location = new System.Drawing.Point(582, 153);
+            this.gbSeguranca.Name = "gbSeguranca";
+            this.gbSeguranca.Size = new System.Drawing.Size(201, 40);
+            this.gbSeguranca.TabIndex = 89;
+            this.gbSeguranca.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkRed;
+            this.button1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(385, 425);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 55);
+            this.button1.TabIndex = 90;
+            this.button1.Text = "LISTAR CADASTROS";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // SistemaCadastrarAtendimentoAoJogador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(909, 511);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.gbSeguranca);
+            this.Controls.Add(this.gbFotografo);
+            this.Controls.Add(this.cbDificuldadeAtendimento);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.rbGodConvidado);
-            this.Controls.Add(this.rbHardConvidado);
-            this.Controls.Add(this.rbMediumConvidado);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.radioButton5);
-            this.Controls.Add(this.radioButton6);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbAlimentacaoExtra);
+            this.Controls.Add(this.txtEmailCasoChamada);
+            this.Controls.Add(this.txtEquipeColaboradoraConvidado);
+            this.Controls.Add(this.txtNumeroCracha3);
+            this.Controls.Add(this.cbResponsavelPor);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -469,18 +466,22 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNomeJogoAtual);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.btnSalvarConvidado);
-            this.Controls.Add(this.btnCancelarConvidado);
+            this.Controls.Add(this.btnSalvarAtendimento);
+            this.Controls.Add(this.btnCancelarAtendimento);
             this.Controls.Add(this.rbEasyConvidado);
-            this.Controls.Add(this.cbSalaAtuarConvidado);
+            this.Controls.Add(this.cbAtendimentoNumero);
             this.Controls.Add(this.label1);
             this.Name = "SistemaCadastrarAtendimentoAoJogador";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SistemaCadastrarAtendimentoAoJogador";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.gbFotografo.ResumeLayout(false);
+            this.gbFotografo.PerformLayout();
+            this.gbSeguranca.ResumeLayout(false);
+            this.gbSeguranca.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -488,12 +489,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNomeJogoAtual;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Button btnSalvarConvidado;
-        private System.Windows.Forms.Button btnCancelarConvidado;
+        private System.Windows.Forms.Button btnSalvarAtendimento;
+        private System.Windows.Forms.Button btnCancelarAtendimento;
         private System.Windows.Forms.RadioButton rbEasyConvidado;
-        private System.Windows.Forms.ComboBox cbSalaAtuarConvidado;
+        private System.Windows.Forms.ComboBox cbAtendimentoNumero;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -504,20 +505,20 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.ComboBox cbResponsavelPor;
+        private System.Windows.Forms.TextBox txtNumeroCracha3;
+        private System.Windows.Forms.TextBox txtEquipeColaboradoraConvidado;
         private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton rbSimFotografo;
         private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton rbGodConvidado;
-        private System.Windows.Forms.RadioButton rbHardConvidado;
-        private System.Windows.Forms.RadioButton rbMediumConvidado;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.RadioButton rbSimSeguranca;
+        private System.Windows.Forms.TextBox txtEmailCasoChamada;
+        private System.Windows.Forms.ComboBox cbAlimentacaoExtra;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox cbDificuldadeAtendimento;
+        private System.Windows.Forms.GroupBox gbFotografo;
+        private System.Windows.Forms.GroupBox gbSeguranca;
+        private System.Windows.Forms.Button button1;
     }
 }

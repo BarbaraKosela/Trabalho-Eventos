@@ -13,13 +13,13 @@ namespace TrabalhoEventos
         public string CidadeOrigem;
         public string NomeLider;
         public string CpfLider;
-        public string a;
-        public string b;
-        public string c;
-        public string d;
-        public string e;
-        public string f;
-        public int quantidadeEquipes;
-        public double taxaEquipe;
+        public string TelefoneLider;
+        public string NomeJogo;
+        public string Clã;
+        public bool ParticipouDoJogo;
+        public string GeneroJogo;
+        public int QuantidadeIntegrantes;
+        public string FraseTaca;
+       
     }
 }

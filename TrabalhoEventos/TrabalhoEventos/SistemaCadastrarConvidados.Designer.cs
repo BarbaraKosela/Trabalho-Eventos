@@ -60,6 +60,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.cbDificuldadeConvidado = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -256,6 +257,7 @@
             // 
             this.cbSalaAtuarConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbSalaAtuarConvidado.FormattingEnabled = true;
+            this.cbSalaAtuarConvidado.IntegralHeight = false;
             this.cbSalaAtuarConvidado.Items.AddRange(new object[] {
             "Sala 1: PC;",
             "Sala 2: PS1, PS2, PS3, PS4;",
@@ -293,6 +295,7 @@
             // 
             this.cbJogabilidadeConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbJogabilidadeConvidado.FormattingEnabled = true;
+            this.cbJogabilidadeConvidado.IntegralHeight = false;
             this.cbJogabilidadeConvidado.Items.AddRange(new object[] {
             "Shooter;",
             "MOBA;",
@@ -322,6 +325,7 @@
             // 
             this.cbGeneroConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbGeneroConvidado.FormattingEnabled = true;
+            this.cbGeneroConvidado.IntegralHeight = false;
             this.cbGeneroConvidado.Items.AddRange(new object[] {
             "Ação;",
             "Aventura;",
@@ -339,6 +343,7 @@
             // cbMeioDeTransmissaoConvidado
             // 
             this.cbMeioDeTransmissaoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbMeioDeTransmissaoConvidado.Enabled = false;
             this.cbMeioDeTransmissaoConvidado.FormattingEnabled = true;
             this.cbMeioDeTransmissaoConvidado.Items.AddRange(new object[] {
             "Youtube;",
@@ -418,6 +423,7 @@
             // 
             this.cbDificuldadeConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbDificuldadeConvidado.FormattingEnabled = true;
+            this.cbDificuldadeConvidado.IntegralHeight = false;
             this.cbDificuldadeConvidado.Items.AddRange(new object[] {
             "Easy;",
             "Medium;",
@@ -428,12 +434,26 @@
             this.cbDificuldadeConvidado.Size = new System.Drawing.Size(189, 21);
             this.cbDificuldadeConvidado.TabIndex = 34;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkRed;
+            this.button1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(378, 418);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 55);
+            this.button1.TabIndex = 35;
+            this.button1.Text = "LISTAR CADASTROS";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // SistemaCadastrarConvidados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(909, 511);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.cbDificuldadeConvidado);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -509,5 +529,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.ComboBox cbDificuldadeConvidado;
+        private System.Windows.Forms.Button button1;
     }
 }

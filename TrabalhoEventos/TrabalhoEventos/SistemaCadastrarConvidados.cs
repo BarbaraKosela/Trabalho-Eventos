@@ -25,7 +25,7 @@ namespace SistemaJogadores
             txtNomeConvidado.Text = cadastroConvidados.NomeConvidado;
             txtIdadeConvidado.Text = Convert.ToString(cadastroConvidados.IdadeConvidado);
             txtNumeroCrachaConvidado.Text = Convert.ToString(cadastroConvidados.NumeroCrachaConvidado);
-            txtCPFConvidado.Text = Convert.ToString(cadastroConvidados.CPFConvidado);
+            txtCPFConvidado.Text = cadastroConvidados.CPFConvidado;
             cbSalaAtuarConvidado.SelectedItem = cadastroConvidados.SalaAtualConvidado;
             txtEquipeConvidado.Text = cadastroConvidados.NomeEquipeConvidado;
             txtEmailConvidado.Text = cadastroConvidados.EmailConvidado;
@@ -47,13 +47,36 @@ namespace SistemaJogadores
                     txtNomeConvidado.Focus();
                     return;
                 }
-
-                if (txtIdadeConvidado.Text.Length < -1)
+                try
                 {
-                    MessageBox.Show("Idade não é válida, por favor digite a idade acima de 0");
+                    int idade = Convert.ToInt32(txtIdadeConvidado.Text);
+                   
+                }
+
+                catch 
+                {
+                    if (txtIdadeConvidado.Text.Length < 1)
+                    {
+                        MessageBox.Show("Por favor, digite uma idade válida");
+                        txtIdadeConvidado.Focus();
+                        return;
+                    }
+                }
+                try 
+                {
+                    int idade = Convert.ToInt32(txtIdadeConvidado.Text);
+                }
+
+                catch 
+                {
+                    MessageBox.Show("Digite a sua idade");
                     txtIdadeConvidado.Focus();
                     return;
+
+
                 }
+
+               
 
                 if (txtNumeroCrachaConvidado.Text.Length < 5)
                 {
@@ -61,6 +84,8 @@ namespace SistemaJogadores
                     txtNumeroCrachaConvidado.Focus();
                     return;
                 }
+
+
 
                 if (txtCPFConvidado.Text.Length < 11)
                 {
@@ -84,7 +109,7 @@ namespace SistemaJogadores
 
                 if (txtEmailConvidado.Text.Length < 10)
                 {
-                    MessageBox.Show("o E-mail deve conter pelo menos 10 dígitos, contando com o @gmail.com, digite novamente");
+                    MessageBox.Show("O E-mail deve conter pelo menos 10 dígitos, contando com o @gmail.com, digite novamente");
                     txtEmailConvidado.Focus();
                     return;
                 }
@@ -136,16 +161,16 @@ namespace SistemaJogadores
 
                 {
                     NomeConvidado = txtNomeConvidado.Text,
-                    IdadeConvidado = Convert.ToInt32(txtIdadeConvidado),
+                    IdadeConvidado = Convert.ToInt32(txtIdadeConvidado.Text),
                     NumeroCrachaConvidado = Convert.ToInt32(txtNumeroCrachaConvidado.Text),
-                    CPFConvidado = Convert.ToDouble(txtCPFConvidado.Text),
+                    CPFConvidado = txtCPFConvidado.Text,
                     SalaAtualConvidado = cbSalaAtuarConvidado.SelectedItem.ToString(),
                     NomeEquipeConvidado = txtEquipeConvidado.Text,
                     EmailConvidado = txtEmailConvidado.Text,
                     NicknameConvidado = txtNicknameConvidado.Text,
                     JogabilidadeConvidado = cbJogabilidadeConvidado.SelectedItem.ToString(),
                     NomeJogoCampeaoConvidado = txtNomeDoJogoConvidado.Text,
-                    GeneroConvidado = cbGeneroConvidado.SelectedItem .ToString(),
+                    GeneroConvidado = cbGeneroConvidado.SelectedItem.ToString(),
                     MeioDeTransmissãoConvidado = cbMeioDeTransmissaoConvidado.SelectedItem.ToString(),
                     DificuldadeConvidado = cbDificuldadeConvidado.SelectedItem.ToString()
 
@@ -186,6 +211,12 @@ namespace SistemaJogadores
         private void btnCancelarConvidado_Click(object sender, EventArgs e)
         {
             Dispose();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ListarConvidado listarConvidado = new ListarConvidado();
+            listarConvidado.Show();
         }
 
        

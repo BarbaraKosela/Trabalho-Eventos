@@ -19,8 +19,8 @@ namespace SistemaJogadores
 
         private void btnCadastrarConvidado_Click(object sender, EventArgs e)
         {
-            ListarConvidado listarConvidado = new ListarConvidado();
-            listarConvidado.Show();
+            SistemaCadastrarConvidados cadastrarConvidados = new SistemaCadastrarConvidados();
+            cadastrarConvidados.Show();
         }
 
         private void btnCadastrarEquipamento_Click(object sender, EventArgs e)
@@ -39,6 +39,11 @@ namespace SistemaJogadores
         {
             SistemaCadastrarEquipe sistemaCadastrarEquipe = new SistemaCadastrarEquipe();
             sistemaCadastrarEquipe.Show();
+        }
+
+        private void btnVoltarPaginaPrincipalConvidado_Click(object sender, EventArgs e)
+        {
+            Dispose();
         }
     }
 }

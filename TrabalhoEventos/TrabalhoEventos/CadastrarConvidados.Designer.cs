@@ -54,6 +54,7 @@
             this.btnVoltarPaginaPrincipalConvidado.TabIndex = 17;
             this.btnVoltarPaginaPrincipalConvidado.Text = "VOLTAR A PÁGINA PRINCIPAL";
             this.btnVoltarPaginaPrincipalConvidado.UseVisualStyleBackColor = false;
+            this.btnVoltarPaginaPrincipalConvidado.Click += new System.EventHandler(this.btnVoltarPaginaPrincipalConvidado_Click);
             // 
             // btnEstatisticasConvidados
             // 

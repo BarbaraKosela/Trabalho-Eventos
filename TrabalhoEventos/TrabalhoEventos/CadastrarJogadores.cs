@@ -19,7 +19,9 @@ namespace SistemaJogadores
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            CadastroCampeonato cadastroCampeonato = new CadastroCampeonato();
+            cadastroCampeonato.Show();
+
         }
     }
 }

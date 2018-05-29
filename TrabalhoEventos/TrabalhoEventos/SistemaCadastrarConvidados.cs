@@ -106,8 +106,28 @@ namespace SistemaJogadores
                 if (txtNomeDoJogoConvidado.Text.Length < 3)
                 {
                     MessageBox.Show("O nome do jogo deve conter ao menos 3 dígitos, digite novamente");
+                    txtNomeDoJogoConvidado.Focus();
+                    return;
                 }
 
+                if (cbGeneroConvidado.SelectedIndex < 0)
+                {
+                    MessageBox.Show("Selecione o gênero");
+                    cbGeneroConvidado.DroppedDown = true;
+                    return;
+                }
+                if (cbMeioDeTransmissaoConvidado.SelectedIndex < 0)
+                {
+                    MessageBox.Show("Selecione o meio de transmissão ao vivo");
+                    cbMeioDeTransmissaoConvidado.DroppedDown = true;
+                    return;
+                }
+                if (cbDificuldadeConvidado.SelectedIndex < 0)
+                {
+                    MessageBox.Show("Selecione a dificuldade");
+                    cbDificuldadeConvidado.DroppedDown = true;
+                    return;
+                }
             
 
 

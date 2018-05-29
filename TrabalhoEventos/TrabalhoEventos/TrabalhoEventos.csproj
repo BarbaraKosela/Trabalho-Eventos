@@ -86,6 +86,12 @@
     <Compile Include="CadastroCampeonato.designer.cs">
       <DependentUpon>CadastroCampeonato.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadastroEquipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroEquipe.Designer.cs">
+      <DependentUpon>CadastroEquipe.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadastroJogador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CadastroCampeonato.resx">
       <DependentUpon>CadastroCampeonato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroEquipe.resx">
+      <DependentUpon>CadastroEquipe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CadastroJogador.resx">
       <DependentUpon>CadastroJogador.cs</DependentUpon>

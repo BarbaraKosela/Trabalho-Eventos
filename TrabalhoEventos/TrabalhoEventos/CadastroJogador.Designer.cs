@@ -1,4 +1,4 @@
-﻿namespace TrabalhoEventos
+﻿namespace SistemaJogadores
 {
     partial class CadastroJogador
     {
@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.cbCidade = new System.Windows.Forms.ComboBox();
+            this.cbEstado = new System.Windows.Forms.ComboBox();
+            this.txtNumeroCasa = new System.Windows.Forms.TextBox();
+            this.txtEndereco = new System.Windows.Forms.TextBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
+            this.txtFalarCom = new System.Windows.Forms.TextBox();
+            this.txtTelefoneEmergencia = new System.Windows.Forms.TextBox();
+            this.mtbDataNascimento = new System.Windows.Forms.MaskedTextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cbNomeEquipe = new System.Windows.Forms.ComboBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.mtbCpf = new System.Windows.Forms.MaskedTextBox();
+            this.txtRg = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.txtNomeDoJogo = new System.Windows.Forms.TextBox();
+            this.txtNomeDoJogador = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -59,72 +59,72 @@
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // comboBox2
+            // cbCidade
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbCidade.FormattingEnabled = true;
+            this.cbCidade.Items.AddRange(new object[] {
             "Sex",
             "Sab",
             "Dom"});
-            this.comboBox2.Location = new System.Drawing.Point(646, 180);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(203, 21);
-            this.comboBox2.TabIndex = 147;
+            this.cbCidade.Location = new System.Drawing.Point(646, 180);
+            this.cbCidade.Name = "cbCidade";
+            this.cbCidade.Size = new System.Drawing.Size(203, 21);
+            this.cbCidade.TabIndex = 13;
             // 
-            // comboBox1
+            // cbEstado
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbEstado.FormattingEnabled = true;
+            this.cbEstado.Items.AddRange(new object[] {
             "Sex",
             "Sab",
             "Dom"});
-            this.comboBox1.Location = new System.Drawing.Point(646, 124);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(203, 21);
-            this.comboBox1.TabIndex = 146;
+            this.cbEstado.Location = new System.Drawing.Point(646, 124);
+            this.cbEstado.Name = "cbEstado";
+            this.cbEstado.Size = new System.Drawing.Size(203, 21);
+            this.cbEstado.TabIndex = 12;
             // 
-            // textBox7
+            // txtNumeroCasa
             // 
-            this.textBox7.Location = new System.Drawing.Point(576, 321);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(105, 20);
-            this.textBox7.TabIndex = 145;
+            this.txtNumeroCasa.Location = new System.Drawing.Point(576, 321);
+            this.txtNumeroCasa.Name = "txtNumeroCasa";
+            this.txtNumeroCasa.Size = new System.Drawing.Size(105, 20);
+            this.txtNumeroCasa.TabIndex = 9;
             // 
-            // textBox6
+            // txtEndereco
             // 
-            this.textBox6.Location = new System.Drawing.Point(151, 321);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(358, 20);
-            this.textBox6.TabIndex = 144;
+            this.txtEndereco.Location = new System.Drawing.Point(151, 321);
+            this.txtEndereco.Name = "txtEndereco";
+            this.txtEndereco.Size = new System.Drawing.Size(358, 20);
+            this.txtEndereco.TabIndex = 8;
             // 
-            // textBox5
+            // txtTelefone
             // 
-            this.textBox5.Location = new System.Drawing.Point(241, 227);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(203, 20);
-            this.textBox5.TabIndex = 143;
+            this.txtTelefone.Location = new System.Drawing.Point(241, 227);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(203, 20);
+            this.txtTelefone.TabIndex = 5;
             // 
-            // textBox4
+            // txtFalarCom
             // 
-            this.textBox4.Location = new System.Drawing.Point(557, 270);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(221, 20);
-            this.textBox4.TabIndex = 142;
+            this.txtFalarCom.Location = new System.Drawing.Point(557, 270);
+            this.txtFalarCom.Name = "txtFalarCom";
+            this.txtFalarCom.Size = new System.Drawing.Size(221, 20);
+            this.txtFalarCom.TabIndex = 7;
             // 
-            // textBox3
+            // txtTelefoneEmergencia
             // 
-            this.textBox3.Location = new System.Drawing.Point(241, 270);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(203, 20);
-            this.textBox3.TabIndex = 141;
+            this.txtTelefoneEmergencia.Location = new System.Drawing.Point(241, 270);
+            this.txtTelefoneEmergencia.Name = "txtTelefoneEmergencia";
+            this.txtTelefoneEmergencia.Size = new System.Drawing.Size(203, 20);
+            this.txtTelefoneEmergencia.TabIndex = 6;
             // 
-            // maskedTextBox2
+            // mtbDataNascimento
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(241, 95);
-            this.maskedTextBox2.Mask = "99/99/99";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(203, 20);
-            this.maskedTextBox2.TabIndex = 140;
+            this.mtbDataNascimento.Location = new System.Drawing.Point(241, 95);
+            this.mtbDataNascimento.Mask = "99/99/9999";
+            this.mtbDataNascimento.Name = "mtbDataNascimento";
+            this.mtbDataNascimento.Size = new System.Drawing.Size(203, 20);
+            this.mtbDataNascimento.TabIndex = 2;
             // 
             // label13
             // 
@@ -156,39 +156,39 @@
             this.label7.TabIndex = 137;
             this.label7.Text = "Cidade";
             // 
-            // comboBox3
+            // cbNomeEquipe
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cbNomeEquipe.FormattingEnabled = true;
+            this.cbNomeEquipe.Items.AddRange(new object[] {
             "Sex",
             "Sab",
             "Dom"});
-            this.comboBox3.Location = new System.Drawing.Point(646, 63);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(203, 21);
-            this.comboBox3.TabIndex = 136;
+            this.cbNomeEquipe.Location = new System.Drawing.Point(646, 63);
+            this.cbNomeEquipe.Name = "cbNomeEquipe";
+            this.cbNomeEquipe.Size = new System.Drawing.Size(203, 21);
+            this.cbNomeEquipe.TabIndex = 11;
             // 
-            // textBox2
+            // txtEmail
             // 
-            this.textBox2.Location = new System.Drawing.Point(122, 375);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(387, 20);
-            this.textBox2.TabIndex = 135;
+            this.txtEmail.Location = new System.Drawing.Point(122, 375);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(387, 20);
+            this.txtEmail.TabIndex = 10;
             // 
-            // maskedTextBox1
+            // mtbCpf
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(241, 138);
-            this.maskedTextBox1.Mask = "999.999.999-99";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(203, 20);
-            this.maskedTextBox1.TabIndex = 134;
+            this.mtbCpf.Location = new System.Drawing.Point(241, 138);
+            this.mtbCpf.Mask = "999.999.999-99";
+            this.mtbCpf.Name = "mtbCpf";
+            this.mtbCpf.Size = new System.Drawing.Size(203, 20);
+            this.mtbCpf.TabIndex = 3;
             // 
-            // textBox1
+            // txtRg
             // 
-            this.textBox1.Location = new System.Drawing.Point(241, 181);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(203, 20);
-            this.textBox1.TabIndex = 133;
+            this.txtRg.Location = new System.Drawing.Point(241, 181);
+            this.txtRg.Name = "txtRg";
+            this.txtRg.Size = new System.Drawing.Size(203, 20);
+            this.txtRg.TabIndex = 4;
             // 
             // label12
             // 
@@ -200,12 +200,13 @@
             this.label12.TabIndex = 132;
             this.label12.Text = "Cpf";
             // 
-            // txtNomeDoJogo
+            // txtNomeDoJogador
             // 
-            this.txtNomeDoJogo.Location = new System.Drawing.Point(241, 48);
-            this.txtNomeDoJogo.Name = "txtNomeDoJogo";
-            this.txtNomeDoJogo.Size = new System.Drawing.Size(203, 20);
-            this.txtNomeDoJogo.TabIndex = 131;
+            this.txtNomeDoJogador.Location = new System.Drawing.Point(241, 48);
+            this.txtNomeDoJogador.Name = "txtNomeDoJogador";
+            this.txtNomeDoJogador.Size = new System.Drawing.Size(203, 20);
+            this.txtNomeDoJogador.TabIndex = 1;
+            this.txtNomeDoJogador.TextChanged += new System.EventHandler(this.txtNomeDoJogo_TextChanged);
             // 
             // button3
             // 
@@ -218,6 +219,7 @@
             this.button3.TabIndex = 130;
             this.button3.Text = "Salvar";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -230,6 +232,7 @@
             this.button2.TabIndex = 129;
             this.button2.Text = "Cancelar";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -242,6 +245,7 @@
             this.button1.TabIndex = 128;
             this.button1.Text = "Listar Jogadores";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label11
             // 
@@ -338,23 +342,23 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(909, 511);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.maskedTextBox2);
+            this.Controls.Add(this.cbCidade);
+            this.Controls.Add(this.cbEstado);
+            this.Controls.Add(this.txtNumeroCasa);
+            this.Controls.Add(this.txtEndereco);
+            this.Controls.Add(this.txtTelefone);
+            this.Controls.Add(this.txtFalarCom);
+            this.Controls.Add(this.txtTelefoneEmergencia);
+            this.Controls.Add(this.mtbDataNascimento);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cbNomeEquipe);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.mtbCpf);
+            this.Controls.Add(this.txtRg);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.txtNomeDoJogo);
+            this.Controls.Add(this.txtNomeDoJogador);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -376,23 +380,23 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.ComboBox cbCidade;
+        private System.Windows.Forms.ComboBox cbEstado;
+        private System.Windows.Forms.TextBox txtNumeroCasa;
+        private System.Windows.Forms.TextBox txtEndereco;
+        private System.Windows.Forms.TextBox txtTelefone;
+        private System.Windows.Forms.TextBox txtFalarCom;
+        private System.Windows.Forms.TextBox txtTelefoneEmergencia;
+        private System.Windows.Forms.MaskedTextBox mtbDataNascimento;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cbNomeEquipe;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.MaskedTextBox mtbCpf;
+        private System.Windows.Forms.TextBox txtRg;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox txtNomeDoJogo;
+        private System.Windows.Forms.TextBox txtNomeDoJogador;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;

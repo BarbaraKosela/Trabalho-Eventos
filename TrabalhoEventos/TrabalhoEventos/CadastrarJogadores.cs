@@ -23,5 +23,23 @@ namespace SistemaJogadores
             cadastroCampeonato.Show();
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            CadastroJogador cadastrojogador = new CadastroJogador();
+            cadastrojogador.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CadastroEquipe cadastroequipe = new CadastroEquipe();
+            cadastroequipe.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CadastroPatrocinador cadastropatrocinador = new CadastroPatrocinador();
+            cadastropatrocinador.Show();
+        }
     }
 }

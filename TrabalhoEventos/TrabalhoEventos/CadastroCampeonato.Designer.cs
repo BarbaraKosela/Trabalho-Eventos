@@ -367,6 +367,7 @@
             this.label13.Size = new System.Drawing.Size(147, 16);
             this.label13.TabIndex = 33;
             this.label13.Text = "Nome do campeonato";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // CadastroCampeonato
             // 

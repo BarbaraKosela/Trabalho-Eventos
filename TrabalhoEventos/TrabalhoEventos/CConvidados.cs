@@ -12,7 +12,7 @@ namespace SistemaJogadores
             public int IdadeConvidado;
             public string SalaAtualConvidado;
             public int NumeroCrachaConvidado;
-            public double CPFConvidado;
+            public string CPFConvidado;
             public string NomeEquipeConvidado;
             public string EmailConvidado;
             public string NicknameConvidado;

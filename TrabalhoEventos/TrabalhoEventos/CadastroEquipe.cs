@@ -12,6 +12,9 @@ namespace SistemaJogadores
 {
     public partial class CadastroEquipe : Form
     {
+        public CEquipes cequipe;
+        public int posicao = -1;
+
         public CadastroEquipe()
         {
             InitializeComponent();
@@ -108,6 +111,52 @@ namespace SistemaJogadores
                 return;
             }
 
+            CEquipes cequipes = new CEquipes()
+            {
+                NomeDaEquipe = txtNomeDaEquipe.Text,
+                EstadoOrigem = cbEstado.SelectedItem.ToString(),
+                CidadeOrigem = cbCidade.SelectedItem.ToString(),
+                NomeLider = txtNomeLider.Text,
+                CpfLider = mtbCpf.Text,
+                TelefoneLider = txtTelefone.Text,
+                NomeJogo = txtNomeJogo.Text,
+                Cla = cbCla.SelectedItem.ToString(),
+                ParticipouDoJogo = rbSim.Checked,
+                GeneroJogo = cbGeneroJogo.SelectedItem.ToString(),
+                QuantidadeIntegrantes = Convert.ToInt32(mtbQuantidadeintegrantes.Text),
+                FraseTaca = txtFraseTaca.Text
+            };
+
+            if (posicao >= 0)
+            {
+                Program.cequipes[posicao] = cequipe;
+                MessageBox.Show("Cadastro realizado com sucesso !!");
+                LimparCampos();
+
+            }
+            else
+            {
+                Program.cequipes.Add(cequipe);
+                MessageBox.Show("Cadastro realizado com sucesso !!");
+                LimparCampos();
+            }
+
+        }
+
+        public void LimparCampos()
+        {
+                txtNomeDaEquipe.Text = "";
+                cbEstado.SelectedIndex = -1;
+                cbCidade.SelectedIndex = -1;
+                txtNomeLider.Text = "";
+                mtbCpf.Text = "";
+                txtTelefone.Text = "";
+                txtNomeJogo.Text = "";
+                cbCla.SelectedIndex = -1;
+                rbSim.Checked = false;
+                cbGeneroJogo.SelectedIndex = -1;
+                mtbQuantidadeintegrantes.Text = "";
+                txtFraseTaca.Text = "";
         }
     }
 }

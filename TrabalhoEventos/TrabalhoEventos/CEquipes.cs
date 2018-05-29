@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrabalhoEventos
+namespace SistemaJogadores
 {
     class CEquipes
     {
@@ -15,7 +15,7 @@ namespace TrabalhoEventos
         public string CpfLider;
         public string TelefoneLider;
         public string NomeJogo;
-        public string Clã;
+        public string Cla;
         public bool ParticipouDoJogo;
         public string GeneroJogo;
         public int QuantidadeIntegrantes;

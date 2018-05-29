@@ -12,6 +12,7 @@ namespace SistemaJogadores
         public static List<Equipamento> cadastroDeEquipamento = new List<Equipamento>();
         public static List<Convidados> cadastroDeConvidados = new List<Convidados>();
         public static List<CCampeonato> ccampeonatos = new List<CCampeonato>();
+        public static List<CEquipes> cequipes = new List<CEquipes>();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

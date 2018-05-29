@@ -82,6 +82,9 @@
     </Compile>
     <Compile Include="CCampeonato.cs" />
     <Compile Include="CConvidados.cs" />
+    <Compile Include="CEquipes.cs" />
+    <Compile Include="CJogador.cs" />
+    <Compile Include="CPatrocinador.cs" />
     <Compile Include="ListaCadastroCampeonato.cs">
       <SubType>Form</SubType>
     </Compile>

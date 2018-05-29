@@ -121,7 +121,8 @@ namespace SistemaJogadores
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            ListarEquipamentoConvidado listarEquipamento = new ListarEquipamentoConvidado();
+            listarEquipamento.Show();
         }   
     }
 }

@@ -144,6 +144,8 @@
             // 
             // dgvListarConvidados
             // 
+            this.dgvListarConvidados.AllowUserToAddRows = false;
+            this.dgvListarConvidados.AllowUserToDeleteRows = false;
             this.dgvListarConvidados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListarConvidados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnNome,
@@ -152,6 +154,7 @@
             this.ColumnNumeroCracha});
             this.dgvListarConvidados.Location = new System.Drawing.Point(12, 152);
             this.dgvListarConvidados.Name = "dgvListarConvidados";
+            this.dgvListarConvidados.ReadOnly = true;
             this.dgvListarConvidados.Size = new System.Drawing.Size(863, 347);
             this.dgvListarConvidados.TabIndex = 39;
             // 
@@ -160,24 +163,28 @@
             this.ColumnNome.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.ColumnNome.HeaderText = "Nome do campeão";
             this.ColumnNome.Name = "ColumnNome";
+            this.ColumnNome.ReadOnly = true;
             // 
             // ColumnIdade
             // 
             this.ColumnIdade.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.ColumnIdade.HeaderText = "Idade";
             this.ColumnIdade.Name = "ColumnIdade";
+            this.ColumnIdade.ReadOnly = true;
             // 
             // ColumnEquipe
             // 
             this.ColumnEquipe.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.ColumnEquipe.HeaderText = "Equipe que o patrocina";
             this.ColumnEquipe.Name = "ColumnEquipe";
+            this.ColumnEquipe.ReadOnly = true;
             // 
             // ColumnNumeroCracha
             // 
             this.ColumnNumeroCracha.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.ColumnNumeroCracha.HeaderText = "Número do crachá";
             this.ColumnNumeroCracha.Name = "ColumnNumeroCracha";
+            this.ColumnNumeroCracha.ReadOnly = true;
             // 
             // ListarConvidado
             // 

@@ -54,8 +54,12 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.gbTratamento = new System.Windows.Forms.GroupBox();
+            this.gbTransporte = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.gbTratamento.SuspendLayout();
+            this.gbTransporte.SuspendLayout();
             this.SuspendLayout();
             // 
             // label14
@@ -107,7 +111,7 @@
             this.rbSimConvidado.AutoSize = true;
             this.rbSimConvidado.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbSimConvidado.ForeColor = System.Drawing.Color.Black;
-            this.rbSimConvidado.Location = new System.Drawing.Point(570, 128);
+            this.rbSimConvidado.Location = new System.Drawing.Point(27, 14);
             this.rbSimConvidado.Name = "rbSimConvidado";
             this.rbSimConvidado.Size = new System.Drawing.Size(48, 18);
             this.rbSimConvidado.TabIndex = 37;
@@ -238,7 +242,7 @@
             this.rbNaoConvidado.AutoSize = true;
             this.rbNaoConvidado.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbNaoConvidado.ForeColor = System.Drawing.Color.Black;
-            this.rbNaoConvidado.Location = new System.Drawing.Point(702, 128);
+            this.rbNaoConvidado.Location = new System.Drawing.Point(159, 14);
             this.rbNaoConvidado.Name = "rbNaoConvidado";
             this.rbNaoConvidado.Size = new System.Drawing.Size(50, 18);
             this.rbNaoConvidado.TabIndex = 46;
@@ -263,7 +267,7 @@
             this.rbNaoConvidado2.AutoSize = true;
             this.rbNaoConvidado2.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbNaoConvidado2.ForeColor = System.Drawing.Color.Black;
-            this.rbNaoConvidado2.Location = new System.Drawing.Point(702, 210);
+            this.rbNaoConvidado2.Location = new System.Drawing.Point(154, 15);
             this.rbNaoConvidado2.Name = "rbNaoConvidado2";
             this.rbNaoConvidado2.Size = new System.Drawing.Size(50, 18);
             this.rbNaoConvidado2.TabIndex = 49;
@@ -276,7 +280,7 @@
             this.rbSimConvidado2.AutoSize = true;
             this.rbSimConvidado2.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbSimConvidado2.ForeColor = System.Drawing.Color.Black;
-            this.rbSimConvidado2.Location = new System.Drawing.Point(570, 210);
+            this.rbSimConvidado2.Location = new System.Drawing.Point(22, 15);
             this.rbSimConvidado2.Name = "rbSimConvidado2";
             this.rbSimConvidado2.Size = new System.Drawing.Size(48, 18);
             this.rbSimConvidado2.TabIndex = 48;
@@ -365,12 +369,34 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // gbTratamento
+            // 
+            this.gbTratamento.Controls.Add(this.rbNaoConvidado);
+            this.gbTratamento.Controls.Add(this.rbSimConvidado);
+            this.gbTratamento.Location = new System.Drawing.Point(548, 114);
+            this.gbTratamento.Name = "gbTratamento";
+            this.gbTratamento.Size = new System.Drawing.Size(223, 47);
+            this.gbTratamento.TabIndex = 57;
+            this.gbTratamento.TabStop = false;
+            // 
+            // gbTransporte
+            // 
+            this.gbTransporte.Controls.Add(this.rbNaoConvidado2);
+            this.gbTransporte.Controls.Add(this.rbSimConvidado2);
+            this.gbTransporte.Location = new System.Drawing.Point(548, 195);
+            this.gbTransporte.Name = "gbTransporte";
+            this.gbTransporte.Size = new System.Drawing.Size(223, 49);
+            this.gbTransporte.TabIndex = 58;
+            this.gbTransporte.TabStop = false;
+            // 
             // CadastrarEquipamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(909, 511);
+            this.Controls.Add(this.gbTransporte);
+            this.Controls.Add(this.gbTratamento);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -378,10 +404,7 @@
             this.Controls.Add(this.cbAlimentacaoConvidado);
             this.Controls.Add(this.cbAcompanhamentoConvidado);
             this.Controls.Add(this.cbAreaConvidado);
-            this.Controls.Add(this.rbNaoConvidado2);
-            this.Controls.Add(this.rbSimConvidado2);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.rbNaoConvidado);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -390,7 +413,6 @@
             this.Controls.Add(this.label14);
             this.Controls.Add(this.btnSalvarConvidado2);
             this.Controls.Add(this.btnCancelarConvidado2);
-            this.Controls.Add(this.rbSimConvidado);
             this.Controls.Add(this.cbEquipamentoSolicitadoConvidado);
             this.Controls.Add(this.txtNumeroCrachaConvidado2);
             this.Controls.Add(this.label9);
@@ -401,6 +423,10 @@
             this.Text = "CadastrarEquipamento";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.gbTratamento.ResumeLayout(false);
+            this.gbTratamento.PerformLayout();
+            this.gbTransporte.ResumeLayout(false);
+            this.gbTransporte.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -433,5 +459,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox gbTratamento;
+        private System.Windows.Forms.GroupBox gbTransporte;
     }
 }

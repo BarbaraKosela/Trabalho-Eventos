@@ -89,7 +89,7 @@ namespace SistemaJogadores
                 MessageBox.Show("Seu registro de convidado está salvo");
             }
         }
-            private void ListaDePeca_Activated(object sender, EventArgs e)
+            private void ListarConvidado_Activated(object sender, EventArgs e)
         {
             AtualizarLista();
         }

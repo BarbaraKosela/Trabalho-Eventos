@@ -122,6 +122,12 @@
     <Compile Include="ListarConvidado.Designer.cs">
       <DependentUpon>ListarConvidado.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListarEquipamentoConvidado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListarEquipamentoConvidado.Designer.cs">
+      <DependentUpon>ListarEquipamentoConvidado.cs</DependentUpon>
+    </Compile>
     <Compile Include="MapaDoEvento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -189,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListarConvidado.resx">
       <DependentUpon>ListarConvidado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarEquipamentoConvidado.resx">
+      <DependentUpon>ListarEquipamentoConvidado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MapaDoEvento.resx">
       <DependentUpon>MapaDoEvento.cs</DependentUpon>

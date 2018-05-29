@@ -42,10 +42,12 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(412, 55);
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(412, 22);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(350, 398);
+            this.pictureBox1.Size = new System.Drawing.Size(395, 431);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
@@ -54,82 +56,82 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(47, 55);
+            this.label1.Location = new System.Drawing.Point(57, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(242, 22);
+            this.label1.Size = new System.Drawing.Size(296, 22);
             this.label1.TabIndex = 22;
-            this.label1.Text = "Escolha uma das opções";
+            this.label1.Text = "ESCOLHA UMA DAS OPÇÕES";
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.DarkRed;
-            this.button6.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button6.Location = new System.Drawing.Point(142, 423);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(221, 41);
+            this.button6.Size = new System.Drawing.Size(221, 56);
             this.button6.TabIndex = 21;
-            this.button6.Text = "Voltar a pagina principal";
+            this.button6.Text = "VOLTAR A PÁGINA PRINCIPAL";
             this.button6.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.DarkRed;
-            this.button5.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(91, 147);
+            this.button5.Location = new System.Drawing.Point(78, 147);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(198, 41);
+            this.button5.Size = new System.Drawing.Size(236, 52);
             this.button5.TabIndex = 20;
-            this.button5.Text = "Cadastro de um jogador";
+            this.button5.Text = "CADASTRO DE UM JOGADOR";
             this.button5.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.DarkRed;
-            this.button4.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(91, 194);
+            this.button4.Location = new System.Drawing.Point(78, 205);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(198, 41);
+            this.button4.Size = new System.Drawing.Size(236, 65);
             this.button4.TabIndex = 19;
-            this.button4.Text = "Cadastro de uma equipe";
+            this.button4.Text = "CADASTRO DE UMA EQUIPE";
             this.button4.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.DarkRed;
-            this.button3.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(91, 241);
+            this.button3.Location = new System.Drawing.Point(78, 276);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(198, 41);
+            this.button3.Size = new System.Drawing.Size(236, 64);
             this.button3.TabIndex = 18;
-            this.button3.Text = "Cadastro de um patrocinador";
+            this.button3.Text = "CADASTRO DE UM PATROCINADOR";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.DarkRed;
-            this.button2.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(78, 306);
+            this.button2.Location = new System.Drawing.Point(78, 346);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(221, 41);
+            this.button2.Size = new System.Drawing.Size(236, 52);
             this.button2.TabIndex = 17;
-            this.button2.Text = "Estatiscas";
+            this.button2.Text = "ESTATÍSTICAS";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkRed;
-            this.button1.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(91, 100);
+            this.button1.Location = new System.Drawing.Point(78, 86);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(198, 41);
+            this.button1.Size = new System.Drawing.Size(236, 55);
             this.button1.TabIndex = 16;
-            this.button1.Text = "Cadastro de campeonato";
+            this.button1.Text = "CADASTRO DE CAMPEONATO";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -137,6 +139,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(819, 507);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);

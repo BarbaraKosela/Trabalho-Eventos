@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaJogadores
 {
-    class CEquipes
+    public class CEquipes
     {
         public string NomeDaEquipe;
         public string EstadoOrigem;

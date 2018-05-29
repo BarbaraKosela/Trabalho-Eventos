@@ -30,8 +30,7 @@ namespace SistemaJogadores
 
         private void btnFuncionarios_Click(object sender, EventArgs e)
         {
-            CadastrarFuncionarios cadastrarFuncionarios = new CadastrarFuncionarios();
-            cadastrarFuncionarios.Show();
+            new SistemaFuncionario().ShowDialog();
         }
 
         private void btnConvidados_Click(object sender, EventArgs e)

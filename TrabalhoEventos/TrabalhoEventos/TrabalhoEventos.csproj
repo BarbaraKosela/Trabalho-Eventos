@@ -92,6 +92,30 @@
     <Compile Include="CadastroEquipe.Designer.cs">
       <DependentUpon>CadastroEquipe.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadastroFuncAdministração.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroFuncAdministração.Designer.cs">
+      <DependentUpon>CadastroFuncAdministração.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroFuncAlimentação.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroFuncAlimentação.Designer.cs">
+      <DependentUpon>CadastroFuncAlimentação.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroFuncJogos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroFuncJogos.Designer.cs">
+      <DependentUpon>CadastroFuncJogos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroFuncTerceirizado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroFuncTerceirizado.Designer.cs">
+      <DependentUpon>CadastroFuncTerceirizado.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadastroJogador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +130,10 @@
     </Compile>
     <Compile Include="CAtendimentoJogador.cs" />
     <Compile Include="CCampeonato.cs" />
+    <Compile Include="CcFuncAdmin.cs" />
+    <Compile Include="CcFuncAlimentação.cs" />
+    <Compile Include="CcFuncJogos.cs" />
+    <Compile Include="CcFuncTerceirizado.cs" />
     <Compile Include="CConvidados.cs" />
     <Compile Include="CEquipamento.cs" />
     <Compile Include="CEquipes.cs" />
@@ -116,6 +144,30 @@
     </Compile>
     <Compile Include="ListaCadastroCampeonato.designer.cs">
       <DependentUpon>ListaCadastroCampeonato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaFuncAdministração.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaFuncAdministração.Designer.cs">
+      <DependentUpon>ListaFuncAdministração.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaFuncAlimentação.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaFuncAlimentação.Designer.cs">
+      <DependentUpon>ListaFuncAlimentação.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaFuncJogos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaFuncJogos.Designer.cs">
+      <DependentUpon>ListaFuncJogos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaFuncTerceirizados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaFuncTerceirizados.Designer.cs">
+      <DependentUpon>ListaFuncTerceirizados.cs</DependentUpon>
     </Compile>
     <Compile Include="ListarAtendimentoJogador.cs">
       <SubType>Form</SubType>
@@ -141,6 +193,12 @@
     <Compile Include="MapaDoEvento.Designer.cs">
       <DependentUpon>MapaDoEvento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SistemaCadastrarAtendimentoAoJogador.cs">
@@ -161,11 +219,11 @@
     <Compile Include="SistemaCadastrarEquipe.Designer.cs">
       <DependentUpon>SistemaCadastrarEquipe.cs</DependentUpon>
     </Compile>
-    <Compile Include="Principal.cs">
+    <Compile Include="SistemaFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal.designer.cs">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <Compile Include="SistemaFuncionario.Designer.cs">
+      <DependentUpon>SistemaFuncionario.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AngryNerds.resx">
       <DependentUpon>AngryNerds.cs</DependentUpon>
@@ -191,6 +249,18 @@
     <EmbeddedResource Include="CadastroEquipe.resx">
       <DependentUpon>CadastroEquipe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CadastroFuncAdministração.resx">
+      <DependentUpon>CadastroFuncAdministração.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroFuncAlimentação.resx">
+      <DependentUpon>CadastroFuncAlimentação.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroFuncJogos.resx">
+      <DependentUpon>CadastroFuncJogos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroFuncTerceirizado.resx">
+      <DependentUpon>CadastroFuncTerceirizado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CadastroJogador.resx">
       <DependentUpon>CadastroJogador.cs</DependentUpon>
     </EmbeddedResource>
@@ -199,6 +269,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListaCadastroCampeonato.resx">
       <DependentUpon>ListaCadastroCampeonato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaFuncAdministração.resx">
+      <DependentUpon>ListaFuncAdministração.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaFuncAlimentação.resx">
+      <DependentUpon>ListaFuncAlimentação.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaFuncJogos.resx">
+      <DependentUpon>ListaFuncJogos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaFuncTerceirizados.resx">
+      <DependentUpon>ListaFuncTerceirizados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListarAtendimentoJogador.resx">
       <DependentUpon>ListarAtendimentoJogador.cs</DependentUpon>
@@ -211,6 +293,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MapaDoEvento.resx">
       <DependentUpon>MapaDoEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -230,8 +315,8 @@
     <EmbeddedResource Include="SistemaCadastrarEquipe.resx">
       <DependentUpon>SistemaCadastrarEquipe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Principal.resx">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <EmbeddedResource Include="SistemaFuncionario.resx">
+      <DependentUpon>SistemaFuncionario.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

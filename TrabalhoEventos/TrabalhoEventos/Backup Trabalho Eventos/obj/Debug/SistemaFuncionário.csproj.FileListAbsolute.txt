@@ -1,0 +1,17 @@
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\bin\Debug\SistemaLivraria.exe.config
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\bin\Debug\SistemaLivraria.exe
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\bin\Debug\SistemaLivraria.pdb
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaFuncionário.csprojResolveAssemblyReference.cache
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaLivraria.CadastroFuncAdministração.resources
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaLivraria.CadastroFuncAlimentação.resources
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaLivraria.CadastroFuncJogos.resources
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaLivraria.CadastroFuncTerceirizado.resources
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaLivraria.ListaFuncAdministração.resources
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaLivraria.ListaFuncAlimentação.resources
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaLivraria.ListaFuncJogos.resources
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaLivraria.ListaFuncTerceirizados.resources
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaLivraria.Properties.Resources.resources
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaLivraria.SistemaFuncionario.resources
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaFuncionário.csproj.GenerateResource.Cache
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaLivraria.exe
+C:\Users\104968\Documents\Visual Studio 2013\Projects\SistemaLivraria\SistemaLivraria\obj\Debug\SistemaLivraria.pdb

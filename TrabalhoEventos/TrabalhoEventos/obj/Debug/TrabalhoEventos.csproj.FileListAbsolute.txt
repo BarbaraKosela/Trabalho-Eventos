@@ -144,3 +144,4 @@ C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEvento
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaFuncJogos.resources
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaFuncTerceirizados.resources
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.SistemaFuncionario.resources
+C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListarEquipeConvidado.resources

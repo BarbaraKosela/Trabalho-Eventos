@@ -136,6 +136,7 @@
     <Compile Include="CcFuncTerceirizado.cs" />
     <Compile Include="CConvidados.cs" />
     <Compile Include="CEquipamento.cs" />
+    <Compile Include="CEquipeConvidado.cs" />
     <Compile Include="CEquipes.cs" />
     <Compile Include="CJogador.cs" />
     <Compile Include="CPatrocinador.cs" />
@@ -169,7 +170,9 @@
     <Compile Include="ListaFuncTerceirizados.Designer.cs">
       <DependentUpon>ListaFuncTerceirizados.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListarAtendimentoJogador.cs" />
+    <Compile Include="ListarAtendimentoJogador.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ListarAtendimentoJogador.Designer.cs">
       <DependentUpon>ListarAtendimentoJogador.cs</DependentUpon>
     </Compile>
@@ -184,6 +187,12 @@
     </Compile>
     <Compile Include="ListarEquipamentoConvidado.Designer.cs">
       <DependentUpon>ListarEquipamentoConvidado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListarEquipeConvidado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListarEquipeConvidado.Designer.cs">
+      <DependentUpon>ListarEquipeConvidado.cs</DependentUpon>
     </Compile>
     <Compile Include="MapaDoEvento.cs">
       <SubType>Form</SubType>
@@ -288,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListarEquipamentoConvidado.resx">
       <DependentUpon>ListarEquipamentoConvidado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarEquipeConvidado.resx">
+      <DependentUpon>ListarEquipeConvidado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MapaDoEvento.resx">
       <DependentUpon>MapaDoEvento.cs</DependentUpon>

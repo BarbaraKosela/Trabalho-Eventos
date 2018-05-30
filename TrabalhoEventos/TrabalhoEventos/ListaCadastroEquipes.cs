@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace TrabalhoEventos
 {
-    public partial class CadastrarEquipes : Form
+    public partial class ListaCadastroEquipes : Form
     {
-        public CadastrarEquipes()
+        public ListaCadastroEquipes()
         {
             InitializeComponent();
-        }
-
-        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
         }
     }
 }

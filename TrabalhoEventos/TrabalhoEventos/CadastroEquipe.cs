@@ -20,6 +20,26 @@ namespace SistemaJogadores
             InitializeComponent();
         }
 
+        public CadastroEquipe(CEquipes cequipe, int posicao)
+        {
+            InitializeComponent();
+            this.posicao = posicao;
+            txtNomeDaEquipe.Text = cequipe.NomeDaEquipe;
+            cbEstado.SelectedItem = cequipe.EstadoOrigem;
+            cbCidade.SelectedItem = cequipe.CidadeOrigem;
+            txtNomeLider.Text = cequipe.NomeLider;
+            mtbCpf.Text = cequipe.CpfLider;
+            txtTelefone.Text = cequipe.TelefoneLider;
+            txtNomeJogo.Text = cequipe.NomeJogo;
+            cbCla.SelectedItem = cequipe.Cla;
+            rbSim.Checked = cequipe.ParticipouDoJogo;
+            cbGeneroJogo.SelectedItem = cequipe.GeneroJogo;
+            mtbQuantidadeintegrantes.Text = Convert.ToString(cequipe.QuantidadeIntegrantes);
+            txtFraseTaca.Text = cequipe.FraseTaca; 
+
+
+        }
+
         private void CadastroEquipe_Load(object sender, EventArgs e)
         {
 
@@ -157,6 +177,11 @@ namespace SistemaJogadores
                 cbGeneroJogo.SelectedIndex = -1;
                 mtbQuantidadeintegrantes.Text = "";
                 txtFraseTaca.Text = "";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

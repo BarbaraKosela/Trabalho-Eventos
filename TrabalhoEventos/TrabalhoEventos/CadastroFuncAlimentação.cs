@@ -46,7 +46,7 @@ namespace SistemaJogadores
 
         }
 
-        private void btnSalvar_Click(object sender, EventArgs e)
+        private void btnSalvar_Click_1(object sender, EventArgs e)
         {
              if (txtNomeFuncAlimentacao.Text.Length < 4)
             {
@@ -137,17 +137,21 @@ namespace SistemaJogadores
             txtRGFuncAlim.Text = "";
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
+        private void btnCancelar_Click_1(object sender, EventArgs e)
         {
             Dispose();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             ListaFuncAlimentação ListaFuncAlimentação = new ListaFuncAlimentação();
             ListaFuncAlimentação.Show();
         }
 
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+
         }
+    }
     }
 

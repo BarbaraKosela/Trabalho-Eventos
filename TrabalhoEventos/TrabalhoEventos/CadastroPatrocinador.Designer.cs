@@ -262,6 +262,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Name = "CadastroPatrocinador";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de um Patrocinador";
             this.Load += new System.EventHandler(this.CadastroPatrocinador_Load);
             this.ResumeLayout(false);

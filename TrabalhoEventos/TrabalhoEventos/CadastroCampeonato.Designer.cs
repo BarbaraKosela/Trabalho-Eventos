@@ -404,6 +404,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "CadastroCampeonato";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de um campeonato";
             this.Load += new System.EventHandler(this.CadastroCampeonato_Load);
             this.ResumeLayout(false);

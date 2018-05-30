@@ -249,6 +249,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "ListaFuncJogos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListaFuncJogos";
             this.Load += new System.EventHandler(this.ListaFuncJogos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgFuncJogos)).EndInit();

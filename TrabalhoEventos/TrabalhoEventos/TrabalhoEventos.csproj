@@ -68,12 +68,6 @@
     <Compile Include="CadastrarEquipes.Designer.cs">
       <DependentUpon>CadastrarEquipes.cs</DependentUpon>
     </Compile>
-    <Compile Include="CadastrarFuncionarios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CadastrarFuncionarios.Designer.cs">
-      <DependentUpon>CadastrarFuncionarios.cs</DependentUpon>
-    </Compile>
     <Compile Include="CadastrarJogadores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,9 +237,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CadastrarEquipes.resx">
       <DependentUpon>CadastrarEquipes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CadastrarFuncionarios.resx">
-      <DependentUpon>CadastrarFuncionarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CadastrarJogadores.resx">
       <DependentUpon>CadastrarJogadores.cs</DependentUpon>

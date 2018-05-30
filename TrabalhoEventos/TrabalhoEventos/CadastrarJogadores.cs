@@ -41,5 +41,10 @@ namespace SistemaJogadores
             CadastroPatrocinador cadastropatrocinador = new CadastroPatrocinador();
             cadastropatrocinador.Show();
         }
+
+        private void CadastrarJogadores_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

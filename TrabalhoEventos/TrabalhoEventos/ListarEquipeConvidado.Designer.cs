@@ -200,6 +200,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label14);
             this.Name = "ListarEquipeConvidado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Listar Equipe do Convidado";
             this.Activated += new System.EventHandler(this.ListarEquipeConvidado_Activated);
             this.Load += new System.EventHandler(this.ListarEquipeConvidado_Load);

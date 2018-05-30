@@ -618,6 +618,7 @@
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label26);
             this.Name = "CadastroFuncTerceirizado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Funcionário Setor Terceirizado";
             this.Load += new System.EventHandler(this.CadastroFuncTerceirizado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nupIdade)).EndInit();

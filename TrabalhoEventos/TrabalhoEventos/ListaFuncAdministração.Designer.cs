@@ -239,6 +239,7 @@
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.label1);
             this.Name = "ListaFuncAdministração";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListaFuncAdministração";
             this.Load += new System.EventHandler(this.ListaFuncAdministração_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

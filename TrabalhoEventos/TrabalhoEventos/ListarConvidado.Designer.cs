@@ -201,6 +201,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label14);
             this.Name = "ListarConvidado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListarConvidado";
             ((System.ComponentModel.ISupportInitialize)(this.dgvListarConvidados)).EndInit();
             this.ResumeLayout(false);

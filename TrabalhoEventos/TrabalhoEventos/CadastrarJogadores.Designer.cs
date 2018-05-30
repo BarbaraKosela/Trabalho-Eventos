@@ -155,6 +155,7 @@
             this.Name = "CadastrarJogadores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastrarJogadores";
+            this.Load += new System.EventHandler(this.CadastrarJogadores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

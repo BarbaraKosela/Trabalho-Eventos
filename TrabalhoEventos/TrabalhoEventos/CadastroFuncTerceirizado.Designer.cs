@@ -561,6 +561,7 @@
             this.button1.TabIndex = 111;
             this.button1.Text = "Listar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // btnCancelar
             // 
@@ -573,6 +574,7 @@
             this.btnCancelar.TabIndex = 110;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnSalvar
             // 
@@ -585,6 +587,7 @@
             this.btnSalvar.TabIndex = 109;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // CadastroFuncTerceirizado
             // 

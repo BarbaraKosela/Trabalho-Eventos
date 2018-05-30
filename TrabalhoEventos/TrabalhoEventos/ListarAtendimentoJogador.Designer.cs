@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListarAtendimentoJogador));
             this.dgvListarAtendimento = new System.Windows.Forms.DataGridView();
+            this.ColumnEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnResponsavel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnNumeroPorVez = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnEquipe = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtBuscaEquipamentos = new System.Windows.Forms.TextBox();
             this.btnEditarAtendimento = new System.Windows.Forms.Button();
             this.btnAtualizarAtendimento = new System.Windows.Forms.Button();
@@ -37,10 +41,6 @@
             this.btnApagarAtendimento = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.ColumnEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnResponsavel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnNumeroPorVez = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnEquipe = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListarAtendimento)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,6 +60,34 @@
             this.dgvListarAtendimento.Size = new System.Drawing.Size(863, 347);
             this.dgvListarAtendimento.TabIndex = 55;
             // 
+            // ColumnEmail
+            // 
+            this.ColumnEmail.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnEmail.HeaderText = "E-mail";
+            this.ColumnEmail.Name = "ColumnEmail";
+            this.ColumnEmail.ReadOnly = true;
+            // 
+            // ColumnResponsavel
+            // 
+            this.ColumnResponsavel.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnResponsavel.HeaderText = "Responsabilidade";
+            this.ColumnResponsavel.Name = "ColumnResponsavel";
+            this.ColumnResponsavel.ReadOnly = true;
+            // 
+            // ColumnNumeroPorVez
+            // 
+            this.ColumnNumeroPorVez.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnNumeroPorVez.HeaderText = "Número de jogadores que poderá atender por vez";
+            this.ColumnNumeroPorVez.Name = "ColumnNumeroPorVez";
+            this.ColumnNumeroPorVez.ReadOnly = true;
+            // 
+            // ColumnEquipe
+            // 
+            this.ColumnEquipe.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnEquipe.HeaderText = "Equipe colaboradora";
+            this.ColumnEquipe.Name = "ColumnEquipe";
+            this.ColumnEquipe.ReadOnly = true;
+            // 
             // txtBuscaEquipamentos
             // 
             this.txtBuscaEquipamentos.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -67,6 +95,8 @@
             this.txtBuscaEquipamentos.Name = "txtBuscaEquipamentos";
             this.txtBuscaEquipamentos.Size = new System.Drawing.Size(360, 20);
             this.txtBuscaEquipamentos.TabIndex = 54;
+            this.txtBuscaEquipamentos.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBuscaEquipamentos_KeyDown);
+            this.txtBuscaEquipamentos.Leave += new System.EventHandler(this.txtBuscaEquipamentos_Leave);
             // 
             // btnEditarAtendimento
             // 
@@ -130,6 +160,7 @@
             this.btnApagarAtendimento.Text = "APAGAR";
             this.btnApagarAtendimento.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnApagarAtendimento.UseVisualStyleBackColor = false;
+            this.btnApagarAtendimento.Click += new System.EventHandler(this.btnApagarAtendimento_Click);
             // 
             // label1
             // 
@@ -155,34 +186,6 @@
             this.label14.TabIndex = 48;
             this.label14.Text = "LISTAGEM DE ATENDIMENTO:";
             // 
-            // ColumnEmail
-            // 
-            this.ColumnEmail.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnEmail.HeaderText = "E-mail";
-            this.ColumnEmail.Name = "ColumnEmail";
-            this.ColumnEmail.ReadOnly = true;
-            // 
-            // ColumnResponsavel
-            // 
-            this.ColumnResponsavel.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnResponsavel.HeaderText = "Responsabilidade";
-            this.ColumnResponsavel.Name = "ColumnResponsavel";
-            this.ColumnResponsavel.ReadOnly = true;
-            // 
-            // ColumnNumeroPorVez
-            // 
-            this.ColumnNumeroPorVez.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnNumeroPorVez.HeaderText = "Número de jogadores que poderá atender por vez";
-            this.ColumnNumeroPorVez.Name = "ColumnNumeroPorVez";
-            this.ColumnNumeroPorVez.ReadOnly = true;
-            // 
-            // ColumnEquipe
-            // 
-            this.ColumnEquipe.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnEquipe.HeaderText = "Equipe colaboradora";
-            this.ColumnEquipe.Name = "ColumnEquipe";
-            this.ColumnEquipe.ReadOnly = true;
-            // 
             // ListarAtendimentoJogador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -198,6 +201,7 @@
             this.Controls.Add(this.label14);
             this.Name = "ListarAtendimentoJogador";
             this.Text = "Listar Atendimento ao Jogador";
+            this.Activated += new System.EventHandler(this.ListarAtendimentoJogador_Activated);
             this.Load += new System.EventHandler(this.ListarAtendimentoJogador_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListarAtendimento)).EndInit();
             this.ResumeLayout(false);

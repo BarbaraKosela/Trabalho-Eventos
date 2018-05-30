@@ -169,9 +169,7 @@
     <Compile Include="ListaFuncTerceirizados.Designer.cs">
       <DependentUpon>ListaFuncTerceirizados.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListarAtendimentoJogador.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="ListarAtendimentoJogador.cs" />
     <Compile Include="ListarAtendimentoJogador.Designer.cs">
       <DependentUpon>ListarAtendimentoJogador.cs</DependentUpon>
     </Compile>

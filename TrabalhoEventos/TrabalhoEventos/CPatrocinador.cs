@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrabalhoEventos
+namespace SistemaJogadores
 {
-    class CPatrocinador
+    public class CPatrocinador
     {
         public string NomeDoPatrocinador;
         public string Telefone;

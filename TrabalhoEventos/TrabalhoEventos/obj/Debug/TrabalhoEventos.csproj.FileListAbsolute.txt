@@ -135,3 +135,6 @@ C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\o
 C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.csproj.CoreCompileInputs.cache
 C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.exe
 C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.pdb
+C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\bin\Debug\TrabalhoEventos.exe.config
+C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.exe
+C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.pdb

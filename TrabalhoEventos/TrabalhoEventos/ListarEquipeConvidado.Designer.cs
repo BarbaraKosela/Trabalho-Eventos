@@ -29,72 +29,46 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListarEquipeConvidado));
-            this.dgvListarConvidados = new System.Windows.Forms.DataGridView();
-            this.ColumnNome = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnIdade = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnEquipe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnNumeroCracha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtBuscaConvidado = new System.Windows.Forms.TextBox();
+            this.dgvListarEquipe = new System.Windows.Forms.DataGridView();
+            this.txtBuscaEquipe = new System.Windows.Forms.TextBox();
             this.btnEditarEquipe = new System.Windows.Forms.Button();
             this.btnAtualizarEquipe = new System.Windows.Forms.Button();
             this.btnCadastrarEquipe = new System.Windows.Forms.Button();
             this.btnApagarEquipe = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListarConvidados)).BeginInit();
+            this.ColumnSeuNome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnIdade = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnNomeCampeao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnNomeLider = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListarEquipe)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgvListarConvidados
+            // dgvListarEquipe
             // 
-            this.dgvListarConvidados.AllowUserToAddRows = false;
-            this.dgvListarConvidados.AllowUserToDeleteRows = false;
-            this.dgvListarConvidados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvListarConvidados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ColumnNome,
+            this.dgvListarEquipe.AllowUserToAddRows = false;
+            this.dgvListarEquipe.AllowUserToDeleteRows = false;
+            this.dgvListarEquipe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvListarEquipe.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColumnSeuNome,
             this.ColumnIdade,
-            this.ColumnEquipe,
-            this.ColumnNumeroCracha});
-            this.dgvListarConvidados.Location = new System.Drawing.Point(23, 153);
-            this.dgvListarConvidados.Name = "dgvListarConvidados";
-            this.dgvListarConvidados.ReadOnly = true;
-            this.dgvListarConvidados.Size = new System.Drawing.Size(863, 347);
-            this.dgvListarConvidados.TabIndex = 47;
+            this.ColumnNomeCampeao,
+            this.ColumnNomeLider});
+            this.dgvListarEquipe.Location = new System.Drawing.Point(23, 153);
+            this.dgvListarEquipe.Name = "dgvListarEquipe";
+            this.dgvListarEquipe.ReadOnly = true;
+            this.dgvListarEquipe.Size = new System.Drawing.Size(863, 347);
+            this.dgvListarEquipe.TabIndex = 47;
             // 
-            // ColumnNome
+            // txtBuscaEquipe
             // 
-            this.ColumnNome.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnNome.HeaderText = "Nome do campeão";
-            this.ColumnNome.Name = "ColumnNome";
-            this.ColumnNome.ReadOnly = true;
-            // 
-            // ColumnIdade
-            // 
-            this.ColumnIdade.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnIdade.HeaderText = "Idade";
-            this.ColumnIdade.Name = "ColumnIdade";
-            this.ColumnIdade.ReadOnly = true;
-            // 
-            // ColumnEquipe
-            // 
-            this.ColumnEquipe.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnEquipe.HeaderText = "Equipe que o patrocina";
-            this.ColumnEquipe.Name = "ColumnEquipe";
-            this.ColumnEquipe.ReadOnly = true;
-            // 
-            // ColumnNumeroCracha
-            // 
-            this.ColumnNumeroCracha.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnNumeroCracha.HeaderText = "Número do crachá";
-            this.ColumnNumeroCracha.Name = "ColumnNumeroCracha";
-            this.ColumnNumeroCracha.ReadOnly = true;
-            // 
-            // txtBuscaConvidado
-            // 
-            this.txtBuscaConvidado.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.txtBuscaConvidado.Location = new System.Drawing.Point(23, 79);
-            this.txtBuscaConvidado.Name = "txtBuscaConvidado";
-            this.txtBuscaConvidado.Size = new System.Drawing.Size(360, 20);
-            this.txtBuscaConvidado.TabIndex = 46;
+            this.txtBuscaEquipe.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.txtBuscaEquipe.Location = new System.Drawing.Point(23, 79);
+            this.txtBuscaEquipe.Name = "txtBuscaEquipe";
+            this.txtBuscaEquipe.Size = new System.Drawing.Size(360, 20);
+            this.txtBuscaEquipe.TabIndex = 46;
+            this.txtBuscaEquipe.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBuscaEquipe_KeyDown);
+            this.txtBuscaEquipe.Leave += new System.EventHandler(this.txtBuscaEquipe_Leave);
             // 
             // btnEditarEquipe
             // 
@@ -110,6 +84,7 @@
             this.btnEditarEquipe.Text = "EDITAR";
             this.btnEditarEquipe.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnEditarEquipe.UseVisualStyleBackColor = false;
+            this.btnEditarEquipe.Click += new System.EventHandler(this.btnEditarEquipe_Click);
             // 
             // btnAtualizarEquipe
             // 
@@ -125,6 +100,7 @@
             this.btnAtualizarEquipe.Text = "ATUALIZAR";
             this.btnAtualizarEquipe.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnAtualizarEquipe.UseVisualStyleBackColor = false;
+            this.btnAtualizarEquipe.Click += new System.EventHandler(this.btnAtualizarEquipe_Click);
             // 
             // btnCadastrarEquipe
             // 
@@ -156,6 +132,7 @@
             this.btnApagarEquipe.Text = "APAGAR";
             this.btnApagarEquipe.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnApagarEquipe.UseVisualStyleBackColor = false;
+            this.btnApagarEquipe.Click += new System.EventHandler(this.btnApagarEquipe_Click);
             // 
             // label1
             // 
@@ -181,13 +158,41 @@
             this.label14.TabIndex = 40;
             this.label14.Text = "LISTAGEM DE EQUIPE:";
             // 
+            // ColumnSeuNome
+            // 
+            this.ColumnSeuNome.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnSeuNome.HeaderText = "Seu nome";
+            this.ColumnSeuNome.Name = "ColumnSeuNome";
+            this.ColumnSeuNome.ReadOnly = true;
+            // 
+            // ColumnIdade
+            // 
+            this.ColumnIdade.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnIdade.HeaderText = "Sua Idade";
+            this.ColumnIdade.Name = "ColumnIdade";
+            this.ColumnIdade.ReadOnly = true;
+            // 
+            // ColumnNomeCampeao
+            // 
+            this.ColumnNomeCampeao.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnNomeCampeao.HeaderText = "Nome do campeão que patrocina";
+            this.ColumnNomeCampeao.Name = "ColumnNomeCampeao";
+            this.ColumnNomeCampeao.ReadOnly = true;
+            // 
+            // ColumnNomeLider
+            // 
+            this.ColumnNomeLider.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnNomeLider.HeaderText = "Nome do seu líder";
+            this.ColumnNomeLider.Name = "ColumnNomeLider";
+            this.ColumnNomeLider.ReadOnly = true;
+            // 
             // ListarEquipeConvidado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(909, 511);
-            this.Controls.Add(this.dgvListarConvidados);
-            this.Controls.Add(this.txtBuscaConvidado);
+            this.Controls.Add(this.dgvListarEquipe);
+            this.Controls.Add(this.txtBuscaEquipe);
             this.Controls.Add(this.btnEditarEquipe);
             this.Controls.Add(this.btnAtualizarEquipe);
             this.Controls.Add(this.btnCadastrarEquipe);
@@ -196,7 +201,9 @@
             this.Controls.Add(this.label14);
             this.Name = "ListarEquipeConvidado";
             this.Text = "Listar Equipe do Convidado";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListarConvidados)).EndInit();
+            this.Activated += new System.EventHandler(this.ListarEquipeConvidado_Activated);
+            this.Load += new System.EventHandler(this.ListarEquipeConvidado_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListarEquipe)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,17 +211,17 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvListarConvidados;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNome;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnIdade;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEquipe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNumeroCracha;
-        private System.Windows.Forms.TextBox txtBuscaConvidado;
+        private System.Windows.Forms.DataGridView dgvListarEquipe;
+        private System.Windows.Forms.TextBox txtBuscaEquipe;
         private System.Windows.Forms.Button btnEditarEquipe;
         private System.Windows.Forms.Button btnAtualizarEquipe;
         private System.Windows.Forms.Button btnCadastrarEquipe;
         private System.Windows.Forms.Button btnApagarEquipe;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnSeuNome;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnIdade;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNomeCampeao;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNomeLider;
     }
 }

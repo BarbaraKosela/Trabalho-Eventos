@@ -237,6 +237,7 @@
             this.Name = "ListaCadastroCampeonato";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListaCadastroCampeonato";
+            this.Load += new System.EventHandler(this.ListaCadastroCampeonato_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaCampeonato)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

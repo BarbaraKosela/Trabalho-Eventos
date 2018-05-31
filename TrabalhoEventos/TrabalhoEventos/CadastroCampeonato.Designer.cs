@@ -262,6 +262,7 @@
             // cbSalaJogo
             // 
             this.cbSalaJogo.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbSalaJogo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSalaJogo.FormattingEnabled = true;
             this.cbSalaJogo.Items.AddRange(new object[] {
             "Sala 1 :  pc ",
@@ -275,6 +276,7 @@
             // cbTipoEquipamento
             // 
             this.cbTipoEquipamento.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbTipoEquipamento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTipoEquipamento.FormattingEnabled = true;
             this.cbTipoEquipamento.Items.AddRange(new object[] {
             "Pc ",
@@ -288,6 +290,7 @@
             // cbGeneroJogo
             // 
             this.cbGeneroJogo.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbGeneroJogo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbGeneroJogo.FormattingEnabled = true;
             this.cbGeneroJogo.Items.AddRange(new object[] {
             "Ação",
@@ -307,11 +310,16 @@
             // cbDiaCampeonato
             // 
             this.cbDiaCampeonato.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbDiaCampeonato.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbDiaCampeonato.FormattingEnabled = true;
             this.cbDiaCampeonato.Items.AddRange(new object[] {
+            "Dom",
+            "Seg",
+            "Ter",
+            "Qua",
+            "Qui",
             "Sex",
-            "Sab",
-            "Dom"});
+            "Sab"});
             this.cbDiaCampeonato.Location = new System.Drawing.Point(261, 243);
             this.cbDiaCampeonato.Name = "cbDiaCampeonato";
             this.cbDiaCampeonato.Size = new System.Drawing.Size(203, 21);
@@ -321,6 +329,7 @@
             // cbHoraCampeonato
             // 
             this.cbHoraCampeonato.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbHoraCampeonato.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbHoraCampeonato.FormattingEnabled = true;
             this.cbHoraCampeonato.Items.AddRange(new object[] {
             "08 : 00",
@@ -386,6 +395,7 @@
             // cbNivelCampeonato
             // 
             this.cbNivelCampeonato.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbNivelCampeonato.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbNivelCampeonato.FormattingEnabled = true;
             this.cbNivelCampeonato.Items.AddRange(new object[] {
             "Easy",

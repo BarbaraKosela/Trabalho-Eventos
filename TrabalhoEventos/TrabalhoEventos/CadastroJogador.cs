@@ -35,7 +35,7 @@ namespace SistemaJogadores
             txtEndereco.Text = cjogador.Endereco;
             txtNumeroCasa.Text = Convert.ToString(cjogador.NumeroCasa);
             txtEmail.Text =  cjogador.Email;
-            cbNomeEquipe.SelectedItem = cjogador.NomeEquipe;
+            cbNomeCla.SelectedItem = cjogador.NomeEquipe;
             cbEstado.SelectedItem = cjogador.Estado;
             cbCidade.SelectedItem = cjogador.Cidade;
 
@@ -94,10 +94,10 @@ namespace SistemaJogadores
                 txtEmail.Focus();
                 return;
             }
-            if (cbNomeEquipe.SelectedIndex < 0)
+            if (cbNomeCla.SelectedIndex < 0)
             {
                 MessageBox.Show("Selecione a equipe que você e integrante !!");
-                cbNomeEquipe.Focus();
+                cbNomeCla.Focus();
                 return;
             }
             if (cbEstado.SelectedIndex < 0)
@@ -125,7 +125,7 @@ namespace SistemaJogadores
                 Endereco = txtEndereco.Text,
                 NumeroCasa = Convert.ToInt32(txtNumeroCasa.Text),
                 Email = txtEmail.Text,
-                NomeEquipe = cbNomeEquipe.SelectedItem.ToString(),
+                NomeEquipe = cbNomeCla.SelectedItem.ToString(),
                 Estado = cbEstado.SelectedItem.ToString(),
                 Cidade = cbCidade.SelectedItem.ToString()
             };
@@ -159,7 +159,7 @@ namespace SistemaJogadores
             txtEndereco.Text = "";
             txtNumeroCasa.Text = "";
             txtEmail.Text = "";
-            cbNomeEquipe.SelectedIndex = -1;
+            cbNomeCla.SelectedIndex = -1;
             cbEstado.SelectedIndex = -1;
             cbCidade.SelectedIndex = -1;
 
@@ -173,6 +173,22 @@ namespace SistemaJogadores
         private void CadastroJogador_Load(object sender, EventArgs e)
         {
 
+            /*
+             * 
+             * 
+            CEquipes cequipe = new CEquipes();
+            Program.cequipes[posicao] = cequipe;
+
+
+            cbNomeCla.Items.Insert(0,  cequipe.NomeDaEquipe);
+            cbNomeCla.Items.Insert(1, "Eduardo");
+             */
+           
+        }
+
+        private void cbNomeEquipe_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

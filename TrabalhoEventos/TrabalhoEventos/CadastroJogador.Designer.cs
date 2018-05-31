@@ -40,7 +40,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.cbNomeEquipe = new System.Windows.Forms.ComboBox();
+            this.cbNomeCla = new System.Windows.Forms.ComboBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.mtbCpf = new System.Windows.Forms.MaskedTextBox();
             this.txtRg = new System.Windows.Forms.TextBox();
@@ -65,6 +65,7 @@
             // cbCidade
             // 
             this.cbCidade.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbCidade.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbCidade.FormattingEnabled = true;
             this.cbCidade.Items.AddRange(new object[] {
             "Sex",
@@ -78,6 +79,7 @@
             // cbEstado
             // 
             this.cbEstado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbEstado.FormattingEnabled = true;
             this.cbEstado.Items.AddRange(new object[] {
             "Sex",
@@ -174,18 +176,16 @@
             this.label7.TabIndex = 137;
             this.label7.Text = "CIDADE";
             // 
-            // cbNomeEquipe
+            // cbNomeCla
             // 
-            this.cbNomeEquipe.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.cbNomeEquipe.FormattingEnabled = true;
-            this.cbNomeEquipe.Items.AddRange(new object[] {
-            "Sex",
-            "Sab",
-            "Dom"});
-            this.cbNomeEquipe.Location = new System.Drawing.Point(646, 63);
-            this.cbNomeEquipe.Name = "cbNomeEquipe";
-            this.cbNomeEquipe.Size = new System.Drawing.Size(203, 21);
-            this.cbNomeEquipe.TabIndex = 11;
+            this.cbNomeCla.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbNomeCla.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbNomeCla.FormattingEnabled = true;
+            this.cbNomeCla.Location = new System.Drawing.Point(646, 63);
+            this.cbNomeCla.Name = "cbNomeCla";
+            this.cbNomeCla.Size = new System.Drawing.Size(203, 21);
+            this.cbNomeCla.TabIndex = 11;
+            this.cbNomeCla.SelectedIndexChanged += new System.EventHandler(this.cbNomeEquipe_SelectedIndexChanged);
             // 
             // txtEmail
             // 
@@ -413,7 +413,7 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.cbNomeEquipe);
+            this.Controls.Add(this.cbNomeCla);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.mtbCpf);
             this.Controls.Add(this.txtRg);
@@ -454,7 +454,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox cbNomeEquipe;
+        private System.Windows.Forms.ComboBox cbNomeCla;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.MaskedTextBox mtbCpf;
         private System.Windows.Forms.TextBox txtRg;

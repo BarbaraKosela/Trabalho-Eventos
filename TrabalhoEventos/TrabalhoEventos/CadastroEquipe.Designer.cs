@@ -34,7 +34,6 @@
             this.rbSim = new System.Windows.Forms.RadioButton();
             this.txtFraseTaca = new System.Windows.Forms.TextBox();
             this.cbGeneroJogo = new System.Windows.Forms.ComboBox();
-            this.txtNomeJogo = new System.Windows.Forms.TextBox();
             this.mtbCpf = new System.Windows.Forms.MaskedTextBox();
             this.txtNomeLider = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -58,6 +57,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.txtCidade = new System.Windows.Forms.TextBox();
+            this.cbCampeonato = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,15 +68,16 @@
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(203, 20);
             this.txtTelefone.TabIndex = 6;
+            this.txtTelefone.TextChanged += new System.EventHandler(this.txtTelefone_TextChanged);
             // 
             // rbNao
             // 
             this.rbNao.AutoSize = true;
             this.rbNao.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbNao.Location = new System.Drawing.Point(748, 376);
+            this.rbNao.Location = new System.Drawing.Point(758, 439);
             this.rbNao.Name = "rbNao";
             this.rbNao.Size = new System.Drawing.Size(63, 28);
-            this.rbNao.TabIndex = 10;
+            this.rbNao.TabIndex = 13;
             this.rbNao.TabStop = true;
             this.rbNao.Text = "Não";
             this.rbNao.UseVisualStyleBackColor = true;
@@ -85,10 +86,10 @@
             // 
             this.rbSim.AutoSize = true;
             this.rbSim.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbSim.Location = new System.Drawing.Point(610, 376);
+            this.rbSim.Location = new System.Drawing.Point(638, 439);
             this.rbSim.Name = "rbSim";
             this.rbSim.Size = new System.Drawing.Size(60, 28);
-            this.rbSim.TabIndex = 9;
+            this.rbSim.TabIndex = 12;
             this.rbSim.TabStop = true;
             this.rbSim.Text = "Sim";
             this.rbSim.UseVisualStyleBackColor = true;
@@ -96,15 +97,16 @@
             // txtFraseTaca
             // 
             this.txtFraseTaca.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtFraseTaca.Location = new System.Drawing.Point(554, 206);
+            this.txtFraseTaca.Location = new System.Drawing.Point(780, 137);
             this.txtFraseTaca.Multiline = true;
             this.txtFraseTaca.Name = "txtFraseTaca";
-            this.txtFraseTaca.Size = new System.Drawing.Size(276, 96);
-            this.txtFraseTaca.TabIndex = 13;
+            this.txtFraseTaca.Size = new System.Drawing.Size(180, 96);
+            this.txtFraseTaca.TabIndex = 11;
             // 
             // cbGeneroJogo
             // 
             this.cbGeneroJogo.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbGeneroJogo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbGeneroJogo.FormattingEnabled = true;
             this.cbGeneroJogo.Items.AddRange(new object[] {
             "Sex",
@@ -113,15 +115,7 @@
             this.cbGeneroJogo.Location = new System.Drawing.Point(670, 18);
             this.cbGeneroJogo.Name = "cbGeneroJogo";
             this.cbGeneroJogo.Size = new System.Drawing.Size(203, 21);
-            this.cbGeneroJogo.TabIndex = 11;
-            // 
-            // txtNomeJogo
-            // 
-            this.txtNomeJogo.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtNomeJogo.Location = new System.Drawing.Point(271, 256);
-            this.txtNomeJogo.Name = "txtNomeJogo";
-            this.txtNomeJogo.Size = new System.Drawing.Size(203, 20);
-            this.txtNomeJogo.TabIndex = 7;
+            this.cbGeneroJogo.TabIndex = 9;
             // 
             // mtbCpf
             // 
@@ -131,6 +125,7 @@
             this.mtbCpf.Name = "mtbCpf";
             this.mtbCpf.Size = new System.Drawing.Size(203, 20);
             this.mtbCpf.TabIndex = 5;
+            this.mtbCpf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtNomeLider
             // 
@@ -146,7 +141,7 @@
             this.label13.BackColor = System.Drawing.Color.DarkRed;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label13.Location = new System.Drawing.Point(506, 333);
+            this.label13.Location = new System.Drawing.Point(553, 388);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(377, 16);
             this.label13.TabIndex = 100;
@@ -167,11 +162,11 @@
             // mtbQuantidadeintegrantes
             // 
             this.mtbQuantidadeintegrantes.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.mtbQuantidadeintegrantes.Location = new System.Drawing.Point(667, 83);
+            this.mtbQuantidadeintegrantes.Location = new System.Drawing.Point(780, 62);
             this.mtbQuantidadeintegrantes.Mask = "99";
             this.mtbQuantidadeintegrantes.Name = "mtbQuantidadeintegrantes";
             this.mtbQuantidadeintegrantes.Size = new System.Drawing.Size(41, 20);
-            this.mtbQuantidadeintegrantes.TabIndex = 12;
+            this.mtbQuantidadeintegrantes.TabIndex = 10;
             this.mtbQuantidadeintegrantes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtNomeDaEquipe
@@ -189,10 +184,10 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(737, 444);
+            this.button3.Location = new System.Drawing.Point(811, 517);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(136, 55);
-            this.button3.TabIndex = 95;
+            this.button3.TabIndex = 16;
             this.button3.Text = "SALVAR";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button3.UseVisualStyleBackColor = false;
@@ -204,10 +199,10 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(580, 444);
+            this.button2.Location = new System.Drawing.Point(627, 517);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(136, 55);
-            this.button2.TabIndex = 94;
+            this.button2.TabIndex = 15;
             this.button2.Text = "CANCELAR";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button2.UseVisualStyleBackColor = false;
@@ -219,10 +214,10 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(324, 444);
+            this.button1.Location = new System.Drawing.Point(335, 517);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(179, 55);
-            this.button1.TabIndex = 93;
+            this.button1.TabIndex = 14;
             this.button1.Text = "LISTA EQUIPES";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
@@ -246,7 +241,7 @@
             this.label10.BackColor = System.Drawing.Color.DarkRed;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label10.Location = new System.Drawing.Point(577, 138);
+            this.label10.Location = new System.Drawing.Point(521, 142);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(234, 48);
             this.label10.TabIndex = 91;
@@ -258,7 +253,7 @@
             this.label8.BackColor = System.Drawing.Color.DarkRed;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label8.Location = new System.Drawing.Point(577, 61);
+            this.label8.Location = new System.Drawing.Point(521, 66);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(244, 16);
             this.label8.TabIndex = 90;
@@ -282,11 +277,11 @@
             this.label6.BackColor = System.Drawing.Color.DarkRed;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(52, 257);
+            this.label6.Location = new System.Drawing.Point(47, 292);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(213, 16);
+            this.label6.Size = new System.Drawing.Size(395, 16);
             this.label6.TabIndex = 88;
-            this.label6.Text = "NOME DO JOGO ESCOLHIDO";
+            this.label6.Text = "ESCOLHA O CAMPEONATO QUE DESEJA PARTICIPAR";
             // 
             // label5
             // 
@@ -330,7 +325,7 @@
             this.label2.BackColor = System.Drawing.Color.DarkRed;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(52, 297);
+            this.label2.Location = new System.Drawing.Point(47, 388);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(183, 16);
             this.label2.TabIndex = 84;
@@ -351,17 +346,17 @@
             // txtFraseCla
             // 
             this.txtFraseCla.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtFraseCla.Location = new System.Drawing.Point(271, 293);
+            this.txtFraseCla.Location = new System.Drawing.Point(239, 367);
             this.txtFraseCla.Multiline = true;
             this.txtFraseCla.Name = "txtFraseCla";
             this.txtFraseCla.Size = new System.Drawing.Size(203, 56);
-            this.txtFraseCla.TabIndex = 101;
+            this.txtFraseCla.TabIndex = 8;
             this.txtFraseCla.TextChanged += new System.EventHandler(this.txtFraseCla_TextChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(50, 354);
+            this.pictureBox1.Location = new System.Drawing.Point(25, 451);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(162, 134);
             this.pictureBox1.TabIndex = 102;
@@ -373,7 +368,7 @@
             this.txtEstado.Location = new System.Drawing.Point(271, 61);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(203, 20);
-            this.txtEstado.TabIndex = 103;
+            this.txtEstado.TabIndex = 2;
             // 
             // txtCidade
             // 
@@ -381,13 +376,23 @@
             this.txtCidade.Location = new System.Drawing.Point(271, 104);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(203, 20);
-            this.txtCidade.TabIndex = 104;
+            this.txtCidade.TabIndex = 3;
+            // 
+            // cbCampeonato
+            // 
+            this.cbCampeonato.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbCampeonato.FormattingEnabled = true;
+            this.cbCampeonato.Location = new System.Drawing.Point(474, 292);
+            this.cbCampeonato.Name = "cbCampeonato";
+            this.cbCampeonato.Size = new System.Drawing.Size(141, 21);
+            this.cbCampeonato.TabIndex = 103;
             // 
             // CadastroEquipe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(909, 511);
+            this.ClientSize = new System.Drawing.Size(1009, 611);
+            this.Controls.Add(this.cbCampeonato);
             this.Controls.Add(this.txtCidade);
             this.Controls.Add(this.txtEstado);
             this.Controls.Add(this.pictureBox1);
@@ -397,7 +402,6 @@
             this.Controls.Add(this.rbSim);
             this.Controls.Add(this.txtFraseTaca);
             this.Controls.Add(this.cbGeneroJogo);
-            this.Controls.Add(this.txtNomeJogo);
             this.Controls.Add(this.mtbCpf);
             this.Controls.Add(this.txtNomeLider);
             this.Controls.Add(this.label13);
@@ -434,7 +438,6 @@
         private System.Windows.Forms.RadioButton rbSim;
         private System.Windows.Forms.TextBox txtFraseTaca;
         private System.Windows.Forms.ComboBox cbGeneroJogo;
-        private System.Windows.Forms.TextBox txtNomeJogo;
         private System.Windows.Forms.MaskedTextBox mtbCpf;
         private System.Windows.Forms.TextBox txtNomeLider;
         private System.Windows.Forms.Label label13;
@@ -458,5 +461,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtEstado;
         private System.Windows.Forms.TextBox txtCidade;
+        private System.Windows.Forms.ComboBox cbCampeonato;
     }
 }

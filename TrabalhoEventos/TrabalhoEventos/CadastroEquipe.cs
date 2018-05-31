@@ -30,8 +30,8 @@ namespace SistemaJogadores
             txtCidade.Text = cequipe.CidadeOrigem;
             txtNomeLider.Text = cequipe.NomeLider;
             mtbCpf.Text = cequipe.CpfLider;
-            txtTelefone.Text = cequipe.TelefoneLider;
-            txtNomeJogo.Text = cequipe.NomeJogo; 
+            txtTelefone.Text = cequipe.TelefoneLider;            
+            cbCampeonato.SelectedItem = cequipe.NomeJogo;
             txtFraseCla.Text = cequipe.FraseCla; 
             rbSim.Checked = cequipe.ParticipouDoJogo;
             cbGeneroJogo.SelectedItem = cequipe.GeneroJogo;
@@ -41,7 +41,12 @@ namespace SistemaJogadores
 
         private void CadastroEquipe_Load(object sender, EventArgs e)
         {
+            CCampeonato ccampeonato = new CCampeonato();
 
+            for (int i = 0; i < 9; i++)
+            {
+                cbCampeonato.Items.Insert(i, ccampeonato.nomeDocampeonato);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -58,8 +63,8 @@ namespace SistemaJogadores
         {
             if (txtNomeDaEquipe.Text.Length <= 4)
             {
-                MessageBox.Show("Nome da equipe deve conter no minimo 4 caracteres !!");
-                txtNomeJogo.Focus();
+                MessageBox.Show("Nome do clã deve conter no minimo 4 caracteres !!");
+                txtNomeDaEquipe.Focus();
                 return;
             }
             if (txtEstado.Text.Length < 2)
@@ -74,28 +79,31 @@ namespace SistemaJogadores
                 txtCidade.Focus();
                 return;
             }
-            if (txtNomeLider.Text.Length <= 4)
+            if (txtNomeLider.Text.Length < 4)
             {
                 MessageBox.Show("Nome do lider deve conter no minimo 4 caracter !!");
                 txtNomeLider.Focus();
                 return;
             }
+
             if (mtbCpf.Text.Length < 11)
             {
                 MessageBox.Show("Deve-se colocar o cpf do lider !!");
                 mtbCpf.Focus();
                 return;
             }
+
             if (txtTelefone.Text.Length < 8)
             {
                 MessageBox.Show("Deve-se colocar o telefone no minimo 8 digitos !!");
                 txtTelefone.Focus();
                 return;
             }
-            if (txtNomeJogo.Text.Length < 3)
+            if (cbCampeonato.SelectedIndex < 0)
             {
-                MessageBox.Show("Deve-se colocar o nome para o jogo no minimo 3 caracteres !!");
-                txtNomeJogo.Focus();
+                MessageBox.Show(@"Selecione um campeonato para participar desse evento, 
+                Caso não tenha nenhum campeonato espere até que seja cadastrado um.");
+                cbCampeonato.Focus();
                 return;
             }
 
@@ -138,7 +146,7 @@ namespace SistemaJogadores
                 NomeLider = txtNomeLider.Text,
                 CpfLider = mtbCpf.Text,
                 TelefoneLider = txtTelefone.Text,
-                NomeJogo = txtNomeJogo.Text,
+                NomeJogo = cbCampeonato.SelectedItem.ToString(),
                 FraseCla = txtFraseCla.Text,
                 ParticipouDoJogo = rbSim.Checked,
                 GeneroJogo = cbGeneroJogo.SelectedItem.ToString(),
@@ -170,7 +178,7 @@ namespace SistemaJogadores
                 txtNomeLider.Text = "";
                 mtbCpf.Text = "";
                 txtTelefone.Text = "";
-                txtNomeJogo.Text = "";
+                cbCampeonato.SelectedIndex = -1;
                 txtFraseCla.Text = "";
                 rbSim.Checked = false;
                 cbGeneroJogo.SelectedIndex = -1;
@@ -186,6 +194,11 @@ namespace SistemaJogadores
         private void button1_Click(object sender, EventArgs e)
         {
            
+        }
+
+        private void txtTelefone_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

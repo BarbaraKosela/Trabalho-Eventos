@@ -17,6 +17,11 @@ namespace SistemaJogadores
             InitializeComponent();
         }
 
+        private void ListaCCJogador_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void txtBusca_TextChanged(object sender, EventArgs e)
         {
 
@@ -33,7 +38,7 @@ namespace SistemaJogadores
             string Busca = txtBusca.Text.ToLower().Trim();
             for (int i = 0; i < Program.cjogadores.Count; i++)
             {
-               CJogador cjogador = Program.cjogadores[i];
+                CJogador cjogador = Program.cjogadores[i];
 
                 if (cjogador.NomeJogador.Contains(Busca))
                 {
@@ -57,7 +62,6 @@ namespace SistemaJogadores
             {
                 AtualizarLista();
             }
-           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -70,7 +74,7 @@ namespace SistemaJogadores
                 return;
             }
 
-           CJogador cjogador = Program.cjogadores[LinhaSeelecionada];
+            CJogador cjogador = Program.cjogadores[LinhaSeelecionada];
             new CadastroJogador(cjogador, LinhaSeelecionada).ShowDialog();
 
             CadastroJogador cadastrojogador = new CadastroJogador(cjogador, LinhaSeelecionada); 
@@ -98,7 +102,8 @@ namespace SistemaJogadores
             {
                 MessageBox.Show("Seu registro ainda esta salvo !!");
             }
-
         }
+
+
     }
 }

@@ -169,5 +169,10 @@ namespace SistemaJogadores
         {
             new ListaCCJogador().ShowDialog();
         }
+
+        private void CadastroJogador_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

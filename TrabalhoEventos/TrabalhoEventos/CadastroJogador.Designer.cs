@@ -374,6 +374,7 @@
             this.Name = "CadastroJogador";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastroJogador";
+            this.Load += new System.EventHandler(this.CadastroJogador_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

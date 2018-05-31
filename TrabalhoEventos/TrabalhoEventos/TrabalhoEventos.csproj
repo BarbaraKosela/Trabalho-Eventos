@@ -140,6 +140,12 @@
     <Compile Include="ListaCadastroCampeonato.designer.cs">
       <DependentUpon>ListaCadastroCampeonato.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListaCCJogador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaCCJogador.Designer.cs">
+      <DependentUpon>ListaCCJogador.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListaFuncAdministração.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -267,6 +273,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListaCadastroCampeonato.resx">
       <DependentUpon>ListaCadastroCampeonato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaCCJogador.resx">
+      <DependentUpon>ListaCCJogador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListaFuncAdministração.resx">
       <DependentUpon>ListaFuncAdministração.cs</DependentUpon>

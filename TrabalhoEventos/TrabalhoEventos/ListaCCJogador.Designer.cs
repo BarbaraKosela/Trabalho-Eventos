@@ -29,24 +29,24 @@
         private void InitializeComponent()
         {
             this.ColumnNumeroCasa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnCidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnEstado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnNomeEquipe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnEmai = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnFalarComEmergencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnTelefoneEmegercia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnTelefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnRg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnEndereço = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnCpf = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnNomeJogador = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvListaJogadores = new System.Windows.Forms.DataGridView();
-            this.ColumnDataNascimento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.txtBusca = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.ColumnDataNascimento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvListaJogadores = new System.Windows.Forms.DataGridView();
+            this.ColumnNomeJogador = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnCpf = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnRg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnTelefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnTelefoneEmegercia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnFalarComEmergencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnEmai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnNomeEquipe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnEstado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnCidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnEndereço = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaJogadores)).BeginInit();
@@ -57,88 +57,6 @@
             // 
             this.ColumnNumeroCasa.HeaderText = "N° da casa";
             this.ColumnNumeroCasa.Name = "ColumnNumeroCasa";
-            // 
-            // ColumnCidade
-            // 
-            this.ColumnCidade.HeaderText = "Cidade";
-            this.ColumnCidade.Name = "ColumnCidade";
-            // 
-            // ColumnEstado
-            // 
-            this.ColumnEstado.HeaderText = "Estado";
-            this.ColumnEstado.Name = "ColumnEstado";
-            // 
-            // ColumnNomeEquipe
-            // 
-            this.ColumnNomeEquipe.HeaderText = "Nome da equipe";
-            this.ColumnNomeEquipe.Name = "ColumnNomeEquipe";
-            // 
-            // ColumnEmai
-            // 
-            this.ColumnEmai.HeaderText = "E-mail";
-            this.ColumnEmai.Name = "ColumnEmai";
-            // 
-            // ColumnFalarComEmergencia
-            // 
-            this.ColumnFalarComEmergencia.HeaderText = "Nome telefone emergencia";
-            this.ColumnFalarComEmergencia.Name = "ColumnFalarComEmergencia";
-            // 
-            // ColumnTelefoneEmegercia
-            // 
-            this.ColumnTelefoneEmegercia.HeaderText = "Telefone de emegencia";
-            this.ColumnTelefoneEmegercia.Name = "ColumnTelefoneEmegercia";
-            // 
-            // ColumnTelefone
-            // 
-            this.ColumnTelefone.HeaderText = "Telefone";
-            this.ColumnTelefone.Name = "ColumnTelefone";
-            // 
-            // ColumnRg
-            // 
-            this.ColumnRg.HeaderText = "Rg";
-            this.ColumnRg.Name = "ColumnRg";
-            // 
-            // ColumnEndereço
-            // 
-            this.ColumnEndereço.HeaderText = "Endereço";
-            this.ColumnEndereço.Name = "ColumnEndereço";
-            // 
-            // ColumnCpf
-            // 
-            this.ColumnCpf.HeaderText = "Cpf";
-            this.ColumnCpf.Name = "ColumnCpf";
-            // 
-            // ColumnNomeJogador
-            // 
-            this.ColumnNomeJogador.HeaderText = "Nome do jogador";
-            this.ColumnNomeJogador.Name = "ColumnNomeJogador";
-            // 
-            // dgvListaJogadores
-            // 
-            this.dgvListaJogadores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvListaJogadores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ColumnNomeJogador,
-            this.ColumnDataNascimento,
-            this.ColumnCpf,
-            this.ColumnRg,
-            this.ColumnTelefone,
-            this.ColumnTelefoneEmegercia,
-            this.ColumnFalarComEmergencia,
-            this.ColumnEmai,
-            this.ColumnNomeEquipe,
-            this.ColumnEstado,
-            this.ColumnCidade,
-            this.ColumnEndereço,
-            this.ColumnNumeroCasa});
-            this.dgvListaJogadores.Location = new System.Drawing.Point(27, 86);
-            this.dgvListaJogadores.Name = "dgvListaJogadores";
-            this.dgvListaJogadores.Size = new System.Drawing.Size(1476, 601);
-            this.dgvListaJogadores.TabIndex = 27;
-            // 
-            // ColumnDataNascimento
-            // 
-            this.ColumnDataNascimento.HeaderText = "Data de nascimento";
-            this.ColumnDataNascimento.Name = "ColumnDataNascimento";
             // 
             // label1
             // 
@@ -198,6 +116,88 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // ColumnDataNascimento
+            // 
+            this.ColumnDataNascimento.HeaderText = "Data de nascimento";
+            this.ColumnDataNascimento.Name = "ColumnDataNascimento";
+            // 
+            // dgvListaJogadores
+            // 
+            this.dgvListaJogadores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvListaJogadores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColumnNomeJogador,
+            this.ColumnDataNascimento,
+            this.ColumnCpf,
+            this.ColumnRg,
+            this.ColumnTelefone,
+            this.ColumnTelefoneEmegercia,
+            this.ColumnFalarComEmergencia,
+            this.ColumnEmai,
+            this.ColumnNomeEquipe,
+            this.ColumnEstado,
+            this.ColumnCidade,
+            this.ColumnEndereço,
+            this.ColumnNumeroCasa});
+            this.dgvListaJogadores.Location = new System.Drawing.Point(12, 77);
+            this.dgvListaJogadores.Name = "dgvListaJogadores";
+            this.dgvListaJogadores.Size = new System.Drawing.Size(1476, 601);
+            this.dgvListaJogadores.TabIndex = 29;
+            // 
+            // ColumnNomeJogador
+            // 
+            this.ColumnNomeJogador.HeaderText = "Nome do jogador";
+            this.ColumnNomeJogador.Name = "ColumnNomeJogador";
+            // 
+            // ColumnCpf
+            // 
+            this.ColumnCpf.HeaderText = "Cpf";
+            this.ColumnCpf.Name = "ColumnCpf";
+            // 
+            // ColumnRg
+            // 
+            this.ColumnRg.HeaderText = "Rg";
+            this.ColumnRg.Name = "ColumnRg";
+            // 
+            // ColumnTelefone
+            // 
+            this.ColumnTelefone.HeaderText = "Telefone";
+            this.ColumnTelefone.Name = "ColumnTelefone";
+            // 
+            // ColumnTelefoneEmegercia
+            // 
+            this.ColumnTelefoneEmegercia.HeaderText = "Telefone de emegencia";
+            this.ColumnTelefoneEmegercia.Name = "ColumnTelefoneEmegercia";
+            // 
+            // ColumnFalarComEmergencia
+            // 
+            this.ColumnFalarComEmergencia.HeaderText = "Nome telefone emergencia";
+            this.ColumnFalarComEmergencia.Name = "ColumnFalarComEmergencia";
+            // 
+            // ColumnEmai
+            // 
+            this.ColumnEmai.HeaderText = "E-mail";
+            this.ColumnEmai.Name = "ColumnEmai";
+            // 
+            // ColumnNomeEquipe
+            // 
+            this.ColumnNomeEquipe.HeaderText = "Nome da equipe";
+            this.ColumnNomeEquipe.Name = "ColumnNomeEquipe";
+            // 
+            // ColumnEstado
+            // 
+            this.ColumnEstado.HeaderText = "Estado";
+            this.ColumnEstado.Name = "ColumnEstado";
+            // 
+            // ColumnCidade
+            // 
+            this.ColumnCidade.HeaderText = "Cidade";
+            this.ColumnCidade.Name = "ColumnCidade";
+            // 
+            // ColumnEndereço
+            // 
+            this.ColumnEndereço.HeaderText = "Endereço";
+            this.ColumnEndereço.Name = "ColumnEndereço";
+            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.DarkRed;
@@ -220,21 +220,22 @@
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Location = new System.Drawing.Point(18, 15);
+            this.groupBox1.Location = new System.Drawing.Point(3, 6);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(833, 65);
-            this.groupBox1.TabIndex = 28;
+            this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             // 
             // ListaCCJogador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1390, 611);
+            this.ClientSize = new System.Drawing.Size(1358, 576);
             this.Controls.Add(this.dgvListaJogadores);
             this.Controls.Add(this.groupBox1);
             this.Name = "ListaCCJogador";
             this.Text = "Lista dos jogadores";
+            this.Load += new System.EventHandler(this.ListaCCJogador_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaJogadores)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -245,24 +246,24 @@
         #endregion
 
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNumeroCasa;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCidade;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEstado;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNomeEquipe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEmai;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnFalarComEmergencia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTelefoneEmegercia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTelefone;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnRg;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEndereço;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCpf;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNomeJogador;
-        private System.Windows.Forms.DataGridView dgvListaJogadores;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnDataNascimento;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox txtBusca;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnDataNascimento;
+        private System.Windows.Forms.DataGridView dgvListaJogadores;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNomeJogador;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCpf;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnRg;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTelefone;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTelefoneEmegercia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnFalarComEmergencia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEmai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNomeEquipe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEstado;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCidade;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEndereço;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
     }

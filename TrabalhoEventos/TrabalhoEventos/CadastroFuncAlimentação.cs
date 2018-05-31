@@ -96,10 +96,12 @@ namespace SistemaJogadores
             {
                 Nome = txtNomeFuncAlimentacao.Text,
                 restaurante = cbRestaurante.SelectedItem.ToString(),
+                posição = cbPosiçãoFuncAlim.SelectedItem.ToString(),
                 Idade = Convert.ToInt32(nupIdade.Value),
                 Endereço = txtEndereco.Text,
-                Celular = Convert.ToString(mtxCel.Text),
+                Celular = mtxCel.Text,
                 Email = txtEmailFuncAlim.Text,
+                Telefone = mtxtTelefoneFuncAlim.Text,
                 Cidade = txtCidade.SelectedItem.ToString(),
                 CEP = Convert.ToString(mtxCEPFuncAlim.Text),
                 Cpf = Convert.ToString(mtxtCPFFuncAlim.Text),

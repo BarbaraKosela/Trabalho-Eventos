@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroJogador));
-            this.cbCidade = new System.Windows.Forms.ComboBox();
-            this.cbEstado = new System.Windows.Forms.ComboBox();
             this.txtNumeroCasa = new System.Windows.Forms.TextBox();
             this.txtEndereco = new System.Windows.Forms.TextBox();
             this.txtTelefone = new System.Windows.Forms.TextBox();
@@ -40,7 +38,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.cbNomeCla = new System.Windows.Forms.ComboBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.mtbCpf = new System.Windows.Forms.MaskedTextBox();
             this.txtRg = new System.Windows.Forms.TextBox();
@@ -59,36 +56,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtNomeCla = new System.Windows.Forms.TextBox();
+            this.txtEstado = new System.Windows.Forms.TextBox();
+            this.txtCidade = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // cbCidade
-            // 
-            this.cbCidade.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.cbCidade.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbCidade.FormattingEnabled = true;
-            this.cbCidade.Items.AddRange(new object[] {
-            "Sex",
-            "Sab",
-            "Dom"});
-            this.cbCidade.Location = new System.Drawing.Point(646, 180);
-            this.cbCidade.Name = "cbCidade";
-            this.cbCidade.Size = new System.Drawing.Size(203, 21);
-            this.cbCidade.TabIndex = 13;
-            // 
-            // cbEstado
-            // 
-            this.cbEstado.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.cbEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbEstado.FormattingEnabled = true;
-            this.cbEstado.Items.AddRange(new object[] {
-            "Sex",
-            "Sab",
-            "Dom"});
-            this.cbEstado.Location = new System.Drawing.Point(646, 124);
-            this.cbEstado.Name = "cbEstado";
-            this.cbEstado.Size = new System.Drawing.Size(203, 21);
-            this.cbEstado.TabIndex = 12;
             // 
             // txtNumeroCasa
             // 
@@ -175,17 +147,6 @@
             this.label7.Size = new System.Drawing.Size(64, 16);
             this.label7.TabIndex = 137;
             this.label7.Text = "CIDADE";
-            // 
-            // cbNomeCla
-            // 
-            this.cbNomeCla.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.cbNomeCla.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbNomeCla.FormattingEnabled = true;
-            this.cbNomeCla.Location = new System.Drawing.Point(646, 63);
-            this.cbNomeCla.Name = "cbNomeCla";
-            this.cbNomeCla.Size = new System.Drawing.Size(203, 21);
-            this.cbNomeCla.TabIndex = 11;
-            this.cbNomeCla.SelectedIndexChanged += new System.EventHandler(this.cbNomeEquipe_SelectedIndexChanged);
             // 
             // txtEmail
             // 
@@ -396,14 +357,40 @@
             this.pictureBox1.TabIndex = 140;
             this.pictureBox1.TabStop = false;
             // 
+            // txtNomeCla
+            // 
+            this.txtNomeCla.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtNomeCla.Location = new System.Drawing.Point(646, 64);
+            this.txtNomeCla.Name = "txtNomeCla";
+            this.txtNomeCla.Size = new System.Drawing.Size(203, 20);
+            this.txtNomeCla.TabIndex = 141;
+            this.txtNomeCla.TextChanged += new System.EventHandler(this.txtNomeCla_TextChanged);
+            // 
+            // txtEstado
+            // 
+            this.txtEstado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtEstado.Location = new System.Drawing.Point(646, 124);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.Size = new System.Drawing.Size(203, 20);
+            this.txtEstado.TabIndex = 142;
+            // 
+            // txtCidade
+            // 
+            this.txtCidade.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtCidade.Location = new System.Drawing.Point(646, 181);
+            this.txtCidade.Name = "txtCidade";
+            this.txtCidade.Size = new System.Drawing.Size(203, 20);
+            this.txtCidade.TabIndex = 143;
+            // 
             // CadastroJogador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(909, 511);
+            this.Controls.Add(this.txtCidade);
+            this.Controls.Add(this.txtEstado);
+            this.Controls.Add(this.txtNomeCla);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.cbCidade);
-            this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.txtNumeroCasa);
             this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.txtTelefone);
@@ -413,7 +400,6 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.cbNomeCla);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.mtbCpf);
             this.Controls.Add(this.txtRg);
@@ -443,8 +429,6 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cbCidade;
-        private System.Windows.Forms.ComboBox cbEstado;
         private System.Windows.Forms.TextBox txtNumeroCasa;
         private System.Windows.Forms.TextBox txtEndereco;
         private System.Windows.Forms.TextBox txtTelefone;
@@ -454,7 +438,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox cbNomeCla;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.MaskedTextBox mtbCpf;
         private System.Windows.Forms.TextBox txtRg;
@@ -473,5 +456,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txtNomeCla;
+        private System.Windows.Forms.TextBox txtEstado;
+        private System.Windows.Forms.TextBox txtCidade;
     }
 }

@@ -109,9 +109,15 @@
             this.cbGeneroJogo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbGeneroJogo.FormattingEnabled = true;
             this.cbGeneroJogo.Items.AddRange(new object[] {
-            "Sex",
-            "Sab",
-            "Dom"});
+            "Ação",
+            "Aventura",
+            "Estratégia",
+            "RPG",
+            "Esporte",
+            "Corrida",
+            "Jogo on-line",
+            "Simulação",
+            "Fps"});
             this.cbGeneroJogo.Location = new System.Drawing.Point(670, 18);
             this.cbGeneroJogo.Name = "cbGeneroJogo";
             this.cbGeneroJogo.Size = new System.Drawing.Size(203, 21);

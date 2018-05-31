@@ -181,3 +181,4 @@ C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\Trabalho
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.csproj.GenerateResource.Cache
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCCJogador.resources
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroPatrocinador.resources
+C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroCla.resources

@@ -14,10 +14,19 @@ namespace SistemaJogadores
     {
         public CEquipes cequipe;
         public int posicao = -1;
+        private CEquipes cequipe1;
+        private int LinhaSeelecionada;
 
         public CadastroEquipe()
         {
             InitializeComponent();
+        }
+
+        public CadastroEquipe(CEquipes cequipe1, int LinhaSeelecionada)
+        {
+            // TODO: Complete member initialization
+            this.cequipe1 = cequipe1;
+            this.LinhaSeelecionada = LinhaSeelecionada;
         }
 
         public void CadastrarEquipe(CEquipes cequipe, int posicao)
@@ -31,7 +40,7 @@ namespace SistemaJogadores
             txtNomeLider.Text = cequipe.NomeLider;
             mtbCpf.Text = cequipe.CpfLider;
             txtTelefone.Text = cequipe.TelefoneLider;            
-            cbCampeonato.SelectedItem = cequipe.NomeJogo;
+            //cbCampeonato.SelectedItem = cequipe.NomeJogo;
             txtFraseCla.Text = cequipe.FraseCla; 
             rbSim.Checked = cequipe.ParticipouDoJogo;
             cbGeneroJogo.SelectedItem = cequipe.GeneroJogo;
@@ -41,13 +50,10 @@ namespace SistemaJogadores
 
         private void CadastroEquipe_Load(object sender, EventArgs e)
         {
-            CCampeonato ccampeonato = new CCampeonato();
-
-            for (int i = 0; i < 9; i++)
-            {
-                cbCampeonato.Items.Insert(i, ccampeonato.nomeDocampeonato);
-            }
+          
+         
         }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -99,6 +105,8 @@ namespace SistemaJogadores
                 txtTelefone.Focus();
                 return;
             }
+
+            /*
             if (cbCampeonato.SelectedIndex < 0)
             {
                 MessageBox.Show(@"Selecione um campeonato para participar desse evento, 
@@ -106,6 +114,8 @@ namespace SistemaJogadores
                 cbCampeonato.Focus();
                 return;
             }
+             * 
+             */
 
             if (txtFraseCla.Text.Length < 10)
             {
@@ -146,7 +156,7 @@ namespace SistemaJogadores
                 NomeLider = txtNomeLider.Text,
                 CpfLider = mtbCpf.Text,
                 TelefoneLider = txtTelefone.Text,
-                NomeJogo = cbCampeonato.SelectedItem.ToString(),
+                //NomeJogo = cbCampeonato.SelectedItem.ToString(),
                 FraseCla = txtFraseCla.Text,
                 ParticipouDoJogo = rbSim.Checked,
                 GeneroJogo = cbGeneroJogo.SelectedItem.ToString(),
@@ -174,7 +184,7 @@ namespace SistemaJogadores
         {
                 txtNomeDaEquipe.Text = "";
                 txtEstado.Text = "";
-                txtEstado.Text = "";
+                txtCidade.Text = "";
                 txtNomeLider.Text = "";
                 mtbCpf.Text = "";
                 txtTelefone.Text = "";
@@ -193,7 +203,7 @@ namespace SistemaJogadores
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+            new ListaCadastroCla().ShowDialog(); 
         }
 
         private void txtTelefone_TextChanged(object sender, EventArgs e)

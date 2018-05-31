@@ -13,6 +13,7 @@ namespace SistemaJogadores
 {
     public partial class CadastroCampeonato : Form
     {
+        
         public CCampeonato ccampeonato;
         public int posicao = -1;
 
@@ -21,6 +22,7 @@ namespace SistemaJogadores
             InitializeComponent();
         }
 
+        
         public CadastroCampeonato(CCampeonato ccampeonato, int posicao)
         {
             InitializeComponent();
@@ -40,6 +42,11 @@ namespace SistemaJogadores
             mtbTaxaEquipe.Text = Convert.ToString(ccampeonato.taxaEquipe);
         }
 
+        public void NomeC()
+        {
+            
+
+        }
         private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -171,8 +178,10 @@ namespace SistemaJogadores
                quantidadeEquipes = Convert.ToInt32(txtQuantidadeEquipesParticipar.Text),
                taxaEquipe = Convert.ToDouble(mtbTaxaEquipe.Text)
               
-
+               
             };
+
+           
 
             if (posicao >= 0)
             {

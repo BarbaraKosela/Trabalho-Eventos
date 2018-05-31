@@ -35,9 +35,9 @@ namespace SistemaJogadores
             txtEndereco.Text = cjogador.Endereco;
             txtNumeroCasa.Text = Convert.ToString(cjogador.NumeroCasa);
             txtEmail.Text =  cjogador.Email;
-            cbNomeCla.SelectedItem = cjogador.NomeEquipe;
-            cbEstado.SelectedItem = cjogador.Estado;
-            cbCidade.SelectedItem = cjogador.Cidade;
+            txtNomeCla.Text = cjogador.NomeEquipe;
+            txtEstado.Text = cjogador.Estado;
+            txtCidade.Text = cjogador.Cidade;
 
         }
         private void txtNomeDoJogo_TextChanged(object sender, EventArgs e)
@@ -94,22 +94,22 @@ namespace SistemaJogadores
                 txtEmail.Focus();
                 return;
             }
-            if (cbNomeCla.SelectedIndex < 0)
+            if (txtNomeCla.Text.Length < 0)
             {
                 MessageBox.Show("Selecione a equipe que você e integrante !!");
-                cbNomeCla.Focus();
+                txtNomeCla.Focus();
                 return;
             }
-            if (cbEstado.SelectedIndex < 0)
+            if (txtEstado.Text.Length < 0)
             {
                 MessageBox.Show("Selecione o Estado em que mora !!");
-                cbEstado.Focus();
+                txtEstado.Focus();
                 return;
             }
-            if (cbCidade.SelectedIndex < 0)
+            if (txtCidade.Text.Length < 0)
             {
                 MessageBox.Show("Selecione a cidade em que mora !!");
-                cbCidade.Focus();
+                txtCidade.Focus();
                 return;
             }
 
@@ -125,9 +125,9 @@ namespace SistemaJogadores
                 Endereco = txtEndereco.Text,
                 NumeroCasa = Convert.ToInt32(txtNumeroCasa.Text),
                 Email = txtEmail.Text,
-                NomeEquipe = cbNomeCla.SelectedItem.ToString(),
-                Estado = cbEstado.SelectedItem.ToString(),
-                Cidade = cbCidade.SelectedItem.ToString()
+                NomeEquipe = txtNomeCla.Text,
+                Estado = txtEstado.Text,
+                Cidade = txtCidade.Text
             };
 
 
@@ -159,9 +159,9 @@ namespace SistemaJogadores
             txtEndereco.Text = "";
             txtNumeroCasa.Text = "";
             txtEmail.Text = "";
-            cbNomeCla.SelectedIndex = -1;
-            cbEstado.SelectedIndex = -1;
-            cbCidade.SelectedIndex = -1;
+            txtNomeCla.Text = "";
+            txtEstado.Text = "";
+            txtCidade.Text = "";
 
         }
 
@@ -173,22 +173,17 @@ namespace SistemaJogadores
         private void CadastroJogador_Load(object sender, EventArgs e)
         {
 
-            /*
-             * 
-             * 
-            CEquipes cequipe = new CEquipes();
-            Program.cequipes[posicao] = cequipe;
-
-
-            cbNomeCla.Items.Insert(0,  cequipe.NomeDaEquipe);
-            cbNomeCla.Items.Insert(1, "Eduardo");
-             */
            
         }
 
         private void cbNomeEquipe_SelectedIndexChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void txtNomeCla_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

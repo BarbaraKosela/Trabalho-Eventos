@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroCampeonato));
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -57,200 +58,236 @@
             this.cbNivelCampeonato = new System.Windows.Forms.ComboBox();
             this.txtNomeCampeonato = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.DarkRed;
-            this.button3.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(694, 408);
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.Location = new System.Drawing.Point(728, 408);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 55);
+            this.button3.Size = new System.Drawing.Size(139, 55);
             this.button3.TabIndex = 31;
-            this.button3.Text = "Salvar";
+            this.button3.Text = "SALVAR";
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.DarkRed;
-            this.button2.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(572, 408);
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Location = new System.Drawing.Point(574, 408);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 55);
+            this.button2.Size = new System.Drawing.Size(139, 55);
             this.button2.TabIndex = 30;
-            this.button2.Text = "Cancelar";
+            this.button2.Text = "CANCELAR";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkRed;
-            this.button1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(154, 408);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(300, 408);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 55);
+            this.button1.Size = new System.Drawing.Size(164, 55);
             this.button1.TabIndex = 29;
-            this.button1.Text = "Listar Cadastros";
+            this.button1.Text = "LISTAR CADASTROS";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(519, 337);
+            this.label12.BackColor = System.Drawing.Color.DarkRed;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label12.Location = new System.Drawing.Point(551, 309);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(113, 16);
+            this.label12.Size = new System.Drawing.Size(143, 16);
             this.label12.TabIndex = 28;
-            this.label12.Text = "Taxa por equipe";
+            this.label12.Text = "TAXA POR EQUIPE";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(459, 276);
+            this.label11.BackColor = System.Drawing.Color.DarkRed;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label11.Location = new System.Drawing.Point(497, 221);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(312, 16);
+            this.label11.Size = new System.Drawing.Size(387, 16);
             this.label11.TabIndex = 27;
-            this.label11.Text = "Quantidades de equipes que podem participar";
+            this.label11.Text = "QUANTIDADE MAXIMA DE EQUIPES PARTICIPANTES";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(488, 193);
+            this.label10.BackColor = System.Drawing.Color.DarkRed;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label10.Location = new System.Drawing.Point(527, 162);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(144, 16);
+            this.label10.Size = new System.Drawing.Size(186, 16);
             this.label10.TabIndex = 26;
-            this.label10.Text = "Nivel do campeonato";
+            this.label10.Text = "NIVEL DO CAMPEONATO";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(521, 74);
+            this.label8.BackColor = System.Drawing.Color.DarkRed;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label8.Location = new System.Drawing.Point(551, 71);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(111, 16);
+            this.label8.Size = new System.Drawing.Size(137, 16);
             this.label8.TabIndex = 25;
-            this.label8.Text = "Valor 2° premio";
+            this.label8.Text = "VALOR 2° PREMIO";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(521, 100);
+            this.label7.BackColor = System.Drawing.Color.DarkRed;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label7.Location = new System.Drawing.Point(551, 94);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(111, 16);
+            this.label7.Size = new System.Drawing.Size(137, 16);
             this.label7.TabIndex = 24;
-            this.label7.Text = "Valor 3° premio";
+            this.label7.Text = "VALOR 3° PREMIO";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(521, 48);
+            this.label9.BackColor = System.Drawing.Color.DarkRed;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label9.Location = new System.Drawing.Point(551, 48);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(111, 16);
+            this.label9.Size = new System.Drawing.Size(137, 16);
             this.label9.TabIndex = 23;
-            this.label9.Text = "Valor 1° premio";
+            this.label9.Text = "VALOR 1° PREMIO";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(77, 292);
+            this.label6.BackColor = System.Drawing.Color.DarkRed;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label6.Location = new System.Drawing.Point(34, 287);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(161, 16);
+            this.label6.Size = new System.Drawing.Size(212, 16);
             this.label6.TabIndex = 22;
-            this.label6.Text = "Horario do campeonato";
+            this.label6.Text = "HORARIO DO CAMPEONATO";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(77, 248);
+            this.label5.BackColor = System.Drawing.Color.DarkRed;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label5.Location = new System.Drawing.Point(34, 248);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(133, 16);
+            this.label5.Size = new System.Drawing.Size(168, 16);
             this.label5.TabIndex = 21;
-            this.label5.Text = "Dia do campeonato";
+            this.label5.Text = "DIA DO CAMPEONATO";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(77, 207);
+            this.label4.BackColor = System.Drawing.Color.DarkRed;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.Location = new System.Drawing.Point(34, 207);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 16);
+            this.label4.Size = new System.Drawing.Size(143, 16);
             this.label4.TabIndex = 20;
-            this.label4.Text = "Genero do jogo";
+            this.label4.Text = "GENERO DO JOGO";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(77, 166);
+            this.label3.BackColor = System.Drawing.Color.DarkRed;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Location = new System.Drawing.Point(34, 167);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(143, 16);
+            this.label3.Size = new System.Drawing.Size(182, 16);
             this.label3.TabIndex = 19;
-            this.label3.Text = "Tipo de equipamento";
+            this.label3.Text = "TIPO DE EQUIPAMENTO";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(77, 124);
+            this.label2.BackColor = System.Drawing.Color.DarkRed;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(34, 129);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 16);
+            this.label2.Size = new System.Drawing.Size(117, 16);
             this.label2.TabIndex = 18;
-            this.label2.Text = "Sala do jogo";
+            this.label2.Text = "SALA DO JOGO";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(77, 85);
+            this.label1.BackColor = System.Drawing.Color.DarkRed;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(34, 88);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 16);
+            this.label1.Size = new System.Drawing.Size(123, 16);
             this.label1.TabIndex = 17;
-            this.label1.Text = "Nome do jogo";
+            this.label1.Text = "NOME DO JOGO";
             // 
             // txtNomeDoJogo
             // 
-            this.txtNomeDoJogo.Location = new System.Drawing.Point(244, 84);
+            this.txtNomeDoJogo.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtNomeDoJogo.Location = new System.Drawing.Point(261, 84);
             this.txtNomeDoJogo.Name = "txtNomeDoJogo";
             this.txtNomeDoJogo.Size = new System.Drawing.Size(203, 20);
             this.txtNomeDoJogo.TabIndex = 2;
             // 
             // cbSalaJogo
             // 
+            this.cbSalaJogo.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbSalaJogo.FormattingEnabled = true;
             this.cbSalaJogo.Items.AddRange(new object[] {
             "Sala 1 :  pc ",
             "Sala 2 : ps1, ps2, ps3, ps4",
             "Sala 3 : nitendo Xbox 360, Xbox one"});
-            this.cbSalaJogo.Location = new System.Drawing.Point(244, 124);
+            this.cbSalaJogo.Location = new System.Drawing.Point(261, 124);
             this.cbSalaJogo.Name = "cbSalaJogo";
             this.cbSalaJogo.Size = new System.Drawing.Size(203, 21);
             this.cbSalaJogo.TabIndex = 3;
             // 
             // cbTipoEquipamento
             // 
+            this.cbTipoEquipamento.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbTipoEquipamento.FormattingEnabled = true;
             this.cbTipoEquipamento.Items.AddRange(new object[] {
             "Pc ",
             "PlayStation ",
             "Xbox/Nitendo"});
-            this.cbTipoEquipamento.Location = new System.Drawing.Point(244, 166);
+            this.cbTipoEquipamento.Location = new System.Drawing.Point(261, 162);
             this.cbTipoEquipamento.Name = "cbTipoEquipamento";
             this.cbTipoEquipamento.Size = new System.Drawing.Size(203, 21);
             this.cbTipoEquipamento.TabIndex = 4;
             // 
             // cbGeneroJogo
             // 
+            this.cbGeneroJogo.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbGeneroJogo.FormattingEnabled = true;
             this.cbGeneroJogo.Items.AddRange(new object[] {
             "Ação",
@@ -262,19 +299,20 @@
             "Jogo on-line",
             "Simulação",
             "Fps"});
-            this.cbGeneroJogo.Location = new System.Drawing.Point(244, 207);
+            this.cbGeneroJogo.Location = new System.Drawing.Point(261, 202);
             this.cbGeneroJogo.Name = "cbGeneroJogo";
             this.cbGeneroJogo.Size = new System.Drawing.Size(203, 21);
             this.cbGeneroJogo.TabIndex = 5;
             // 
             // cbDiaCampeonato
             // 
+            this.cbDiaCampeonato.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbDiaCampeonato.FormattingEnabled = true;
             this.cbDiaCampeonato.Items.AddRange(new object[] {
             "Sex",
             "Sab",
             "Dom"});
-            this.cbDiaCampeonato.Location = new System.Drawing.Point(244, 243);
+            this.cbDiaCampeonato.Location = new System.Drawing.Point(261, 243);
             this.cbDiaCampeonato.Name = "cbDiaCampeonato";
             this.cbDiaCampeonato.Size = new System.Drawing.Size(203, 21);
             this.cbDiaCampeonato.TabIndex = 6;
@@ -282,6 +320,7 @@
             // 
             // cbHoraCampeonato
             // 
+            this.cbHoraCampeonato.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbHoraCampeonato.FormattingEnabled = true;
             this.cbHoraCampeonato.Items.AddRange(new object[] {
             "08 : 00",
@@ -292,14 +331,15 @@
             "19: 30",
             "21: 00",
             "22: 00"});
-            this.cbHoraCampeonato.Location = new System.Drawing.Point(244, 287);
+            this.cbHoraCampeonato.Location = new System.Drawing.Point(261, 282);
             this.cbHoraCampeonato.Name = "cbHoraCampeonato";
             this.cbHoraCampeonato.Size = new System.Drawing.Size(203, 21);
             this.cbHoraCampeonato.TabIndex = 7;
             // 
             // mtbPremio1
             // 
-            this.mtbPremio1.Location = new System.Drawing.Point(671, 44);
+            this.mtbPremio1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.mtbPremio1.Location = new System.Drawing.Point(710, 41);
             this.mtbPremio1.Mask = "999,99";
             this.mtbPremio1.Name = "mtbPremio1";
             this.mtbPremio1.Size = new System.Drawing.Size(100, 20);
@@ -308,7 +348,8 @@
             // 
             // mtbPremio2
             // 
-            this.mtbPremio2.Location = new System.Drawing.Point(671, 70);
+            this.mtbPremio2.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.mtbPremio2.Location = new System.Drawing.Point(710, 67);
             this.mtbPremio2.Mask = "999,99";
             this.mtbPremio2.Name = "mtbPremio2";
             this.mtbPremio2.Size = new System.Drawing.Size(100, 20);
@@ -316,7 +357,8 @@
             // 
             // mtbPremio3
             // 
-            this.mtbPremio3.Location = new System.Drawing.Point(671, 96);
+            this.mtbPremio3.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.mtbPremio3.Location = new System.Drawing.Point(710, 93);
             this.mtbPremio3.Mask = "999,99";
             this.mtbPremio3.Name = "mtbPremio3";
             this.mtbPremio3.Size = new System.Drawing.Size(100, 20);
@@ -324,35 +366,40 @@
             // 
             // txtQuantidadeEquipesParticipar
             // 
-            this.txtQuantidadeEquipesParticipar.Location = new System.Drawing.Point(790, 276);
+            this.txtQuantidadeEquipesParticipar.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtQuantidadeEquipesParticipar.Location = new System.Drawing.Point(649, 248);
             this.txtQuantidadeEquipesParticipar.Name = "txtQuantidadeEquipesParticipar";
-            this.txtQuantidadeEquipesParticipar.Size = new System.Drawing.Size(81, 20);
+            this.txtQuantidadeEquipesParticipar.Size = new System.Drawing.Size(109, 20);
             this.txtQuantidadeEquipesParticipar.TabIndex = 12;
             // 
             // mtbTaxaEquipe
             // 
-            this.mtbTaxaEquipe.Location = new System.Drawing.Point(638, 337);
+            this.mtbTaxaEquipe.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.mtbTaxaEquipe.Location = new System.Drawing.Point(728, 309);
             this.mtbTaxaEquipe.Mask = "999,99";
             this.mtbTaxaEquipe.Name = "mtbTaxaEquipe";
             this.mtbTaxaEquipe.Size = new System.Drawing.Size(75, 20);
             this.mtbTaxaEquipe.TabIndex = 13;
+            this.mtbTaxaEquipe.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.mtbTaxaEquipe.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtbTaxaEquipe_MaskInputRejected);
             // 
             // cbNivelCampeonato
             // 
+            this.cbNivelCampeonato.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbNivelCampeonato.FormattingEnabled = true;
             this.cbNivelCampeonato.Items.AddRange(new object[] {
             "Easy",
             "Medium",
             "Hard"});
-            this.cbNivelCampeonato.Location = new System.Drawing.Point(638, 188);
+            this.cbNivelCampeonato.Location = new System.Drawing.Point(728, 157);
             this.cbNivelCampeonato.Name = "cbNivelCampeonato";
-            this.cbNivelCampeonato.Size = new System.Drawing.Size(133, 21);
+            this.cbNivelCampeonato.Size = new System.Drawing.Size(99, 21);
             this.cbNivelCampeonato.TabIndex = 11;
             // 
             // txtNomeCampeonato
             // 
-            this.txtNomeCampeonato.Location = new System.Drawing.Point(244, 41);
+            this.txtNomeCampeonato.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtNomeCampeonato.Location = new System.Drawing.Point(261, 44);
             this.txtNomeCampeonato.Name = "txtNomeCampeonato";
             this.txtNomeCampeonato.Size = new System.Drawing.Size(203, 20);
             this.txtNomeCampeonato.TabIndex = 1;
@@ -361,19 +408,33 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(77, 45);
+            this.label13.BackColor = System.Drawing.Color.DarkRed;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label13.Location = new System.Drawing.Point(34, 45);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(147, 16);
+            this.label13.Size = new System.Drawing.Size(187, 16);
             this.label13.TabIndex = 33;
-            this.label13.Text = "Nome do campeonato";
+            this.label13.Text = "NOME DO CAMPEONATO";
             this.label13.Click += new System.EventHandler(this.label13_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(59, 354);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(162, 145);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 34;
+            this.pictureBox1.TabStop = false;
             // 
             // CadastroCampeonato
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(909, 511);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtNomeCampeonato);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.cbNivelCampeonato);
@@ -407,6 +468,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de um campeonato";
             this.Load += new System.EventHandler(this.CadastroCampeonato_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -443,5 +505,6 @@
         private System.Windows.Forms.ComboBox cbNivelCampeonato;
         private System.Windows.Forms.TextBox txtNomeCampeonato;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

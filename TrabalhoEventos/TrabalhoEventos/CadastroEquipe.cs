@@ -20,6 +20,25 @@ namespace SistemaJogadores
             InitializeComponent();
         }
 
+        public void CadastrarEquipe(CEquipes cequipe, int posicao)
+        {
+
+            this.posicao = posicao;
+            InitializeComponent();
+            txtNomeDaEquipe.Text = cequipe.NomeDaEquipe;
+            txtEstado.Text = cequipe.EstadoOrigem;
+            txtCidade.Text = cequipe.CidadeOrigem;
+            txtNomeLider.Text = cequipe.NomeLider;
+            mtbCpf.Text = cequipe.CpfLider;
+            txtTelefone.Text = cequipe.TelefoneLider;
+            txtNomeJogo.Text = cequipe.NomeJogo; 
+            txtFraseCla.Text = cequipe.FraseCla; 
+            rbSim.Checked = cequipe.ParticipouDoJogo;
+            cbGeneroJogo.SelectedItem = cequipe.GeneroJogo;
+            mtbQuantidadeintegrantes.Text = Convert.ToString(cequipe.QuantidadeIntegrantes);
+            txtFraseTaca.Text = cequipe.FraseTaca;
+        }
+
         private void CadastroEquipe_Load(object sender, EventArgs e)
         {
 
@@ -43,16 +62,16 @@ namespace SistemaJogadores
                 txtNomeJogo.Focus();
                 return;
             }
-            if (cbEstado.SelectedIndex <= 0)
+            if (txtEstado.Text.Length < 2)
             {
-                MessageBox.Show("Deve se selecionar um estado que a equipe reside no momento !!");
-                cbEstado.Focus();
+                MessageBox.Show("Estado deve ter no minimo 2 caracter !!");
+                txtEstado.Focus();
                 return;
             }
-            if (cbCidade.SelectedIndex <= 0)
+            if (txtCidade.Text.Length < 4)
             {
-                MessageBox.Show("Deve se selecionar uma cidade que a equipe reside no momento !!");
-                cbCidade.Focus();
+                MessageBox.Show("Cidade deve conter no minimo 4 caracter !!");
+                txtCidade.Focus();
                 return;
             }
             if (txtNomeLider.Text.Length <= 4)
@@ -114,8 +133,8 @@ namespace SistemaJogadores
             CEquipes cequipes = new CEquipes()
             {
                 NomeDaEquipe = txtNomeDaEquipe.Text,
-                EstadoOrigem = cbEstado.SelectedItem.ToString(),
-                CidadeOrigem = cbCidade.SelectedItem.ToString(),
+                EstadoOrigem = txtEstado.Text,
+                CidadeOrigem = txtCidade.Text,
                 NomeLider = txtNomeLider.Text,
                 CpfLider = mtbCpf.Text,
                 TelefoneLider = txtTelefone.Text,
@@ -146,8 +165,8 @@ namespace SistemaJogadores
         public void LimparCampos()
         {
                 txtNomeDaEquipe.Text = "";
-                cbEstado.SelectedIndex = -1;
-                cbCidade.SelectedIndex = -1;
+                txtEstado.Text = "";
+                txtEstado.Text = "";
                 txtNomeLider.Text = "";
                 mtbCpf.Text = "";
                 txtTelefone.Text = "";
@@ -162,6 +181,11 @@ namespace SistemaJogadores
         private void txtFraseCla_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

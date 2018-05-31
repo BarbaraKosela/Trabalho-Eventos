@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroJogador));
             this.cbCidade = new System.Windows.Forms.ComboBox();
             this.cbEstado = new System.Windows.Forms.ComboBox();
             this.txtNumeroCasa = new System.Windows.Forms.TextBox();
@@ -57,10 +58,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // cbCidade
             // 
+            this.cbCidade.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbCidade.FormattingEnabled = true;
             this.cbCidade.Items.AddRange(new object[] {
             "Sex",
@@ -73,6 +77,7 @@
             // 
             // cbEstado
             // 
+            this.cbEstado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbEstado.FormattingEnabled = true;
             this.cbEstado.Items.AddRange(new object[] {
             "Sex",
@@ -85,62 +90,73 @@
             // 
             // txtNumeroCasa
             // 
-            this.txtNumeroCasa.Location = new System.Drawing.Point(576, 321);
+            this.txtNumeroCasa.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtNumeroCasa.Location = new System.Drawing.Point(611, 319);
             this.txtNumeroCasa.Name = "txtNumeroCasa";
             this.txtNumeroCasa.Size = new System.Drawing.Size(105, 20);
             this.txtNumeroCasa.TabIndex = 9;
             // 
             // txtEndereco
             // 
-            this.txtEndereco.Location = new System.Drawing.Point(151, 321);
+            this.txtEndereco.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtEndereco.Location = new System.Drawing.Point(185, 319);
             this.txtEndereco.Name = "txtEndereco";
-            this.txtEndereco.Size = new System.Drawing.Size(358, 20);
+            this.txtEndereco.Size = new System.Drawing.Size(390, 20);
             this.txtEndereco.TabIndex = 8;
             // 
             // txtTelefone
             // 
-            this.txtTelefone.Location = new System.Drawing.Point(241, 227);
+            this.txtTelefone.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtTelefone.Location = new System.Drawing.Point(273, 227);
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(203, 20);
             this.txtTelefone.TabIndex = 5;
             // 
             // txtFalarCom
             // 
-            this.txtFalarCom.Location = new System.Drawing.Point(557, 270);
+            this.txtFalarCom.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtFalarCom.Location = new System.Drawing.Point(611, 281);
             this.txtFalarCom.Name = "txtFalarCom";
             this.txtFalarCom.Size = new System.Drawing.Size(221, 20);
             this.txtFalarCom.TabIndex = 7;
             // 
             // txtTelefoneEmergencia
             // 
-            this.txtTelefoneEmergencia.Location = new System.Drawing.Point(241, 270);
+            this.txtTelefoneEmergencia.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtTelefoneEmergencia.Location = new System.Drawing.Point(304, 281);
             this.txtTelefoneEmergencia.Name = "txtTelefoneEmergencia";
             this.txtTelefoneEmergencia.Size = new System.Drawing.Size(203, 20);
             this.txtTelefoneEmergencia.TabIndex = 6;
             // 
             // mtbDataNascimento
             // 
-            this.mtbDataNascimento.Location = new System.Drawing.Point(241, 95);
+            this.mtbDataNascimento.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.mtbDataNascimento.Location = new System.Drawing.Point(273, 95);
             this.mtbDataNascimento.Mask = "99/99/9999";
             this.mtbDataNascimento.Name = "mtbDataNascimento";
             this.mtbDataNascimento.Size = new System.Drawing.Size(203, 20);
             this.mtbDataNascimento.TabIndex = 2;
+            this.mtbDataNascimento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.DarkRed;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(52, 325);
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label13.Location = new System.Drawing.Point(83, 319);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(75, 16);
+            this.label13.Size = new System.Drawing.Size(92, 16);
             this.label13.TabIndex = 139;
-            this.label13.Text = "Endereço";
+            this.label13.Text = "ENDEREÇO";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.DarkRed;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(534, 325);
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label10.Location = new System.Drawing.Point(581, 323);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(24, 16);
             this.label10.TabIndex = 138;
@@ -149,15 +165,18 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.DarkRed;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label7.Location = new System.Drawing.Point(500, 185);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 16);
+            this.label7.Size = new System.Drawing.Size(64, 16);
             this.label7.TabIndex = 137;
-            this.label7.Text = "Cidade";
+            this.label7.Text = "CIDADE";
             // 
             // cbNomeEquipe
             // 
+            this.cbNomeEquipe.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbNomeEquipe.FormattingEnabled = true;
             this.cbNomeEquipe.Items.AddRange(new object[] {
             "Sex",
@@ -170,22 +189,26 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(122, 375);
+            this.txtEmail.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtEmail.Location = new System.Drawing.Point(185, 355);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(387, 20);
+            this.txtEmail.Size = new System.Drawing.Size(390, 20);
             this.txtEmail.TabIndex = 10;
             // 
             // mtbCpf
             // 
-            this.mtbCpf.Location = new System.Drawing.Point(241, 138);
+            this.mtbCpf.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.mtbCpf.Location = new System.Drawing.Point(273, 137);
             this.mtbCpf.Mask = "999.999.999-99";
             this.mtbCpf.Name = "mtbCpf";
             this.mtbCpf.Size = new System.Drawing.Size(203, 20);
             this.mtbCpf.TabIndex = 3;
+            this.mtbCpf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtRg
             // 
-            this.txtRg.Location = new System.Drawing.Point(241, 181);
+            this.txtRg.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtRg.Location = new System.Drawing.Point(273, 181);
             this.txtRg.Name = "txtRg";
             this.txtRg.Size = new System.Drawing.Size(203, 20);
             this.txtRg.TabIndex = 4;
@@ -193,16 +216,19 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.DarkRed;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label12.Location = new System.Drawing.Point(52, 138);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(31, 16);
+            this.label12.Size = new System.Drawing.Size(37, 16);
             this.label12.TabIndex = 132;
-            this.label12.Text = "Cpf";
+            this.label12.Text = "CPF";
             // 
             // txtNomeDoJogador
             // 
-            this.txtNomeDoJogador.Location = new System.Drawing.Point(241, 48);
+            this.txtNomeDoJogador.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtNomeDoJogador.Location = new System.Drawing.Point(273, 48);
             this.txtNomeDoJogador.Name = "txtNomeDoJogador";
             this.txtNomeDoJogador.Size = new System.Drawing.Size(203, 20);
             this.txtNomeDoJogador.TabIndex = 1;
@@ -213,11 +239,13 @@
             this.button3.BackColor = System.Drawing.Color.DarkRed;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(737, 448);
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.Location = new System.Drawing.Point(728, 448);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 55);
+            this.button3.Size = new System.Drawing.Size(139, 55);
             this.button3.TabIndex = 130;
-            this.button3.Text = "Salvar";
+            this.button3.Text = "SALVAR";
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -226,11 +254,13 @@
             this.button2.BackColor = System.Drawing.Color.DarkRed;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(589, 448);
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Location = new System.Drawing.Point(577, 448);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 55);
+            this.button2.Size = new System.Drawing.Size(139, 55);
             this.button2.TabIndex = 129;
-            this.button2.Text = "Cancelar";
+            this.button2.Text = "CANCELAR";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -239,109 +269,139 @@
             this.button1.BackColor = System.Drawing.Color.DarkRed;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(174, 448);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(318, 448);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 55);
+            this.button1.Size = new System.Drawing.Size(158, 55);
             this.button1.TabIndex = 128;
-            this.button1.Text = "Listar Jogadores";
+            this.button1.Text = "LISTAR JOGADORES";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.DarkRed;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label11.Location = new System.Drawing.Point(52, 99);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(146, 16);
+            this.label11.Size = new System.Drawing.Size(177, 16);
             this.label11.TabIndex = 127;
-            this.label11.Text = "Data de nascimento";
+            this.label11.Text = "DATA DE NASCIMENTO";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.DarkRed;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label8.Location = new System.Drawing.Point(500, 125);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(57, 16);
+            this.label8.Size = new System.Drawing.Size(70, 16);
             this.label8.TabIndex = 126;
-            this.label8.Text = "Estado";
+            this.label8.Text = "ESTADO";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.DarkRed;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label9.Location = new System.Drawing.Point(500, 68);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(123, 16);
+            this.label9.Size = new System.Drawing.Size(110, 16);
             this.label9.TabIndex = 125;
-            this.label9.Text = "Nome da equipe";
+            this.label9.Text = "NOME DO CLÃ";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.DarkRed;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(52, 379);
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label6.Location = new System.Drawing.Point(83, 355);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(52, 16);
+            this.label6.Size = new System.Drawing.Size(57, 16);
             this.label6.TabIndex = 124;
-            this.label6.Text = "E-mail";
+            this.label6.Text = "E-MAIL";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.DarkRed;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(52, 274);
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label5.Location = new System.Drawing.Point(83, 285);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(178, 16);
+            this.label5.Size = new System.Drawing.Size(215, 16);
             this.label5.TabIndex = 123;
-            this.label5.Text = "Telefone de emergencia";
+            this.label5.Text = "TELEFONE DE EMERGENCIA";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.DarkRed;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label4.Location = new System.Drawing.Point(52, 231);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 16);
+            this.label4.Size = new System.Drawing.Size(87, 16);
             this.label4.TabIndex = 122;
-            this.label4.Text = "Telefone";
+            this.label4.Text = "TELEFONE";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.DarkRed;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label3.Location = new System.Drawing.Point(52, 185);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 16);
+            this.label3.Size = new System.Drawing.Size(30, 16);
             this.label3.TabIndex = 121;
-            this.label3.Text = "Rg";
+            this.label3.Text = "RG";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.DarkRed;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(450, 275);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(512, 285);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 16);
+            this.label2.Size = new System.Drawing.Size(93, 16);
             this.label2.TabIndex = 120;
-            this.label2.Text = "Falar com";
+            this.label2.Text = "FALAR COM";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.DarkRed;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(52, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 16);
+            this.label1.Size = new System.Drawing.Size(155, 16);
             this.label1.TabIndex = 119;
-            this.label1.Text = "Nome do jogador";
+            this.label1.Text = "NOME DO JOGADOR";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(80, 389);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(149, 114);
+            this.pictureBox1.TabIndex = 140;
+            this.pictureBox1.TabStop = false;
             // 
             // CadastroJogador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(909, 511);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cbCidade);
             this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.txtNumeroCasa);
@@ -375,6 +435,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastroJogador";
             this.Load += new System.EventHandler(this.CadastroJogador_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -411,5 +472,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

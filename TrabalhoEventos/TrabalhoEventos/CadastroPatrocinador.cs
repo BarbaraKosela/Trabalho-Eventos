@@ -29,7 +29,7 @@ namespace SistemaJogadores
             this.LinhaSeelecionada = LinhaSeelecionada;
         }
 
-        public void CadastrarPatrocinador()
+        public void CadastrarPatrocinador(CJogador cjogador, int posicao)
         {
             InitializeComponent();
             this.posicao = posicao;

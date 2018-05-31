@@ -38,12 +38,12 @@ namespace SistemaJogadores
             for (int i = 0; i < Program.atendimentoAoJogador.Count; i++)
             {
                 string busca = dgvListarAtendimento.Text.ToLower();
-                AtendimentoJogador cadastroConvidados = Program.atendimentoAoJogador[i];
-                if (cadastroConvidados.EmailNecessarioAtendimento.Contains(busca))
+                AtendimentoJogador cadastroAtendimento = Program.atendimentoAoJogador[i];
+                if (cadastroAtendimento.EmailNecessarioAtendimento.Contains(busca))
                 {
                     dgvListarAtendimento.Rows.Add(new object[]{
 
-                    cadastroConvidados.EmailNecessarioAtendimento, cadastroConvidados.Responsabilidade, cadastroConvidados.AtenderPorVez, cadastroConvidados.EquipeColaboradora
+                    cadastroAtendimento.EmailNecessarioAtendimento, cadastroAtendimento.Responsabilidade, cadastroAtendimento.AtenderPorVez, cadastroAtendimento.EquipeColaboradora
                     });
                 } 
             }
@@ -58,9 +58,54 @@ namespace SistemaJogadores
             }
 
             int linhaSelecionada = dgvListarAtendimento.CurrentRow.Index;
-            Convidados cadastroConvidados = Program.cadastroDeConvidados[linhaSelecionada];
-            new SistemaCadastrarConvidados(cadastroConvidados, linhaSelecionada).ShowDialog();
+            AtendimentoJogador cadastroAtendimento = Program.atendimentoAoJogador[linhaSelecionada];
+            new SistemaCadastrarAtendimentoAoJogador(cadastroAtendimento, linhaSelecionada).ShowDialog();
         }
+
+        private void btnApagarAtendimento_Click(object sender, EventArgs e)
+        {
+            if (dgvListarAtendimento.CurrentRow == null)
+            {
+                MessageBox.Show("Não há atendimento selecionado");
+                return;
+            }
+
+            int linhaSelecionada = dgvListarAtendimento.CurrentRow.Index;
+            AtendimentoJogador cadastroAtendimento = Program.atendimentoAoJogador[linhaSelecionada];
+            DialogResult resultado = MessageBox.Show("Deseja mesmo apagar o atendimento de " + cadastroAtendimento.EmailNecessarioAtendimento + " ?", "AVISO!", MessageBoxButtons.YesNo);
+            if (resultado == DialogResult.Yes)
+            {
+                Program.atendimentoAoJogador.RemoveAt(linhaSelecionada);
+                AtualizarLista();
+                MessageBox.Show("Seu registro de atendimento foi apagado com sucesso");
+
+            }
+
+            else
+            {
+                MessageBox.Show("Seu registro de atendimento está salvo");
+            }
+        }
+
+        private void ListarAtendimentoJogador_Activated(object sender, EventArgs e)
+        {
+            AtualizarLista();
+        }
+
+        private void txtBuscaEquipamentos_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                AtualizarLista();
+            }
+        }
+
+        private void txtBuscaEquipamentos_Leave(object sender, EventArgs e)
+        {
+            AtualizarLista();
+        }
+
+
 
 
 

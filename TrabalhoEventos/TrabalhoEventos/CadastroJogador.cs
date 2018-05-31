@@ -12,11 +12,34 @@ namespace SistemaJogadores
 {
     public partial class CadastroJogador : Form
     {
+        public int posicao;
+        public CJogador cjogador;
+
         public CadastroJogador()
         {
             InitializeComponent();
         }
 
+        public CadastroJogador(CJogador cjogador, int posicao)
+        {
+            InitializeComponent();
+            this.posicao = posicao;
+
+            txtNomeDoJogador.Text = cjogador.NomeJogador;
+            mtbDataNascimento.Text =  cjogador.DataNascimento;
+            mtbCpf.Text = cjogador.Cpf;
+            txtRg.Text = cjogador.Rg;
+            txtTelefone.Text = cjogador.Telefone;
+            txtTelefoneEmergencia.Text = cjogador.TelefoneEmergencia;
+            txtFalarCom.Text =  cjogador.FalarCom;
+            txtEndereco.Text = cjogador.Endereco;
+            txtNumeroCasa.Text = Convert.ToString(cjogador.NumeroCasa);
+            txtEmail.Text =  cjogador.Email;
+            cbNomeCla.SelectedItem = cjogador.NomeEquipe;
+            cbEstado.SelectedItem = cjogador.Estado;
+            cbCidade.SelectedItem = cjogador.Cidade;
+
+        }
         private void txtNomeDoJogo_TextChanged(object sender, EventArgs e)
         {
 
@@ -71,10 +94,10 @@ namespace SistemaJogadores
                 txtEmail.Focus();
                 return;
             }
-            if (cbNomeEquipe.SelectedIndex < 0)
+            if (cbNomeCla.SelectedIndex < 0)
             {
                 MessageBox.Show("Selecione a equipe que você e integrante !!");
-                cbNomeEquipe.Focus();
+                cbNomeCla.Focus();
                 return;
             }
             if (cbEstado.SelectedIndex < 0)
@@ -89,13 +112,83 @@ namespace SistemaJogadores
                 cbCidade.Focus();
                 return;
             }
-                
-            
+
+            CJogador cjogador = new CJogador()
+            {
+                NomeJogador = txtNomeDoJogador.Text,
+                DataNascimento = mtbDataNascimento.Text,
+                Cpf = mtbCpf.Text,
+                Rg = txtRg.Text,
+                Telefone = txtTelefone.Text,
+                TelefoneEmergencia = txtTelefoneEmergencia.Text,
+                FalarCom = txtFalarCom.Text,
+                Endereco = txtEndereco.Text,
+                NumeroCasa = Convert.ToInt32(txtNumeroCasa.Text),
+                Email = txtEmail.Text,
+                NomeEquipe = cbNomeCla.SelectedItem.ToString(),
+                Estado = cbEstado.SelectedItem.ToString(),
+                Cidade = cbCidade.SelectedItem.ToString()
+            };
+
+
+            if (posicao >= 0)
+            {
+                Program.cjogadores[posicao] = cjogador;
+                MessageBox.Show("Cadastro realizado com sucesso !!");
+                LimparCampos();
+
+            }
+            else
+            {
+                Program.cjogadores.Add(cjogador);
+                MessageBox.Show("Cadastro realizado com sucesso !!");
+                LimparCampos();
+            }
+
+        }
+
+        public void LimparCampos()
+        {
+            txtNomeDoJogador.Text = "";
+            mtbDataNascimento.Text = "";
+            mtbCpf.Text = "";
+            txtRg.Text = "";
+            txtTelefone.Text = "";
+            txtTelefoneEmergencia.Text = "";
+            txtFalarCom.Text = "";
+            txtEndereco.Text = "";
+            txtNumeroCasa.Text = "";
+            txtEmail.Text = "";
+            cbNomeCla.SelectedIndex = -1;
+            cbEstado.SelectedIndex = -1;
+            cbCidade.SelectedIndex = -1;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            new ListaCCJogador().ShowDialog();
+        }
 
+        private void CadastroJogador_Load(object sender, EventArgs e)
+        {
+
+            /*
+             * 
+             * 
+            CEquipes cequipe = new CEquipes();
+            Program.cequipes[posicao] = cequipe;
+
+
+            cbNomeCla.Items.Insert(0,  cequipe.NomeDaEquipe);
+            cbNomeCla.Items.Insert(1, "Eduardo");
+             */
+           
+        }
+
+        private void cbNomeEquipe_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

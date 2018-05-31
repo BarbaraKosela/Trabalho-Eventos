@@ -249,6 +249,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "ListaFuncAlimentação";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListaFuncAlimentação";
             ((System.ComponentModel.ISupportInitialize)(this.dvgFuncAlim)).EndInit();
             this.ResumeLayout(false);

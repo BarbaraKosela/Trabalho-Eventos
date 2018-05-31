@@ -22,7 +22,7 @@ namespace SistemaJogadores
         public SistemaCadastrarAtendimentoAoJogador(AtendimentoJogador cadastroAtendimento, int posicao)
         {
             InitializeComponent();
-            this.posicao3 = posicao;
+            this.posicao3 = posicao3;
             cbAtendimentoNumero.SelectedItem = cadastroAtendimento.AtenderPorVez;
             cbResponsavelPor.SelectedItem = cadastroAtendimento.Responsabilidade;
             txtNomeJogoAtual.Text = cadastroAtendimento.NomeAtuarJogo;

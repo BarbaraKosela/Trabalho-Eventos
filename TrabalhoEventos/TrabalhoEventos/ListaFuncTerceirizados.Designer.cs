@@ -221,6 +221,7 @@
             this.Controls.Add(this.dvgFuncTerceirizados);
             this.Controls.Add(this.label1);
             this.Name = "ListaFuncTerceirizados";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListaFuncTerceirizados";
             this.Load += new System.EventHandler(this.ListaFuncTerceirizados_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgFuncTerceirizados)).EndInit();

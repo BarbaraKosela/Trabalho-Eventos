@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListarEquipamentoConvidado));
             this.dgvListarEquipamento = new System.Windows.Forms.DataGridView();
+            this.ColumnEquipamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnAcompanhamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnNumeroCracha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtBuscaEquipamentos = new System.Windows.Forms.TextBox();
             this.btnEditarConvidado2 = new System.Windows.Forms.Button();
             this.btnAtualizarConvidado2 = new System.Windows.Forms.Button();
@@ -37,10 +41,6 @@
             this.btnApagarConvidado2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.ColumnEquipamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnAcompanhamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnNumeroCracha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListarEquipamento)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,6 +59,34 @@
             this.dgvListarEquipamento.ReadOnly = true;
             this.dgvListarEquipamento.Size = new System.Drawing.Size(863, 347);
             this.dgvListarEquipamento.TabIndex = 47;
+            // 
+            // ColumnEquipamento
+            // 
+            this.ColumnEquipamento.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnEquipamento.HeaderText = "Equipamento solicitado";
+            this.ColumnEquipamento.Name = "ColumnEquipamento";
+            this.ColumnEquipamento.ReadOnly = true;
+            // 
+            // ColumnEmail
+            // 
+            this.ColumnEmail.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnEmail.HeaderText = "E-mail";
+            this.ColumnEmail.Name = "ColumnEmail";
+            this.ColumnEmail.ReadOnly = true;
+            // 
+            // ColumnAcompanhamento
+            // 
+            this.ColumnAcompanhamento.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnAcompanhamento.HeaderText = "Acompanhamento";
+            this.ColumnAcompanhamento.Name = "ColumnAcompanhamento";
+            this.ColumnAcompanhamento.ReadOnly = true;
+            // 
+            // ColumnNumeroCracha
+            // 
+            this.ColumnNumeroCracha.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnNumeroCracha.HeaderText = "Número do crachá";
+            this.ColumnNumeroCracha.Name = "ColumnNumeroCracha";
+            this.ColumnNumeroCracha.ReadOnly = true;
             // 
             // txtBuscaEquipamentos
             // 
@@ -159,34 +187,6 @@
             this.label14.TabIndex = 40;
             this.label14.Text = "LISTAGEM DE EQUIPAMENTO:";
             // 
-            // ColumnEquipamento
-            // 
-            this.ColumnEquipamento.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnEquipamento.HeaderText = "Equipamento solicitado";
-            this.ColumnEquipamento.Name = "ColumnEquipamento";
-            this.ColumnEquipamento.ReadOnly = true;
-            // 
-            // ColumnEmail
-            // 
-            this.ColumnEmail.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnEmail.HeaderText = "E-mail";
-            this.ColumnEmail.Name = "ColumnEmail";
-            this.ColumnEmail.ReadOnly = true;
-            // 
-            // ColumnAcompanhamento
-            // 
-            this.ColumnAcompanhamento.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnAcompanhamento.HeaderText = "Acompanhamento";
-            this.ColumnAcompanhamento.Name = "ColumnAcompanhamento";
-            this.ColumnAcompanhamento.ReadOnly = true;
-            // 
-            // ColumnNumeroCracha
-            // 
-            this.ColumnNumeroCracha.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ColumnNumeroCracha.HeaderText = "Número do crachá";
-            this.ColumnNumeroCracha.Name = "ColumnNumeroCracha";
-            this.ColumnNumeroCracha.ReadOnly = true;
-            // 
             // ListarEquipamentoConvidado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -201,6 +201,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label14);
             this.Name = "ListarEquipamentoConvidado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Listar Equipamento Convidado";
             this.Activated += new System.EventHandler(this.ListarEquipamentoConvidado_Activated);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListarEquipamento)).EndInit();

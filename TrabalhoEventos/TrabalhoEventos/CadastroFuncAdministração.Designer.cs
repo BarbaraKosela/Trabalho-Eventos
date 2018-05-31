@@ -668,6 +668,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "CadastroFuncAdministração";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Funcionário Setor de  Administração";
             this.Load += new System.EventHandler(this.CadastroFuncAdministração_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nupIdade)).EndInit();

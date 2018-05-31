@@ -55,17 +55,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(57, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(296, 22);
+            this.label1.Size = new System.Drawing.Size(297, 24);
             this.label1.TabIndex = 22;
             this.label1.Text = "ESCOLHA UMA DAS OPÇÕES";
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.DarkRed;
-            this.button6.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button6.Location = new System.Drawing.Point(170, 427);
             this.button6.Name = "button6";
@@ -73,15 +73,16 @@
             this.button6.TabIndex = 21;
             this.button6.Text = "VOLTAR A PÁGINA PRINCIPAL";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.DarkRed;
-            this.button5.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(78, 147);
+            this.button5.Location = new System.Drawing.Point(83, 205);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(236, 52);
+            this.button5.Size = new System.Drawing.Size(313, 52);
             this.button5.TabIndex = 20;
             this.button5.Text = "CADASTRO DE UM JOGADOR";
             this.button5.UseVisualStyleBackColor = false;
@@ -90,24 +91,24 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.DarkRed;
-            this.button4.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(78, 205);
+            this.button4.Location = new System.Drawing.Point(78, 147);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(236, 65);
+            this.button4.Size = new System.Drawing.Size(313, 52);
             this.button4.TabIndex = 19;
-            this.button4.Text = "CADASTRO DE UMA EQUIPE";
+            this.button4.Text = "CADASTRO DE UM ClÃ";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.DarkRed;
-            this.button3.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(78, 276);
+            this.button3.Location = new System.Drawing.Point(78, 263);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(236, 64);
+            this.button3.Size = new System.Drawing.Size(313, 52);
             this.button3.TabIndex = 18;
             this.button3.Text = "CADASTRO DE UM PATROCINADOR";
             this.button3.UseVisualStyleBackColor = false;
@@ -116,11 +117,11 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.DarkRed;
-            this.button2.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(78, 346);
+            this.button2.Location = new System.Drawing.Point(78, 321);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(236, 52);
+            this.button2.Size = new System.Drawing.Size(318, 52);
             this.button2.TabIndex = 17;
             this.button2.Text = "ESTATÍSTICAS";
             this.button2.UseVisualStyleBackColor = false;
@@ -128,11 +129,11 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkRed;
-            this.button1.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(78, 86);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(236, 55);
+            this.button1.Size = new System.Drawing.Size(313, 55);
             this.button1.TabIndex = 16;
             this.button1.Text = "CADASTRO DE CAMPEONATO";
             this.button1.UseVisualStyleBackColor = false;
@@ -155,6 +156,7 @@
             this.Name = "CadastrarJogadores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastrarJogadores";
+            this.Load += new System.EventHandler(this.CadastrarJogadores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

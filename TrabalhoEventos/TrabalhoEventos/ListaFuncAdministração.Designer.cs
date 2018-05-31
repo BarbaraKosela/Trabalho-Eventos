@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListaFuncAdministração));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtBuscaAdmin = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnReturn = new System.Windows.Forms.Button();
             this.btnAtualizar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dvgFuncAdmin = new System.Windows.Forms.DataGridView();
             this.Cnome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Carea = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,15 +48,15 @@
             this.Ctelefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Csalario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Crg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgFuncAdmin)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtBuscaAdmin
             // 
-            this.textBox1.Location = new System.Drawing.Point(66, 8);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(778, 20);
-            this.textBox1.TabIndex = 24;
+            this.txtBuscaAdmin.Location = new System.Drawing.Point(66, 8);
+            this.txtBuscaAdmin.Name = "txtBuscaAdmin";
+            this.txtBuscaAdmin.Size = new System.Drawing.Size(778, 20);
+            this.txtBuscaAdmin.TabIndex = 24;
             // 
             // label2
             // 
@@ -96,6 +96,7 @@
             this.btnAtualizar.Text = "Atualizar";
             this.btnAtualizar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAtualizar.UseVisualStyleBackColor = false;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
             // btnExcluir
             // 
@@ -125,6 +126,7 @@
             this.btnEditar.Text = "Editar";
             this.btnEditar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // label1
             // 
@@ -136,12 +138,12 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "Lista de Funcionários Administração:";
             // 
-            // dataGridView1
+            // dvgFuncAdmin
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dvgFuncAdmin.AllowUserToAddRows = false;
+            this.dvgFuncAdmin.AllowUserToDeleteRows = false;
+            this.dvgFuncAdmin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dvgFuncAdmin.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Cnome,
             this.Carea,
             this.Cidade,
@@ -153,11 +155,11 @@
             this.Ctelefone,
             this.Csalario,
             this.Crg});
-            this.dataGridView1.Location = new System.Drawing.Point(14, 76);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(831, 379);
-            this.dataGridView1.TabIndex = 25;
+            this.dvgFuncAdmin.Location = new System.Drawing.Point(14, 76);
+            this.dvgFuncAdmin.Name = "dvgFuncAdmin";
+            this.dvgFuncAdmin.ReadOnly = true;
+            this.dvgFuncAdmin.Size = new System.Drawing.Size(831, 379);
+            this.dvgFuncAdmin.TabIndex = 25;
             // 
             // Cnome
             // 
@@ -230,8 +232,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(857, 461);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.dvgFuncAdmin);
+            this.Controls.Add(this.txtBuscaAdmin);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.btnAtualizar);
@@ -241,7 +243,7 @@
             this.Name = "ListaFuncAdministração";
             this.Text = "ListaFuncAdministração";
             this.Load += new System.EventHandler(this.ListaFuncAdministração_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgFuncAdmin)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -249,14 +251,14 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtBuscaAdmin;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnReturn;
         private System.Windows.Forms.Button btnAtualizar;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dvgFuncAdmin;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cnome;
         private System.Windows.Forms.DataGridViewTextBoxColumn Carea;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cidade;

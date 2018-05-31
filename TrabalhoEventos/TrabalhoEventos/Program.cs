@@ -22,7 +22,7 @@ namespace SistemaJogadores
         public static List<CCampeonato> ccampeonatos = new List<CCampeonato>();
         public static List<CEquipes> cequipes = new List<CEquipes>();
         public static List<CJogador> cjogadores = new List<CJogador>();
-        public static List<CPatrocinador> cjogador = new List<CPatrocinador>();
+        public static List<CPatrocinador> cpatrocinadores = new List<CPatrocinador>();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

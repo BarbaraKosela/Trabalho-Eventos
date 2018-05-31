@@ -153,7 +153,6 @@ C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\Trabalho
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.AngryNerds.resources
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastrarConvidados.resources
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastrarEquipamento.resources
-C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.CadastrarEquipes.resources
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastrarJogadores.resources
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroCampeonato.resources
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroEquipe.resources
@@ -181,3 +180,4 @@ C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\Trabalho
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.SistemaFuncionario.resources
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.csproj.GenerateResource.Cache
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCCJogador.resources
+C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroPatrocinador.resources

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaJogadores
 {
-    class CPatrocinador
+    public class CPatrocinador
     {
         public string NomeDoPatrocinador;
         public string Telefone;

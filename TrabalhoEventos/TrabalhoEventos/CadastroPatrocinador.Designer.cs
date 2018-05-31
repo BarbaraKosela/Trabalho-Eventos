@@ -30,9 +30,6 @@
         {
             this.cbTipoPatrocinio = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.cbCidade = new System.Windows.Forms.ComboBox();
-            this.cbEstado = new System.Windows.Forms.ComboBox();
-            this.mtbTelefone = new System.Windows.Forms.MaskedTextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.mtbCpf = new System.Windows.Forms.MaskedTextBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -45,6 +42,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.cbEquipeSendoPatrocinada = new System.Windows.Forms.ComboBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
+            this.txtEstado = new System.Windows.Forms.TextBox();
+            this.txtCidade = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // cbTipoPatrocinio
@@ -71,42 +71,6 @@
             this.label2.Size = new System.Drawing.Size(144, 18);
             this.label2.TabIndex = 165;
             this.label2.Text = "Tipo de patrocinio";
-            // 
-            // cbCidade
-            // 
-            this.cbCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbCidade.FormattingEnabled = true;
-            this.cbCidade.Items.AddRange(new object[] {
-            "Sex",
-            "Sab",
-            "Dom"});
-            this.cbCidade.Location = new System.Drawing.Point(204, 324);
-            this.cbCidade.Name = "cbCidade";
-            this.cbCidade.Size = new System.Drawing.Size(203, 26);
-            this.cbCidade.TabIndex = 164;
-            this.cbCidade.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
-            // 
-            // cbEstado
-            // 
-            this.cbEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbEstado.FormattingEnabled = true;
-            this.cbEstado.Items.AddRange(new object[] {
-            "Sex",
-            "Sab",
-            "Dom"});
-            this.cbEstado.Location = new System.Drawing.Point(204, 259);
-            this.cbEstado.Name = "cbEstado";
-            this.cbEstado.Size = new System.Drawing.Size(203, 26);
-            this.cbEstado.TabIndex = 163;
-            // 
-            // mtbTelefone
-            // 
-            this.mtbTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mtbTelefone.Location = new System.Drawing.Point(204, 145);
-            this.mtbTelefone.Mask = "99/99/99";
-            this.mtbTelefone.Name = "mtbTelefone";
-            this.mtbTelefone.Size = new System.Drawing.Size(203, 24);
-            this.mtbTelefone.TabIndex = 162;
             // 
             // label7
             // 
@@ -183,6 +147,7 @@
             this.button1.TabIndex = 154;
             this.button1.Text = "Listar de patrocinadores";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label11
             // 
@@ -239,17 +204,41 @@
             this.cbEquipeSendoPatrocinada.Size = new System.Drawing.Size(217, 26);
             this.cbEquipeSendoPatrocinada.TabIndex = 167;
             // 
+            // txtTelefone
+            // 
+            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.Location = new System.Drawing.Point(204, 145);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(203, 24);
+            this.txtTelefone.TabIndex = 168;
+            // 
+            // txtEstado
+            // 
+            this.txtEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEstado.Location = new System.Drawing.Point(204, 261);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.Size = new System.Drawing.Size(203, 24);
+            this.txtEstado.TabIndex = 169;
+            // 
+            // txtCidade
+            // 
+            this.txtCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCidade.Location = new System.Drawing.Point(204, 326);
+            this.txtCidade.Name = "txtCidade";
+            this.txtCidade.Size = new System.Drawing.Size(203, 24);
+            this.txtCidade.TabIndex = 170;
+            // 
             // CadastroPatrocinador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(909, 511);
+            this.Controls.Add(this.txtCidade);
+            this.Controls.Add(this.txtEstado);
+            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.cbEquipeSendoPatrocinada);
             this.Controls.Add(this.cbTipoPatrocinio);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.cbCidade);
-            this.Controls.Add(this.cbEstado);
-            this.Controls.Add(this.mtbTelefone);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.mtbCpf);
             this.Controls.Add(this.label12);
@@ -274,9 +263,6 @@
 
         private System.Windows.Forms.ComboBox cbTipoPatrocinio;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cbCidade;
-        private System.Windows.Forms.ComboBox cbEstado;
-        private System.Windows.Forms.MaskedTextBox mtbTelefone;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.MaskedTextBox mtbCpf;
         private System.Windows.Forms.Label label12;
@@ -289,5 +275,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbEquipeSendoPatrocinada;
+        private System.Windows.Forms.TextBox txtTelefone;
+        private System.Windows.Forms.TextBox txtEstado;
+        private System.Windows.Forms.TextBox txtCidade;
     }
 }

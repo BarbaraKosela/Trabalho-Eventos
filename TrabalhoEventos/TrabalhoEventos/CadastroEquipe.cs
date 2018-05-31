@@ -79,10 +79,10 @@ namespace SistemaJogadores
                 txtNomeJogo.Focus();
                 return;
             }
-            if (cbCla.SelectedIndex <= 0)
+
+            if (txtFraseCla.Text.Length < 10)
             {
-                MessageBox.Show("Selecione um clã !!");
-                cbCla.Focus();
+                MessageBox.Show("Frase deve conter no minimo 10 caracteres !!");
                 return;
             }
             if ((rbSim.Checked == false) && (rbNao.Checked == false))
@@ -120,7 +120,7 @@ namespace SistemaJogadores
                 CpfLider = mtbCpf.Text,
                 TelefoneLider = txtTelefone.Text,
                 NomeJogo = txtNomeJogo.Text,
-                Cla = cbCla.SelectedItem.ToString(),
+                FraseCla = txtFraseCla.Text,
                 ParticipouDoJogo = rbSim.Checked,
                 GeneroJogo = cbGeneroJogo.SelectedItem.ToString(),
                 QuantidadeIntegrantes = Convert.ToInt32(mtbQuantidadeintegrantes.Text),
@@ -152,11 +152,16 @@ namespace SistemaJogadores
                 mtbCpf.Text = "";
                 txtTelefone.Text = "";
                 txtNomeJogo.Text = "";
-                cbCla.SelectedIndex = -1;
+                txtFraseCla.Text = "";
                 rbSim.Checked = false;
                 cbGeneroJogo.SelectedIndex = -1;
                 mtbQuantidadeintegrantes.Text = "";
                 txtFraseTaca.Text = "";
+        }
+
+        private void txtFraseCla_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

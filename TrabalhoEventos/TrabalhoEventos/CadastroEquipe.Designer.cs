@@ -41,7 +41,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.mtbQuantidadeintegrantes = new System.Windows.Forms.MaskedTextBox();
-            this.cbCla = new System.Windows.Forms.ComboBox();
             this.txtNomeDaEquipe = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -56,6 +55,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtFraseCla = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtTelefone
@@ -69,7 +69,7 @@
             // 
             this.rbNao.AutoSize = true;
             this.rbNao.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbNao.Location = new System.Drawing.Point(277, 393);
+            this.rbNao.Location = new System.Drawing.Point(268, 414);
             this.rbNao.Name = "rbNao";
             this.rbNao.Size = new System.Drawing.Size(63, 28);
             this.rbNao.TabIndex = 10;
@@ -81,7 +81,7 @@
             // 
             this.rbSim.AutoSize = true;
             this.rbSim.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbSim.Location = new System.Drawing.Point(141, 393);
+            this.rbSim.Location = new System.Drawing.Point(130, 414);
             this.rbSim.Name = "rbSim";
             this.rbSim.Size = new System.Drawing.Size(60, 28);
             this.rbSim.TabIndex = 9;
@@ -179,7 +179,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(52, 352);
+            this.label13.Location = new System.Drawing.Point(47, 377);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(392, 16);
             this.label13.TabIndex = 100;
@@ -202,23 +202,6 @@
             this.mtbQuantidadeintegrantes.Name = "mtbQuantidadeintegrantes";
             this.mtbQuantidadeintegrantes.Size = new System.Drawing.Size(41, 20);
             this.mtbQuantidadeintegrantes.TabIndex = 12;
-            // 
-            // cbCla
-            // 
-            this.cbCla.FormattingEnabled = true;
-            this.cbCla.Items.AddRange(new object[] {
-            "08 : 00",
-            "10 : 00",
-            "13: 00",
-            "15: 00",
-            "17: 00",
-            "19: 30",
-            "21: 00",
-            "22: 00"});
-            this.cbCla.Location = new System.Drawing.Point(236, 292);
-            this.cbCla.Name = "cbCla";
-            this.cbCla.Size = new System.Drawing.Size(203, 21);
-            this.cbCla.TabIndex = 8;
             // 
             // txtNomeDaEquipe
             // 
@@ -353,9 +336,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(52, 297);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 16);
+            this.label2.Size = new System.Drawing.Size(150, 16);
             this.label2.TabIndex = 84;
-            this.label2.Text = "Clã";
+            this.label2.Text = "Frase  de guerra Clã";
             // 
             // label1
             // 
@@ -363,15 +346,25 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(47, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 16);
+            this.label1.Size = new System.Drawing.Size(96, 16);
             this.label1.TabIndex = 83;
-            this.label1.Text = "Nome da equipe";
+            this.label1.Text = "Nome do clã";
+            // 
+            // txtFraseCla
+            // 
+            this.txtFraseCla.Location = new System.Drawing.Point(236, 293);
+            this.txtFraseCla.Multiline = true;
+            this.txtFraseCla.Name = "txtFraseCla";
+            this.txtFraseCla.Size = new System.Drawing.Size(203, 56);
+            this.txtFraseCla.TabIndex = 101;
+            this.txtFraseCla.TextChanged += new System.EventHandler(this.txtFraseCla_TextChanged);
             // 
             // CadastroEquipe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(909, 511);
+            this.Controls.Add(this.txtFraseCla);
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.rbNao);
             this.Controls.Add(this.rbSim);
@@ -385,7 +378,6 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.mtbQuantidadeintegrantes);
-            this.Controls.Add(this.cbCla);
             this.Controls.Add(this.txtNomeDaEquipe);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -402,7 +394,7 @@
             this.Controls.Add(this.label1);
             this.Name = "CadastroEquipe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CadastroEquipe";
+            this.Text = "Cadastro de um clã";
             this.Load += new System.EventHandler(this.CadastroEquipe_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -424,7 +416,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.MaskedTextBox mtbQuantidadeintegrantes;
-        private System.Windows.Forms.ComboBox cbCla;
         private System.Windows.Forms.TextBox txtNomeDaEquipe;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
@@ -439,5 +430,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtFraseCla;
     }
 }

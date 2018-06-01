@@ -13,6 +13,7 @@ namespace SistemaJogadores
 {
     public partial class CadastroCampeonato : Form
     {
+        
         public CCampeonato ccampeonato;
         public int posicao = -1;
 
@@ -21,6 +22,7 @@ namespace SistemaJogadores
             InitializeComponent();
         }
 
+        
         public CadastroCampeonato(CCampeonato ccampeonato, int posicao)
         {
             InitializeComponent();
@@ -40,6 +42,11 @@ namespace SistemaJogadores
             mtbTaxaEquipe.Text = Convert.ToString(ccampeonato.taxaEquipe);
         }
 
+        public void NomeC()
+        {
+            
+
+        }
         private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -64,16 +71,6 @@ namespace SistemaJogadores
         private void button3_Click(object sender, EventArgs e)
         {
 
-            try
-            {
-                int QuantidadeEquipe = Convert.ToInt32(txtQuantidadeEquipesParticipar.Text);
-                txtQuantidadeEquipesParticipar.Focus();
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Digite um valor valido para a quantidade ");
-                return;
-            }
             if (txtNomeCampeonato.Text.Length <= 0)
             {
                 MessageBox.Show("Digite um nome para o campeonato !!");
@@ -82,7 +79,7 @@ namespace SistemaJogadores
             }
             if (txtNomeDoJogo.Text.Length < 4)
             {
-                MessageBox.Show("Nome deve conter mais que 4 carcteres !!");
+                MessageBox.Show("Nome do jogo deve conter mais que 4 carcteres !!");
                 txtNomeDoJogo.Focus();
                 return;
             }
@@ -124,13 +121,13 @@ namespace SistemaJogadores
             }
             if (mtbPremio2.Text.Length < 5)
             {
-                MessageBox.Show("Digite ao menos um valor para o 1° premio !!");
+                MessageBox.Show("Digite ao menos um valor para o 2° premio !!");
                 mtbPremio2.Focus();
                 return;
             }
             if (mtbPremio3.Text.Length < 5)
             {
-                MessageBox.Show("Digite ao menos um valor para o 1° premio !!");
+                MessageBox.Show("Digite ao menos um valor para o 3° premio !!");
                 mtbPremio3.Focus();
                 return;
             }
@@ -138,6 +135,18 @@ namespace SistemaJogadores
             {
                 MessageBox.Show("Selecione ao menos um nivel para o campeonato !!");
                 cbNivelCampeonato.Focus();
+                return;
+            }
+
+
+            try
+            {
+                int QuantidadeEquipe = Convert.ToInt32(txtQuantidadeEquipesParticipar.Text);
+                txtQuantidadeEquipesParticipar.Focus();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Digite um valor valido para a quantidade ");
                 return;
             }
             if (txtQuantidadeEquipesParticipar.Text.Length <  0)
@@ -169,8 +178,10 @@ namespace SistemaJogadores
                quantidadeEquipes = Convert.ToInt32(txtQuantidadeEquipesParticipar.Text),
                taxaEquipe = Convert.ToDouble(mtbTaxaEquipe.Text)
               
-
+               
             };
+
+           
 
             if (posicao >= 0)
             {

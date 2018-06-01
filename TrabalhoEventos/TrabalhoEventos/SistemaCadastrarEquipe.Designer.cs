@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SistemaCadastrarEquipe));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNomeEquipe = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.btnSalvarConvidado = new System.Windows.Forms.Button();
             this.btnCancelarConvidado = new System.Windows.Forms.Button();
-            this.cbSalaAtuarConvidado = new System.Windows.Forms.ComboBox();
+            this.cbFuncao = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,15 +47,16 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtSeuNome = new System.Windows.Forms.TextBox();
+            this.txtIdadePessoa = new System.Windows.Forms.TextBox();
+            this.txtRG = new System.Windows.Forms.TextBox();
+            this.txtCPF = new System.Windows.Forms.TextBox();
+            this.txtNomeCampeao = new System.Windows.Forms.TextBox();
+            this.txtNumeroCracha = new System.Windows.Forms.TextBox();
+            this.txtLiderDeEquipe = new System.Windows.Forms.TextBox();
+            this.txtEmailContato = new System.Windows.Forms.TextBox();
+            this.txtNumeroMembros = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -80,13 +81,13 @@
             this.pictureBox1.TabIndex = 94;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // txtNomeEquipe
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox1.Location = new System.Drawing.Point(193, 76);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(176, 20);
-            this.textBox1.TabIndex = 92;
+            this.txtNomeEquipe.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtNomeEquipe.Location = new System.Drawing.Point(193, 76);
+            this.txtNomeEquipe.Name = "txtNomeEquipe";
+            this.txtNomeEquipe.Size = new System.Drawing.Size(176, 20);
+            this.txtNomeEquipe.TabIndex = 92;
             // 
             // label14
             // 
@@ -114,6 +115,7 @@
             this.btnSalvarConvidado.Text = "SALVAR";
             this.btnSalvarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnSalvarConvidado.UseVisualStyleBackColor = false;
+            this.btnSalvarConvidado.Click += new System.EventHandler(this.btnSalvarConvidado_Click);
             // 
             // btnCancelarConvidado
             // 
@@ -129,20 +131,21 @@
             this.btnCancelarConvidado.Text = "CANCELAR";
             this.btnCancelarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnCancelarConvidado.UseVisualStyleBackColor = false;
+            this.btnCancelarConvidado.Click += new System.EventHandler(this.btnCancelarConvidado_Click);
             // 
-            // cbSalaAtuarConvidado
+            // cbFuncao
             // 
-            this.cbSalaAtuarConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.cbSalaAtuarConvidado.FormattingEnabled = true;
-            this.cbSalaAtuarConvidado.Items.AddRange(new object[] {
+            this.cbFuncao.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbFuncao.FormattingEnabled = true;
+            this.cbFuncao.Items.AddRange(new object[] {
             "Administrativa;",
             "Treinador;",
             "Financeira;",
             "Comercial;"});
-            this.cbSalaAtuarConvidado.Location = new System.Drawing.Point(116, 209);
-            this.cbSalaAtuarConvidado.Name = "cbSalaAtuarConvidado";
-            this.cbSalaAtuarConvidado.Size = new System.Drawing.Size(172, 21);
-            this.cbSalaAtuarConvidado.TabIndex = 88;
+            this.cbFuncao.Location = new System.Drawing.Point(116, 209);
+            this.cbFuncao.Name = "cbFuncao";
+            this.cbFuncao.Size = new System.Drawing.Size(172, 21);
+            this.cbFuncao.TabIndex = 88;
             // 
             // label1
             // 
@@ -276,77 +279,90 @@
             this.label11.TabIndex = 105;
             this.label11.Text = "NÚMERO DE MEMBROS:";
             // 
-            // textBox2
+            // txtSeuNome
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox2.Location = new System.Drawing.Point(143, 122);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(176, 20);
-            this.textBox2.TabIndex = 106;
+            this.txtSeuNome.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtSeuNome.Location = new System.Drawing.Point(143, 122);
+            this.txtSeuNome.Name = "txtSeuNome";
+            this.txtSeuNome.Size = new System.Drawing.Size(176, 20);
+            this.txtSeuNome.TabIndex = 106;
             // 
-            // textBox3
+            // txtIdadePessoa
             // 
-            this.textBox3.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox3.Location = new System.Drawing.Point(112, 164);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(176, 20);
-            this.textBox3.TabIndex = 107;
+            this.txtIdadePessoa.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtIdadePessoa.Location = new System.Drawing.Point(112, 164);
+            this.txtIdadePessoa.Name = "txtIdadePessoa";
+            this.txtIdadePessoa.Size = new System.Drawing.Size(176, 20);
+            this.txtIdadePessoa.TabIndex = 107;
             // 
-            // textBox4
+            // txtRG
             // 
-            this.textBox4.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox4.Location = new System.Drawing.Point(86, 252);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(176, 20);
-            this.textBox4.TabIndex = 108;
+            this.txtRG.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtRG.Location = new System.Drawing.Point(86, 252);
+            this.txtRG.Name = "txtRG";
+            this.txtRG.Size = new System.Drawing.Size(176, 20);
+            this.txtRG.TabIndex = 108;
             // 
-            // textBox5
+            // txtCPF
             // 
-            this.textBox5.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox5.Location = new System.Drawing.Point(86, 302);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(176, 20);
-            this.textBox5.TabIndex = 109;
+            this.txtCPF.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtCPF.Location = new System.Drawing.Point(86, 302);
+            this.txtCPF.Name = "txtCPF";
+            this.txtCPF.Size = new System.Drawing.Size(176, 20);
+            this.txtCPF.TabIndex = 109;
             // 
-            // textBox6
+            // txtNomeCampeao
             // 
-            this.textBox6.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox6.Location = new System.Drawing.Point(693, 79);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(176, 20);
-            this.textBox6.TabIndex = 110;
+            this.txtNomeCampeao.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtNomeCampeao.Location = new System.Drawing.Point(693, 79);
+            this.txtNomeCampeao.Name = "txtNomeCampeao";
+            this.txtNomeCampeao.Size = new System.Drawing.Size(176, 20);
+            this.txtNomeCampeao.TabIndex = 110;
             // 
-            // textBox7
+            // txtNumeroCracha
             // 
-            this.textBox7.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox7.Location = new System.Drawing.Point(579, 122);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(176, 20);
-            this.textBox7.TabIndex = 111;
+            this.txtNumeroCracha.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtNumeroCracha.Location = new System.Drawing.Point(579, 122);
+            this.txtNumeroCracha.Name = "txtNumeroCracha";
+            this.txtNumeroCracha.Size = new System.Drawing.Size(176, 20);
+            this.txtNumeroCracha.TabIndex = 111;
             // 
-            // textBox8
+            // txtLiderDeEquipe
             // 
-            this.textBox8.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox8.Location = new System.Drawing.Point(625, 164);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(176, 20);
-            this.textBox8.TabIndex = 112;
+            this.txtLiderDeEquipe.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtLiderDeEquipe.Location = new System.Drawing.Point(625, 164);
+            this.txtLiderDeEquipe.Name = "txtLiderDeEquipe";
+            this.txtLiderDeEquipe.Size = new System.Drawing.Size(176, 20);
+            this.txtLiderDeEquipe.TabIndex = 112;
             // 
-            // textBox9
+            // txtEmailContato
             // 
-            this.textBox9.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox9.Location = new System.Drawing.Point(593, 209);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(276, 20);
-            this.textBox9.TabIndex = 113;
+            this.txtEmailContato.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtEmailContato.Location = new System.Drawing.Point(593, 209);
+            this.txtEmailContato.Name = "txtEmailContato";
+            this.txtEmailContato.Size = new System.Drawing.Size(276, 20);
+            this.txtEmailContato.TabIndex = 113;
             // 
-            // textBox10
+            // txtNumeroMembros
             // 
-            this.textBox10.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBox10.Location = new System.Drawing.Point(593, 252);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(102, 20);
-            this.textBox10.TabIndex = 114;
+            this.txtNumeroMembros.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtNumeroMembros.Location = new System.Drawing.Point(593, 252);
+            this.txtNumeroMembros.Name = "txtNumeroMembros";
+            this.txtNumeroMembros.Size = new System.Drawing.Size(102, 20);
+            this.txtNumeroMembros.TabIndex = 114;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkRed;
+            this.button1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(402, 420);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 55);
+            this.button1.TabIndex = 115;
+            this.button1.Text = "LISTAR CADASTROS";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // SistemaCadastrarEquipe
             // 
@@ -354,15 +370,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(909, 511);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtNumeroMembros);
+            this.Controls.Add(this.txtEmailContato);
+            this.Controls.Add(this.txtLiderDeEquipe);
+            this.Controls.Add(this.txtNumeroCracha);
+            this.Controls.Add(this.txtNomeCampeao);
+            this.Controls.Add(this.txtCPF);
+            this.Controls.Add(this.txtRG);
+            this.Controls.Add(this.txtIdadePessoa);
+            this.Controls.Add(this.txtSeuNome);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -375,11 +392,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNomeEquipe);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.btnSalvarConvidado);
             this.Controls.Add(this.btnCancelarConvidado);
-            this.Controls.Add(this.cbSalaAtuarConvidado);
+            this.Controls.Add(this.cbFuncao);
             this.Controls.Add(this.label1);
             this.Name = "SistemaCadastrarEquipe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -395,11 +412,11 @@
 
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNomeEquipe;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button btnSalvarConvidado;
         private System.Windows.Forms.Button btnCancelarConvidado;
-        private System.Windows.Forms.ComboBox cbSalaAtuarConvidado;
+        private System.Windows.Forms.ComboBox cbFuncao;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -411,14 +428,15 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtSeuNome;
+        private System.Windows.Forms.TextBox txtIdadePessoa;
+        private System.Windows.Forms.TextBox txtRG;
+        private System.Windows.Forms.TextBox txtCPF;
+        private System.Windows.Forms.TextBox txtNomeCampeao;
+        private System.Windows.Forms.TextBox txtNumeroCracha;
+        private System.Windows.Forms.TextBox txtLiderDeEquipe;
+        private System.Windows.Forms.TextBox txtEmailContato;
+        private System.Windows.Forms.TextBox txtNumeroMembros;
+        private System.Windows.Forms.Button button1;
     }
 }

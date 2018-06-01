@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace SistemaJogadores
 {
-    public partial class CadastrarFuncionarios : Form
+    public partial class EstatisticaJogadoresAlan : Form
     {
-        public CadastrarFuncionarios()
+        public EstatisticaJogadoresAlan()
         {
             InitializeComponent();
+        }
+
+        private void EstatisticaJogadoresAlan_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

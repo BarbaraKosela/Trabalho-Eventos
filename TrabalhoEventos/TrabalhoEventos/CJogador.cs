@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrabalhoEventos
+namespace SistemaJogadores
 {
-    class CJogador
+    public class CJogador
     {
         public string NomeJogador;
         public string DataNascimento;

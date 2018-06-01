@@ -49,5 +49,51 @@ namespace SistemaJogadores
         {
             AtualizarLista();
         }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            if (dvgFuncJogos.CurrentRow == null)
+            {
+                MessageBox.Show("Nenhuma linha selecionada !!");
+                return;
+            }
+
+            int LinhaSelecionada = dvgFuncJogos.CurrentRow.Index;
+
+            CcFuncJogos  ccFuncJogos = Program.FJogos[LinhaSelecionada];
+            DialogResult resultado = MessageBox.Show("Deseja remover " + ccFuncJogos.nomej +  "o cadastro ?", "AVISO", MessageBoxButtons.YesNo);
+            if (resultado == DialogResult.Yes)
+            {
+                Program.FJogos.RemoveAt(LinhaSelecionada);
+                AtualizarLista();
+                MessageBox.Show("Cadastro removido com Sucesso!");
+            }
+            else
+            {
+                MessageBox.Show("Seu Cadastro Continua Salvo!");
+            }
+
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            int LinhaSelecionada = dvgFuncJogos.CurrentRow.Index;
+
+            if (dvgFuncJogos.CurrentRow == null)
+            {
+                MessageBox.Show("Selecione um Funcionário!");
+                return;
+            }
+
+            CcFuncJogos ccFuncJogos = Program.FJogos[LinhaSelecionada];
+            new CadastroFuncJogos(ccFuncJogos, LinhaSelecionada).ShowDialog();
+
+            CadastroFuncJogos cadastroFuncJogos = new CadastroFuncJogos(ccFuncJogos, LinhaSelecionada);
+        }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }

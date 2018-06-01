@@ -48,7 +48,7 @@ namespace SistemaJogadores
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-             if (txtNomeFuncAlimentacao.Text.Length < 4)
+            if (txtNomeFuncAlimentacao.Text.Length < 4)
             {
                 MessageBox.Show("Nome deve conter no mínimo 4 caracteres");
                 txtNome.Focus();
@@ -96,10 +96,12 @@ namespace SistemaJogadores
             {
                 Nome = txtNomeFuncAlimentacao.Text,
                 restaurante = cbRestaurante.SelectedItem.ToString(),
-                Idade= Convert.ToInt32(nupIdade.Value),
+                posição = cbPosiçãoFuncAlim.SelectedItem.ToString(),
+                Idade = Convert.ToInt32(nupIdade.Value),
                 Endereço = txtEndereco.Text,
-                Celular = Convert.ToString(mtxCel.Text),
+                Celular = mtxCel.Text,
                 Email = txtEmailFuncAlim.Text,
+                Telefone = mtxtTelefoneFuncAlim.Text,
                 Cidade = txtCidade.SelectedItem.ToString(),
                 CEP = Convert.ToString(mtxCEPFuncAlim.Text),
                 Cpf = Convert.ToString(mtxtCPFFuncAlim.Text),
@@ -148,6 +150,6 @@ namespace SistemaJogadores
             ListaFuncAlimentação.Show();
         }
 
-        }
     }
+}
 

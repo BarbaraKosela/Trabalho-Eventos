@@ -180,12 +180,14 @@ namespace SistemaJogadores
                 {
                     Program.cadastroDeConvidados[posicao] = cadastroConvidados;
                     MessageBox.Show("Cadastro de convidado realizado com sucesso!");
+                    Limpar();
                 }
 
                 else
                 {
                     Program.cadastroDeConvidados.Add(cadastroConvidados);
                     MessageBox.Show("Cadastro de convidado realizado com sucesso!");
+                    Limpar();
                 }
 
 
@@ -217,6 +219,11 @@ namespace SistemaJogadores
         {
             ListarConvidado listarConvidado = new ListarConvidado();
             listarConvidado.Show();
+        }
+
+        private void txtNomeConvidado_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
        

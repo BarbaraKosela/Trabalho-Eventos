@@ -12,11 +12,36 @@ namespace SistemaJogadores
 {
     public partial class CadastroPatrocinador : Form
     {
+        public int posicao;
+        public CPatrocinador cpatrocinador;
+        private CPatrocinador cpatrocinador1;
+        private int LinhaSeelecionada;
+
         public CadastroPatrocinador()
         {
             InitializeComponent();
         }
 
+        public CadastroPatrocinador(CPatrocinador cpatrocinador1, int LinhaSeelecionada)
+        {
+            // TODO: Complete member initialization
+            this.cpatrocinador1 = cpatrocinador1;
+            this.LinhaSeelecionada = LinhaSeelecionada;
+        }
+
+        public void CadastrarPatrocinador(CJogador cjogador, int posicao)
+        {
+            InitializeComponent();
+            this.posicao = posicao;
+
+            txtNomePatrocinador.Text = cpatrocinador.NomeDoPatrocinador;
+            txtTelefone.Text = cpatrocinador.Telefone;
+            mtbCpf.Text = cpatrocinador.Cpf;
+            cbEquipeSendoPatrocinada.SelectedItem = cpatrocinador.NomeDaEquipeSendoPatrocinada;
+            cbTipoPatrocinio.SelectedItem = cpatrocinador.TipoPatrocinio;
+            txtEstado.Text = cpatrocinador.Estado;
+            txtCidade.Text = cpatrocinador.Cidade;
+        }
         private void CadastroPatrocinador_Load(object sender, EventArgs e)
         {
 
@@ -45,10 +70,10 @@ namespace SistemaJogadores
                 txtNomePatrocinador.Focus();
                 return;
             }
-            if (mtbTelefone.Text.Length < 8)
+            if (txtTelefone.Text.Length < 8)
             {
                 MessageBox.Show("Telefone deve conter no minimo 8 caracteres !!");
-                mtbTelefone.Focus();
+                txtTelefone.Focus();
                 return;
             }
             if (mtbCpf.Text.Length < 11)
@@ -57,16 +82,16 @@ namespace SistemaJogadores
                 mtbCpf.Focus();
                 return;
             }
-            if (cbEstado.SelectedIndex < 0)
+            if (txtEstado.Text.Length < 2)
             {
-                MessageBox.Show("Selecione o Estado !!");
-                cbEstado.Focus();
+                MessageBox.Show("Estado deve conter no minimo 2 caracteres");
+                txtEstado.Focus();
                 return;
             }
-            if (cbCidade.SelectedIndex < 0)
+            if (txtCidade.Text.Length < 4)
             {
-                MessageBox.Show("Coloque uma cidade !!");
-                cbCidade.Focus();
+                MessageBox.Show("Estado deve conter no minimo 2 caracteres");
+                txtCidade.Focus();
                 return;
             }
             if (cbEquipeSendoPatrocinada.SelectedIndex < 0)
@@ -81,6 +106,53 @@ namespace SistemaJogadores
                 cbTipoPatrocinio.Focus();
                 return;
             }
+
+            CPatrocinador cpatrocinador = new CPatrocinador() 
+            {
+                NomeDoPatrocinador = txtNomePatrocinador.Text,
+                Telefone = txtTelefone.Text,
+                Cpf = mtbCpf.Text,
+                NomeDaEquipeSendoPatrocinada = cbEquipeSendoPatrocinada.SelectedItem.ToString(),
+                TipoPatrocinio = cbTipoPatrocinio.SelectedItem.ToString(),
+                Estado = txtEstado.Text,
+                Cidade = txtCidade.Text
+
+            };
+
+            if (posicao >= 0)
+            {
+                Program.cpatrocinadores[posicao] = cpatrocinador;
+                MessageBox.Show("Cadastro realizado com sucesso !!");
+                LimparCampos();
+
+            }
+            else
+            {
+                Program.cpatrocinadores.Add(cpatrocinador);
+                MessageBox.Show("Cadastro realizado com sucesso !!");
+                LimparCampos();
+            }
+        }
+
+        public void LimparCampos()
+        {
+            txtNomePatrocinador.Text = "";
+            txtTelefone.Text = "";
+            mtbCpf.Text = "";
+            cbEquipeSendoPatrocinada.SelectedIndex = -1;
+            cbTipoPatrocinio.SelectedIndex = -1;
+            txtEstado.Text = "";
+            txtCidade.Text = "";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txtTelefone_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

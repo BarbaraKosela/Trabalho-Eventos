@@ -83,7 +83,7 @@ namespace SistemaJogadores
             int LinhaSelecionada = dgvListaCampeonato.CurrentRow.Index;
 
             CCampeonato ccampeonato = Program.ccampeonatos[LinhaSelecionada];
-            DialogResult resultado = MessageBox.Show("Deseja apagar " + ccampeonato.nomeDocampeonato + "o registro ?", "AVISO", MessageBoxButtons.YesNo);
+            DialogResult resultado = MessageBox.Show("Deseja apagar o campeonato: (" + ccampeonato.nomeDocampeonato + " ) ??", "AVISO", MessageBoxButtons.YesNo);
             if (resultado  == DialogResult.Yes)
             {
                 Program.ccampeonatos.RemoveAt(LinhaSelecionada);
@@ -98,6 +98,11 @@ namespace SistemaJogadores
         }
 
         private void dgvListaCampeonato_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void ListaCadastroCampeonato_Load(object sender, EventArgs e)
         {
 
         }

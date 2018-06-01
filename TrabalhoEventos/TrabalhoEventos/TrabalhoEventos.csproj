@@ -62,18 +62,6 @@
     <Compile Include="CadastrarEquipamento.Designer.cs">
       <DependentUpon>CadastrarEquipamento.cs</DependentUpon>
     </Compile>
-    <Compile Include="CadastrarEquipes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CadastrarEquipes.Designer.cs">
-      <DependentUpon>CadastrarEquipes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CadastrarFuncionarios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CadastrarFuncionarios.Designer.cs">
-      <DependentUpon>CadastrarFuncionarios.cs</DependentUpon>
-    </Compile>
     <Compile Include="CadastrarJogadores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +124,7 @@
     <Compile Include="CcFuncTerceirizado.cs" />
     <Compile Include="CConvidados.cs" />
     <Compile Include="CEquipamento.cs" />
+    <Compile Include="CEquipeConvidado.cs" />
     <Compile Include="CEquipes.cs" />
     <Compile Include="CJogador.cs" />
     <Compile Include="CPatrocinador.cs" />
@@ -144,6 +133,24 @@
     </Compile>
     <Compile Include="ListaCadastroCampeonato.designer.cs">
       <DependentUpon>ListaCadastroCampeonato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaCadastroCla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaCadastroCla.Designer.cs">
+      <DependentUpon>ListaCadastroCla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaCadastroPatrocinador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaCadastroPatrocinador.Designer.cs">
+      <DependentUpon>ListaCadastroPatrocinador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaCCJogador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaCCJogador.Designer.cs">
+      <DependentUpon>ListaCCJogador.cs</DependentUpon>
     </Compile>
     <Compile Include="ListaFuncAdministração.cs">
       <SubType>Form</SubType>
@@ -186,6 +193,12 @@
     </Compile>
     <Compile Include="ListarEquipamentoConvidado.Designer.cs">
       <DependentUpon>ListarEquipamentoConvidado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListarEquipeConvidado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListarEquipeConvidado.Designer.cs">
+      <DependentUpon>ListarEquipeConvidado.cs</DependentUpon>
     </Compile>
     <Compile Include="MapaDoEvento.cs">
       <SubType>Form</SubType>
@@ -234,12 +247,6 @@
     <EmbeddedResource Include="CadastrarEquipamento.resx">
       <DependentUpon>CadastrarEquipamento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastrarEquipes.resx">
-      <DependentUpon>CadastrarEquipes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CadastrarFuncionarios.resx">
-      <DependentUpon>CadastrarFuncionarios.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CadastrarJogadores.resx">
       <DependentUpon>CadastrarJogadores.cs</DependentUpon>
     </EmbeddedResource>
@@ -270,6 +277,15 @@
     <EmbeddedResource Include="ListaCadastroCampeonato.resx">
       <DependentUpon>ListaCadastroCampeonato.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListaCadastroCla.resx">
+      <DependentUpon>ListaCadastroCla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaCadastroPatrocinador.resx">
+      <DependentUpon>ListaCadastroPatrocinador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaCCJogador.resx">
+      <DependentUpon>ListaCCJogador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListaFuncAdministração.resx">
       <DependentUpon>ListaFuncAdministração.cs</DependentUpon>
     </EmbeddedResource>
@@ -291,6 +307,9 @@
     <EmbeddedResource Include="ListarEquipamentoConvidado.resx">
       <DependentUpon>ListarEquipamentoConvidado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListarEquipeConvidado.resx">
+      <DependentUpon>ListarEquipeConvidado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MapaDoEvento.resx">
       <DependentUpon>MapaDoEvento.cs</DependentUpon>
     </EmbeddedResource>
@@ -305,6 +324,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SistemaCadastrarAtendimentoAoJogador.resx">
       <DependentUpon>SistemaCadastrarAtendimentoAoJogador.cs</DependentUpon>
@@ -330,6 +350,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

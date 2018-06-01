@@ -147,7 +147,7 @@ namespace SistemaJogadores
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            new ListaCadastroPatrocinador().ShowDialog();
         }
 
         private void txtTelefone_TextChanged(object sender, EventArgs e)

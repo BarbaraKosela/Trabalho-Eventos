@@ -49,6 +49,7 @@
             // 
             this.dgvListaPatrocinador.AllowUserToAddRows = false;
             this.dgvListaPatrocinador.AllowUserToDeleteRows = false;
+            this.dgvListaPatrocinador.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.dgvListaPatrocinador.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListaPatrocinador.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnNomePatrocinador,
@@ -61,7 +62,7 @@
             this.dgvListaPatrocinador.Location = new System.Drawing.Point(45, 96);
             this.dgvListaPatrocinador.Name = "dgvListaPatrocinador";
             this.dgvListaPatrocinador.ReadOnly = true;
-            this.dgvListaPatrocinador.Size = new System.Drawing.Size(836, 331);
+            this.dgvListaPatrocinador.Size = new System.Drawing.Size(841, 414);
             this.dgvListaPatrocinador.TabIndex = 31;
             // 
             // ColumnNomePatrocinador
@@ -108,6 +109,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button1.BackColor = System.Drawing.Color.DarkRed;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(402, 24);
@@ -119,6 +121,7 @@
             // 
             // button4
             // 
+            this.button4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button4.BackColor = System.Drawing.Color.DarkRed;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(739, 24);
@@ -130,6 +133,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(60, 32);
@@ -140,6 +144,7 @@
             // 
             // button3
             // 
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button3.BackColor = System.Drawing.Color.DarkRed;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(636, 24);
@@ -148,9 +153,11 @@
             this.button3.TabIndex = 36;
             this.button3.Text = "Voltar a pagina anterior";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // txtBusca
             // 
+            this.txtBusca.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtBusca.Location = new System.Drawing.Point(120, 28);
             this.txtBusca.Name = "txtBusca";
             this.txtBusca.Size = new System.Drawing.Size(230, 20);
@@ -158,6 +165,7 @@
             // 
             // button2
             // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button2.BackColor = System.Drawing.Color.DarkRed;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(524, 24);
@@ -171,7 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1142, 522);
+            this.ClientSize = new System.Drawing.Size(918, 522);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label1);

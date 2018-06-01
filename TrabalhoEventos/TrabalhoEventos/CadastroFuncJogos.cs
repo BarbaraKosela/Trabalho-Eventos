@@ -19,7 +19,7 @@ namespace SistemaJogadores
             InitializeComponent();
         }
 
-       public CadastroFuncJogos(CcFuncJogos CcFuncJogos, int posição)
+       public CadastroFuncJogos(CcFuncJogos CcFuncJogos, int posicao)
        {
            InitializeComponent();
            this.posicao = posicao;

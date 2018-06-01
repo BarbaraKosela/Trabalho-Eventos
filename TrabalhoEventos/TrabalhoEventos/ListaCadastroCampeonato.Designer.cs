@@ -133,6 +133,7 @@
             // 
             this.dgvListaCampeonato.AllowUserToAddRows = false;
             this.dgvListaCampeonato.AllowUserToDeleteRows = false;
+            this.dgvListaCampeonato.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dgvListaCampeonato.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListaCampeonato.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnNomeCampeonato,
@@ -151,12 +152,13 @@
             this.dgvListaCampeonato.Location = new System.Drawing.Point(30, 49);
             this.dgvListaCampeonato.Name = "dgvListaCampeonato";
             this.dgvListaCampeonato.ReadOnly = true;
-            this.dgvListaCampeonato.Size = new System.Drawing.Size(1356, 399);
+            this.dgvListaCampeonato.Size = new System.Drawing.Size(1356, 565);
             this.dgvListaCampeonato.TabIndex = 0;
             this.dgvListaCampeonato.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaCampeonato_CellContentClick);
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(27, 16);
@@ -167,6 +169,7 @@
             // 
             // txtBuscaCampeonato
             // 
+            this.txtBuscaCampeonato.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtBuscaCampeonato.Location = new System.Drawing.Point(87, 12);
             this.txtBuscaCampeonato.Name = "txtBuscaCampeonato";
             this.txtBuscaCampeonato.Size = new System.Drawing.Size(230, 20);
@@ -176,6 +179,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button1.BackColor = System.Drawing.Color.DarkRed;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(369, 8);
@@ -188,6 +192,7 @@
             // 
             // button2
             // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button2.BackColor = System.Drawing.Color.DarkRed;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(491, 8);
@@ -200,6 +205,7 @@
             // 
             // button3
             // 
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button3.BackColor = System.Drawing.Color.DarkRed;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(603, 8);
@@ -212,6 +218,7 @@
             // 
             // button4
             // 
+            this.button4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button4.BackColor = System.Drawing.Color.DarkRed;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(706, 8);
@@ -226,7 +233,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1405, 511);
+            this.ClientSize = new System.Drawing.Size(1405, 626);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -237,6 +244,7 @@
             this.Name = "ListaCadastroCampeonato";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListaCadastroCampeonato";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.ListaCadastroCampeonato_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaCampeonato)).EndInit();
             this.ResumeLayout(false);

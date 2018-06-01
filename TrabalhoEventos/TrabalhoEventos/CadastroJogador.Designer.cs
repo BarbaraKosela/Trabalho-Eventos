@@ -64,7 +64,6 @@
             // 
             // txtNumeroCasa
             // 
-            this.txtNumeroCasa.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtNumeroCasa.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtNumeroCasa.Location = new System.Drawing.Point(611, 319);
             this.txtNumeroCasa.Name = "txtNumeroCasa";
@@ -73,7 +72,6 @@
             // 
             // txtEndereco
             // 
-            this.txtEndereco.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtEndereco.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtEndereco.Location = new System.Drawing.Point(185, 319);
             this.txtEndereco.Name = "txtEndereco";
@@ -82,7 +80,6 @@
             // 
             // txtTelefone
             // 
-            this.txtTelefone.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtTelefone.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtTelefone.Location = new System.Drawing.Point(273, 227);
             this.txtTelefone.Name = "txtTelefone";
@@ -91,7 +88,6 @@
             // 
             // txtFalarCom
             // 
-            this.txtFalarCom.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtFalarCom.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtFalarCom.Location = new System.Drawing.Point(611, 281);
             this.txtFalarCom.Name = "txtFalarCom";
@@ -100,7 +96,6 @@
             // 
             // txtTelefoneEmergencia
             // 
-            this.txtTelefoneEmergencia.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtTelefoneEmergencia.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtTelefoneEmergencia.Location = new System.Drawing.Point(304, 281);
             this.txtTelefoneEmergencia.Name = "txtTelefoneEmergencia";
@@ -109,7 +104,6 @@
             // 
             // mtbDataNascimento
             // 
-            this.mtbDataNascimento.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.mtbDataNascimento.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.mtbDataNascimento.Location = new System.Drawing.Point(273, 95);
             this.mtbDataNascimento.Mask = "99/99/9999";
@@ -120,7 +114,6 @@
             // 
             // label13
             // 
-            this.label13.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.DarkRed;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -145,7 +138,6 @@
             // 
             // label7
             // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.DarkRed;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -158,7 +150,6 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtEmail.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtEmail.Location = new System.Drawing.Point(185, 355);
             this.txtEmail.Name = "txtEmail";
@@ -167,7 +158,6 @@
             // 
             // mtbCpf
             // 
-            this.mtbCpf.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.mtbCpf.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.mtbCpf.Location = new System.Drawing.Point(273, 137);
             this.mtbCpf.Mask = "999.999.999-99";
@@ -178,7 +168,6 @@
             // 
             // txtRg
             // 
-            this.txtRg.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtRg.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtRg.Location = new System.Drawing.Point(273, 181);
             this.txtRg.Name = "txtRg";
@@ -187,7 +176,6 @@
             // 
             // label12
             // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.DarkRed;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -200,7 +188,6 @@
             // 
             // txtNomeDoJogador
             // 
-            this.txtNomeDoJogador.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtNomeDoJogador.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtNomeDoJogador.Location = new System.Drawing.Point(273, 48);
             this.txtNomeDoJogador.Name = "txtNomeDoJogador";
@@ -210,7 +197,6 @@
             // 
             // button3
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button3.BackColor = System.Drawing.Color.DarkRed;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -226,7 +212,6 @@
             // 
             // button2
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button2.BackColor = System.Drawing.Color.DarkRed;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -242,7 +227,6 @@
             // 
             // button1
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button1.BackColor = System.Drawing.Color.DarkRed;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -258,7 +242,6 @@
             // 
             // label11
             // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.DarkRed;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -271,7 +254,6 @@
             // 
             // label8
             // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.DarkRed;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -284,7 +266,6 @@
             // 
             // label9
             // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.DarkRed;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -297,7 +278,6 @@
             // 
             // label6
             // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.DarkRed;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -310,7 +290,6 @@
             // 
             // label5
             // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.DarkRed;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -323,7 +302,6 @@
             // 
             // label4
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.DarkRed;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -336,7 +314,6 @@
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.DarkRed;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -349,7 +326,6 @@
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.DarkRed;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -362,7 +338,6 @@
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkRed;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -375,7 +350,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(80, 389);
             this.pictureBox1.Name = "pictureBox1";
@@ -385,7 +359,6 @@
             // 
             // txtNomeCla
             // 
-            this.txtNomeCla.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtNomeCla.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtNomeCla.Location = new System.Drawing.Point(646, 64);
             this.txtNomeCla.Name = "txtNomeCla";
@@ -395,7 +368,6 @@
             // 
             // txtEstado
             // 
-            this.txtEstado.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtEstado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtEstado.Location = new System.Drawing.Point(646, 124);
             this.txtEstado.Name = "txtEstado";
@@ -404,7 +376,6 @@
             // 
             // txtCidade
             // 
-            this.txtCidade.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtCidade.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtCidade.Location = new System.Drawing.Point(646, 181);
             this.txtCidade.Name = "txtCidade";
@@ -449,7 +420,6 @@
             this.Name = "CadastroJogador";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastroJogador";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.CadastroJogador_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -90,7 +90,7 @@ namespace SistemaJogadores
                 return;
             }
 
-            if ((rbNaoConvidado.Checked == null) && (rbSimConvidado.Checked == null))
+            if ((rbNaoConvidado.Checked == false) && (rbSimConvidado.Checked == false))
             {
                 MessageBox.Show("Selecione se a equipe presisa de tratamento especial !!");
                 rbNaoConvidado.Focus();

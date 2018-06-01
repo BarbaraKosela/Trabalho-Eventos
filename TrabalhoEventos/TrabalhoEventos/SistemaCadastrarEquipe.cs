@@ -21,7 +21,7 @@ namespace SistemaJogadores
         public SistemaCadastrarEquipe(EquipeConvidado cadastroEquipeConvidado2, int posicao)
         {
             InitializeComponent();
-            this.posicao4 = posicao4;
+            this.posicao4 = posicao;
             txtNomeEquipe.Text = cadastroEquipeConvidado2.NomeEquipe;
             txtSeuNome.Text = cadastroEquipeConvidado2.SeuNome;
             txtIdadePessoa.Text = cadastroEquipeConvidado2.SuaIdade;

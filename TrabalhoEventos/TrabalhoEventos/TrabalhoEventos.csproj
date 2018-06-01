@@ -146,6 +146,12 @@
     <Compile Include="EstatisticaJogadoresAlan.Designer.cs">
       <DependentUpon>EstatisticaJogadoresAlan.cs</DependentUpon>
     </Compile>
+    <Compile Include="EstatisticasFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstatisticasFunc.Designer.cs">
+      <DependentUpon>EstatisticasFunc.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListaCadastroCampeonato.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -300,6 +306,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EstatisticaJogadoresAlan.resx">
       <DependentUpon>EstatisticaJogadoresAlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EstatisticasFunc.resx">
+      <DependentUpon>EstatisticasFunc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListaCadastroCampeonato.resx">
       <DependentUpon>ListaCadastroCampeonato.cs</DependentUpon>

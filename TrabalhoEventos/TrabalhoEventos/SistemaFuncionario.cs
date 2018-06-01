@@ -41,5 +41,10 @@ namespace SistemaJogadores
         {
             Dispose();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            new EstatisticasFunc().ShowDialog();
+        }
     }
 }

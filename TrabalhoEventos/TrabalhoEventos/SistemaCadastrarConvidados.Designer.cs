@@ -241,7 +241,7 @@
             this.txtNomeConvidado.Location = new System.Drawing.Point(223, 86);
             this.txtNomeConvidado.Name = "txtNomeConvidado";
             this.txtNomeConvidado.Size = new System.Drawing.Size(185, 20);
-            this.txtNomeConvidado.TabIndex = 13;
+            this.txtNomeConvidado.TabIndex = 1;
             this.txtNomeConvidado.TextChanged += new System.EventHandler(this.txtNomeConvidado_TextChanged);
             // 
             // txtIdadeConvidado
@@ -251,7 +251,7 @@
             this.txtIdadeConvidado.Location = new System.Drawing.Point(224, 128);
             this.txtIdadeConvidado.Name = "txtIdadeConvidado";
             this.txtIdadeConvidado.Size = new System.Drawing.Size(70, 20);
-            this.txtIdadeConvidado.TabIndex = 14;
+            this.txtIdadeConvidado.TabIndex = 2;
             // 
             // txtNumeroCrachaConvidado
             // 
@@ -260,7 +260,7 @@
             this.txtNumeroCrachaConvidado.Location = new System.Drawing.Point(214, 170);
             this.txtNumeroCrachaConvidado.Name = "txtNumeroCrachaConvidado";
             this.txtNumeroCrachaConvidado.Size = new System.Drawing.Size(80, 20);
-            this.txtNumeroCrachaConvidado.TabIndex = 15;
+            this.txtNumeroCrachaConvidado.TabIndex = 3;
             // 
             // txtCPFConvidado
             // 
@@ -269,7 +269,7 @@
             this.txtCPFConvidado.Location = new System.Drawing.Point(91, 209);
             this.txtCPFConvidado.Name = "txtCPFConvidado";
             this.txtCPFConvidado.Size = new System.Drawing.Size(203, 20);
-            this.txtCPFConvidado.TabIndex = 16;
+            this.txtCPFConvidado.TabIndex = 4;
             // 
             // cbSalaAtuarConvidado
             // 
@@ -285,7 +285,7 @@
             this.cbSalaAtuarConvidado.Location = new System.Drawing.Point(217, 254);
             this.cbSalaAtuarConvidado.Name = "cbSalaAtuarConvidado";
             this.cbSalaAtuarConvidado.Size = new System.Drawing.Size(191, 21);
-            this.cbSalaAtuarConvidado.TabIndex = 17;
+            this.cbSalaAtuarConvidado.TabIndex = 5;
             // 
             // txtEquipeConvidado
             // 
@@ -294,7 +294,7 @@
             this.txtEquipeConvidado.Location = new System.Drawing.Point(237, 299);
             this.txtEquipeConvidado.Name = "txtEquipeConvidado";
             this.txtEquipeConvidado.Size = new System.Drawing.Size(171, 20);
-            this.txtEquipeConvidado.TabIndex = 18;
+            this.txtEquipeConvidado.TabIndex = 6;
             // 
             // txtEmailConvidado
             // 
@@ -303,7 +303,7 @@
             this.txtEmailConvidado.Location = new System.Drawing.Point(237, 341);
             this.txtEmailConvidado.Name = "txtEmailConvidado";
             this.txtEmailConvidado.Size = new System.Drawing.Size(281, 20);
-            this.txtEmailConvidado.TabIndex = 19;
+            this.txtEmailConvidado.TabIndex = 7;
             // 
             // txtNicknameConvidado
             // 
@@ -312,7 +312,7 @@
             this.txtNicknameConvidado.Location = new System.Drawing.Point(524, 85);
             this.txtNicknameConvidado.Name = "txtNicknameConvidado";
             this.txtNicknameConvidado.Size = new System.Drawing.Size(185, 20);
-            this.txtNicknameConvidado.TabIndex = 20;
+            this.txtNicknameConvidado.TabIndex = 8;
             // 
             // cbJogabilidadeConvidado
             // 
@@ -336,7 +336,7 @@
             this.cbJogabilidadeConvidado.Location = new System.Drawing.Point(551, 127);
             this.cbJogabilidadeConvidado.Name = "cbJogabilidadeConvidado";
             this.cbJogabilidadeConvidado.Size = new System.Drawing.Size(191, 21);
-            this.cbJogabilidadeConvidado.TabIndex = 21;
+            this.cbJogabilidadeConvidado.TabIndex = 9;
             // 
             // txtNomeDoJogoConvidado
             // 
@@ -345,7 +345,7 @@
             this.txtNomeDoJogoConvidado.Location = new System.Drawing.Point(708, 169);
             this.txtNomeDoJogoConvidado.Name = "txtNomeDoJogoConvidado";
             this.txtNomeDoJogoConvidado.Size = new System.Drawing.Size(164, 20);
-            this.txtNomeDoJogoConvidado.TabIndex = 22;
+            this.txtNomeDoJogoConvidado.TabIndex = 10;
             // 
             // cbGeneroConvidado
             // 
@@ -366,7 +366,7 @@
             this.cbGeneroConvidado.Location = new System.Drawing.Point(505, 208);
             this.cbGeneroConvidado.Name = "cbGeneroConvidado";
             this.cbGeneroConvidado.Size = new System.Drawing.Size(191, 21);
-            this.cbGeneroConvidado.TabIndex = 23;
+            this.cbGeneroConvidado.TabIndex = 11;
             // 
             // btnCancelarConvidado
             // 
@@ -379,7 +379,7 @@
             this.btnCancelarConvidado.Location = new System.Drawing.Point(548, 416);
             this.btnCancelarConvidado.Name = "btnCancelarConvidado";
             this.btnCancelarConvidado.Size = new System.Drawing.Size(145, 56);
-            this.btnCancelarConvidado.TabIndex = 29;
+            this.btnCancelarConvidado.TabIndex = 15;
             this.btnCancelarConvidado.Text = "CANCELAR";
             this.btnCancelarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnCancelarConvidado.UseVisualStyleBackColor = false;
@@ -396,7 +396,7 @@
             this.btnSalvarConvidado.Location = new System.Drawing.Point(720, 416);
             this.btnSalvarConvidado.Name = "btnSalvarConvidado";
             this.btnSalvarConvidado.Size = new System.Drawing.Size(137, 56);
-            this.btnSalvarConvidado.TabIndex = 30;
+            this.btnSalvarConvidado.TabIndex = 16;
             this.btnSalvarConvidado.Text = "SALVAR";
             this.btnSalvarConvidado.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnSalvarConvidado.UseVisualStyleBackColor = false;
@@ -452,7 +452,7 @@
             this.cbDificuldadeConvidado.Location = new System.Drawing.Point(618, 254);
             this.cbDificuldadeConvidado.Name = "cbDificuldadeConvidado";
             this.cbDificuldadeConvidado.Size = new System.Drawing.Size(189, 21);
-            this.cbDificuldadeConvidado.TabIndex = 34;
+            this.cbDificuldadeConvidado.TabIndex = 12;
             // 
             // button1
             // 
@@ -463,7 +463,7 @@
             this.button1.Location = new System.Drawing.Point(378, 418);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(140, 55);
-            this.button1.TabIndex = 35;
+            this.button1.TabIndex = 14;
             this.button1.Text = "LISTAR CADASTROS";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -484,7 +484,7 @@
             this.cbMeioDeTransmissaoConvidado.Location = new System.Drawing.Point(685, 294);
             this.cbMeioDeTransmissaoConvidado.Name = "cbMeioDeTransmissaoConvidado";
             this.cbMeioDeTransmissaoConvidado.Size = new System.Drawing.Size(122, 21);
-            this.cbMeioDeTransmissaoConvidado.TabIndex = 36;
+            this.cbMeioDeTransmissaoConvidado.TabIndex = 13;
             // 
             // SistemaCadastrarConvidados
             // 

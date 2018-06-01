@@ -54,16 +54,17 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.gbTratamento = new System.Windows.Forms.GroupBox();
-            this.gbTransporte = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.gbTratamento.SuspendLayout();
-            this.gbTransporte.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label14
             // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.DarkRed;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -76,6 +77,7 @@
             // 
             // btnSalvarConvidado2
             // 
+            this.btnSalvarConvidado2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnSalvarConvidado2.BackColor = System.Drawing.Color.DarkRed;
             this.btnSalvarConvidado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvarConvidado2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -92,6 +94,7 @@
             // 
             // btnCancelarConvidado2
             // 
+            this.btnCancelarConvidado2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnCancelarConvidado2.BackColor = System.Drawing.Color.DarkRed;
             this.btnCancelarConvidado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarConvidado2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -108,10 +111,11 @@
             // 
             // rbSimConvidado
             // 
+            this.rbSimConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.rbSimConvidado.AutoSize = true;
             this.rbSimConvidado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbSimConvidado.ForeColor = System.Drawing.Color.Black;
-            this.rbSimConvidado.Location = new System.Drawing.Point(27, 14);
+            this.rbSimConvidado.Location = new System.Drawing.Point(94, 59);
             this.rbSimConvidado.Name = "rbSimConvidado";
             this.rbSimConvidado.Size = new System.Drawing.Size(47, 17);
             this.rbSimConvidado.TabIndex = 7;
@@ -121,6 +125,7 @@
             // 
             // cbEquipamentoSolicitadoConvidado
             // 
+            this.cbEquipamentoSolicitadoConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbEquipamentoSolicitadoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbEquipamentoSolicitadoConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbEquipamentoSolicitadoConvidado.FormattingEnabled = true;
@@ -133,11 +138,12 @@
             this.cbEquipamentoSolicitadoConvidado.Location = new System.Drawing.Point(251, 74);
             this.cbEquipamentoSolicitadoConvidado.Name = "cbEquipamentoSolicitadoConvidado";
             this.cbEquipamentoSolicitadoConvidado.Size = new System.Drawing.Size(191, 21);
-            this.cbEquipamentoSolicitadoConvidado.TabIndex = 36;
+            this.cbEquipamentoSolicitadoConvidado.TabIndex = 1;
             this.cbEquipamentoSolicitadoConvidado.SelectedIndexChanged += new System.EventHandler(this.cbEquipamentoSolicitadoConvidado_SelectedIndexChanged);
             // 
             // txtNumeroCrachaConvidado2
             // 
+            this.txtNumeroCrachaConvidado2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtNumeroCrachaConvidado2.BackColor = System.Drawing.Color.Gainsboro;
             this.txtNumeroCrachaConvidado2.Location = new System.Drawing.Point(196, 254);
             this.txtNumeroCrachaConvidado2.Name = "txtNumeroCrachaConvidado2";
@@ -146,6 +152,7 @@
             // 
             // label9
             // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.DarkRed;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -158,6 +165,7 @@
             // 
             // label8
             // 
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.DarkRed;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -170,6 +178,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkRed;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -182,6 +191,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.DarkRed;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -194,11 +204,12 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.DarkRed;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label3.Location = new System.Drawing.Point(513, 88);
+            this.label3.Location = new System.Drawing.Point(17, 28);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(320, 16);
             this.label3.TabIndex = 42;
@@ -206,11 +217,12 @@
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.DarkRed;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label4.Location = new System.Drawing.Point(513, 72);
+            this.label4.Location = new System.Drawing.Point(17, 12);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(327, 16);
             this.label4.TabIndex = 43;
@@ -218,6 +230,7 @@
             // 
             // label5
             // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.DarkRed;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -230,6 +243,7 @@
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.DarkRed;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -242,10 +256,11 @@
             // 
             // rbNaoConvidado
             // 
+            this.rbNaoConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.rbNaoConvidado.AutoSize = true;
             this.rbNaoConvidado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbNaoConvidado.ForeColor = System.Drawing.Color.Black;
-            this.rbNaoConvidado.Location = new System.Drawing.Point(159, 14);
+            this.rbNaoConvidado.Location = new System.Drawing.Point(226, 59);
             this.rbNaoConvidado.Name = "rbNaoConvidado";
             this.rbNaoConvidado.Size = new System.Drawing.Size(51, 17);
             this.rbNaoConvidado.TabIndex = 8;
@@ -255,11 +270,12 @@
             // 
             // label7
             // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.DarkRed;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label7.Location = new System.Drawing.Point(557, 164);
+            this.label7.Location = new System.Drawing.Point(18, 13);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(234, 16);
             this.label7.TabIndex = 47;
@@ -267,10 +283,11 @@
             // 
             // rbNaoConvidado2
             // 
+            this.rbNaoConvidado2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.rbNaoConvidado2.AutoSize = true;
             this.rbNaoConvidado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbNaoConvidado2.ForeColor = System.Drawing.Color.Black;
-            this.rbNaoConvidado2.Location = new System.Drawing.Point(154, 15);
+            this.rbNaoConvidado2.Location = new System.Drawing.Point(183, 47);
             this.rbNaoConvidado2.Name = "rbNaoConvidado2";
             this.rbNaoConvidado2.Size = new System.Drawing.Size(51, 17);
             this.rbNaoConvidado2.TabIndex = 10;
@@ -280,10 +297,11 @@
             // 
             // rbSimConvidado2
             // 
+            this.rbSimConvidado2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.rbSimConvidado2.AutoSize = true;
             this.rbSimConvidado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbSimConvidado2.ForeColor = System.Drawing.Color.Black;
-            this.rbSimConvidado2.Location = new System.Drawing.Point(22, 15);
+            this.rbSimConvidado2.Location = new System.Drawing.Point(51, 47);
             this.rbSimConvidado2.Name = "rbSimConvidado2";
             this.rbSimConvidado2.Size = new System.Drawing.Size(47, 17);
             this.rbSimConvidado2.TabIndex = 9;
@@ -293,6 +311,7 @@
             // 
             // cbAreaConvidado
             // 
+            this.cbAreaConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbAreaConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbAreaConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAreaConvidado.FormattingEnabled = true;
@@ -304,10 +323,11 @@
             this.cbAreaConvidado.Location = new System.Drawing.Point(251, 118);
             this.cbAreaConvidado.Name = "cbAreaConvidado";
             this.cbAreaConvidado.Size = new System.Drawing.Size(191, 21);
-            this.cbAreaConvidado.TabIndex = 50;
+            this.cbAreaConvidado.TabIndex = 2;
             // 
             // cbAcompanhamentoConvidado
             // 
+            this.cbAcompanhamentoConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbAcompanhamentoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbAcompanhamentoConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAcompanhamentoConvidado.FormattingEnabled = true;
@@ -319,10 +339,11 @@
             this.cbAcompanhamentoConvidado.Location = new System.Drawing.Point(202, 160);
             this.cbAcompanhamentoConvidado.Name = "cbAcompanhamentoConvidado";
             this.cbAcompanhamentoConvidado.Size = new System.Drawing.Size(240, 21);
-            this.cbAcompanhamentoConvidado.TabIndex = 51;
+            this.cbAcompanhamentoConvidado.TabIndex = 3;
             // 
             // cbAlimentacaoConvidado
             // 
+            this.cbAlimentacaoConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbAlimentacaoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbAlimentacaoConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAlimentacaoConvidado.FormattingEnabled = true;
@@ -335,10 +356,11 @@
             this.cbAlimentacaoConvidado.Location = new System.Drawing.Point(208, 209);
             this.cbAlimentacaoConvidado.Name = "cbAlimentacaoConvidado";
             this.cbAlimentacaoConvidado.Size = new System.Drawing.Size(234, 21);
-            this.cbAlimentacaoConvidado.TabIndex = 52;
+            this.cbAlimentacaoConvidado.TabIndex = 4;
             // 
             // txtEmailChamadaConvidado
             // 
+            this.txtEmailChamadaConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtEmailChamadaConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtEmailChamadaConvidado.Location = new System.Drawing.Point(352, 293);
             this.txtEmailChamadaConvidado.Name = "txtEmailChamadaConvidado";
@@ -347,6 +369,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(31, 352);
             this.pictureBox1.Name = "pictureBox1";
@@ -357,6 +380,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(182, 388);
             this.pictureBox2.Name = "pictureBox2";
@@ -367,6 +391,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button1.BackColor = System.Drawing.Color.DarkRed;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -378,25 +403,30 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // gbTratamento
+            // groupBox1
             // 
-            this.gbTratamento.Controls.Add(this.rbNaoConvidado);
-            this.gbTratamento.Controls.Add(this.rbSimConvidado);
-            this.gbTratamento.Location = new System.Drawing.Point(548, 114);
-            this.gbTratamento.Name = "gbTratamento";
-            this.gbTratamento.Size = new System.Drawing.Size(223, 47);
-            this.gbTratamento.TabIndex = 57;
-            this.gbTratamento.TabStop = false;
+            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.groupBox1.Controls.Add(this.rbNaoConvidado);
+            this.groupBox1.Controls.Add(this.rbSimConvidado);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Location = new System.Drawing.Point(496, 60);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(362, 78);
+            this.groupBox1.TabIndex = 56;
+            this.groupBox1.TabStop = false;
             // 
-            // gbTransporte
+            // groupBox2
             // 
-            this.gbTransporte.Controls.Add(this.rbNaoConvidado2);
-            this.gbTransporte.Controls.Add(this.rbSimConvidado2);
-            this.gbTransporte.Location = new System.Drawing.Point(548, 195);
-            this.gbTransporte.Name = "gbTransporte";
-            this.gbTransporte.Size = new System.Drawing.Size(223, 49);
-            this.gbTransporte.TabIndex = 58;
-            this.gbTransporte.TabStop = false;
+            this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.groupBox2.Controls.Add(this.rbNaoConvidado2);
+            this.groupBox2.Controls.Add(this.rbSimConvidado2);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Location = new System.Drawing.Point(539, 151);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(273, 74);
+            this.groupBox2.TabIndex = 57;
+            this.groupBox2.TabStop = false;
             // 
             // CadastrarEquipamento
             // 
@@ -404,8 +434,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(909, 511);
-            this.Controls.Add(this.gbTransporte);
-            this.Controls.Add(this.gbTratamento);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -413,11 +443,8 @@
             this.Controls.Add(this.cbAlimentacaoConvidado);
             this.Controls.Add(this.cbAcompanhamentoConvidado);
             this.Controls.Add(this.cbAreaConvidado);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.btnSalvarConvidado2);
@@ -430,12 +457,13 @@
             this.Name = "CadastrarEquipamento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastrarEquipamento";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.gbTratamento.ResumeLayout(false);
-            this.gbTratamento.PerformLayout();
-            this.gbTransporte.ResumeLayout(false);
-            this.gbTransporte.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -468,7 +496,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.GroupBox gbTratamento;
-        private System.Windows.Forms.GroupBox gbTransporte;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }

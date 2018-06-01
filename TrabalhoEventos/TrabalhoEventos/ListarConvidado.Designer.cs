@@ -46,6 +46,7 @@
             // 
             // label14
             // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.DarkRed;
             this.label14.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -58,6 +59,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkRed;
             this.label1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -70,6 +72,7 @@
             // 
             // btnCadastrarConvidado
             // 
+            this.btnCadastrarConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.btnCadastrarConvidado.BackColor = System.Drawing.Color.DarkRed;
             this.btnCadastrarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -86,6 +89,7 @@
             // 
             // btnApagarConvidado
             // 
+            this.btnApagarConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.btnApagarConvidado.BackColor = System.Drawing.Color.DarkRed;
             this.btnApagarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApagarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -102,6 +106,7 @@
             // 
             // btnEditarConvidado
             // 
+            this.btnEditarConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.btnEditarConvidado.BackColor = System.Drawing.Color.DarkRed;
             this.btnEditarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -118,6 +123,7 @@
             // 
             // btnAtualizarConvidado
             // 
+            this.btnAtualizarConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.btnAtualizarConvidado.BackColor = System.Drawing.Color.DarkRed;
             this.btnAtualizarConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -134,6 +140,7 @@
             // 
             // txtBuscaConvidado
             // 
+            this.txtBuscaConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtBuscaConvidado.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtBuscaConvidado.Location = new System.Drawing.Point(12, 78);
             this.txtBuscaConvidado.Name = "txtBuscaConvidado";
@@ -146,6 +153,7 @@
             // 
             this.dgvListarConvidados.AllowUserToAddRows = false;
             this.dgvListarConvidados.AllowUserToDeleteRows = false;
+            this.dgvListarConvidados.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.dgvListarConvidados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListarConvidados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnNome,
@@ -203,6 +211,7 @@
             this.Name = "ListarConvidado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListarConvidado";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.dgvListarConvidados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -45,13 +45,14 @@
             // 
             // btnVoltarPaginaPrincipalConvidado
             // 
+            this.btnVoltarPaginaPrincipalConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnVoltarPaginaPrincipalConvidado.BackColor = System.Drawing.Color.DarkRed;
             this.btnVoltarPaginaPrincipalConvidado.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVoltarPaginaPrincipalConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnVoltarPaginaPrincipalConvidado.Location = new System.Drawing.Point(12, 444);
             this.btnVoltarPaginaPrincipalConvidado.Name = "btnVoltarPaginaPrincipalConvidado";
             this.btnVoltarPaginaPrincipalConvidado.Size = new System.Drawing.Size(182, 55);
-            this.btnVoltarPaginaPrincipalConvidado.TabIndex = 17;
+            this.btnVoltarPaginaPrincipalConvidado.TabIndex = 6;
             this.btnVoltarPaginaPrincipalConvidado.Text = "VOLTAR A PÁGINA PRINCIPAL";
             this.btnVoltarPaginaPrincipalConvidado.UseVisualStyleBackColor = false;
             this.btnVoltarPaginaPrincipalConvidado.Click += new System.EventHandler(this.btnVoltarPaginaPrincipalConvidado_Click);
@@ -64,7 +65,7 @@
             this.btnEstatisticasConvidados.Location = new System.Drawing.Point(50, 349);
             this.btnEstatisticasConvidados.Name = "btnEstatisticasConvidados";
             this.btnEstatisticasConvidados.Size = new System.Drawing.Size(396, 40);
-            this.btnEstatisticasConvidados.TabIndex = 15;
+            this.btnEstatisticasConvidados.TabIndex = 5;
             this.btnEstatisticasConvidados.Text = "ESTATÍSTICAS";
             this.btnEstatisticasConvidados.UseVisualStyleBackColor = false;
             // 
@@ -76,7 +77,7 @@
             this.btnCadastrarEquipe.Location = new System.Drawing.Point(50, 271);
             this.btnCadastrarEquipe.Name = "btnCadastrarEquipe";
             this.btnCadastrarEquipe.Size = new System.Drawing.Size(396, 62);
-            this.btnCadastrarEquipe.TabIndex = 13;
+            this.btnCadastrarEquipe.TabIndex = 4;
             this.btnCadastrarEquipe.Text = "CADASTRAR EQUIPE";
             this.btnCadastrarEquipe.UseVisualStyleBackColor = false;
             this.btnCadastrarEquipe.Click += new System.EventHandler(this.btnCadastrarEquipe_Click);
@@ -89,7 +90,7 @@
             this.btnCadastrarAtendimentoJogador.Location = new System.Drawing.Point(50, 203);
             this.btnCadastrarAtendimentoJogador.Name = "btnCadastrarAtendimentoJogador";
             this.btnCadastrarAtendimentoJogador.Size = new System.Drawing.Size(396, 62);
-            this.btnCadastrarAtendimentoJogador.TabIndex = 11;
+            this.btnCadastrarAtendimentoJogador.TabIndex = 3;
             this.btnCadastrarAtendimentoJogador.Text = "CADASTRAR ATENDIMENTO AO JOGADOR";
             this.btnCadastrarAtendimentoJogador.UseVisualStyleBackColor = false;
             this.btnCadastrarAtendimentoJogador.Click += new System.EventHandler(this.btnCadastrarAtendimentoJogador_Click);
@@ -102,7 +103,7 @@
             this.btnCadastrarEquipamento.Location = new System.Drawing.Point(50, 135);
             this.btnCadastrarEquipamento.Name = "btnCadastrarEquipamento";
             this.btnCadastrarEquipamento.Size = new System.Drawing.Size(396, 62);
-            this.btnCadastrarEquipamento.TabIndex = 10;
+            this.btnCadastrarEquipamento.TabIndex = 2;
             this.btnCadastrarEquipamento.Text = "CADASTRAR EQUIPAMENTO";
             this.btnCadastrarEquipamento.UseVisualStyleBackColor = false;
             this.btnCadastrarEquipamento.Click += new System.EventHandler(this.btnCadastrarEquipamento_Click);
@@ -119,6 +120,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Square721 BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(638, 466);
@@ -129,6 +131,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(556, 447);
@@ -145,13 +148,14 @@
             this.btnCadastrarConvidado.Location = new System.Drawing.Point(50, 67);
             this.btnCadastrarConvidado.Name = "btnCadastrarConvidado";
             this.btnCadastrarConvidado.Size = new System.Drawing.Size(396, 62);
-            this.btnCadastrarConvidado.TabIndex = 8;
+            this.btnCadastrarConvidado.TabIndex = 1;
             this.btnCadastrarConvidado.Text = "CADASTRAR CONVIDADO";
             this.btnCadastrarConvidado.UseVisualStyleBackColor = false;
             this.btnCadastrarConvidado.Click += new System.EventHandler(this.btnCadastrarConvidado_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(479, 12);
             this.pictureBox1.Name = "pictureBox1";
@@ -162,6 +166,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(572, 428);
@@ -190,6 +195,7 @@
             this.Name = "CadastrarConvidados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastrarConvidados";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

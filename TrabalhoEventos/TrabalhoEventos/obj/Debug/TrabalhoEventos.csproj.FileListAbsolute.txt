@@ -55,7 +55,6 @@ C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEvento
 C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroJogador.resources
 C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroEquipe.resources
 C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroPatrocinador.resources
-C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.CadastrarEquipes.resources
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroEquipe.resources
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroJogador.resources
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroPatrocinador.resources
@@ -182,7 +181,28 @@ C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\o
 C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroPatrocinador.resources
 C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCCJogador.resources
 C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListarEquipeConvidado.resources
+<<<<<<< HEAD
 C:\Users\104968\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroCla.resources
 C:\Users\104968\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroPatrocinador.resources
 C:\Users\104968\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCCJogador.resources
 C:\Users\104968\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListarEquipeConvidado.resources
+=======
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroFuncAdministração.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroFuncAlimentação.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroFuncJogos.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroFuncTerceirizado.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroCla.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroPatrocinador.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCCJogador.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaFuncAdministração.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaFuncAlimentação.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaFuncJogos.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaFuncTerceirizados.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListarAtendimentoJogador.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListarEquipamentoConvidado.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListarEquipeConvidado.resources
+C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.SistemaFuncionario.resources
+C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroCla.resources
+C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroPatrocinador.resources
+C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCCJogador.resources
+>>>>>>> b14abfdbd809e55db0746d2ec9352ef6aba46bac

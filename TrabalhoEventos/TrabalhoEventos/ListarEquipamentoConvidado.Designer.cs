@@ -48,6 +48,7 @@
             // 
             this.dgvListarEquipamento.AllowUserToAddRows = false;
             this.dgvListarEquipamento.AllowUserToDeleteRows = false;
+            this.dgvListarEquipamento.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.dgvListarEquipamento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListarEquipamento.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnEquipamento,
@@ -90,6 +91,7 @@
             // 
             // txtBuscaEquipamentos
             // 
+            this.txtBuscaEquipamentos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtBuscaEquipamentos.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtBuscaEquipamentos.Location = new System.Drawing.Point(23, 79);
             this.txtBuscaEquipamentos.Name = "txtBuscaEquipamentos";
@@ -101,6 +103,7 @@
             // 
             // btnEditarConvidado2
             // 
+            this.btnEditarConvidado2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.btnEditarConvidado2.BackColor = System.Drawing.Color.DarkRed;
             this.btnEditarConvidado2.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarConvidado2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -117,6 +120,7 @@
             // 
             // btnAtualizarConvidado2
             // 
+            this.btnAtualizarConvidado2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.btnAtualizarConvidado2.BackColor = System.Drawing.Color.DarkRed;
             this.btnAtualizarConvidado2.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizarConvidado2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -133,6 +137,7 @@
             // 
             // btnCadastrarConvidado2
             // 
+            this.btnCadastrarConvidado2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.btnCadastrarConvidado2.BackColor = System.Drawing.Color.DarkRed;
             this.btnCadastrarConvidado2.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarConvidado2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -149,6 +154,7 @@
             // 
             // btnApagarConvidado2
             // 
+            this.btnApagarConvidado2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.btnApagarConvidado2.BackColor = System.Drawing.Color.DarkRed;
             this.btnApagarConvidado2.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApagarConvidado2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -165,6 +171,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkRed;
             this.label1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -177,6 +184,7 @@
             // 
             // label14
             // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.DarkRed;
             this.label14.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -203,6 +211,7 @@
             this.Name = "ListarEquipamentoConvidado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Listar Equipamento Convidado";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Activated += new System.EventHandler(this.ListarEquipamentoConvidado_Activated);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListarEquipamento)).EndInit();
             this.ResumeLayout(false);

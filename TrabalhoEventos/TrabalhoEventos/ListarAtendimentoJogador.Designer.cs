@@ -48,6 +48,7 @@
             // 
             this.dgvListarAtendimento.AllowUserToAddRows = false;
             this.dgvListarAtendimento.AllowUserToDeleteRows = false;
+            this.dgvListarAtendimento.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.dgvListarAtendimento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListarAtendimento.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnEmail,
@@ -90,6 +91,7 @@
             // 
             // txtBuscaEquipamentos
             // 
+            this.txtBuscaEquipamentos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtBuscaEquipamentos.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtBuscaEquipamentos.Location = new System.Drawing.Point(23, 79);
             this.txtBuscaEquipamentos.Name = "txtBuscaEquipamentos";
@@ -100,6 +102,7 @@
             // 
             // btnEditarAtendimento
             // 
+            this.btnEditarAtendimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.btnEditarAtendimento.BackColor = System.Drawing.Color.DarkRed;
             this.btnEditarAtendimento.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarAtendimento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -116,6 +119,7 @@
             // 
             // btnAtualizarAtendimento
             // 
+            this.btnAtualizarAtendimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.btnAtualizarAtendimento.BackColor = System.Drawing.Color.DarkRed;
             this.btnAtualizarAtendimento.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizarAtendimento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -132,6 +136,7 @@
             // 
             // btnCadastrarAtentendimento
             // 
+            this.btnCadastrarAtentendimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.btnCadastrarAtentendimento.BackColor = System.Drawing.Color.DarkRed;
             this.btnCadastrarAtentendimento.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarAtentendimento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -148,6 +153,7 @@
             // 
             // btnApagarAtendimento
             // 
+            this.btnApagarAtendimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.btnApagarAtendimento.BackColor = System.Drawing.Color.DarkRed;
             this.btnApagarAtendimento.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApagarAtendimento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -164,6 +170,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkRed;
             this.label1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -176,6 +183,7 @@
             // 
             // label14
             // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.DarkRed;
             this.label14.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -202,6 +210,7 @@
             this.Name = "ListarAtendimentoJogador";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Listar Atendimento ao Jogador";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Activated += new System.EventHandler(this.ListarAtendimentoJogador_Activated);
             this.Load += new System.EventHandler(this.ListarAtendimentoJogador_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListarAtendimento)).EndInit();

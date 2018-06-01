@@ -186,7 +186,7 @@
             this.txtNome.Location = new System.Drawing.Point(15, 28);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(302, 22);
-            this.txtNome.TabIndex = 15;
+            this.txtNome.TabIndex = 1;
             this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // cbSala
@@ -263,7 +263,7 @@
             this.mtxCEP.Mask = "00000-000";
             this.mtxCEP.Name = "mtxCEP";
             this.mtxCEP.Size = new System.Drawing.Size(302, 22);
-            this.mtxCEP.TabIndex = 9;
+            this.mtxCEP.TabIndex = 8;
             // 
             // mtxCPF
             // 
@@ -272,7 +272,7 @@
             this.mtxCPF.Mask = "000000000-00";
             this.mtxCPF.Name = "mtxCPF";
             this.mtxCPF.Size = new System.Drawing.Size(302, 22);
-            this.mtxCPF.TabIndex = 10;
+            this.mtxCPF.TabIndex = 9;
             // 
             // mtxTelefone
             // 
@@ -281,7 +281,7 @@
             this.mtxTelefone.Mask = "0000-0000";
             this.mtxTelefone.Name = "mtxTelefone";
             this.mtxTelefone.Size = new System.Drawing.Size(302, 22);
-            this.mtxTelefone.TabIndex = 11;
+            this.mtxTelefone.TabIndex = 10;
             // 
             // txtSalário
             // 
@@ -289,7 +289,7 @@
             this.txtSalário.Location = new System.Drawing.Point(542, 298);
             this.txtSalário.Name = "txtSalário";
             this.txtSalário.Size = new System.Drawing.Size(302, 22);
-            this.txtSalário.TabIndex = 12;
+            this.txtSalário.TabIndex = 11;
             // 
             // txtRG
             // 
@@ -297,7 +297,7 @@
             this.txtRG.Location = new System.Drawing.Point(542, 366);
             this.txtRG.Name = "txtRG";
             this.txtRG.Size = new System.Drawing.Size(302, 22);
-            this.txtRG.TabIndex = 13;
+            this.txtRG.TabIndex = 12;
             // 
             // txtEmail
             // 
@@ -311,6 +311,7 @@
             // 
             this.txtCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCidade.FormattingEnabled = true;
+            this.txtCidade.ItemHeight = 16;
             this.txtCidade.Items.AddRange(new object[] {
             "Abdon Batista",
             "Abelardo Luz",

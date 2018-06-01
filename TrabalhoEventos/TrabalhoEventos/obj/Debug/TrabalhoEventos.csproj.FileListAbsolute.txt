@@ -104,8 +104,6 @@ C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\o
 C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.AngryNerds.resources
 C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastrarConvidados.resources
 C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastrarEquipamento.resources
-C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.CadastrarEquipes.resources
-C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastrarFuncionarios.resources
 C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastrarJogadores.resources
 C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroCampeonato.resources
 C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.CadastroEquipe.resources
@@ -182,3 +180,7 @@ C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\Trabalho
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCCJogador.resources
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroPatrocinador.resources
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroCla.resources
+C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroCla.resources
+C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroPatrocinador.resources
+C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCCJogador.resources
+C:\Users\Marcos Vini\OneDrive\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListarEquipeConvidado.resources

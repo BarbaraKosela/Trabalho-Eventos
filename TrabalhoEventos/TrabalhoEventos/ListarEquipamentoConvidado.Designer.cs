@@ -103,7 +103,7 @@
             // 
             // btnEditarConvidado2
             // 
-            this.btnEditarConvidado2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnEditarConvidado2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnEditarConvidado2.BackColor = System.Drawing.Color.DarkRed;
             this.btnEditarConvidado2.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarConvidado2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -120,7 +120,7 @@
             // 
             // btnAtualizarConvidado2
             // 
-            this.btnAtualizarConvidado2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnAtualizarConvidado2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnAtualizarConvidado2.BackColor = System.Drawing.Color.DarkRed;
             this.btnAtualizarConvidado2.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizarConvidado2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -137,7 +137,7 @@
             // 
             // btnCadastrarConvidado2
             // 
-            this.btnCadastrarConvidado2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnCadastrarConvidado2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnCadastrarConvidado2.BackColor = System.Drawing.Color.DarkRed;
             this.btnCadastrarConvidado2.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarConvidado2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -154,7 +154,7 @@
             // 
             // btnApagarConvidado2
             // 
-            this.btnApagarConvidado2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnApagarConvidado2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnApagarConvidado2.BackColor = System.Drawing.Color.DarkRed;
             this.btnApagarConvidado2.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApagarConvidado2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;

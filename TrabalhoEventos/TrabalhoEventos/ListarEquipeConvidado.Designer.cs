@@ -102,7 +102,7 @@
             // 
             // btnEditarEquipe
             // 
-            this.btnEditarEquipe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnEditarEquipe.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnEditarEquipe.BackColor = System.Drawing.Color.DarkRed;
             this.btnEditarEquipe.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarEquipe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -119,7 +119,7 @@
             // 
             // btnAtualizarEquipe
             // 
-            this.btnAtualizarEquipe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnAtualizarEquipe.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnAtualizarEquipe.BackColor = System.Drawing.Color.DarkRed;
             this.btnAtualizarEquipe.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizarEquipe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -136,7 +136,7 @@
             // 
             // btnCadastrarEquipe
             // 
-            this.btnCadastrarEquipe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnCadastrarEquipe.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnCadastrarEquipe.BackColor = System.Drawing.Color.DarkRed;
             this.btnCadastrarEquipe.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarEquipe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -153,7 +153,7 @@
             // 
             // btnApagarEquipe
             // 
-            this.btnApagarEquipe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnApagarEquipe.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnApagarEquipe.BackColor = System.Drawing.Color.DarkRed;
             this.btnApagarEquipe.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApagarEquipe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;

@@ -102,7 +102,7 @@
             // 
             // btnEditarAtendimento
             // 
-            this.btnEditarAtendimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnEditarAtendimento.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnEditarAtendimento.BackColor = System.Drawing.Color.DarkRed;
             this.btnEditarAtendimento.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarAtendimento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -119,7 +119,7 @@
             // 
             // btnAtualizarAtendimento
             // 
-            this.btnAtualizarAtendimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnAtualizarAtendimento.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnAtualizarAtendimento.BackColor = System.Drawing.Color.DarkRed;
             this.btnAtualizarAtendimento.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizarAtendimento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -136,7 +136,7 @@
             // 
             // btnCadastrarAtentendimento
             // 
-            this.btnCadastrarAtentendimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnCadastrarAtentendimento.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnCadastrarAtentendimento.BackColor = System.Drawing.Color.DarkRed;
             this.btnCadastrarAtentendimento.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarAtentendimento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -153,7 +153,7 @@
             // 
             // btnApagarAtendimento
             // 
-            this.btnApagarAtendimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnApagarAtendimento.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnApagarAtendimento.BackColor = System.Drawing.Color.DarkRed;
             this.btnApagarAtendimento.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApagarAtendimento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;

@@ -60,7 +60,7 @@
             this.txtEmail.Location = new System.Drawing.Point(429, 91);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(344, 22);
-            this.txtEmail.TabIndex = 103;
+            this.txtEmail.TabIndex = 8;
             // 
             // txtRG
             // 
@@ -68,7 +68,7 @@
             this.txtRG.Location = new System.Drawing.Point(15, 358);
             this.txtRG.Name = "txtRG";
             this.txtRG.Size = new System.Drawing.Size(344, 22);
-            this.txtRG.TabIndex = 102;
+            this.txtRG.TabIndex = 6;
             // 
             // txtSalario
             // 
@@ -76,7 +76,7 @@
             this.txtSalario.Location = new System.Drawing.Point(14, 288);
             this.txtSalario.Name = "txtSalario";
             this.txtSalario.Size = new System.Drawing.Size(344, 22);
-            this.txtSalario.TabIndex = 101;
+            this.txtSalario.TabIndex = 5;
             // 
             // mtxtTelefone
             // 
@@ -85,7 +85,7 @@
             this.mtxtTelefone.Mask = "0000-0000";
             this.mtxtTelefone.Name = "mtxtTelefone";
             this.mtxtTelefone.Size = new System.Drawing.Size(344, 22);
-            this.mtxtTelefone.TabIndex = 100;
+            this.mtxtTelefone.TabIndex = 10;
             // 
             // mtxtCPF
             // 
@@ -94,7 +94,7 @@
             this.mtxtCPF.Mask = "000000000-00";
             this.mtxtCPF.Name = "mtxtCPF";
             this.mtxtCPF.Size = new System.Drawing.Size(344, 22);
-            this.mtxtCPF.TabIndex = 99;
+            this.mtxtCPF.TabIndex = 9;
             // 
             // mtxtCelular
             // 
@@ -103,7 +103,7 @@
             this.mtxtCelular.Mask = "(99) 00000-0000";
             this.mtxtCelular.Name = "mtxtCelular";
             this.mtxtCelular.Size = new System.Drawing.Size(344, 22);
-            this.mtxtCelular.TabIndex = 97;
+            this.mtxtCelular.TabIndex = 4;
             this.mtxtCelular.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtxtCelular_MaskInputRejected);
             // 
             // txtEndereco
@@ -112,7 +112,7 @@
             this.txtEndereco.Location = new System.Drawing.Point(15, 151);
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(344, 22);
-            this.txtEndereco.TabIndex = 96;
+            this.txtEndereco.TabIndex = 3;
             // 
             // nupIdade
             // 
@@ -130,7 +130,7 @@
             0});
             this.nupIdade.Name = "nupIdade";
             this.nupIdade.Size = new System.Drawing.Size(344, 22);
-            this.nupIdade.TabIndex = 95;
+            this.nupIdade.TabIndex = 2;
             this.nupIdade.Value = new decimal(new int[] {
             14,
             0,
@@ -143,7 +143,7 @@
             this.txtNome.Location = new System.Drawing.Point(15, 28);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(344, 22);
-            this.txtNome.TabIndex = 92;
+            this.txtNome.TabIndex = 1;
             // 
             // label15
             // 
@@ -536,7 +536,7 @@
             this.txtCidade.Location = new System.Drawing.Point(429, 28);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(344, 24);
-            this.txtCidade.TabIndex = 108;
+            this.txtCidade.TabIndex = 7;
             this.txtCidade.SelectedIndexChanged += new System.EventHandler(this.txtCidade_SelectedIndexChanged);
             // 
             // label13

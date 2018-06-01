@@ -43,6 +43,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.DarkRed;
             this.button1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(77, 70);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(169, 49);
@@ -55,6 +56,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.DarkRed;
             this.button2.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Location = new System.Drawing.Point(77, 135);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(169, 49);
@@ -67,6 +69,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.DarkRed;
             this.button3.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Location = new System.Drawing.Point(77, 203);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(169, 49);
@@ -79,6 +82,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.DarkRed;
             this.button4.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button4.Location = new System.Drawing.Point(77, 270);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(169, 49);
@@ -101,6 +105,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.DarkRed;
             this.button5.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button5.Location = new System.Drawing.Point(77, 341);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(169, 49);
@@ -113,6 +118,7 @@
             // 
             this.button6.BackColor = System.Drawing.Color.DarkRed;
             this.button6.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button6.Location = new System.Drawing.Point(77, 447);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(169, 49);
@@ -125,6 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(960, 548);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);

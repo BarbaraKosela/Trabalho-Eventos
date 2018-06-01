@@ -68,6 +68,7 @@
             this.btnEstatisticasConvidados.TabIndex = 5;
             this.btnEstatisticasConvidados.Text = "ESTATÍSTICAS";
             this.btnEstatisticasConvidados.UseVisualStyleBackColor = false;
+            this.btnEstatisticasConvidados.Click += new System.EventHandler(this.btnEstatisticasConvidados_Click);
             // 
             // btnCadastrarEquipe
             // 

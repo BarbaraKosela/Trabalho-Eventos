@@ -45,5 +45,11 @@ namespace SistemaJogadores
         {
             Dispose();
         }
+
+        private void btnEstatisticasConvidados_Click(object sender, EventArgs e)
+        {
+            EstatisticaConvidados estatisticaConvidados = new EstatisticaConvidados();
+            estatisticaConvidados.Show();
+        }
     }
 }

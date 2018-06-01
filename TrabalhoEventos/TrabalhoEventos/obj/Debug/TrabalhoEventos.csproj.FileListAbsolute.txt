@@ -199,3 +199,4 @@ C:\Users\105014\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEvento
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroCla.resources
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCadastroPatrocinador.resources
 C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.ListaCCJogador.resources
+C:\Users\104962\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.EstatisticaJogadoresAlan.resources

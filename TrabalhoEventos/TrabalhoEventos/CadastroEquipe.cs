@@ -24,7 +24,7 @@ namespace SistemaJogadores
 
         
 
-        public void CadastrarEquipe(CEquipes cequipe, int posicao)
+        public CadastroEquipe(CEquipes cequipe, int posicao)
         {
 
             this.posicao = posicao;

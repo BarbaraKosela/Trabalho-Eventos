@@ -91,7 +91,7 @@ namespace SistemaJogadores
             int LinhaSelecionada = dgvListaJogadores.CurrentRow.Index;
 
             CJogador cjogador = Program.cjogadores[LinhaSelecionada];
-            DialogResult resultado = MessageBox.Show("Deseja apagar " + cjogador.NomeJogador + "o registro ?", "AVISO", MessageBoxButtons.YesNo);
+            DialogResult resultado = MessageBox.Show("Deseja apagar " + cjogador.NomeJogador + " do registro ?", "AVISO", MessageBoxButtons.YesNo);
             if (resultado == DialogResult.Yes)
             {
                 Program.cjogadores.RemoveAt(LinhaSelecionada);

@@ -12,7 +12,7 @@ namespace SistemaJogadores
 {
     public partial class CadastroJogador : Form
     {
-        public int posicao;
+        public int posicao = -1;
         public CJogador cjogador;
 
         public CadastroJogador()

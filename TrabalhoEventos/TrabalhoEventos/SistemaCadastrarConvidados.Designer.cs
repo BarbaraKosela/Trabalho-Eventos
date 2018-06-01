@@ -67,6 +67,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkRed;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -91,6 +92,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.DarkRed;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -103,6 +105,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.DarkRed;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -163,6 +166,7 @@
             // 
             // label9
             // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.DarkRed;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -175,6 +179,7 @@
             // 
             // label10
             // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.DarkRed;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -187,6 +192,7 @@
             // 
             // label11
             // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.DarkRed;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -199,6 +205,7 @@
             // 
             // label12
             // 
+            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.DarkRed;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -223,6 +230,7 @@
             // 
             // txtNomeConvidado
             // 
+            this.txtNomeConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtNomeConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtNomeConvidado.Location = new System.Drawing.Point(223, 86);
             this.txtNomeConvidado.Name = "txtNomeConvidado";
@@ -232,6 +240,7 @@
             // 
             // txtIdadeConvidado
             // 
+            this.txtIdadeConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtIdadeConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtIdadeConvidado.Location = new System.Drawing.Point(224, 128);
             this.txtIdadeConvidado.Name = "txtIdadeConvidado";
@@ -240,6 +249,7 @@
             // 
             // txtNumeroCrachaConvidado
             // 
+            this.txtNumeroCrachaConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtNumeroCrachaConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtNumeroCrachaConvidado.Location = new System.Drawing.Point(214, 170);
             this.txtNumeroCrachaConvidado.Name = "txtNumeroCrachaConvidado";
@@ -248,6 +258,7 @@
             // 
             // txtCPFConvidado
             // 
+            this.txtCPFConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtCPFConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtCPFConvidado.Location = new System.Drawing.Point(91, 209);
             this.txtCPFConvidado.Name = "txtCPFConvidado";
@@ -256,6 +267,7 @@
             // 
             // cbSalaAtuarConvidado
             // 
+            this.cbSalaAtuarConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cbSalaAtuarConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbSalaAtuarConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSalaAtuarConvidado.FormattingEnabled = true;
@@ -271,6 +283,7 @@
             // 
             // txtEquipeConvidado
             // 
+            this.txtEquipeConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtEquipeConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtEquipeConvidado.Location = new System.Drawing.Point(237, 299);
             this.txtEquipeConvidado.Name = "txtEquipeConvidado";
@@ -279,6 +292,7 @@
             // 
             // txtEmailConvidado
             // 
+            this.txtEmailConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtEmailConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtEmailConvidado.Location = new System.Drawing.Point(237, 341);
             this.txtEmailConvidado.Name = "txtEmailConvidado";
@@ -496,6 +510,7 @@
             this.Name = "SistemaCadastrarConvidados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SistemaCadastrarConvidados";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

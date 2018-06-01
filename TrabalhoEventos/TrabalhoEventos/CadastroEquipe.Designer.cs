@@ -426,7 +426,7 @@
             this.cbPesquisa.Location = new System.Drawing.Point(297, 295);
             this.cbPesquisa.Name = "cbPesquisa";
             this.cbPesquisa.Size = new System.Drawing.Size(177, 21);
-            this.cbPesquisa.TabIndex = 103;
+            this.cbPesquisa.TabIndex = 7;
             // 
             // CadastroEquipe
             // 

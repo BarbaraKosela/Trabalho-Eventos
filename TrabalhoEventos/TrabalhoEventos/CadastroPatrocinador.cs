@@ -12,7 +12,7 @@ namespace SistemaJogadores
 {
     public partial class CadastroPatrocinador : Form
     {
-        public int posicao;
+        public int posicao = -1;
         public CPatrocinador cpatrocinador;
         private CPatrocinador cpatrocinador1;
         private int LinhaSeelecionada;

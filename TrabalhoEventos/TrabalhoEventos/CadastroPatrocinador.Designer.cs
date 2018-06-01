@@ -54,7 +54,7 @@
             // 
             this.cbTipoPatrocinio.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbTipoPatrocinio.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.cbTipoPatrocinio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbTipoPatrocinio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbTipoPatrocinio.FormattingEnabled = true;
             this.cbTipoPatrocinio.Items.AddRange(new object[] {
             "Equipamentos",
@@ -64,7 +64,7 @@
             "Outros"});
             this.cbTipoPatrocinio.Location = new System.Drawing.Point(652, 266);
             this.cbTipoPatrocinio.Name = "cbTipoPatrocinio";
-            this.cbTipoPatrocinio.Size = new System.Drawing.Size(148, 26);
+            this.cbTipoPatrocinio.Size = new System.Drawing.Size(148, 21);
             this.cbTipoPatrocinio.TabIndex = 166;
             // 
             // label2
@@ -97,11 +97,11 @@
             // 
             this.mtbCpf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.mtbCpf.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.mtbCpf.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mtbCpf.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtbCpf.Location = new System.Drawing.Point(202, 166);
             this.mtbCpf.Mask = "999.999.999-99";
             this.mtbCpf.Name = "mtbCpf";
-            this.mtbCpf.Size = new System.Drawing.Size(203, 24);
+            this.mtbCpf.Size = new System.Drawing.Size(203, 20);
             this.mtbCpf.TabIndex = 160;
             this.mtbCpf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -122,10 +122,10 @@
             // 
             this.txtNomePatrocinador.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtNomePatrocinador.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtNomePatrocinador.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomePatrocinador.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNomePatrocinador.Location = new System.Drawing.Point(306, 37);
             this.txtNomePatrocinador.Name = "txtNomePatrocinador";
-            this.txtNomePatrocinador.Size = new System.Drawing.Size(415, 24);
+            this.txtNomePatrocinador.Size = new System.Drawing.Size(415, 20);
             this.txtNomePatrocinador.TabIndex = 157;
             this.txtNomePatrocinador.TextChanged += new System.EventHandler(this.txtNomeDoJogo_TextChanged);
             // 
@@ -168,7 +168,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Image = global::TrabalhoEventos.Properties.Resources.clipboard;
-            this.button1.Location = new System.Drawing.Point(319, 428);
+            this.button1.Location = new System.Drawing.Point(320, 428);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 55);
             this.button1.TabIndex = 154;
@@ -233,7 +233,7 @@
             // 
             this.cbEquipeSendoPatrocinada.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbEquipeSendoPatrocinada.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.cbEquipeSendoPatrocinada.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbEquipeSendoPatrocinada.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbEquipeSendoPatrocinada.FormattingEnabled = true;
             this.cbEquipeSendoPatrocinada.Items.AddRange(new object[] {
             "Equipamentos",
@@ -243,17 +243,17 @@
             "Outros"});
             this.cbEquipeSendoPatrocinada.Location = new System.Drawing.Point(597, 145);
             this.cbEquipeSendoPatrocinada.Name = "cbEquipeSendoPatrocinada";
-            this.cbEquipeSendoPatrocinada.Size = new System.Drawing.Size(217, 26);
+            this.cbEquipeSendoPatrocinada.Size = new System.Drawing.Size(217, 21);
             this.cbEquipeSendoPatrocinada.TabIndex = 167;
             // 
             // txtTelefone
             // 
             this.txtTelefone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtTelefone.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefone.Location = new System.Drawing.Point(202, 113);
             this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(203, 24);
+            this.txtTelefone.Size = new System.Drawing.Size(203, 20);
             this.txtTelefone.TabIndex = 168;
             this.txtTelefone.TextChanged += new System.EventHandler(this.txtTelefone_TextChanged);
             // 
@@ -261,20 +261,20 @@
             // 
             this.txtEstado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtEstado.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEstado.Location = new System.Drawing.Point(202, 229);
             this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(203, 24);
+            this.txtEstado.Size = new System.Drawing.Size(203, 20);
             this.txtEstado.TabIndex = 169;
             // 
             // txtCidade
             // 
             this.txtCidade.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtCidade.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCidade.Location = new System.Drawing.Point(202, 294);
             this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(203, 24);
+            this.txtCidade.Size = new System.Drawing.Size(203, 20);
             this.txtCidade.TabIndex = 170;
             // 
             // pictureBox1
@@ -310,6 +310,7 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "CadastroPatrocinador";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de um Patrocinador";

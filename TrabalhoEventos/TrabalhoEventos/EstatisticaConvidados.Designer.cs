@@ -1,4 +1,4 @@
-﻿namespace TrabalhoEventos
+﻿namespace SistemaJogadores
 {
     partial class EstatisticaConvidados
     {
@@ -40,39 +40,48 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.DarkRed;
+            this.button1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(77, 70);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(169, 49);
             this.button1.TabIndex = 0;
             this.button1.Text = "TOTAL DE CADASTRO CONVIDADOS";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.DarkRed;
+            this.button2.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(77, 148);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(169, 49);
             this.button2.TabIndex = 1;
             this.button2.Text = "TOTAL DE CADASTRO EQUIPAMENTO";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.DarkRed;
+            this.button3.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(77, 224);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(169, 49);
             this.button3.TabIndex = 2;
             this.button3.Text = "TOTAL DE CADASTRO ATENDIMENTO JOGADOR";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.DarkRed;
+            this.button4.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(77, 302);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(169, 49);
             this.button4.TabIndex = 3;
             this.button4.Text = "TOTAL DE CADASTRO EQUIPE";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -86,12 +95,14 @@
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.Color.DarkRed;
+            this.button5.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(77, 391);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(169, 49);
             this.button5.TabIndex = 5;
             this.button5.Text = "TOTAL DE CADASTROS";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // EstatisticaConvidados
             // 

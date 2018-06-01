@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TrabalhoEventos
+namespace SistemaJogadores
 {
     public partial class EstatisticaConvidados : Form
     {
         public EstatisticaConvidados()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

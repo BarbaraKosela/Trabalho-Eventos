@@ -57,5 +57,10 @@ namespace SistemaJogadores
             lbPatrocinadores.Text = Convert.ToString(QtdPatrocinadores);
             LBTotal.Text = Convert.ToString(Total);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }

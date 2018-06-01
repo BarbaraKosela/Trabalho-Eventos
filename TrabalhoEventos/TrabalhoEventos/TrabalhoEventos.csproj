@@ -128,6 +128,18 @@
     <Compile Include="CEquipes.cs" />
     <Compile Include="CJogador.cs" />
     <Compile Include="CPatrocinador.cs" />
+    <Compile Include="EstatisticaConvidados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstatisticaConvidados.Designer.cs">
+      <DependentUpon>EstatisticaConvidados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstatisticaJogadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstatisticaJogadores.Designer.cs">
+      <DependentUpon>EstatisticaJogadores.cs</DependentUpon>
+    </Compile>
     <Compile Include="EstatisticaJogadoresAlan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -279,6 +291,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CadastroPatrocinador.resx">
       <DependentUpon>CadastroPatrocinador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EstatisticaConvidados.resx">
+      <DependentUpon>EstatisticaConvidados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EstatisticaJogadores.resx">
+      <DependentUpon>EstatisticaJogadores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EstatisticaJogadoresAlan.resx">
       <DependentUpon>EstatisticaJogadoresAlan.cs</DependentUpon>

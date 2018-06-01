@@ -7,7 +7,7 @@
     <ProjectGuid>{9522DDE2-ECDD-4975-BEC4-AB65A3F41AD7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TrabalhoEventos</RootNamespace>
+    <RootNamespace>SistemaJogadores</RootNamespace>
     <AssemblyName>TrabalhoEventos</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -151,6 +151,12 @@
     </Compile>
     <Compile Include="EstatisticasFunc.Designer.cs">
       <DependentUpon>EstatisticasFunc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kleiton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kleiton.Designer.cs">
+      <DependentUpon>Kleiton.cs</DependentUpon>
     </Compile>
     <Compile Include="ListaCadastroCampeonato.cs">
       <SubType>Form</SubType>
@@ -309,6 +315,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EstatisticasFunc.resx">
       <DependentUpon>EstatisticasFunc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kleiton.resx">
+      <DependentUpon>Kleiton.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListaCadastroCampeonato.resx">
       <DependentUpon>ListaCadastroCampeonato.cs</DependentUpon>

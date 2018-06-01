@@ -67,7 +67,7 @@
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkRed;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -80,6 +80,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.DarkRed;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -92,7 +93,7 @@
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.DarkRed;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -105,7 +106,7 @@
             // 
             // label4
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.DarkRed;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -118,6 +119,7 @@
             // 
             // label5
             // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.DarkRed;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -130,6 +132,7 @@
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.DarkRed;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -142,6 +145,7 @@
             // 
             // label7
             // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.DarkRed;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -154,6 +158,7 @@
             // 
             // label8
             // 
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.DarkRed;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -166,7 +171,7 @@
             // 
             // label9
             // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.DarkRed;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -179,7 +184,7 @@
             // 
             // label10
             // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.DarkRed;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -192,7 +197,7 @@
             // 
             // label11
             // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.DarkRed;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -205,7 +210,7 @@
             // 
             // label12
             // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.DarkRed;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -218,6 +223,7 @@
             // 
             // label13
             // 
+            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.DarkRed;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -230,7 +236,7 @@
             // 
             // txtNomeConvidado
             // 
-            this.txtNomeConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtNomeConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtNomeConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtNomeConvidado.Location = new System.Drawing.Point(223, 86);
             this.txtNomeConvidado.Name = "txtNomeConvidado";
@@ -240,7 +246,7 @@
             // 
             // txtIdadeConvidado
             // 
-            this.txtIdadeConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtIdadeConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtIdadeConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtIdadeConvidado.Location = new System.Drawing.Point(224, 128);
             this.txtIdadeConvidado.Name = "txtIdadeConvidado";
@@ -249,7 +255,7 @@
             // 
             // txtNumeroCrachaConvidado
             // 
-            this.txtNumeroCrachaConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtNumeroCrachaConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtNumeroCrachaConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtNumeroCrachaConvidado.Location = new System.Drawing.Point(214, 170);
             this.txtNumeroCrachaConvidado.Name = "txtNumeroCrachaConvidado";
@@ -258,7 +264,7 @@
             // 
             // txtCPFConvidado
             // 
-            this.txtCPFConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtCPFConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtCPFConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtCPFConvidado.Location = new System.Drawing.Point(91, 209);
             this.txtCPFConvidado.Name = "txtCPFConvidado";
@@ -267,7 +273,7 @@
             // 
             // cbSalaAtuarConvidado
             // 
-            this.cbSalaAtuarConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cbSalaAtuarConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbSalaAtuarConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbSalaAtuarConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSalaAtuarConvidado.FormattingEnabled = true;
@@ -283,7 +289,7 @@
             // 
             // txtEquipeConvidado
             // 
-            this.txtEquipeConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtEquipeConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtEquipeConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtEquipeConvidado.Location = new System.Drawing.Point(237, 299);
             this.txtEquipeConvidado.Name = "txtEquipeConvidado";
@@ -292,7 +298,7 @@
             // 
             // txtEmailConvidado
             // 
-            this.txtEmailConvidado.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtEmailConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtEmailConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtEmailConvidado.Location = new System.Drawing.Point(237, 341);
             this.txtEmailConvidado.Name = "txtEmailConvidado";
@@ -301,6 +307,7 @@
             // 
             // txtNicknameConvidado
             // 
+            this.txtNicknameConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtNicknameConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtNicknameConvidado.Location = new System.Drawing.Point(524, 85);
             this.txtNicknameConvidado.Name = "txtNicknameConvidado";
@@ -309,6 +316,7 @@
             // 
             // cbJogabilidadeConvidado
             // 
+            this.cbJogabilidadeConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbJogabilidadeConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbJogabilidadeConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbJogabilidadeConvidado.FormattingEnabled = true;
@@ -332,6 +340,7 @@
             // 
             // txtNomeDoJogoConvidado
             // 
+            this.txtNomeDoJogoConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtNomeDoJogoConvidado.BackColor = System.Drawing.Color.Gainsboro;
             this.txtNomeDoJogoConvidado.Location = new System.Drawing.Point(708, 169);
             this.txtNomeDoJogoConvidado.Name = "txtNomeDoJogoConvidado";
@@ -340,6 +349,7 @@
             // 
             // cbGeneroConvidado
             // 
+            this.cbGeneroConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbGeneroConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbGeneroConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbGeneroConvidado.FormattingEnabled = true;
@@ -360,6 +370,7 @@
             // 
             // btnCancelarConvidado
             // 
+            this.btnCancelarConvidado.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnCancelarConvidado.BackColor = System.Drawing.Color.DarkRed;
             this.btnCancelarConvidado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -376,6 +387,7 @@
             // 
             // btnSalvarConvidado
             // 
+            this.btnSalvarConvidado.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnSalvarConvidado.BackColor = System.Drawing.Color.DarkRed;
             this.btnSalvarConvidado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvarConvidado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -392,6 +404,7 @@
             // 
             // label14
             // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.DarkRed;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -404,6 +417,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(49, 360);
             this.pictureBox1.Name = "pictureBox1";
@@ -414,6 +428,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(189, 396);
             this.pictureBox2.Name = "pictureBox2";
@@ -424,6 +439,7 @@
             // 
             // cbDificuldadeConvidado
             // 
+            this.cbDificuldadeConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbDificuldadeConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbDificuldadeConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbDificuldadeConvidado.FormattingEnabled = true;
@@ -440,6 +456,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button1.BackColor = System.Drawing.Color.DarkRed;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -453,6 +470,7 @@
             // 
             // cbMeioDeTransmissaoConvidado
             // 
+            this.cbMeioDeTransmissaoConvidado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbMeioDeTransmissaoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbMeioDeTransmissaoConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbMeioDeTransmissaoConvidado.FormattingEnabled = true;

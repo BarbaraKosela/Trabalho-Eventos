@@ -51,7 +51,7 @@
             this.btnVoltarPaginaPrincipalConvidado.Location = new System.Drawing.Point(12, 444);
             this.btnVoltarPaginaPrincipalConvidado.Name = "btnVoltarPaginaPrincipalConvidado";
             this.btnVoltarPaginaPrincipalConvidado.Size = new System.Drawing.Size(182, 55);
-            this.btnVoltarPaginaPrincipalConvidado.TabIndex = 17;
+            this.btnVoltarPaginaPrincipalConvidado.TabIndex = 6;
             this.btnVoltarPaginaPrincipalConvidado.Text = "VOLTAR A PÁGINA PRINCIPAL";
             this.btnVoltarPaginaPrincipalConvidado.UseVisualStyleBackColor = false;
             this.btnVoltarPaginaPrincipalConvidado.Click += new System.EventHandler(this.btnVoltarPaginaPrincipalConvidado_Click);
@@ -64,7 +64,7 @@
             this.btnEstatisticasConvidados.Location = new System.Drawing.Point(50, 349);
             this.btnEstatisticasConvidados.Name = "btnEstatisticasConvidados";
             this.btnEstatisticasConvidados.Size = new System.Drawing.Size(396, 40);
-            this.btnEstatisticasConvidados.TabIndex = 15;
+            this.btnEstatisticasConvidados.TabIndex = 5;
             this.btnEstatisticasConvidados.Text = "ESTATÍSTICAS";
             this.btnEstatisticasConvidados.UseVisualStyleBackColor = false;
             // 
@@ -76,7 +76,7 @@
             this.btnCadastrarEquipe.Location = new System.Drawing.Point(50, 271);
             this.btnCadastrarEquipe.Name = "btnCadastrarEquipe";
             this.btnCadastrarEquipe.Size = new System.Drawing.Size(396, 62);
-            this.btnCadastrarEquipe.TabIndex = 13;
+            this.btnCadastrarEquipe.TabIndex = 4;
             this.btnCadastrarEquipe.Text = "CADASTRAR EQUIPE";
             this.btnCadastrarEquipe.UseVisualStyleBackColor = false;
             this.btnCadastrarEquipe.Click += new System.EventHandler(this.btnCadastrarEquipe_Click);
@@ -89,7 +89,7 @@
             this.btnCadastrarAtendimentoJogador.Location = new System.Drawing.Point(50, 203);
             this.btnCadastrarAtendimentoJogador.Name = "btnCadastrarAtendimentoJogador";
             this.btnCadastrarAtendimentoJogador.Size = new System.Drawing.Size(396, 62);
-            this.btnCadastrarAtendimentoJogador.TabIndex = 11;
+            this.btnCadastrarAtendimentoJogador.TabIndex = 3;
             this.btnCadastrarAtendimentoJogador.Text = "CADASTRAR ATENDIMENTO AO JOGADOR";
             this.btnCadastrarAtendimentoJogador.UseVisualStyleBackColor = false;
             this.btnCadastrarAtendimentoJogador.Click += new System.EventHandler(this.btnCadastrarAtendimentoJogador_Click);
@@ -102,7 +102,7 @@
             this.btnCadastrarEquipamento.Location = new System.Drawing.Point(50, 135);
             this.btnCadastrarEquipamento.Name = "btnCadastrarEquipamento";
             this.btnCadastrarEquipamento.Size = new System.Drawing.Size(396, 62);
-            this.btnCadastrarEquipamento.TabIndex = 10;
+            this.btnCadastrarEquipamento.TabIndex = 2;
             this.btnCadastrarEquipamento.Text = "CADASTRAR EQUIPAMENTO";
             this.btnCadastrarEquipamento.UseVisualStyleBackColor = false;
             this.btnCadastrarEquipamento.Click += new System.EventHandler(this.btnCadastrarEquipamento_Click);
@@ -145,7 +145,7 @@
             this.btnCadastrarConvidado.Location = new System.Drawing.Point(50, 67);
             this.btnCadastrarConvidado.Name = "btnCadastrarConvidado";
             this.btnCadastrarConvidado.Size = new System.Drawing.Size(396, 62);
-            this.btnCadastrarConvidado.TabIndex = 8;
+            this.btnCadastrarConvidado.TabIndex = 1;
             this.btnCadastrarConvidado.Text = "CADASTRAR CONVIDADO";
             this.btnCadastrarConvidado.UseVisualStyleBackColor = false;
             this.btnCadastrarConvidado.Click += new System.EventHandler(this.btnCadastrarConvidado_Click);

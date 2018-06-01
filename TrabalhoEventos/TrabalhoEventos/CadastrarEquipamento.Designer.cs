@@ -84,7 +84,7 @@
             this.btnSalvarConvidado2.Location = new System.Drawing.Point(722, 414);
             this.btnSalvarConvidado2.Name = "btnSalvarConvidado2";
             this.btnSalvarConvidado2.Size = new System.Drawing.Size(137, 56);
-            this.btnSalvarConvidado2.TabIndex = 39;
+            this.btnSalvarConvidado2.TabIndex = 13;
             this.btnSalvarConvidado2.Text = "SALVAR";
             this.btnSalvarConvidado2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnSalvarConvidado2.UseVisualStyleBackColor = false;
@@ -100,7 +100,7 @@
             this.btnCancelarConvidado2.Location = new System.Drawing.Point(550, 414);
             this.btnCancelarConvidado2.Name = "btnCancelarConvidado2";
             this.btnCancelarConvidado2.Size = new System.Drawing.Size(145, 56);
-            this.btnCancelarConvidado2.TabIndex = 38;
+            this.btnCancelarConvidado2.TabIndex = 12;
             this.btnCancelarConvidado2.Text = "CANCELAR";
             this.btnCancelarConvidado2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnCancelarConvidado2.UseVisualStyleBackColor = false;
@@ -114,7 +114,7 @@
             this.rbSimConvidado.Location = new System.Drawing.Point(27, 14);
             this.rbSimConvidado.Name = "rbSimConvidado";
             this.rbSimConvidado.Size = new System.Drawing.Size(47, 17);
-            this.rbSimConvidado.TabIndex = 37;
+            this.rbSimConvidado.TabIndex = 7;
             this.rbSimConvidado.TabStop = true;
             this.rbSimConvidado.Text = "SIM";
             this.rbSimConvidado.UseVisualStyleBackColor = true;
@@ -124,6 +124,7 @@
             this.cbEquipamentoSolicitadoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbEquipamentoSolicitadoConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbEquipamentoSolicitadoConvidado.FormattingEnabled = true;
+            this.cbEquipamentoSolicitadoConvidado.ItemHeight = 13;
             this.cbEquipamentoSolicitadoConvidado.Items.AddRange(new object[] {
             "Mouse;",
             "Headset;",
@@ -141,7 +142,7 @@
             this.txtNumeroCrachaConvidado2.Location = new System.Drawing.Point(196, 254);
             this.txtNumeroCrachaConvidado2.Name = "txtNumeroCrachaConvidado2";
             this.txtNumeroCrachaConvidado2.Size = new System.Drawing.Size(150, 20);
-            this.txtNumeroCrachaConvidado2.TabIndex = 35;
+            this.txtNumeroCrachaConvidado2.TabIndex = 5;
             // 
             // label9
             // 
@@ -247,7 +248,7 @@
             this.rbNaoConvidado.Location = new System.Drawing.Point(159, 14);
             this.rbNaoConvidado.Name = "rbNaoConvidado";
             this.rbNaoConvidado.Size = new System.Drawing.Size(51, 17);
-            this.rbNaoConvidado.TabIndex = 46;
+            this.rbNaoConvidado.TabIndex = 8;
             this.rbNaoConvidado.TabStop = true;
             this.rbNaoConvidado.Text = "NÃO";
             this.rbNaoConvidado.UseVisualStyleBackColor = true;
@@ -272,7 +273,7 @@
             this.rbNaoConvidado2.Location = new System.Drawing.Point(154, 15);
             this.rbNaoConvidado2.Name = "rbNaoConvidado2";
             this.rbNaoConvidado2.Size = new System.Drawing.Size(51, 17);
-            this.rbNaoConvidado2.TabIndex = 49;
+            this.rbNaoConvidado2.TabIndex = 10;
             this.rbNaoConvidado2.TabStop = true;
             this.rbNaoConvidado2.Text = "NÃO";
             this.rbNaoConvidado2.UseVisualStyleBackColor = true;
@@ -285,7 +286,7 @@
             this.rbSimConvidado2.Location = new System.Drawing.Point(22, 15);
             this.rbSimConvidado2.Name = "rbSimConvidado2";
             this.rbSimConvidado2.Size = new System.Drawing.Size(47, 17);
-            this.rbSimConvidado2.TabIndex = 48;
+            this.rbSimConvidado2.TabIndex = 9;
             this.rbSimConvidado2.TabStop = true;
             this.rbSimConvidado2.Text = "SIM";
             this.rbSimConvidado2.UseVisualStyleBackColor = true;
@@ -295,6 +296,7 @@
             this.cbAreaConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbAreaConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAreaConvidado.FormattingEnabled = true;
+            this.cbAreaConvidado.ItemHeight = 13;
             this.cbAreaConvidado.Items.AddRange(new object[] {
             "Sala 1: PC;",
             "Sala 2: PS1, PS2, PS3, PS4;",
@@ -309,6 +311,7 @@
             this.cbAcompanhamentoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbAcompanhamentoConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAcompanhamentoConvidado.FormattingEnabled = true;
+            this.cbAcompanhamentoConvidado.ItemHeight = 13;
             this.cbAcompanhamentoConvidado.Items.AddRange(new object[] {
             "Apoio;",
             "Cadeiras;",
@@ -323,6 +326,7 @@
             this.cbAlimentacaoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cbAlimentacaoConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAlimentacaoConvidado.FormattingEnabled = true;
+            this.cbAlimentacaoConvidado.ItemHeight = 13;
             this.cbAlimentacaoConvidado.Items.AddRange(new object[] {
             "Água;",
             "Snack;",
@@ -339,7 +343,7 @@
             this.txtEmailChamadaConvidado.Location = new System.Drawing.Point(352, 293);
             this.txtEmailChamadaConvidado.Name = "txtEmailChamadaConvidado";
             this.txtEmailChamadaConvidado.Size = new System.Drawing.Size(371, 20);
-            this.txtEmailChamadaConvidado.TabIndex = 53;
+            this.txtEmailChamadaConvidado.TabIndex = 6;
             // 
             // pictureBox1
             // 
@@ -369,7 +373,7 @@
             this.button1.Location = new System.Drawing.Point(379, 414);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(140, 55);
-            this.button1.TabIndex = 56;
+            this.button1.TabIndex = 11;
             this.button1.Text = "LISTAR CADASTROS";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);

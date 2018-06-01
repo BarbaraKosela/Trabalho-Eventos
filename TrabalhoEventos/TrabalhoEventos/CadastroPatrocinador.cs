@@ -37,7 +37,7 @@ namespace SistemaJogadores
             txtNomePatrocinador.Text = cpatrocinador.NomeDoPatrocinador;
             txtTelefone.Text = cpatrocinador.Telefone;
             mtbCpf.Text = cpatrocinador.Cpf;
-            cbEquipeSendoPatrocinada.SelectedItem = cpatrocinador.NomeDaEquipeSendoPatrocinada;
+            txtEquipe.Text = cpatrocinador.NomeDaEquipeSendoPatrocinada;
             cbTipoPatrocinio.SelectedItem = cpatrocinador.TipoPatrocinio;
             txtEstado.Text = cpatrocinador.Estado;
             txtCidade.Text = cpatrocinador.Cidade;
@@ -94,10 +94,10 @@ namespace SistemaJogadores
                 txtCidade.Focus();
                 return;
             }
-            if (cbEquipeSendoPatrocinada.SelectedIndex < 0)
+            if (txtEquipe.Text.Length < 4)
             {
-                MessageBox.Show("Selecione a equipe que vai ser patrocinada !! ");
-                cbEquipeSendoPatrocinada.Focus();
+                MessageBox.Show("Coloque o nome da equipe que vai patrocinar !! ");
+                txtEquipe.Focus();
                 return;
             }
             if (cbTipoPatrocinio.SelectedIndex < 0)
@@ -112,7 +112,7 @@ namespace SistemaJogadores
                 NomeDoPatrocinador = txtNomePatrocinador.Text,
                 Telefone = txtTelefone.Text,
                 Cpf = mtbCpf.Text,
-                NomeDaEquipeSendoPatrocinada = cbEquipeSendoPatrocinada.SelectedItem.ToString(),
+                NomeDaEquipeSendoPatrocinada = txtEquipe.Text,
                 TipoPatrocinio = cbTipoPatrocinio.SelectedItem.ToString(),
                 Estado = txtEstado.Text,
                 Cidade = txtCidade.Text
@@ -139,7 +139,7 @@ namespace SistemaJogadores
             txtNomePatrocinador.Text = "";
             txtTelefone.Text = "";
             mtbCpf.Text = "";
-            cbEquipeSendoPatrocinada.SelectedIndex = -1;
+            txtEquipe.Text = "";
             cbTipoPatrocinio.SelectedIndex = -1;
             txtEstado.Text = "";
             txtCidade.Text = "";
@@ -151,6 +151,11 @@ namespace SistemaJogadores
         }
 
         private void txtTelefone_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEquipe_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -42,11 +42,11 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cbEquipeSendoPatrocinada = new System.Windows.Forms.ComboBox();
             this.txtTelefone = new System.Windows.Forms.TextBox();
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.txtCidade = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtEquipe = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -229,23 +229,6 @@
             this.label1.TabIndex = 150;
             this.label1.Text = "NOME";
             // 
-            // cbEquipeSendoPatrocinada
-            // 
-            this.cbEquipeSendoPatrocinada.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.cbEquipeSendoPatrocinada.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.cbEquipeSendoPatrocinada.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbEquipeSendoPatrocinada.FormattingEnabled = true;
-            this.cbEquipeSendoPatrocinada.Items.AddRange(new object[] {
-            "Equipamentos",
-            "Vestuario",
-            "Diheiro",
-            "Alimentos",
-            "Outros"});
-            this.cbEquipeSendoPatrocinada.Location = new System.Drawing.Point(597, 145);
-            this.cbEquipeSendoPatrocinada.Name = "cbEquipeSendoPatrocinada";
-            this.cbEquipeSendoPatrocinada.Size = new System.Drawing.Size(217, 21);
-            this.cbEquipeSendoPatrocinada.TabIndex = 167;
-            // 
             // txtTelefone
             // 
             this.txtTelefone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
@@ -287,16 +270,27 @@
             this.pictureBox1.TabIndex = 171;
             this.pictureBox1.TabStop = false;
             // 
+            // txtEquipe
+            // 
+            this.txtEquipe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.txtEquipe.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtEquipe.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEquipe.Location = new System.Drawing.Point(611, 144);
+            this.txtEquipe.Name = "txtEquipe";
+            this.txtEquipe.Size = new System.Drawing.Size(203, 20);
+            this.txtEquipe.TabIndex = 172;
+            this.txtEquipe.TextChanged += new System.EventHandler(this.txtEquipe_TextChanged);
+            // 
             // CadastroPatrocinador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(909, 511);
+            this.Controls.Add(this.txtEquipe);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtCidade);
             this.Controls.Add(this.txtEstado);
             this.Controls.Add(this.txtTelefone);
-            this.Controls.Add(this.cbEquipeSendoPatrocinada);
             this.Controls.Add(this.cbTipoPatrocinio);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label7);
@@ -337,10 +331,10 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cbEquipeSendoPatrocinada;
         private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.TextBox txtEstado;
         private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txtEquipe;
     }
 }

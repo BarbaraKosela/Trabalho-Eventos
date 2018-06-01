@@ -61,23 +61,7 @@ namespace SistemaJogadores
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*
-            int LinhaSeelecionada = dgvListaCadastroCla.CurrentRow.Index;
-
-            if (dgvListaCadastroCla.CurrentRow == null)
-            {
-                MessageBox.Show("Não tem nenhum campeonato selecionado !!");
-                return;
-            }
-
-            CEquipes cequip = Program.cequipes[LinhaSeelecionada];
-            
-            new CadastroEquipe(cequip, LinhaSeelecionada).ShowDialog();
-
           
-
-            CadastroEquipe cadastroequipe = new CadastroEquipe(cequipe, LinhaSeelecionada); 
-             */
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -104,7 +88,58 @@ namespace SistemaJogadores
             }
         }
 
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            AtualizarLista();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            Dispose();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+              if (dgvListaCadastroCla.CurrentRow == null)
+            {
+                MessageBox.Show("Nenhuma linha selecionada !!");
+                return;
+            }
+
+            int LinhaSelecionada = dgvListaCadastroCla.CurrentRow.Index;
+
+            CEquipes cequipe = Program.cequipes[LinhaSelecionada];
+            DialogResult resultado = MessageBox.Show("Deseja apagar o campeonato: (" + cequipe.NomeDaEquipe + " ) ??", "AVISO", MessageBoxButtons.YesNo);
+            if (resultado  == DialogResult.Yes)
+            {
+                Program.ccampeonatos.RemoveAt(LinhaSelecionada);
+                AtualizarLista();
+                MessageBox.Show("Registro apagado com sucesso !!");
+            }
+            else
+            {
+                MessageBox.Show("Seu registro ainda esta salvo !!");    
+            }
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            int LinhaSeelecionada = dgvListaCadastroCla.CurrentRow.Index;
+
+            if (dgvListaCadastroCla.CurrentRow == null)
+            {
+                MessageBox.Show("Não tem nenhum campeonato selecionado !!");
+                return;
+            }
+
+            CEquipes cequipe = Program.cequipes[LinhaSeelecionada];
+            new CadastroEquipe(cequipe, LinhaSeelecionada).ShowDialog();
+
+            
+        }
+        }
+
 
 
     }
-}

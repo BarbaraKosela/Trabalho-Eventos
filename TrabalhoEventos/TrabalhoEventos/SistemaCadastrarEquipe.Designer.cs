@@ -143,6 +143,7 @@
             // 
             this.cbFuncao.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbFuncao.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbFuncao.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbFuncao.FormattingEnabled = true;
             this.cbFuncao.Items.AddRange(new object[] {
             "Administrativa;",

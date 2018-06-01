@@ -140,6 +140,7 @@
             // 
             this.cbAtendimentoNumero.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbAtendimentoNumero.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbAtendimentoNumero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAtendimentoNumero.FormattingEnabled = true;
             this.cbAtendimentoNumero.Items.AddRange(new object[] {
             "1",
@@ -286,6 +287,7 @@
             // 
             this.cbResponsavelPor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbResponsavelPor.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbResponsavelPor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbResponsavelPor.FormattingEnabled = true;
             this.cbResponsavelPor.Items.AddRange(new object[] {
             "Melhoramento de Elo de jogadores;",
@@ -381,6 +383,7 @@
             // 
             this.cbAlimentacaoExtra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbAlimentacaoExtra.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbAlimentacaoExtra.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAlimentacaoExtra.FormattingEnabled = true;
             this.cbAlimentacaoExtra.Items.AddRange(new object[] {
             "Água;",
@@ -418,6 +421,7 @@
             // 
             this.cbDificuldadeAtendimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbDificuldadeAtendimento.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbDificuldadeAtendimento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbDificuldadeAtendimento.FormattingEnabled = true;
             this.cbDificuldadeAtendimento.IntegralHeight = false;
             this.cbDificuldadeAtendimento.Items.AddRange(new object[] {
@@ -436,11 +440,13 @@
             this.button1.BackColor = System.Drawing.Color.DarkRed;
             this.button1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(385, 425);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(393, 425);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(140, 55);
             this.button1.TabIndex = 13;
             this.button1.Text = "LISTAR CADASTROS";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

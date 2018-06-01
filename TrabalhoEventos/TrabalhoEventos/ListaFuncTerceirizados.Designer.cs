@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListaFuncTerceirizados));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtFuncTerceirizado = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.dvgFuncTerceirizados = new System.Windows.Forms.DataGridView();
             this.Cnome = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,12 +49,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.dvgFuncTerceirizados)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtFuncTerceirizado
             // 
-            this.textBox1.Location = new System.Drawing.Point(66, 8);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(778, 20);
-            this.textBox1.TabIndex = 16;
+            this.txtFuncTerceirizado.Location = new System.Drawing.Point(66, 8);
+            this.txtFuncTerceirizado.Name = "txtFuncTerceirizado";
+            this.txtFuncTerceirizado.Size = new System.Drawing.Size(778, 20);
+            this.txtFuncTerceirizado.TabIndex = 16;
             // 
             // label2
             // 
@@ -164,6 +164,7 @@
             this.btnReturn.Text = "Retornar";
             this.btnReturn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnReturn.UseVisualStyleBackColor = false;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // btnAtualizar
             // 
@@ -178,6 +179,7 @@
             this.btnAtualizar.Text = "Atualizar";
             this.btnAtualizar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAtualizar.UseVisualStyleBackColor = false;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
             // btnExcluir
             // 
@@ -192,6 +194,7 @@
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnExcluir.UseVisualStyleBackColor = false;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnEditar
             // 
@@ -206,6 +209,7 @@
             this.btnEditar.Text = "Editar";
             this.btnEditar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // ListaFuncTerceirizados
             // 
@@ -216,14 +220,13 @@
             this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtFuncTerceirizado);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dvgFuncTerceirizados);
             this.Controls.Add(this.label1);
             this.Name = "ListaFuncTerceirizados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListaFuncTerceirizados";
-            this.Load += new System.EventHandler(this.ListaFuncTerceirizados_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgFuncTerceirizados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -232,7 +235,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtFuncTerceirizado;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dvgFuncTerceirizados;
         private System.Windows.Forms.Label label1;

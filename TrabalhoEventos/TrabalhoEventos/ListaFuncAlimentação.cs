@@ -52,7 +52,7 @@ namespace SistemaJogadores
             int LinhaSelecionada = dvgFuncAlim.CurrentRow.Index;
 
             CcFuncAlimentação CcFuncAlimentação = Program.FAlimentação[LinhaSelecionada];
-            DialogResult resultado = MessageBox.Show("Deseja remover " + CcFuncAlimentação.Nome + "o cadastro ?", "AVISO", MessageBoxButtons.YesNo);
+            DialogResult resultado = MessageBox.Show("Deseja remover " + CcFuncAlimentação.Nome + " o cadastro ?", "AVISO", MessageBoxButtons.YesNo);
             if (resultado == DialogResult.Yes)
             {
                 Program.FAlimentação.RemoveAt(LinhaSelecionada);
@@ -75,10 +75,10 @@ namespace SistemaJogadores
                 return;
             }
 
-            CcFuncAlimentação CcFuncAdmin = Program.FAlimentação[LinhaSelecionada];
-            new CadastroFuncAlimentação(CcFuncAdmin, LinhaSelecionada).ShowDialog();
+            CcFuncAlimentação CcFuncAlimentação = Program.FAlimentação[LinhaSelecionada];
+            new CadastroFuncAlimentação(CcFuncAlimentação, LinhaSelecionada).ShowDialog();
 
-            CadastroFuncAlimentação cadastroFuncAlim = new CadastroFuncAlimentação(CcFuncAdmin, LinhaSelecionada);
+            CadastroFuncAlimentação cadastroFuncAlim = new CadastroFuncAlimentação(CcFuncAlimentação, LinhaSelecionada);
         }
     }
 }

@@ -167,7 +167,7 @@
             this.button1.BackColor = System.Drawing.Color.DarkRed;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = global::TrabalhoEventos.Properties.Resources.clipboard;
+            this.button1.Image = global::SistemaJogadores.Properties.Resources.clipboard;
             this.button1.Location = new System.Drawing.Point(320, 428);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 55);

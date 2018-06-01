@@ -61,7 +61,7 @@ namespace SistemaJogadores
             int LinhaSelecionada = dvgFuncJogos.CurrentRow.Index;
 
             CcFuncJogos  ccFuncJogos = Program.FJogos[LinhaSelecionada];
-            DialogResult resultado = MessageBox.Show("Deseja remover " + ccFuncJogos.nomej + "o cadastro ?", "AVISO", MessageBoxButtons.YesNo);
+            DialogResult resultado = MessageBox.Show("Deseja remover " + ccFuncJogos.nomej +  "o cadastro ?", "AVISO", MessageBoxButtons.YesNo);
             if (resultado == DialogResult.Yes)
             {
                 Program.FJogos.RemoveAt(LinhaSelecionada);

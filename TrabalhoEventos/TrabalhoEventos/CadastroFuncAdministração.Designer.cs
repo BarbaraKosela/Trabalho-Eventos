@@ -64,7 +64,7 @@
             this.txtEmail.Location = new System.Drawing.Point(17, 367);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(335, 22);
-            this.txtEmail.TabIndex = 53;
+            this.txtEmail.TabIndex = 6;
             // 
             // txtRG
             // 
@@ -72,7 +72,7 @@
             this.txtRG.Location = new System.Drawing.Point(17, 425);
             this.txtRG.Name = "txtRG";
             this.txtRG.Size = new System.Drawing.Size(335, 22);
-            this.txtRG.TabIndex = 52;
+            this.txtRG.TabIndex = 7;
             // 
             // txtSalário
             // 
@@ -80,7 +80,7 @@
             this.txtSalário.Location = new System.Drawing.Point(514, 304);
             this.txtSalário.Name = "txtSalário";
             this.txtSalário.Size = new System.Drawing.Size(339, 22);
-            this.txtSalário.TabIndex = 51;
+            this.txtSalário.TabIndex = 12;
             // 
             // mtxTelefone
             // 
@@ -89,7 +89,7 @@
             this.mtxTelefone.Mask = "0000-0000";
             this.mtxTelefone.Name = "mtxTelefone";
             this.mtxTelefone.Size = new System.Drawing.Size(339, 22);
-            this.mtxTelefone.TabIndex = 50;
+            this.mtxTelefone.TabIndex = 11;
             // 
             // mtxCPF
             // 
@@ -98,7 +98,7 @@
             this.mtxCPF.Mask = "000000000-00";
             this.mtxCPF.Name = "mtxCPF";
             this.mtxCPF.Size = new System.Drawing.Size(339, 22);
-            this.mtxCPF.TabIndex = 49;
+            this.mtxCPF.TabIndex = 10;
             // 
             // mtxtCEP
             // 
@@ -107,7 +107,7 @@
             this.mtxtCEP.Mask = "00000-000";
             this.mtxtCEP.Name = "mtxtCEP";
             this.mtxtCEP.Size = new System.Drawing.Size(339, 22);
-            this.mtxtCEP.TabIndex = 48;
+            this.mtxtCEP.TabIndex = 9;
             // 
             // mtxtCel
             // 
@@ -116,7 +116,7 @@
             this.mtxtCel.Mask = "(99) 00000-0000";
             this.mtxtCel.Name = "mtxtCel";
             this.mtxtCel.Size = new System.Drawing.Size(337, 22);
-            this.mtxtCel.TabIndex = 46;
+            this.mtxtCel.TabIndex = 5;
             this.mtxtCel.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtxtCel_MaskInputRejected);
             // 
             // txtEndereco
@@ -125,7 +125,7 @@
             this.txtEndereco.Location = new System.Drawing.Point(16, 232);
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(336, 22);
-            this.txtEndereco.TabIndex = 45;
+            this.txtEndereco.TabIndex = 4;
             // 
             // nupIdade
             // 
@@ -143,7 +143,7 @@
             0});
             this.nupIdade.Name = "nupIdade";
             this.nupIdade.Size = new System.Drawing.Size(336, 22);
-            this.nupIdade.TabIndex = 44;
+            this.nupIdade.TabIndex = 3;
             this.nupIdade.Value = new decimal(new int[] {
             14,
             0,
@@ -161,7 +161,7 @@
             this.cbArea.Location = new System.Drawing.Point(16, 96);
             this.cbArea.Name = "cbArea";
             this.cbArea.Size = new System.Drawing.Size(336, 24);
-            this.cbArea.TabIndex = 42;
+            this.cbArea.TabIndex = 2;
             // 
             // txtNome
             // 
@@ -169,7 +169,7 @@
             this.txtNome.Location = new System.Drawing.Point(15, 28);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(337, 22);
-            this.txtNome.TabIndex = 41;
+            this.txtNome.TabIndex = 1;
             // 
             // label13
             // 
@@ -594,7 +594,7 @@
             this.txtCidade.Location = new System.Drawing.Point(514, 31);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(339, 24);
-            this.txtCidade.TabIndex = 57;
+            this.txtCidade.TabIndex = 8;
             // 
             // button1
             // 

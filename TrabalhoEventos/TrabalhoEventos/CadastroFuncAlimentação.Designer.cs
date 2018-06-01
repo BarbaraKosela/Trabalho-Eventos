@@ -214,7 +214,7 @@
             this.txtEmailFuncAlim.Location = new System.Drawing.Point(513, 87);
             this.txtEmailFuncAlim.Name = "txtEmailFuncAlim";
             this.txtEmailFuncAlim.Size = new System.Drawing.Size(337, 22);
-            this.txtEmailFuncAlim.TabIndex = 79;
+            this.txtEmailFuncAlim.TabIndex = 9;
             // 
             // txtRGFuncAlim
             // 
@@ -222,7 +222,7 @@
             this.txtRGFuncAlim.Location = new System.Drawing.Point(513, 341);
             this.txtRGFuncAlim.Name = "txtRGFuncAlim";
             this.txtRGFuncAlim.Size = new System.Drawing.Size(337, 22);
-            this.txtRGFuncAlim.TabIndex = 78;
+            this.txtRGFuncAlim.TabIndex = 13;
             // 
             // txtSalarioFuncAlim
             // 
@@ -230,7 +230,7 @@
             this.txtSalarioFuncAlim.Location = new System.Drawing.Point(513, 277);
             this.txtSalarioFuncAlim.Name = "txtSalarioFuncAlim";
             this.txtSalarioFuncAlim.Size = new System.Drawing.Size(337, 22);
-            this.txtSalarioFuncAlim.TabIndex = 77;
+            this.txtSalarioFuncAlim.TabIndex = 12;
             // 
             // mtxtTelefoneFuncAlim
             // 
@@ -239,7 +239,7 @@
             this.mtxtTelefoneFuncAlim.Mask = "0000-0000";
             this.mtxtTelefoneFuncAlim.Name = "mtxtTelefoneFuncAlim";
             this.mtxtTelefoneFuncAlim.Size = new System.Drawing.Size(337, 22);
-            this.mtxtTelefoneFuncAlim.TabIndex = 76;
+            this.mtxtTelefoneFuncAlim.TabIndex = 11;
             // 
             // mtxtCPFFuncAlim
             // 
@@ -248,7 +248,7 @@
             this.mtxtCPFFuncAlim.Mask = "000000000-00";
             this.mtxtCPFFuncAlim.Name = "mtxtCPFFuncAlim";
             this.mtxtCPFFuncAlim.Size = new System.Drawing.Size(337, 22);
-            this.mtxtCPFFuncAlim.TabIndex = 75;
+            this.mtxtCPFFuncAlim.TabIndex = 10;
             // 
             // mtxtCelularFuncAlim
             // 
@@ -257,7 +257,7 @@
             this.mtxtCelularFuncAlim.Mask = "(99) 00000-0000";
             this.mtxtCelularFuncAlim.Name = "mtxtCelularFuncAlim";
             this.mtxtCelularFuncAlim.Size = new System.Drawing.Size(332, 22);
-            this.mtxtCelularFuncAlim.TabIndex = 72;
+            this.mtxtCelularFuncAlim.TabIndex = 6;
             // 
             // txtEnderçoFuncAlim
             // 
@@ -265,7 +265,7 @@
             this.txtEnderçoFuncAlim.Location = new System.Drawing.Point(15, 277);
             this.txtEnderçoFuncAlim.Name = "txtEnderçoFuncAlim";
             this.txtEnderçoFuncAlim.Size = new System.Drawing.Size(332, 22);
-            this.txtEnderçoFuncAlim.TabIndex = 71;
+            this.txtEnderçoFuncAlim.TabIndex = 5;
             // 
             // nupIdadeFuncAliment
             // 
@@ -283,7 +283,7 @@
             0});
             this.nupIdadeFuncAliment.Name = "nupIdadeFuncAliment";
             this.nupIdadeFuncAliment.Size = new System.Drawing.Size(332, 22);
-            this.nupIdadeFuncAliment.TabIndex = 70;
+            this.nupIdadeFuncAliment.TabIndex = 4;
             this.nupIdadeFuncAliment.Value = new decimal(new int[] {
             14,
             0,
@@ -303,7 +303,7 @@
             this.cbPosiçãoFuncAlim.Location = new System.Drawing.Point(15, 153);
             this.cbPosiçãoFuncAlim.Name = "cbPosiçãoFuncAlim";
             this.cbPosiçãoFuncAlim.Size = new System.Drawing.Size(332, 24);
-            this.cbPosiçãoFuncAlim.TabIndex = 69;
+            this.cbPosiçãoFuncAlim.TabIndex = 3;
             // 
             // cbRestaurante
             // 
@@ -319,7 +319,7 @@
             this.cbRestaurante.Location = new System.Drawing.Point(15, 87);
             this.cbRestaurante.Name = "cbRestaurante";
             this.cbRestaurante.Size = new System.Drawing.Size(332, 24);
-            this.cbRestaurante.TabIndex = 68;
+            this.cbRestaurante.TabIndex = 2;
             this.cbRestaurante.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // txtNomeFuncAlimentacao
@@ -328,7 +328,7 @@
             this.txtNomeFuncAlimentacao.Location = new System.Drawing.Point(15, 28);
             this.txtNomeFuncAlimentacao.Name = "txtNomeFuncAlimentacao";
             this.txtNomeFuncAlimentacao.Size = new System.Drawing.Size(332, 22);
-            this.txtNomeFuncAlimentacao.TabIndex = 67;
+            this.txtNomeFuncAlimentacao.TabIndex = 1;
             // 
             // label15
             // 
@@ -447,7 +447,7 @@
             this.mtxCEPFuncAlim.Mask = "00000-000";
             this.mtxCEPFuncAlim.Name = "mtxCEPFuncAlim";
             this.mtxCEPFuncAlim.Size = new System.Drawing.Size(332, 22);
-            this.mtxCEPFuncAlim.TabIndex = 84;
+            this.mtxCEPFuncAlim.TabIndex = 7;
             // 
             // label7
             // 
@@ -760,7 +760,7 @@
             this.txtCidade.Location = new System.Drawing.Point(513, 28);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(337, 24);
-            this.txtCidade.TabIndex = 86;
+            this.txtCidade.TabIndex = 8;
             // 
             // label13
             // 

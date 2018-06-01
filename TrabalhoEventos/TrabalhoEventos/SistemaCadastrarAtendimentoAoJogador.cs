@@ -70,6 +70,18 @@ namespace SistemaJogadores
                 return;
             }
 
+            try
+            {
+                int numeroCracha = Convert.ToInt32(txtNumeroCracha3.Text);
+            }
+
+            catch
+            {
+                MessageBox.Show("Número do crachá pode conter apenas números, digite novamente");
+                txtNumeroCracha3.Focus();
+                return;
+            }
+
             if (cbDificuldadeAtendimento.SelectedIndex < 0)
             {
                 MessageBox.Show("Selecione em que tipo de dificuldade irá atuar com os jogadores");

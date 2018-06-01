@@ -70,6 +70,19 @@ namespace SistemaJogadores
                 return;
             }
 
+            try
+            {
+                int numeroCracha = Convert.ToInt32(txtNumeroCrachaConvidado2.Text);
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Número do crachá deve conter apenas números, digite novamente");
+                txtNumeroCrachaConvidado2.Focus();
+                return;
+            }
+
             if (txtEmailChamadaConvidado.Text.Length < 5)
             {
                 MessageBox.Show("O E-mail deve conter pelo menos 10 dígitos, contando com o @gmail.com, digite novamente");

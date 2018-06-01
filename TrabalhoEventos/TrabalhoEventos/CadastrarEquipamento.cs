@@ -77,6 +77,16 @@ namespace SistemaJogadores
                 return;
             }
 
+            if ((rbNaoConvidado.Checked == null) && (rbSimConvidado.Checked == null))
+            {
+                MessageBox.Show("Selecione se a equipe presisa de tratamento especial !!");
+                rbNaoConvidado.Focus();
+                return;
+            }
+           
+
+           
+
             Equipamento cadastroEquipamentos = new Equipamento()
 
             {
@@ -123,6 +133,11 @@ namespace SistemaJogadores
         {
             ListarEquipamentoConvidado listarEquipamento = new ListarEquipamentoConvidado();
             listarEquipamento.Show();
+        }
+
+        private void cbEquipamentoSolicitadoConvidado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }   
     }
 }

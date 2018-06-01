@@ -14,7 +14,7 @@ namespace SistemaJogadores
         public string NomeLider;
         public string CpfLider;
         public string TelefoneLider;
-       // public string NomeJogo;
+        public string Pesquisa;
         public string FraseCla;
         public bool ParticipouDoJogo;
         public string GeneroJogo;

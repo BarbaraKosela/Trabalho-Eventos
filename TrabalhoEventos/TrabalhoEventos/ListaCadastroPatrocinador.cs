@@ -100,5 +100,10 @@ namespace SistemaJogadores
                 MessageBox.Show("Seu registro ainda esta salvo !!");
             }
         }
+
+        private void txtBusca_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

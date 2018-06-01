@@ -101,6 +101,7 @@
             this.txtBusca.Name = "txtBusca";
             this.txtBusca.Size = new System.Drawing.Size(230, 20);
             this.txtBusca.TabIndex = 25;
+            this.txtBusca.TextChanged += new System.EventHandler(this.txtBusca_TextChanged);
             this.txtBusca.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBusca_KeyDown);
             // 
             // label1

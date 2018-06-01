@@ -66,18 +66,18 @@
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.DarkRed;
-            this.label14.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label14.Location = new System.Drawing.Point(223, 18);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(513, 29);
+            this.label14.Size = new System.Drawing.Size(508, 29);
             this.label14.TabIndex = 40;
             this.label14.Text = "CADASTRE AGORA SEU EQUIPAMENTO!";
             // 
             // btnSalvarConvidado2
             // 
             this.btnSalvarConvidado2.BackColor = System.Drawing.Color.DarkRed;
-            this.btnSalvarConvidado2.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvarConvidado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvarConvidado2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSalvarConvidado2.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvarConvidado2.Image")));
             this.btnSalvarConvidado2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -93,7 +93,7 @@
             // btnCancelarConvidado2
             // 
             this.btnCancelarConvidado2.BackColor = System.Drawing.Color.DarkRed;
-            this.btnCancelarConvidado2.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelarConvidado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarConvidado2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnCancelarConvidado2.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarConvidado2.Image")));
             this.btnCancelarConvidado2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -109,11 +109,11 @@
             // rbSimConvidado
             // 
             this.rbSimConvidado.AutoSize = true;
-            this.rbSimConvidado.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbSimConvidado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbSimConvidado.ForeColor = System.Drawing.Color.Black;
             this.rbSimConvidado.Location = new System.Drawing.Point(27, 14);
             this.rbSimConvidado.Name = "rbSimConvidado";
-            this.rbSimConvidado.Size = new System.Drawing.Size(48, 18);
+            this.rbSimConvidado.Size = new System.Drawing.Size(47, 17);
             this.rbSimConvidado.TabIndex = 37;
             this.rbSimConvidado.TabStop = true;
             this.rbSimConvidado.Text = "SIM";
@@ -122,6 +122,7 @@
             // cbEquipamentoSolicitadoConvidado
             // 
             this.cbEquipamentoSolicitadoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbEquipamentoSolicitadoConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbEquipamentoSolicitadoConvidado.FormattingEnabled = true;
             this.cbEquipamentoSolicitadoConvidado.Items.AddRange(new object[] {
             "Mouse;",
@@ -132,6 +133,7 @@
             this.cbEquipamentoSolicitadoConvidado.Name = "cbEquipamentoSolicitadoConvidado";
             this.cbEquipamentoSolicitadoConvidado.Size = new System.Drawing.Size(191, 21);
             this.cbEquipamentoSolicitadoConvidado.TabIndex = 36;
+            this.cbEquipamentoSolicitadoConvidado.SelectedIndexChanged += new System.EventHandler(this.cbEquipamentoSolicitadoConvidado_SelectedIndexChanged);
             // 
             // txtNumeroCrachaConvidado2
             // 
@@ -145,11 +147,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.DarkRed;
-            this.label9.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label9.Location = new System.Drawing.Point(28, 119);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(210, 16);
+            this.label9.Size = new System.Drawing.Size(221, 16);
             this.label9.TabIndex = 34;
             this.label9.Text = "ÁREA QUE NECESSITA DELE:";
             // 
@@ -157,11 +159,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.DarkRed;
-            this.label8.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label8.Location = new System.Drawing.Point(28, 162);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(156, 16);
+            this.label8.Size = new System.Drawing.Size(161, 16);
             this.label8.TabIndex = 33;
             this.label8.Text = "ACOMPANHAMENTO:";
             // 
@@ -169,11 +171,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkRed;
-            this.label1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Location = new System.Drawing.Point(28, 79);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(206, 16);
+            this.label1.Size = new System.Drawing.Size(215, 16);
             this.label1.TabIndex = 32;
             this.label1.Text = "EQUIPAMENTO SOLICITADO:";
             // 
@@ -181,11 +183,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.DarkRed;
-            this.label2.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Location = new System.Drawing.Point(28, 210);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 16);
+            this.label2.Size = new System.Drawing.Size(176, 16);
             this.label2.TabIndex = 41;
             this.label2.Text = "ALIMENTAÇÃO BÁSICA:";
             // 
@@ -193,11 +195,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.DarkRed;
-            this.label3.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label3.Location = new System.Drawing.Point(513, 88);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(309, 16);
+            this.label3.Size = new System.Drawing.Size(320, 16);
             this.label3.TabIndex = 42;
             this.label3.Text = "(EM CASO DE DOENÇAS OU DEFICIÊNCIAS)";
             // 
@@ -205,11 +207,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.DarkRed;
-            this.label4.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Location = new System.Drawing.Point(513, 72);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(307, 16);
+            this.label4.Size = new System.Drawing.Size(327, 16);
             this.label4.TabIndex = 43;
             this.label4.Text = "NECESSITA DE TRATAMENTOS ESPECIAIS?";
             // 
@@ -217,11 +219,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.DarkRed;
-            this.label5.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label5.Location = new System.Drawing.Point(28, 297);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(318, 16);
+            this.label5.Size = new System.Drawing.Size(327, 16);
             this.label5.TabIndex = 44;
             this.label5.Text = "E-MAIL CASO SEJA NECESSÁRIO CHAMADA:";
             // 
@@ -229,22 +231,22 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.DarkRed;
-            this.label6.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label6.Location = new System.Drawing.Point(28, 255);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(162, 16);
+            this.label6.Size = new System.Drawing.Size(170, 16);
             this.label6.TabIndex = 45;
             this.label6.Text = "NÚMERO DO CRACHÁ:";
             // 
             // rbNaoConvidado
             // 
             this.rbNaoConvidado.AutoSize = true;
-            this.rbNaoConvidado.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbNaoConvidado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbNaoConvidado.ForeColor = System.Drawing.Color.Black;
             this.rbNaoConvidado.Location = new System.Drawing.Point(159, 14);
             this.rbNaoConvidado.Name = "rbNaoConvidado";
-            this.rbNaoConvidado.Size = new System.Drawing.Size(50, 18);
+            this.rbNaoConvidado.Size = new System.Drawing.Size(51, 17);
             this.rbNaoConvidado.TabIndex = 46;
             this.rbNaoConvidado.TabStop = true;
             this.rbNaoConvidado.Text = "NÃO";
@@ -254,22 +256,22 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.DarkRed;
-            this.label7.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label7.Location = new System.Drawing.Point(557, 164);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(215, 16);
+            this.label7.Size = new System.Drawing.Size(234, 16);
             this.label7.TabIndex = 47;
             this.label7.Text = "NECESSITA DE TRANSPORTE?";
             // 
             // rbNaoConvidado2
             // 
             this.rbNaoConvidado2.AutoSize = true;
-            this.rbNaoConvidado2.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbNaoConvidado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbNaoConvidado2.ForeColor = System.Drawing.Color.Black;
             this.rbNaoConvidado2.Location = new System.Drawing.Point(154, 15);
             this.rbNaoConvidado2.Name = "rbNaoConvidado2";
-            this.rbNaoConvidado2.Size = new System.Drawing.Size(50, 18);
+            this.rbNaoConvidado2.Size = new System.Drawing.Size(51, 17);
             this.rbNaoConvidado2.TabIndex = 49;
             this.rbNaoConvidado2.TabStop = true;
             this.rbNaoConvidado2.Text = "NÃO";
@@ -278,11 +280,11 @@
             // rbSimConvidado2
             // 
             this.rbSimConvidado2.AutoSize = true;
-            this.rbSimConvidado2.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbSimConvidado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbSimConvidado2.ForeColor = System.Drawing.Color.Black;
             this.rbSimConvidado2.Location = new System.Drawing.Point(22, 15);
             this.rbSimConvidado2.Name = "rbSimConvidado2";
-            this.rbSimConvidado2.Size = new System.Drawing.Size(48, 18);
+            this.rbSimConvidado2.Size = new System.Drawing.Size(47, 17);
             this.rbSimConvidado2.TabIndex = 48;
             this.rbSimConvidado2.TabStop = true;
             this.rbSimConvidado2.Text = "SIM";
@@ -291,6 +293,7 @@
             // cbAreaConvidado
             // 
             this.cbAreaConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbAreaConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAreaConvidado.FormattingEnabled = true;
             this.cbAreaConvidado.Items.AddRange(new object[] {
             "Sala 1: PC;",
@@ -304,6 +307,7 @@
             // cbAcompanhamentoConvidado
             // 
             this.cbAcompanhamentoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbAcompanhamentoConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAcompanhamentoConvidado.FormattingEnabled = true;
             this.cbAcompanhamentoConvidado.Items.AddRange(new object[] {
             "Apoio;",
@@ -317,6 +321,7 @@
             // cbAlimentacaoConvidado
             // 
             this.cbAlimentacaoConvidado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbAlimentacaoConvidado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAlimentacaoConvidado.FormattingEnabled = true;
             this.cbAlimentacaoConvidado.Items.AddRange(new object[] {
             "Água;",
@@ -359,7 +364,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkRed;
-            this.button1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(379, 414);
             this.button1.Name = "button1";

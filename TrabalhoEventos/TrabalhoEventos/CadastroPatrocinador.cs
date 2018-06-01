@@ -149,5 +149,10 @@ namespace SistemaJogadores
         {
             
         }
+
+        private void txtTelefone_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,24 +29,24 @@
         private void InitializeComponent()
         {
             this.dgvListaCadastroCla = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.txtBusca = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.ColumnNomeEquipe = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnEstadoOrigem = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnCidadeOrigem = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnNomeLider = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnCpfLider = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnTelefoneLider = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnPesquisa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnFraseCla = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnJaParticipou = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnGeneroJogo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnQuantidadeJogadores = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnFrasaTaca = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.txtBusca = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaCadastroCla)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -63,6 +63,7 @@
             this.ColumnNomeLider,
             this.ColumnCpfLider,
             this.ColumnTelefoneLider,
+            this.ColumnPesquisa,
             this.ColumnFraseCla,
             this.ColumnJaParticipou,
             this.ColumnGeneroJogo,
@@ -74,18 +75,77 @@
             this.dgvListaCadastroCla.Size = new System.Drawing.Size(1244, 601);
             this.dgvListaCadastroCla.TabIndex = 29;
             // 
-            // button1
+            // ColumnNomeEquipe
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkRed;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Snow;
-            this.button1.Location = new System.Drawing.Point(326, 24);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 35);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Editar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.ColumnNomeEquipe.HeaderText = "Nome da equipe";
+            this.ColumnNomeEquipe.Name = "ColumnNomeEquipe";
+            this.ColumnNomeEquipe.ReadOnly = true;
+            // 
+            // ColumnEstadoOrigem
+            // 
+            this.ColumnEstadoOrigem.HeaderText = "Estado de origem";
+            this.ColumnEstadoOrigem.Name = "ColumnEstadoOrigem";
+            this.ColumnEstadoOrigem.ReadOnly = true;
+            // 
+            // ColumnCidadeOrigem
+            // 
+            this.ColumnCidadeOrigem.HeaderText = "Cidade de origem";
+            this.ColumnCidadeOrigem.Name = "ColumnCidadeOrigem";
+            this.ColumnCidadeOrigem.ReadOnly = true;
+            // 
+            // ColumnNomeLider
+            // 
+            this.ColumnNomeLider.HeaderText = "Nome do lider";
+            this.ColumnNomeLider.Name = "ColumnNomeLider";
+            this.ColumnNomeLider.ReadOnly = true;
+            // 
+            // ColumnCpfLider
+            // 
+            this.ColumnCpfLider.HeaderText = "Cpf do Lider";
+            this.ColumnCpfLider.Name = "ColumnCpfLider";
+            this.ColumnCpfLider.ReadOnly = true;
+            // 
+            // ColumnTelefoneLider
+            // 
+            this.ColumnTelefoneLider.HeaderText = "Telefone do lider";
+            this.ColumnTelefoneLider.Name = "ColumnTelefoneLider";
+            this.ColumnTelefoneLider.ReadOnly = true;
+            // 
+            // ColumnPesquisa
+            // 
+            this.ColumnPesquisa.HeaderText = "Pesquisa";
+            this.ColumnPesquisa.Name = "ColumnPesquisa";
+            this.ColumnPesquisa.ReadOnly = true;
+            // 
+            // ColumnFraseCla
+            // 
+            this.ColumnFraseCla.HeaderText = "Grito de guerra clã";
+            this.ColumnFraseCla.Name = "ColumnFraseCla";
+            this.ColumnFraseCla.ReadOnly = true;
+            // 
+            // ColumnJaParticipou
+            // 
+            this.ColumnJaParticipou.HeaderText = "Participou anteriormente do evento ??";
+            this.ColumnJaParticipou.Name = "ColumnJaParticipou";
+            this.ColumnJaParticipou.ReadOnly = true;
+            // 
+            // ColumnGeneroJogo
+            // 
+            this.ColumnGeneroJogo.HeaderText = "Genero do jogo";
+            this.ColumnGeneroJogo.Name = "ColumnGeneroJogo";
+            this.ColumnGeneroJogo.ReadOnly = true;
+            // 
+            // ColumnQuantidadeJogadores
+            // 
+            this.ColumnQuantidadeJogadores.HeaderText = "Quantidade de integrantes";
+            this.ColumnQuantidadeJogadores.Name = "ColumnQuantidadeJogadores";
+            this.ColumnQuantidadeJogadores.ReadOnly = true;
+            // 
+            // ColumnFrasaTaca
+            // 
+            this.ColumnFrasaTaca.HeaderText = "Frase na taça";
+            this.ColumnFrasaTaca.Name = "ColumnFrasaTaca";
+            this.ColumnFrasaTaca.ReadOnly = true;
             // 
             // groupBox1
             // 
@@ -94,7 +154,6 @@
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.txtBusca);
             this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Location = new System.Drawing.Point(12, 13);
             this.groupBox1.Name = "groupBox1";
@@ -160,77 +219,11 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // ColumnNomeEquipe
-            // 
-            this.ColumnNomeEquipe.HeaderText = "Nome da equipe";
-            this.ColumnNomeEquipe.Name = "ColumnNomeEquipe";
-            this.ColumnNomeEquipe.ReadOnly = true;
-            // 
-            // ColumnEstadoOrigem
-            // 
-            this.ColumnEstadoOrigem.HeaderText = "Estado de origem";
-            this.ColumnEstadoOrigem.Name = "ColumnEstadoOrigem";
-            this.ColumnEstadoOrigem.ReadOnly = true;
-            // 
-            // ColumnCidadeOrigem
-            // 
-            this.ColumnCidadeOrigem.HeaderText = "Cidade de origem";
-            this.ColumnCidadeOrigem.Name = "ColumnCidadeOrigem";
-            this.ColumnCidadeOrigem.ReadOnly = true;
-            // 
-            // ColumnNomeLider
-            // 
-            this.ColumnNomeLider.HeaderText = "Nome do lider";
-            this.ColumnNomeLider.Name = "ColumnNomeLider";
-            this.ColumnNomeLider.ReadOnly = true;
-            // 
-            // ColumnCpfLider
-            // 
-            this.ColumnCpfLider.HeaderText = "Cpf do Lider";
-            this.ColumnCpfLider.Name = "ColumnCpfLider";
-            this.ColumnCpfLider.ReadOnly = true;
-            // 
-            // ColumnTelefoneLider
-            // 
-            this.ColumnTelefoneLider.HeaderText = "Telefone do lider";
-            this.ColumnTelefoneLider.Name = "ColumnTelefoneLider";
-            this.ColumnTelefoneLider.ReadOnly = true;
-            // 
-            // ColumnFraseCla
-            // 
-            this.ColumnFraseCla.HeaderText = "Grito de guerra clã";
-            this.ColumnFraseCla.Name = "ColumnFraseCla";
-            this.ColumnFraseCla.ReadOnly = true;
-            // 
-            // ColumnJaParticipou
-            // 
-            this.ColumnJaParticipou.HeaderText = "Participou anteriormente do evento ??";
-            this.ColumnJaParticipou.Name = "ColumnJaParticipou";
-            this.ColumnJaParticipou.ReadOnly = true;
-            // 
-            // ColumnGeneroJogo
-            // 
-            this.ColumnGeneroJogo.HeaderText = "Genero do jogo";
-            this.ColumnGeneroJogo.Name = "ColumnGeneroJogo";
-            this.ColumnGeneroJogo.ReadOnly = true;
-            // 
-            // ColumnQuantidadeJogadores
-            // 
-            this.ColumnQuantidadeJogadores.HeaderText = "Quantidade de integrantes";
-            this.ColumnQuantidadeJogadores.Name = "ColumnQuantidadeJogadores";
-            this.ColumnQuantidadeJogadores.ReadOnly = true;
-            // 
-            // ColumnFrasaTaca
-            // 
-            this.ColumnFrasaTaca.HeaderText = "Frase na taça";
-            this.ColumnFrasaTaca.Name = "ColumnFrasaTaca";
-            this.ColumnFrasaTaca.ReadOnly = true;
-            // 
             // ListaCadastroCla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 513);
+            this.ClientSize = new System.Drawing.Size(1272, 513);
             this.Controls.Add(this.dgvListaCadastroCla);
             this.Controls.Add(this.groupBox1);
             this.Name = "ListaCadastroCla";
@@ -245,7 +238,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvListaCadastroCla;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button4;
@@ -258,6 +250,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNomeLider;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCpfLider;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTelefoneLider;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnPesquisa;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnFraseCla;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnJaParticipou;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnGeneroJogo;

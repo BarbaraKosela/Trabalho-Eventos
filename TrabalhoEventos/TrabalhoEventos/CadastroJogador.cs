@@ -26,20 +26,21 @@ namespace SistemaJogadores
             this.posicao = posicao;
 
             txtNomeDoJogador.Text = cjogador.NomeJogador;
-            mtbDataNascimento.Text =  cjogador.DataNascimento;
+            mtbDataNascimento.Text = cjogador.DataNascimento;
             mtbCpf.Text = cjogador.Cpf;
             txtRg.Text = cjogador.Rg;
             txtTelefone.Text = cjogador.Telefone;
             txtTelefoneEmergencia.Text = cjogador.TelefoneEmergencia;
-            txtFalarCom.Text =  cjogador.FalarCom;
+            txtFalarCom.Text = cjogador.FalarCom;
             txtEndereco.Text = cjogador.Endereco;
             txtNumeroCasa.Text = Convert.ToString(cjogador.NumeroCasa);
-            txtEmail.Text =  cjogador.Email;
+            txtEmail.Text = cjogador.Email;
             txtNomeCla.Text = cjogador.NomeEquipe;
             txtEstado.Text = cjogador.Estado;
             txtCidade.Text = cjogador.Cidade;
-
         }
+
+
         private void txtNomeDoJogo_TextChanged(object sender, EventArgs e)
         {
 
@@ -86,6 +87,13 @@ namespace SistemaJogadores
             {
                 MessageBox.Show("Coloque o endereço que reside !!");
                 txtEndereco.Focus();
+                return;
+            }
+
+            if (txtNumeroCasa.Text.Length > 6)
+            {
+                MessageBox.Show("Numero da casa deve conter somente numeros e no maximo 6 caracter !!");
+                txtNumeroCasa.Focus();
                 return;
             }
             if (txtEmail.Text.Length < 5)

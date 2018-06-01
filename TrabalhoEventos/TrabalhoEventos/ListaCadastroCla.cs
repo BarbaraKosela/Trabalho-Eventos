@@ -21,13 +21,14 @@ namespace SistemaJogadores
 
         private void txtBusca_TextChanged(object sender, EventArgs e)
         {
-
+            AtualizarLista();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Dispose();
         }
+
         public void AtualizarLista()
         {
             dgvListaCadastroCla.Rows.Clear();
@@ -35,13 +36,12 @@ namespace SistemaJogadores
             for (int i = 0; i < Program.cequipes.Count; i++)
             {
                 CEquipes cequipe = Program.cequipes[i];
-                if (cequipe.NomeDaEquipe.Contains(Busca))
+                if (cequipe.NomeLider.Contains(Busca) || (cequipe.NomeDaEquipe.Contains(Busca)))
                 {
                     dgvListaCadastroCla.Rows.Add(new object[]{
-
-                    cequipe.NomeDaEquipe, cequipe.EstadoOrigem, cequipe.CidadeOrigem, cequipe.NomeLider, cequipe.CpfLider, cequipe.TelefoneLider, cequipe.FraseCla,cequipe.ParticipouDoJogo, cequipe.GeneroJogo, cequipe.QuantidadeIntegrantes, cequipe.FraseTaca,
+                    cequipe.NomeDaEquipe, cequipe.EstadoOrigem, cequipe.CidadeOrigem, cequipe.NomeLider, cequipe.CpfLider, cequipe.TelefoneLider,cequipe.Pesquisa, cequipe.FraseCla,cequipe.ParticipouDoJogo, cequipe.GeneroJogo, cequipe.QuantidadeIntegrantes, cequipe.FraseTaca,
 });
-                    /*cequipe.NomeJogo,*/ 
+                    
                 }
             }
         }
@@ -61,6 +61,7 @@ namespace SistemaJogadores
 
         private void button1_Click(object sender, EventArgs e)
         {
+            /*
             int LinhaSeelecionada = dgvListaCadastroCla.CurrentRow.Index;
 
             if (dgvListaCadastroCla.CurrentRow == null)
@@ -69,10 +70,14 @@ namespace SistemaJogadores
                 return;
             }
 
-            CEquipes cequipe = Program.cequipes[LinhaSeelecionada];
-            new CadastroEquipe(cequipe, LinhaSeelecionada).ShowDialog();
+            CEquipes cequip = Program.cequipes[LinhaSeelecionada];
+            
+            new CadastroEquipe(cequip, LinhaSeelecionada).ShowDialog();
+
+          
 
             CadastroEquipe cadastroequipe = new CadastroEquipe(cequipe, LinhaSeelecionada); 
+             */
         }
 
         private void button2_Click(object sender, EventArgs e)

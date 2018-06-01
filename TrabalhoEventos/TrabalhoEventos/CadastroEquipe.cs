@@ -14,7 +14,7 @@ namespace SistemaJogadores
     {
         public CEquipes cequipe;
         public int posicao = -1;
-        private CEquipes cequipe1;
+        
         private int LinhaSeelecionada;
 
         public CadastroEquipe()
@@ -22,12 +22,7 @@ namespace SistemaJogadores
             InitializeComponent();
         }
 
-        public CadastroEquipe(CEquipes cequipe1, int LinhaSeelecionada)
-        {
-            // TODO: Complete member initialization
-            this.cequipe1 = cequipe1;
-            this.LinhaSeelecionada = LinhaSeelecionada;
-        }
+        
 
         public void CadastrarEquipe(CEquipes cequipe, int posicao)
         {
@@ -40,7 +35,7 @@ namespace SistemaJogadores
             txtNomeLider.Text = cequipe.NomeLider;
             mtbCpf.Text = cequipe.CpfLider;
             txtTelefone.Text = cequipe.TelefoneLider;            
-            //cbCampeonato.SelectedItem = cequipe.NomeJogo;
+            cbPesquisa.SelectedItem = cequipe.Pesquisa;
             txtFraseCla.Text = cequipe.FraseCla; 
             rbSim.Checked = cequipe.ParticipouDoJogo;
             cbGeneroJogo.SelectedItem = cequipe.GeneroJogo;
@@ -106,16 +101,15 @@ namespace SistemaJogadores
                 return;
             }
 
-            /*
-            if (cbCampeonato.SelectedIndex < 0)
+            
+            if (cbPesquisa.SelectedIndex < 0)
             {
-                MessageBox.Show(@"Selecione um campeonato para participar desse evento, 
-                Caso não tenha nenhum campeonato espere até que seja cadastrado um.");
-                cbCampeonato.Focus();
+                MessageBox.Show("Responda a pesquisa !!");
+                cbPesquisa.Focus();
                 return;
             }
-             * 
-             */
+             
+            
 
             if (txtFraseCla.Text.Length < 10)
             {
@@ -148,7 +142,7 @@ namespace SistemaJogadores
                 return;
             }
 
-            CEquipes cequipes = new CEquipes()
+            CEquipes cequipe = new CEquipes()
             {
                 NomeDaEquipe = txtNomeDaEquipe.Text,
                 EstadoOrigem = txtEstado.Text,
@@ -156,7 +150,7 @@ namespace SistemaJogadores
                 NomeLider = txtNomeLider.Text,
                 CpfLider = mtbCpf.Text,
                 TelefoneLider = txtTelefone.Text,
-                //NomeJogo = cbCampeonato.SelectedItem.ToString(),
+                Pesquisa = cbPesquisa.SelectedItem.ToString(),
                 FraseCla = txtFraseCla.Text,
                 ParticipouDoJogo = rbSim.Checked,
                 GeneroJogo = cbGeneroJogo.SelectedItem.ToString(),
@@ -188,7 +182,7 @@ namespace SistemaJogadores
                 txtNomeLider.Text = "";
                 mtbCpf.Text = "";
                 txtTelefone.Text = "";
-                cbCampeonato.SelectedIndex = -1;
+                cbPesquisa.SelectedIndex = -1;
                 txtFraseCla.Text = "";
                 rbSim.Checked = false;
                 cbGeneroJogo.SelectedIndex = -1;
@@ -209,6 +203,11 @@ namespace SistemaJogadores
         private void txtTelefone_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void cbCampeonato_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

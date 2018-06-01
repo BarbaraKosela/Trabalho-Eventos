@@ -57,7 +57,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.txtCidade = new System.Windows.Forms.TextBox();
-            this.cbCampeonato = new System.Windows.Forms.ComboBox();
+            this.cbPesquisa = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -283,11 +283,11 @@
             this.label6.BackColor = System.Drawing.Color.DarkRed;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(47, 292);
+            this.label6.Location = new System.Drawing.Point(52, 281);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(395, 16);
+            this.label6.Size = new System.Drawing.Size(239, 48);
             this.label6.TabIndex = 88;
-            this.label6.Text = "ESCOLHA O CAMPEONATO QUE DESEJA PARTICIPAR";
+            this.label6.Text = "*PESQUISA,  QUANTAS HORAS \r\nPOR DIA PASSA NA FRENTE DO\r\nPC OU VIDEO GAME ??";
             // 
             // label5
             // 
@@ -384,21 +384,27 @@
             this.txtCidade.Size = new System.Drawing.Size(203, 20);
             this.txtCidade.TabIndex = 3;
             // 
-            // cbCampeonato
+            // cbPesquisa
             // 
-            this.cbCampeonato.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbCampeonato.FormattingEnabled = true;
-            this.cbCampeonato.Location = new System.Drawing.Point(474, 292);
-            this.cbCampeonato.Name = "cbCampeonato";
-            this.cbCampeonato.Size = new System.Drawing.Size(141, 21);
-            this.cbCampeonato.TabIndex = 103;
+            this.cbPesquisa.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cbPesquisa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbPesquisa.FormattingEnabled = true;
+            this.cbPesquisa.Items.AddRange(new object[] {
+            "max 1:00 Hr",
+            "max 2:00 Hr",
+            "max 5:00 Hr",
+            "+ 5:00HR "});
+            this.cbPesquisa.Location = new System.Drawing.Point(297, 295);
+            this.cbPesquisa.Name = "cbPesquisa";
+            this.cbPesquisa.Size = new System.Drawing.Size(177, 21);
+            this.cbPesquisa.TabIndex = 103;
             // 
             // CadastroEquipe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1009, 611);
-            this.Controls.Add(this.cbCampeonato);
+            this.Controls.Add(this.cbPesquisa);
             this.Controls.Add(this.txtCidade);
             this.Controls.Add(this.txtEstado);
             this.Controls.Add(this.pictureBox1);
@@ -467,6 +473,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtEstado;
         private System.Windows.Forms.TextBox txtCidade;
-        private System.Windows.Forms.ComboBox cbCampeonato;
+        private System.Windows.Forms.ComboBox cbPesquisa;
     }
 }

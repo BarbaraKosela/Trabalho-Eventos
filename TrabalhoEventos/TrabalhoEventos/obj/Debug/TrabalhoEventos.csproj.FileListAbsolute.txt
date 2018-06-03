@@ -177,3 +177,4 @@ C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\Trabalho
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.SistemaCadastrarEquipe.resources
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.SistemaFuncionario.resources
 C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\TrabalhoEventos.csproj.GenerateResource.Cache
+C:\Users\Alan Eduardo\Documents\GitHub\Trabalho-Eventos\TrabalhoEventos\TrabalhoEventos\obj\Debug\SistemaJogadores.LoginSenha.resources

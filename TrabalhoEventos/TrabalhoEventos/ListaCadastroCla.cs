@@ -135,18 +135,33 @@ namespace SistemaJogadores
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            int LinhaSeelecionada = dgvListaCadastroCla.CurrentRow.Index;
+            ClasseLoginSenha classeloginsenha = new ClasseLoginSenha();
+            
 
-            if (dgvListaCadastroCla.CurrentRow == null)
+            new LoginSenha().ShowDialog();
+
+            if (true)
             {
-                MessageBox.Show("Não tem nenhum campeonato selecionado !!");
+
+                int LinhaSeelecionada = dgvListaCadastroCla.CurrentRow.Index;
+
+                if (dgvListaCadastroCla.CurrentRow == null)
+                {
+                    MessageBox.Show("Não tem nenhum campeonato selecionado !!");
+                    return;
+                }
+
+                CEquipes cequipe = Program.cequipes[LinhaSeelecionada];
+                new CadastroEquipe(cequipe, LinhaSeelecionada).ShowDialog();
+
+            }
+            else
+            {
                 return;
             }
-
-            CEquipes cequipe = Program.cequipes[LinhaSeelecionada];
-            new CadastroEquipe(cequipe, LinhaSeelecionada).ShowDialog();
-
             
+            
+    
         }
 
         private void dgvListaCadastroCla_CellContentClick(object sender, DataGridViewCellEventArgs e)

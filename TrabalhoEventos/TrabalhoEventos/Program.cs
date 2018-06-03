@@ -23,6 +23,7 @@ namespace SistemaJogadores
         public static List<CEquipes> cequipes = new List<CEquipes>();
         public static List<CJogador> cjogadores = new List<CJogador>();
         public static List<CPatrocinador> cpatrocinadores = new List<CPatrocinador>();
+        public static List<ClasseLoginSenha> classeloginsenhas = new List<ClasseLoginSenha>();
         
         /// <summary>
         /// The main entry point for the application.
@@ -32,7 +33,7 @@ namespace SistemaJogadores
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AngryNerds());
+            Application.Run(new LoginSenha());
         }
     }
 }

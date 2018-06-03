@@ -127,6 +127,7 @@
     <Compile Include="CEquipeConvidado.cs" />
     <Compile Include="CEquipes.cs" />
     <Compile Include="CJogador.cs" />
+    <Compile Include="ClasseLoginSenha.cs" />
     <Compile Include="CPatrocinador.cs" />
     <Compile Include="EstatisticaConvidados.cs">
       <SubType>Form</SubType>
@@ -229,6 +230,12 @@
     </Compile>
     <Compile Include="ListarEquipeConvidado.Designer.cs">
       <DependentUpon>ListarEquipeConvidado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginSenha.Designer.cs">
+      <DependentUpon>LoginSenha.cs</DependentUpon>
     </Compile>
     <Compile Include="MapaDoEvento.cs">
       <SubType>Form</SubType>
@@ -354,6 +361,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListarEquipeConvidado.resx">
       <DependentUpon>ListarEquipeConvidado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginSenha.resx">
+      <DependentUpon>LoginSenha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MapaDoEvento.resx">
       <DependentUpon>MapaDoEvento.cs</DependentUpon>

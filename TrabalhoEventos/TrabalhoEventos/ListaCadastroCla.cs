@@ -38,8 +38,18 @@ namespace SistemaJogadores
                 CEquipes cequipe = Program.cequipes[i];
                 if (cequipe.NomeLider.Contains(Busca) || (cequipe.NomeDaEquipe.Contains(Busca)))
                 {
+                    string Rr = "";
+
+                    if (cequipe.ParticipouDoJogo == true)
+                    {
+                        Rr = "Sim";
+                    }
+                    else
+                    {
+                         Rr = "Não";
+                    }
                     dgvListaCadastroCla.Rows.Add(new object[]{
-                    cequipe.NomeDaEquipe, cequipe.EstadoOrigem, cequipe.CidadeOrigem, cequipe.NomeLider, cequipe.CpfLider, cequipe.TelefoneLider,cequipe.Pesquisa, cequipe.FraseCla,cequipe.ParticipouDoJogo, cequipe.GeneroJogo, cequipe.QuantidadeIntegrantes, cequipe.FraseTaca,
+                    cequipe.NomeDaEquipe, cequipe.EstadoOrigem, cequipe.CidadeOrigem, cequipe.NomeLider, cequipe.CpfLider, cequipe.TelefoneLider,cequipe.Pesquisa, cequipe.FraseCla, Rr, cequipe.GeneroJogo, cequipe.QuantidadeIntegrantes, cequipe.FraseTaca,
 });
                     
                 }
@@ -137,6 +147,11 @@ namespace SistemaJogadores
             new CadastroEquipe(cequipe, LinhaSeelecionada).ShowDialog();
 
             
+        }
+
+        private void dgvListaCadastroCla_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
         }
 

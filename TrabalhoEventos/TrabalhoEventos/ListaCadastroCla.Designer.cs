@@ -54,7 +54,7 @@
             // 
             this.dgvListaCadastroCla.AllowUserToAddRows = false;
             this.dgvListaCadastroCla.AllowUserToDeleteRows = false;
-            this.dgvListaCadastroCla.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.dgvListaCadastroCla.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.dgvListaCadastroCla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListaCadastroCla.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnNomeEquipe,
@@ -74,6 +74,7 @@
             this.dgvListaCadastroCla.ReadOnly = true;
             this.dgvListaCadastroCla.Size = new System.Drawing.Size(1244, 726);
             this.dgvListaCadastroCla.TabIndex = 29;
+            this.dgvListaCadastroCla.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaCadastroCla_CellContentClick);
             // 
             // ColumnNomeEquipe
             // 

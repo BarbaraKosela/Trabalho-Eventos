@@ -176,7 +176,7 @@ namespace SistemaJogadores
                premio3 = mtbPremio3.Text,
                nivel = cbNivelCampeonato.SelectedItem.ToString(),        
                quantidadeEquipes = Convert.ToInt32(txtQuantidadeEquipesParticipar.Text),
-               taxaEquipe = Convert.ToDouble(mtbTaxaEquipe.Text)
+               taxaEquipe = Convert.ToString(mtbTaxaEquipe.Text)
               
                
             };
@@ -232,6 +232,11 @@ namespace SistemaJogadores
         }
 
         private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbSalaJogo_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

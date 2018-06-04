@@ -243,6 +243,7 @@
     <Compile Include="MapaDoEvento.Designer.cs">
       <DependentUpon>MapaDoEvento.cs</DependentUpon>
     </Compile>
+    <Compile Include="NomesPreCadastrados.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>

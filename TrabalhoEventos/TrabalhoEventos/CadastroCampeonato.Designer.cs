@@ -289,6 +289,7 @@
             this.cbSalaJogo.Name = "cbSalaJogo";
             this.cbSalaJogo.Size = new System.Drawing.Size(203, 21);
             this.cbSalaJogo.TabIndex = 3;
+            this.cbSalaJogo.SelectedIndexChanged += new System.EventHandler(this.cbSalaJogo_SelectedIndexChanged);
             // 
             // cbTipoEquipamento
             // 

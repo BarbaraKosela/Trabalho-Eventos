@@ -8,6 +8,9 @@ namespace SistemaJogadores
 {
     public class CCampeonato
     {
+
+
+
         public string nomeDocampeonato;
         public string nomeDoJogo;
         public string salaDoJogo;
@@ -20,6 +23,6 @@ namespace SistemaJogadores
         public string premio3;
         public string nivel;        
         public int quantidadeEquipes;
-        public double taxaEquipe;
+        public string taxaEquipe;
     }
 }

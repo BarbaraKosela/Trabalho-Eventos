@@ -193,5 +193,16 @@ namespace SistemaJogadores
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openfiledialog = new OpenFileDialog();
+
+            if (openfiledialog.ShowDialog() == DialogResult.OK)
+            {
+                textBox1.Text = openfiledialog.FileName;
+                imgPerfil.ImageLocation = openfiledialog.FileName;
+            }
+        }
     }
 }

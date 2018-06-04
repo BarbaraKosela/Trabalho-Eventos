@@ -31,8 +31,7 @@ namespace SistemaJogadores
         {
 
             this.posicao = posicao;
-            InitializeComponent();
-            textBox1.Text = cequipe.Imagem;
+            InitializeComponent();            
             txtNomeDaEquipe.Text = cequipe.NomeDaEquipe;
             txtEstado.Text = cequipe.EstadoOrigem;
             txtCidade.Text = cequipe.CidadeOrigem;
@@ -148,7 +147,7 @@ namespace SistemaJogadores
 
             CEquipes cequipe = new CEquipes()
             {
-                Imagem = textBox1.Text,
+
                 NomeDaEquipe = txtNomeDaEquipe.Text,
                 EstadoOrigem = txtEstado.Text,
                 CidadeOrigem = txtCidade.Text,
@@ -232,6 +231,11 @@ namespace SistemaJogadores
                 imgSalvar.ImageLocation = openfiledialog.FileName;
             }
            
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

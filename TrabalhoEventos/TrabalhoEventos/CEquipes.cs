@@ -8,7 +8,7 @@ namespace SistemaJogadores
 {
     public class CEquipes
     {
-        public string Imagem;
+       
         public string NomeDaEquipe;
         public string EstadoOrigem;
         public string CidadeOrigem;

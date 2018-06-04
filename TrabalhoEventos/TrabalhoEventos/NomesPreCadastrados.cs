@@ -142,6 +142,7 @@ namespace SistemaJogadores
             Program.cjogadores.Add(new CJogador()
             {
                  NomeJogador = "Alan Eduardo Alves",
+                 Sexo = true,
                  DataNascimento = "27/12/2000",
                  Cpf = "493.488.908-67",
                  Rg = "47.651.245-1",
@@ -160,6 +161,7 @@ namespace SistemaJogadores
             Program.cjogadores.Add(new CJogador()
             {
                  NomeJogador = "Gabriela Da Silva",
+                 Sexo = false,
                  DataNascimento = "06/05/1997",
                  Cpf = "478.321.852-73",
                  Rg = "33.227.887-6",
@@ -178,6 +180,7 @@ namespace SistemaJogadores
             Program.cjogadores.Add(new CJogador()
             {
                  NomeJogador = "Gabriel Vieira de Oliveira",
+                 Sexo = true,
                  DataNascimento = "12/01/2001",
                  Cpf = "147.896.486-83",
                  Rg = "50.239.306-3",
@@ -196,6 +199,7 @@ namespace SistemaJogadores
             Program.cjogadores.Add(new CJogador()
             {
                  NomeJogador = "Maria Eduarda Santos",
+                 Sexo = false,
                  DataNascimento = "31/10/1996",
                  Cpf = "123.456.789-36",
                  Rg = "42.823.887-7",
@@ -214,6 +218,7 @@ namespace SistemaJogadores
             Program.cjogadores.Add(new CJogador()
             {
                  NomeJogador = "Rafael Junio Pereira Crispim",
+                 Sexo = true,
                  DataNascimento = "18/07/2000",
                  Cpf = "741.852.963-73",
                  Rg = "10.466.142-2",

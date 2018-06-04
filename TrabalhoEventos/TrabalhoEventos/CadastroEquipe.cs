@@ -237,5 +237,10 @@ namespace SistemaJogadores
         {
 
         }
+
+        private void imgSalvar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

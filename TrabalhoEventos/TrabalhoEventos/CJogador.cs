@@ -9,6 +9,7 @@ namespace SistemaJogadores
     public class CJogador
     {
         public string NomeJogador;
+        public bool Sexo;
         public string DataNascimento;
         public string Cpf;
         public string Rg;

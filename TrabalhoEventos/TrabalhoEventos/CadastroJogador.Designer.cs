@@ -62,6 +62,9 @@
             this.imgPerfil = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.rbMasculino = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgPerfil)).BeginInit();
             this.SuspendLayout();
@@ -73,7 +76,7 @@
             this.txtNumeroCasa.Location = new System.Drawing.Point(612, 443);
             this.txtNumeroCasa.Name = "txtNumeroCasa";
             this.txtNumeroCasa.Size = new System.Drawing.Size(105, 20);
-            this.txtNumeroCasa.TabIndex = 9;
+            this.txtNumeroCasa.TabIndex = 12;
             // 
             // txtEndereco
             // 
@@ -82,7 +85,7 @@
             this.txtEndereco.Location = new System.Drawing.Point(185, 447);
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(390, 20);
-            this.txtEndereco.TabIndex = 8;
+            this.txtEndereco.TabIndex = 11;
             // 
             // txtTelefone
             // 
@@ -91,7 +94,7 @@
             this.txtTelefone.Location = new System.Drawing.Point(273, 355);
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(203, 20);
-            this.txtTelefone.TabIndex = 5;
+            this.txtTelefone.TabIndex = 8;
             // 
             // txtFalarCom
             // 
@@ -100,7 +103,7 @@
             this.txtFalarCom.Location = new System.Drawing.Point(612, 405);
             this.txtFalarCom.Name = "txtFalarCom";
             this.txtFalarCom.Size = new System.Drawing.Size(221, 20);
-            this.txtFalarCom.TabIndex = 7;
+            this.txtFalarCom.TabIndex = 10;
             // 
             // txtTelefoneEmergencia
             // 
@@ -109,7 +112,7 @@
             this.txtTelefoneEmergencia.Location = new System.Drawing.Point(304, 409);
             this.txtTelefoneEmergencia.Name = "txtTelefoneEmergencia";
             this.txtTelefoneEmergencia.Size = new System.Drawing.Size(203, 20);
-            this.txtTelefoneEmergencia.TabIndex = 6;
+            this.txtTelefoneEmergencia.TabIndex = 9;
             // 
             // mtbDataNascimento
             // 
@@ -119,7 +122,7 @@
             this.mtbDataNascimento.Mask = "99/99/9999";
             this.mtbDataNascimento.Name = "mtbDataNascimento";
             this.mtbDataNascimento.Size = new System.Drawing.Size(203, 20);
-            this.mtbDataNascimento.TabIndex = 2;
+            this.mtbDataNascimento.TabIndex = 5;
             this.mtbDataNascimento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label13
@@ -155,7 +158,7 @@
             this.label7.BackColor = System.Drawing.Color.DarkRed;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label7.Location = new System.Drawing.Point(496, 297);
+            this.label7.Location = new System.Drawing.Point(496, 327);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(64, 16);
             this.label7.TabIndex = 137;
@@ -168,7 +171,7 @@
             this.txtEmail.Location = new System.Drawing.Point(185, 483);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(390, 20);
-            this.txtEmail.TabIndex = 10;
+            this.txtEmail.TabIndex = 13;
             // 
             // mtbCpf
             // 
@@ -178,7 +181,7 @@
             this.mtbCpf.Mask = "999.999.999-99";
             this.mtbCpf.Name = "mtbCpf";
             this.mtbCpf.Size = new System.Drawing.Size(203, 20);
-            this.mtbCpf.TabIndex = 3;
+            this.mtbCpf.TabIndex = 6;
             this.mtbCpf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtRg
@@ -188,7 +191,7 @@
             this.txtRg.Location = new System.Drawing.Point(273, 309);
             this.txtRg.Name = "txtRg";
             this.txtRg.Size = new System.Drawing.Size(203, 20);
-            this.txtRg.TabIndex = 4;
+            this.txtRg.TabIndex = 7;
             // 
             // label12
             // 
@@ -210,7 +213,7 @@
             this.txtNomeDoJogador.Location = new System.Drawing.Point(273, 176);
             this.txtNomeDoJogador.Name = "txtNomeDoJogador";
             this.txtNomeDoJogador.Size = new System.Drawing.Size(203, 20);
-            this.txtNomeDoJogador.TabIndex = 1;
+            this.txtNomeDoJogador.TabIndex = 2;
             this.txtNomeDoJogador.TextChanged += new System.EventHandler(this.txtNomeDoJogo_TextChanged);
             // 
             // button3
@@ -223,7 +226,7 @@
             this.button3.Location = new System.Drawing.Point(728, 609);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(139, 55);
-            this.button3.TabIndex = 130;
+            this.button3.TabIndex = 17;
             this.button3.Text = "SALVAR";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button3.UseVisualStyleBackColor = false;
@@ -239,7 +242,7 @@
             this.button2.Location = new System.Drawing.Point(577, 609);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(139, 55);
-            this.button2.TabIndex = 129;
+            this.button2.TabIndex = 18;
             this.button2.Text = "CANCELAR";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button2.UseVisualStyleBackColor = false;
@@ -255,7 +258,7 @@
             this.button1.Location = new System.Drawing.Point(318, 609);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(158, 55);
-            this.button1.TabIndex = 128;
+            this.button1.TabIndex = 19;
             this.button1.Text = "LISTAR JOGADORES";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
@@ -281,7 +284,7 @@
             this.label8.BackColor = System.Drawing.Color.DarkRed;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label8.Location = new System.Drawing.Point(496, 237);
+            this.label8.Location = new System.Drawing.Point(496, 282);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(70, 16);
             this.label8.TabIndex = 126;
@@ -294,7 +297,7 @@
             this.label9.BackColor = System.Drawing.Color.DarkRed;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label9.Location = new System.Drawing.Point(496, 180);
+            this.label9.Location = new System.Drawing.Point(496, 238);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(110, 16);
             this.label9.TabIndex = 125;
@@ -392,29 +395,29 @@
             // 
             this.txtNomeCla.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtNomeCla.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtNomeCla.Location = new System.Drawing.Point(642, 176);
+            this.txtNomeCla.Location = new System.Drawing.Point(642, 234);
             this.txtNomeCla.Name = "txtNomeCla";
             this.txtNomeCla.Size = new System.Drawing.Size(203, 20);
-            this.txtNomeCla.TabIndex = 141;
+            this.txtNomeCla.TabIndex = 14;
             this.txtNomeCla.TextChanged += new System.EventHandler(this.txtNomeCla_TextChanged);
             // 
             // txtEstado
             // 
             this.txtEstado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtEstado.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtEstado.Location = new System.Drawing.Point(642, 236);
+            this.txtEstado.Location = new System.Drawing.Point(642, 282);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(203, 20);
-            this.txtEstado.TabIndex = 142;
+            this.txtEstado.TabIndex = 15;
             // 
             // txtCidade
             // 
             this.txtCidade.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtCidade.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtCidade.Location = new System.Drawing.Point(642, 293);
+            this.txtCidade.Location = new System.Drawing.Point(642, 323);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(203, 20);
-            this.txtCidade.TabIndex = 143;
+            this.txtCidade.TabIndex = 16;
             // 
             // imgPerfil
             // 
@@ -428,7 +431,7 @@
             // 
             // button4
             // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.button4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button4.BackColor = System.Drawing.Color.DarkRed;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -436,7 +439,7 @@
             this.button4.Location = new System.Drawing.Point(421, 84);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(139, 51);
-            this.button4.TabIndex = 145;
+            this.button4.TabIndex = 1;
             this.button4.Text = "CARREGAR IMAGEM";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button4.UseVisualStyleBackColor = false;
@@ -444,18 +447,64 @@
             // 
             // textBox1
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.textBox1.Location = new System.Drawing.Point(421, 58);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(221, 20);
             this.textBox1.TabIndex = 146;
             // 
+            // label14
+            // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.DarkRed;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label14.Location = new System.Drawing.Point(496, 190);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(48, 16);
+            this.label14.TabIndex = 147;
+            this.label14.Text = "SEXO";
+            // 
+            // rbMasculino
+            // 
+            this.rbMasculino.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.rbMasculino.AutoSize = true;
+            this.rbMasculino.BackColor = System.Drawing.Color.DarkRed;
+            this.rbMasculino.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbMasculino.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.rbMasculino.Location = new System.Drawing.Point(577, 190);
+            this.rbMasculino.Name = "rbMasculino";
+            this.rbMasculino.Size = new System.Drawing.Size(113, 20);
+            this.rbMasculino.TabIndex = 3;
+            this.rbMasculino.TabStop = true;
+            this.rbMasculino.Text = "MASCULINO";
+            this.rbMasculino.UseVisualStyleBackColor = false;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.BackColor = System.Drawing.Color.DarkRed;
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.radioButton2.Location = new System.Drawing.Point(720, 190);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(98, 20);
+            this.radioButton2.TabIndex = 4;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "FEMININO";
+            this.radioButton2.UseVisualStyleBackColor = false;
+            // 
             // CadastroJogador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(909, 672);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.rbMasculino);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.imgPerfil);
@@ -536,5 +585,8 @@
         private System.Windows.Forms.PictureBox imgPerfil;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.RadioButton rbMasculino;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }

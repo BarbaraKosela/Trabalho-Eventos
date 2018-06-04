@@ -26,6 +26,7 @@ namespace SistemaJogadores
             this.posicao = posicao;
 
             txtNomeDoJogador.Text = cjogador.NomeJogador;
+            rbMasculino.Checked = cjogador.Sexo;
             mtbDataNascimento.Text = cjogador.DataNascimento;
             mtbCpf.Text = cjogador.Cpf;
             txtRg.Text = cjogador.Rg;
@@ -57,6 +58,12 @@ namespace SistemaJogadores
             {
                 MessageBox.Show("Nome do jogador deve conter no minimo 3 caracteres !!");
                 txtNomeDoJogador.Focus();
+                return;
+            }
+            if ((rbMasculino.Checked == false) && (radioButton2.Checked == false))
+            {
+                MessageBox.Show("Selecione seu Sexo !!");
+                rbMasculino.Focus();
                 return;
             }
             if (mtbDataNascimento.Text.Length < 8)
@@ -124,6 +131,7 @@ namespace SistemaJogadores
             CJogador cjogador = new CJogador()
             {
                 NomeJogador = txtNomeDoJogador.Text,
+                Sexo = rbMasculino.Checked,
                 DataNascimento = mtbDataNascimento.Text,
                 Cpf = mtbCpf.Text,
                 Rg = txtRg.Text,
@@ -158,6 +166,7 @@ namespace SistemaJogadores
         public void LimparCampos()
         {
             txtNomeDoJogador.Text = "";
+            rbMasculino.Checked = false;
             mtbDataNascimento.Text = "";
             mtbCpf.Text = "";
             txtRg.Text = "";

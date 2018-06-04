@@ -456,6 +456,7 @@
             this.imgSalvar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgSalvar.TabIndex = 104;
             this.imgSalvar.TabStop = false;
+            this.imgSalvar.Click += new System.EventHandler(this.imgSalvar_Click);
             // 
             // btnCarregar
             // 

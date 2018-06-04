@@ -28,15 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ColumnNumeroCasa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.txtBusca = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.ColumnDataNascimento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvListaJogadores = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.ColumnNomeJogador = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnSexo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnDataNascimento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnCpf = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnRg = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnTelefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,16 +49,10 @@
             this.ColumnEstado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnCidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnEndereço = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button2 = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ColumnNumeroCasa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaJogadores)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // ColumnNumeroCasa
-            // 
-            this.ColumnNumeroCasa.HeaderText = "N° da casa";
-            this.ColumnNumeroCasa.Name = "ColumnNumeroCasa";
             // 
             // label1
             // 
@@ -116,16 +112,12 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // ColumnDataNascimento
-            // 
-            this.ColumnDataNascimento.HeaderText = "Data de nascimento";
-            this.ColumnDataNascimento.Name = "ColumnDataNascimento";
-            // 
             // dgvListaJogadores
             // 
             this.dgvListaJogadores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListaJogadores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnNomeJogador,
+            this.ColumnSexo,
             this.ColumnDataNascimento,
             this.ColumnCpf,
             this.ColumnRg,
@@ -138,16 +130,54 @@
             this.ColumnCidade,
             this.ColumnEndereço,
             this.ColumnNumeroCasa});
-            this.dgvListaJogadores.Location = new System.Drawing.Point(12, 77);
+            this.dgvListaJogadores.Location = new System.Drawing.Point(3, 77);
             this.dgvListaJogadores.Name = "dgvListaJogadores";
-            this.dgvListaJogadores.Size = new System.Drawing.Size(1476, 601);
+            this.dgvListaJogadores.Size = new System.Drawing.Size(1454, 601);
             this.dgvListaJogadores.TabIndex = 29;
             this.dgvListaJogadores.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaJogadores_CellContentClick);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.DarkRed;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Snow;
+            this.button2.Location = new System.Drawing.Point(455, 24);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(119, 35);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "Excluir";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.txtBusca);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Location = new System.Drawing.Point(3, 6);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(833, 65);
+            this.groupBox1.TabIndex = 30;
+            this.groupBox1.TabStop = false;
             // 
             // ColumnNomeJogador
             // 
             this.ColumnNomeJogador.HeaderText = "Nome do jogador";
             this.ColumnNomeJogador.Name = "ColumnNomeJogador";
+            // 
+            // ColumnSexo
+            // 
+            this.ColumnSexo.HeaderText = "Sexo";
+            this.ColumnSexo.Name = "ColumnSexo";
+            // 
+            // ColumnDataNascimento
+            // 
+            this.ColumnDataNascimento.HeaderText = "Data de nascimento";
+            this.ColumnDataNascimento.Name = "ColumnDataNascimento";
             // 
             // ColumnCpf
             // 
@@ -199,43 +229,21 @@
             this.ColumnEndereço.HeaderText = "Endereço";
             this.ColumnEndereço.Name = "ColumnEndereço";
             // 
-            // button2
+            // ColumnNumeroCasa
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkRed;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Snow;
-            this.button2.Location = new System.Drawing.Point(455, 24);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 35);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "Excluir";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.txtBusca);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Location = new System.Drawing.Point(3, 6);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(833, 65);
-            this.groupBox1.TabIndex = 30;
-            this.groupBox1.TabStop = false;
+            this.ColumnNumeroCasa.HeaderText = "N° da casa";
+            this.ColumnNumeroCasa.Name = "ColumnNumeroCasa";
             // 
             // ListaCCJogador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1358, 576);
+            this.ClientSize = new System.Drawing.Size(1436, 576);
             this.Controls.Add(this.dgvListaJogadores);
             this.Controls.Add(this.groupBox1);
             this.Name = "ListaCCJogador";
             this.Text = "Lista dos jogadores";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.ListaCCJogador_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaJogadores)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -246,15 +254,17 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNumeroCasa;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox txtBusca;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnDataNascimento;
         private System.Windows.Forms.DataGridView dgvListaJogadores;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNomeJogador;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnSexo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnDataNascimento;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCpf;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnRg;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTelefone;
@@ -265,7 +275,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEstado;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCidade;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEndereço;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNumeroCasa;
     }
 }

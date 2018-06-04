@@ -34,6 +34,7 @@ namespace SistemaJogadores
 
         public void AtualizarLista()
         {
+            string S = "";
             dgvListaJogadores.Rows.Clear();
             string Busca = txtBusca.Text.ToLower().Trim();
             for (int i = 0; i < Program.cjogadores.Count; i++)
@@ -42,8 +43,18 @@ namespace SistemaJogadores
 
                 if (cjogador.NomeJogador.Contains(Busca))
                 {
+                    if (cjogador.Sexo == true)
+                    {
+                        S = "Masculino";
+
+                    }
+                    else
+                    {
+                        S = "Feminino";
+                    }
+                   
                     dgvListaJogadores.Rows.Add(new object[]{
-                    cjogador.NomeJogador,  cjogador.DataNascimento, cjogador.Cpf, cjogador.Rg, cjogador.Telefone, cjogador.TelefoneEmergencia, cjogador.FalarCom, cjogador.Email, cjogador.NomeEquipe, cjogador.Estado, cjogador.Cidade,cjogador.Endereco, cjogador.NumeroCasa,      
+                    cjogador.NomeJogador,S , cjogador.DataNascimento, cjogador.Cpf, cjogador.Rg, cjogador.Telefone, cjogador.TelefoneEmergencia, cjogador.FalarCom, cjogador.Email, cjogador.NomeEquipe, cjogador.Estado, cjogador.Cidade,cjogador.Endereco, cjogador.NumeroCasa,      
                     
                     });
 

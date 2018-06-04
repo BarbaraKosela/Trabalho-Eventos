@@ -86,6 +86,56 @@ namespace SistemaJogadores
 
             });
 
+            Program.cequipes.Add(new CEquipes() 
+            {
+                NomeDaEquipe = "Turma Cobol",
+                EstadoOrigem = "São Paulo",
+                CidadeOrigem = "Osasco",
+                NomeLider = "Mariano",
+                CpfLider = "789.247.321-78",
+                TelefoneLider = "11 34491-2928",
+                Pesquisa = "max 1:00 Hr",
+                FraseCla = "sei lá nunca programei em cobool",
+                ParticipouDoJogo = false,
+                GeneroJogo = "Jogo on-line",
+                QuantidadeIntegrantes = 5,
+                FraseTaca = "___________C#"
+
+            });
+
+            Program.cequipes.Add(new CEquipes() 
+            {
+                NomeDaEquipe = "Turma de C#",
+                EstadoOrigem = "Santa Catarina",
+                CidadeOrigem = "Blumenau",
+                NomeLider = "Francisco",
+                CpfLider = "496.489.458-96",
+                TelefoneLider = "47 99816-1423",
+                Pesquisa = "max 5:00 Hr",
+                FraseCla = "if (C# >>>>> Java) {Sempre};",
+                ParticipouDoJogo = true,
+                GeneroJogo = "Fps",
+                QuantidadeIntegrantes = 18,
+                FraseTaca = ">>>>>>>>>>>>>"
+
+            });
+
+            Program.cequipes.Add(new CEquipes() 
+            {
+                NomeDaEquipe = "Turma de Java",
+                EstadoOrigem = "Parana",
+                CidadeOrigem = "Curitiba",
+                NomeLider = "Ralph",
+                CpfLider = "506.987.963-87",
+                TelefoneLider = "37 99758-6874",
+                Pesquisa = "+ 5:00HR ",
+                FraseCla = "mimimi mimi mimi mimi",
+                ParticipouDoJogo = false,
+                GeneroJogo = "Estrategia",
+                QuantidadeIntegrantes = 15,
+                FraseTaca = "JV__________________"
+
+            });
 
 
         }

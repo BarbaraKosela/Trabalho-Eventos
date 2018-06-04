@@ -34,7 +34,7 @@ namespace SistemaJogadores
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             new NomesPreCadastrados();
-            Application.Run(new AngryNerds());
+            Application.Run(new LoginSenha());
         }
     }
 }

@@ -142,6 +142,7 @@
             this.dgvListaJogadores.Name = "dgvListaJogadores";
             this.dgvListaJogadores.Size = new System.Drawing.Size(1476, 601);
             this.dgvListaJogadores.TabIndex = 29;
+            this.dgvListaJogadores.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaJogadores_CellContentClick);
             // 
             // ColumnNomeJogador
             // 

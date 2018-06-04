@@ -110,5 +110,10 @@ namespace SistemaJogadores
         {
             Dispose();
         }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            AtualizarLista();
+        }
     }
 }

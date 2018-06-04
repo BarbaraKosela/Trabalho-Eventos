@@ -43,7 +43,7 @@ namespace SistemaJogadores
                 if (cjogador.NomeJogador.Contains(Busca))
                 {
                     dgvListaJogadores.Rows.Add(new object[]{
-                    cjogador.NomeJogador,  cjogador.DataNascimento, cjogador.Cpf, cjogador.Telefone, cjogador.TelefoneEmergencia, cjogador.FalarCom, cjogador.Endereco, cjogador.NumeroCasa, cjogador.Email, cjogador.NomeEquipe, cjogador.Estado, cjogador.Cidade,      
+                    cjogador.NomeJogador,  cjogador.DataNascimento, cjogador.Cpf, cjogador.Rg, cjogador.Telefone, cjogador.TelefoneEmergencia, cjogador.FalarCom, cjogador.Email, cjogador.NomeEquipe, cjogador.Estado, cjogador.Cidade,cjogador.Endereco, cjogador.NumeroCasa,      
                     
                     });
 
@@ -102,6 +102,11 @@ namespace SistemaJogadores
             {
                 MessageBox.Show("Seu registro ainda esta salvo !!");
             }
+        }
+
+        private void dgvListaJogadores_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
 

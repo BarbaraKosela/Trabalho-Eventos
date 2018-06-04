@@ -99,7 +99,7 @@
             this.mtbCpf.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.mtbCpf.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtbCpf.Location = new System.Drawing.Point(202, 166);
-            this.mtbCpf.Mask = "999.999.999-99";
+            this.mtbCpf.Mask = "99.999.999/9999-99";
             this.mtbCpf.Name = "mtbCpf";
             this.mtbCpf.Size = new System.Drawing.Size(203, 20);
             this.mtbCpf.TabIndex = 160;
@@ -114,9 +114,9 @@
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label12.Location = new System.Drawing.Point(101, 172);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(41, 18);
+            this.label12.Size = new System.Drawing.Size(52, 18);
             this.label12.TabIndex = 158;
-            this.label12.Text = "CPF";
+            this.label12.Text = "CNPJ";
             // 
             // txtNomePatrocinador
             // 

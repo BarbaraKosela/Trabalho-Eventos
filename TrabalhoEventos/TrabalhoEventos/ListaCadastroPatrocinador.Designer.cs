@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.dgvListaPatrocinador = new System.Windows.Forms.DataGridView();
-            this.ColumnNomePatrocinador = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnTelefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnCpf = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnEquipeSendoPatrocinada = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnTipoPatrocinio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnEstado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnCidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.txtBusca = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.ColumnNomePatrocinador = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnTelefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnCNPJ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnEquipeSendoPatrocinada = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnTipoPatrocinio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnEstado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnCidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaPatrocinador)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,7 +54,7 @@
             this.dgvListaPatrocinador.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnNomePatrocinador,
             this.ColumnTelefone,
-            this.ColumnCpf,
+            this.ColumnCNPJ,
             this.ColumnEquipeSendoPatrocinada,
             this.ColumnTipoPatrocinio,
             this.ColumnEstado,
@@ -64,48 +64,6 @@
             this.dgvListaPatrocinador.ReadOnly = true;
             this.dgvListaPatrocinador.Size = new System.Drawing.Size(841, 414);
             this.dgvListaPatrocinador.TabIndex = 31;
-            // 
-            // ColumnNomePatrocinador
-            // 
-            this.ColumnNomePatrocinador.HeaderText = "Nome do patrocinador";
-            this.ColumnNomePatrocinador.Name = "ColumnNomePatrocinador";
-            this.ColumnNomePatrocinador.ReadOnly = true;
-            // 
-            // ColumnTelefone
-            // 
-            this.ColumnTelefone.HeaderText = "Telefone";
-            this.ColumnTelefone.Name = "ColumnTelefone";
-            this.ColumnTelefone.ReadOnly = true;
-            // 
-            // ColumnCpf
-            // 
-            this.ColumnCpf.HeaderText = "Cpf";
-            this.ColumnCpf.Name = "ColumnCpf";
-            this.ColumnCpf.ReadOnly = true;
-            // 
-            // ColumnEquipeSendoPatrocinada
-            // 
-            this.ColumnEquipeSendoPatrocinada.HeaderText = "Clã sendo patrocinado";
-            this.ColumnEquipeSendoPatrocinada.Name = "ColumnEquipeSendoPatrocinada";
-            this.ColumnEquipeSendoPatrocinada.ReadOnly = true;
-            // 
-            // ColumnTipoPatrocinio
-            // 
-            this.ColumnTipoPatrocinio.HeaderText = "Tipo de patrocinio";
-            this.ColumnTipoPatrocinio.Name = "ColumnTipoPatrocinio";
-            this.ColumnTipoPatrocinio.ReadOnly = true;
-            // 
-            // ColumnEstado
-            // 
-            this.ColumnEstado.HeaderText = "Estado";
-            this.ColumnEstado.Name = "ColumnEstado";
-            this.ColumnEstado.ReadOnly = true;
-            // 
-            // ColumnCidade
-            // 
-            this.ColumnCidade.HeaderText = "Cidade";
-            this.ColumnCidade.Name = "ColumnCidade";
-            this.ColumnCidade.ReadOnly = true;
             // 
             // button1
             // 
@@ -130,6 +88,7 @@
             this.button4.TabIndex = 37;
             this.button4.Text = "Atualizar";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // label1
             // 
@@ -175,6 +134,48 @@
             this.button2.Text = "Excluir";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // ColumnNomePatrocinador
+            // 
+            this.ColumnNomePatrocinador.HeaderText = "Nome do patrocinador";
+            this.ColumnNomePatrocinador.Name = "ColumnNomePatrocinador";
+            this.ColumnNomePatrocinador.ReadOnly = true;
+            // 
+            // ColumnTelefone
+            // 
+            this.ColumnTelefone.HeaderText = "Telefone";
+            this.ColumnTelefone.Name = "ColumnTelefone";
+            this.ColumnTelefone.ReadOnly = true;
+            // 
+            // ColumnCNPJ
+            // 
+            this.ColumnCNPJ.HeaderText = "CNPJ";
+            this.ColumnCNPJ.Name = "ColumnCNPJ";
+            this.ColumnCNPJ.ReadOnly = true;
+            // 
+            // ColumnEquipeSendoPatrocinada
+            // 
+            this.ColumnEquipeSendoPatrocinada.HeaderText = "Clã sendo patrocinado";
+            this.ColumnEquipeSendoPatrocinada.Name = "ColumnEquipeSendoPatrocinada";
+            this.ColumnEquipeSendoPatrocinada.ReadOnly = true;
+            // 
+            // ColumnTipoPatrocinio
+            // 
+            this.ColumnTipoPatrocinio.HeaderText = "Tipo de patrocinio";
+            this.ColumnTipoPatrocinio.Name = "ColumnTipoPatrocinio";
+            this.ColumnTipoPatrocinio.ReadOnly = true;
+            // 
+            // ColumnEstado
+            // 
+            this.ColumnEstado.HeaderText = "Estado";
+            this.ColumnEstado.Name = "ColumnEstado";
+            this.ColumnEstado.ReadOnly = true;
+            // 
+            // ColumnCidade
+            // 
+            this.ColumnCidade.HeaderText = "Cidade";
+            this.ColumnCidade.Name = "ColumnCidade";
+            this.ColumnCidade.ReadOnly = true;
+            // 
             // ListaCadastroPatrocinador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -200,18 +201,18 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvListaPatrocinador;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNomePatrocinador;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTelefone;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCpf;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEquipeSendoPatrocinada;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTipoPatrocinio;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEstado;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCidade;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox txtBusca;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNomePatrocinador;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTelefone;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCNPJ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEquipeSendoPatrocinada;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTipoPatrocinio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnEstado;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCidade;
     }
 }

@@ -86,6 +86,8 @@ namespace SistemaJogadores
 
             });
 
+            //Pré cadastros dos cla
+
             Program.cequipes.Add(new CEquipes() 
             {
                 NomeDaEquipe = "Turma Cobol",
@@ -135,6 +137,118 @@ namespace SistemaJogadores
                 QuantidadeIntegrantes = 15,
                 FraseTaca = "JV__________________"
 
+            });
+
+            Program.cjogadores.Add(new CJogador()
+            {
+                 NomeJogador = "Alan Eduardo Alves",
+                 DataNascimento = "27/12/2000",
+                 Cpf = "493.488.908-67",
+                 Rg = "47.651.245-1",
+                 Telefone = "14 99816-1423",
+                 TelefoneEmergencia = "14 3491-3426",
+                 FalarCom = "Denise",
+                 Endereco = "Rua Antonio Valverde",
+                 NumeroCasa = 1240,
+                 Email = "Alaneduardoalves2018@Gmail.com",
+                 NomeEquipe = "C# >>>> JV",
+                 Estado = "São Paulo",
+                 Cidade = "Osasco",
+                
+            });
+
+            Program.cjogadores.Add(new CJogador()
+            {
+                 NomeJogador = "Gabriela Da Silva",
+                 DataNascimento = "06/05/1997",
+                 Cpf = "478.321.852-73",
+                 Rg = "33.227.887-6",
+                 Telefone = "61 4789-9874",
+                 TelefoneEmergencia = "61 98745-8725",
+                 FalarCom = "Heloisa",
+                 Endereco = "Av. Waldemar",
+                 NumeroCasa = 45,
+                 Email = "gabrieldasilva@hotmail.com",
+                 NomeEquipe = "Não Intendo",
+                 Estado = "Parana",
+                 Cidade = "Curitiba",
+                
+            });
+
+            Program.cjogadores.Add(new CJogador()
+            {
+                 NomeJogador = "Gabriel Vieira de Oliveira",
+                 DataNascimento = "12/01/2001",
+                 Cpf = "147.896.486-83",
+                 Rg = "50.239.306-3",
+                 Telefone = "11 99658-8754",
+                 TelefoneEmergencia = "11 2626-9845",
+                 FalarCom = "Daniel",
+                 Endereco = "Rua Armando Sala",
+                 NumeroCasa = 70,
+                 Email = "c#>Jv2018@outlook.com",
+                 NomeEquipe = "Os vingadores",
+                 Estado = "Acre",
+                 Cidade = "Terra dos dinossauros",
+                
+            });
+
+            Program.cjogadores.Add(new CJogador()
+            {
+                 NomeJogador = "Maria Eduarda Santos",
+                 DataNascimento = "31/10/1996",
+                 Cpf = "123.456.789-36",
+                 Rg = "42.823.887-7",
+                 Telefone = "78 99745-9872",
+                 TelefoneEmergencia = "78 5874-9823",
+                 FalarCom = "Arthur",
+                 Endereco = "Rua Antonio Zendrom",
+                 NumeroCasa = 1896,
+                 Email = "MariaeduardaSantos@bool.com",
+                 NomeEquipe = "Americam Pie",
+                 Estado = "Blumenau",
+                 Cidade = "Santa catarina",
+                
+            });
+
+            Program.cjogadores.Add(new CJogador()
+            {
+                 NomeJogador = "Rafael Junio Pereira Crispim",
+                 DataNascimento = "18/07/2000",
+                 Cpf = "741.852.963-73",
+                 Rg = "10.466.142-2",
+                 Telefone = "47 3441-2988",
+                 TelefoneEmergencia = "47 3569-9875",
+                 FalarCom = "C# >> JV",
+                 Endereco = "Av Amazonas",
+                 NumeroCasa = 75354,
+                 Email = "C#>JVC#>JV@Gmail.com.br",
+                 NomeEquipe = "Sem limites",
+                 Estado = "Mato Grosso",
+                 Cidade = "Ceilandia",
+                
+            });
+
+            Program.cpatrocinadores.Add(new CPatrocinador() 
+            {
+                NomeDoPatrocinador = "Adidas",
+                Telefone = "11 3485-9874",
+                Cpf = "60.225.194/0001-55",
+                NomeDaEquipeSendoPatrocinada = "C# >> Java",
+                TipoPatrocinio = "Equipamento",
+                Estado = "São Paulo",
+                Cidade = "Baixada Santista",
+            });
+
+            Program.cpatrocinadores.Add(new CPatrocinador() 
+            {
+                NomeDoPatrocinador = "Canue",
+                Telefone = "47 99748-7846",
+                Cpf = "04.885.325/0001-50",
+                NomeDaEquipeSendoPatrocinada = "Os Vingadores",
+                TipoPatrocinio = "Vestiario",
+                Estado = "Blumenau",
+                Cidade = "Santa Catarina",
             });
 
 

@@ -13,7 +13,7 @@ namespace SistemaJogadores
     public partial class ListaCadastroCla : Form
     {
 
-
+       
         public ListaCadastroCla()
         {
             InitializeComponent();
@@ -48,6 +48,11 @@ namespace SistemaJogadores
                     {
                          Rr = "Não";
                     }
+                    
+                    
+                  
+
+
                     dgvListaCadastroCla.Rows.Add(new object[]{
                     cequipe.NomeDaEquipe, cequipe.EstadoOrigem, cequipe.CidadeOrigem, cequipe.NomeLider, cequipe.CpfLider, cequipe.TelefoneLider,cequipe.Pesquisa, cequipe.FraseCla, Rr, cequipe.GeneroJogo, cequipe.QuantidadeIntegrantes, cequipe.FraseTaca,
 });

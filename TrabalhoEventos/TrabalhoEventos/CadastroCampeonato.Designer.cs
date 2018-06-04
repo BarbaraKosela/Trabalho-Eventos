@@ -69,7 +69,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(728, 408);
+            this.button3.Location = new System.Drawing.Point(728, 400);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(139, 55);
             this.button3.TabIndex = 31;
@@ -85,7 +85,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(574, 408);
+            this.button2.Location = new System.Drawing.Point(574, 400);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(139, 55);
             this.button2.TabIndex = 30;
@@ -101,7 +101,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(300, 408);
+            this.button1.Location = new System.Drawing.Point(300, 400);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(164, 55);
             this.button1.TabIndex = 29;
@@ -463,7 +463,7 @@
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(59, 354);
+            this.pictureBox1.Location = new System.Drawing.Point(59, 346);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(162, 145);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -474,7 +474,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(909, 511);
+            this.ClientSize = new System.Drawing.Size(909, 503);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtNomeCampeonato);
             this.Controls.Add(this.label13);

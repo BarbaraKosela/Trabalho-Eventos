@@ -12,6 +12,9 @@ namespace SistemaJogadores
 {
     public partial class CadastroEquipe : Form
     {
+        OpenFileDialog openfiledialog = new OpenFileDialog();
+        
+
         public CEquipes cequipe;
         public int posicao = -1;
         
@@ -29,6 +32,7 @@ namespace SistemaJogadores
 
             this.posicao = posicao;
             InitializeComponent();
+            textBox1.Text = cequipe.Imagem;
             txtNomeDaEquipe.Text = cequipe.NomeDaEquipe;
             txtEstado.Text = cequipe.EstadoOrigem;
             txtCidade.Text = cequipe.CidadeOrigem;
@@ -144,6 +148,7 @@ namespace SistemaJogadores
 
             CEquipes cequipe = new CEquipes()
             {
+                Imagem = textBox1.Text,
                 NomeDaEquipe = txtNomeDaEquipe.Text,
                 EstadoOrigem = txtEstado.Text,
                 CidadeOrigem = txtCidade.Text,
@@ -176,6 +181,7 @@ namespace SistemaJogadores
 
         public void LimparCampos()
         {
+                textBox1.Text = "";
                 txtNomeDaEquipe.Text = "";
                 txtEstado.Text = "";
                 txtCidade.Text = "";
@@ -213,6 +219,19 @@ namespace SistemaJogadores
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+       
+        private void btnCarregar_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openfiledialog = new OpenFileDialog();
+
+            if (openfiledialog.ShowDialog() == DialogResult.OK)
+            {
+                textBox1.Text = openfiledialog.FileName;
+                imgSalvar.ImageLocation = openfiledialog.FileName;
+            }
+           
         }
     }
 }

@@ -34,7 +34,6 @@
             this.txtTelefone = new System.Windows.Forms.TextBox();
             this.txtFalarCom = new System.Windows.Forms.TextBox();
             this.txtTelefoneEmergencia = new System.Windows.Forms.TextBox();
-            this.mtbDataNascimento = new System.Windows.Forms.MaskedTextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -42,7 +41,6 @@
             this.mtbCpf = new System.Windows.Forms.MaskedTextBox();
             this.txtRg = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.txtNomeDoJogador = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -65,6 +63,8 @@
             this.label14 = new System.Windows.Forms.Label();
             this.rbMasculino = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.txtNomeDoJogador = new System.Windows.Forms.TextBox();
+            this.mtbDataNascimento = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgPerfil)).BeginInit();
             this.SuspendLayout();
@@ -113,17 +113,6 @@
             this.txtTelefoneEmergencia.Name = "txtTelefoneEmergencia";
             this.txtTelefoneEmergencia.Size = new System.Drawing.Size(203, 20);
             this.txtTelefoneEmergencia.TabIndex = 9;
-            // 
-            // mtbDataNascimento
-            // 
-            this.mtbDataNascimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.mtbDataNascimento.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.mtbDataNascimento.Location = new System.Drawing.Point(273, 223);
-            this.mtbDataNascimento.Mask = "99/99/9999";
-            this.mtbDataNascimento.Name = "mtbDataNascimento";
-            this.mtbDataNascimento.Size = new System.Drawing.Size(203, 20);
-            this.mtbDataNascimento.TabIndex = 5;
-            this.mtbDataNascimento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label13
             // 
@@ -206,16 +195,6 @@
             this.label12.TabIndex = 132;
             this.label12.Text = "CPF";
             // 
-            // txtNomeDoJogador
-            // 
-            this.txtNomeDoJogador.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.txtNomeDoJogador.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtNomeDoJogador.Location = new System.Drawing.Point(273, 176);
-            this.txtNomeDoJogador.Name = "txtNomeDoJogador";
-            this.txtNomeDoJogador.Size = new System.Drawing.Size(203, 20);
-            this.txtNomeDoJogador.TabIndex = 2;
-            this.txtNomeDoJogador.TextChanged += new System.EventHandler(this.txtNomeDoJogo_TextChanged);
-            // 
             // button3
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -273,9 +252,9 @@
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label11.Location = new System.Drawing.Point(52, 227);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(177, 16);
+            this.label11.Size = new System.Drawing.Size(54, 16);
             this.label11.TabIndex = 127;
-            this.label11.Text = "DATA DE NASCIMENTO";
+            this.label11.Text = "IDADE";
             // 
             // label8
             // 
@@ -497,11 +476,34 @@
             this.radioButton2.Text = "FEMININO";
             this.radioButton2.UseVisualStyleBackColor = false;
             // 
+            // txtNomeDoJogador
+            // 
+            this.txtNomeDoJogador.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.txtNomeDoJogador.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtNomeDoJogador.Location = new System.Drawing.Point(273, 176);
+            this.txtNomeDoJogador.Name = "txtNomeDoJogador";
+            this.txtNomeDoJogador.Size = new System.Drawing.Size(203, 20);
+            this.txtNomeDoJogador.TabIndex = 2;
+            this.txtNomeDoJogador.TextChanged += new System.EventHandler(this.txtNomeDoJogo_TextChanged);
+            // 
+            // mtbDataNascimento
+            // 
+            this.mtbDataNascimento.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.mtbDataNascimento.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.mtbDataNascimento.Location = new System.Drawing.Point(273, 222);
+            this.mtbDataNascimento.Mask = "99";
+            this.mtbDataNascimento.Name = "mtbDataNascimento";
+            this.mtbDataNascimento.Size = new System.Drawing.Size(203, 20);
+            this.mtbDataNascimento.TabIndex = 148;
+            this.mtbDataNascimento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.mtbDataNascimento.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtbDataNascimento1_MaskInputRejected);
+            // 
             // CadastroJogador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(909, 672);
+            this.Controls.Add(this.mtbDataNascimento);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.rbMasculino);
             this.Controls.Add(this.label14);
@@ -517,7 +519,6 @@
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtFalarCom);
             this.Controls.Add(this.txtTelefoneEmergencia);
-            this.Controls.Add(this.mtbDataNascimento);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label7);
@@ -557,7 +558,6 @@
         private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.TextBox txtFalarCom;
         private System.Windows.Forms.TextBox txtTelefoneEmergencia;
-        private System.Windows.Forms.MaskedTextBox mtbDataNascimento;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label7;
@@ -565,7 +565,6 @@
         private System.Windows.Forms.MaskedTextBox mtbCpf;
         private System.Windows.Forms.TextBox txtRg;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox txtNomeDoJogador;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
@@ -588,5 +587,7 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.RadioButton rbMasculino;
         private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.TextBox txtNomeDoJogador;
+        private System.Windows.Forms.MaskedTextBox mtbDataNascimento;
     }
 }

@@ -66,9 +66,17 @@ namespace SistemaJogadores
                 rbMasculino.Focus();
                 return;
             }
-            if (mtbDataNascimento.Text.Length < 8)
+            if (mtbDataNascimento.Text.Length < 2)
             {
-                MessageBox.Show("Data de nascimento deve ser colocada !!");
+                MessageBox.Show("Idade de nascimento deve ser colocada !!");
+                mtbDataNascimento.Focus();
+                return;
+            }
+
+            int Idade = Convert.ToInt32(mtbDataNascimento.Text);
+            if (Idade < 18)
+            {
+                MessageBox.Show("Para participar do evento tem que ser maior de idade !!");
                 mtbDataNascimento.Focus();
                 return;
             }
@@ -212,6 +220,11 @@ namespace SistemaJogadores
                 textBox1.Text = openfiledialog.FileName;
                 imgPerfil.ImageLocation = openfiledialog.FileName;
             }
+        }
+
+        private void mtbDataNascimento1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }
